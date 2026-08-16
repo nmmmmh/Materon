@@ -34,53 +34,43 @@ It performs forward-only compatibility checks and does not retrain any model.
 ---
 
 
-这是从 `/data/materon` 全树冻结包中重新整理出的**单一干净核心发布包**。目标是解决历史版本、hotfix、旧结果、重复 add-on 和多个输出根混杂的问题。
+This is a **single, clean core release package** reorganized from the frozen `/data/materon` full tree. Its goal is to resolve the problem of historical versions, hotfixes, stale results, duplicated add-ons, and multiple output roots all being mixed together.
 
-## 目录
+## Catalogue
 
 ```text
 engines/
-  tf29_multibackbone/       通用 TF2.9 多骨架 Materon 引擎
+  tf29_multibackbone/       TF2.9 Multi-backbones Materon engine
 workflows/
-  cgcnn_matbench/           CGCNN 小数据 Matbench/JCIS 正式流程
-  megnet_matbench/          MEGNet 官方固定训练流程
-  explainability_2d/        HOIP + JDFT2D 二维可解释性流程
-  evidence_collector/       JCIS 证据收集与 phonons 后验解释
-  elemnet/                  ElemNet V15 独立流程
+  cgcnn_matbench/           CGCNN finite-data Matbench/JCIS workflows
+  megnet_matbench/          MEGNet officially fixed training schedule
+  explainability_2d/        HOIP + JDFT2D 2D explainable schedule
+  evidence_collector/       JCIS evidence collection &  phonons post-hoc 
+  elemnet/                  ElemNet V15 independent schedule
 reference/
-  cgcnn_phonons_protocol/   冻结的 CGCNN phonons 协议元数据
+  cgcnn_phonons_protocol/   frozen CGCNN phonons protocal data
 results/
-  ...                       与上述流程对应的已验证核心结果
+  ...                       
 data/
-  ...                       HOIP 原始数据；各工作流的冻结物理特征表随工作流自包含
+  ...                       HOIP original data；
 provenance/
-  ...                       原服务器全量文件索引、来源映射、排除清单
+  ...                       
 ```
 
-## 规范
 
-1. **不再以日期/Hotfix命名代码目录。** 版本信息只记录在 provenance 和协议文件中。
-2. **科学协议 ID、模型 ID、随机种子、fold 和结果字段不改名。** 这些属于可复现性证据，不做美化重命名。
-3. **只保留当前 canonical 代码。** 历史 v1.0.0/v1.0.1/v1.0.2、MEGNet 错误 LR 分支、EvidenceCollector v1.0.0 等不重复放入代码树。
-4. **2D role-matched forward 已并入主流程。** 不再保留单独 add-on 副本。
-5. **结果目录只收 validated/current 数据。** 已知错误的 `materon_megnet_outputs` 永久排除。
-6. **缓存和模型权重不打包。** 这些是服务器生成物，核心结果与代码包保持轻量、可审计。
-
-## 验证
+## Validation
 
 ```bash
 python tools/validate_release.py
 bash tools/verify_sha256.sh
 ```
 
-`provenance/source_inventory_all.csv` 仍保留了原 `/data/materon` 的完整索引，因此被排除的历史文件仍然可追溯。
 
-## 推荐服务器目录
+## Sever catalogue
 
-将本包作为唯一代码根解压到：
+unzip
 
 ```text
 /data/materon/core/Materon_Core_Release_20260813
 ```
 
-历史压缩包放在 `/data/materon/packages/`，运行结果继续保存在独立的 `/data/materon/results/` 或既有正式输出根；不要再把压缩包、代码树、缓存和结果混在同一层。
