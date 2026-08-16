@@ -1,0 +1,157 @@
+{
+  "source_file": "physic_features_pool.csv",
+  "source_statement": "Legacy Materon standardized elemental feature table supplied by the user.",
+  "original_units": "Not present in the supplied source; values are already standardized. The project does not invent units.",
+  "max_atomic_number": 100,
+  "raw_feature_columns": [
+    "density",
+    "atom_melting_point",
+    "atom_specific_heat_capacity",
+    "atomic_boiling_point",
+    "atomic_fusion_heat",
+    "atomic_thermal_cond",
+    "atomic_ip",
+    "atomic_ea",
+    "atomic_hfomo",
+    "atomic_lfumo",
+    "X",
+    "atomic_pol",
+    "atomic_nvalences",
+    "atomic_ndval",
+    "atomic_npval",
+    "atomic_nsval",
+    "atomic_radius",
+    "atomic_covalent Radius",
+    "atomic_volume",
+    "atomic_weight"
+  ],
+  "main_context_mode": "grouped_pca",
+  "group_method": "Label-free first principal component within physically coherent groups; single-column groups are passed through.",
+  "groups": {
+    "mass": {
+      "columns": [
+        "atomic_weight"
+      ],
+      "pca_loadings": [
+        1.0
+      ],
+      "explained_variance_ratio": 1.0
+    },
+    "bulk_density": {
+      "columns": [
+        "density"
+      ],
+      "pca_loadings": [
+        1.0
+      ],
+      "explained_variance_ratio": 1.0
+    },
+    "size": {
+      "columns": [
+        "atomic_radius",
+        "atomic_covalent Radius",
+        "atomic_volume"
+      ],
+      "pca_loadings": [
+        0.5332840239846149,
+        0.6045339139328058,
+        0.5917321156299191
+      ],
+      "explained_variance_ratio": 0.6978625438136953
+    },
+    "thermal_phase_energy": {
+      "columns": [
+        "atom_melting_point",
+        "atomic_boiling_point",
+        "atomic_fusion_heat"
+      ],
+      "pca_loadings": [
+        0.6099188294012865,
+        0.5719344865199184,
+        0.5485343787502853
+      ],
+      "explained_variance_ratio": 0.8294885639946464
+    },
+    "heat_capacity": {
+      "columns": [
+        "atom_specific_heat_capacity"
+      ],
+      "pca_loadings": [
+        1.0
+      ],
+      "explained_variance_ratio": 1.0
+    },
+    "thermal_transport": {
+      "columns": [
+        "atomic_thermal_cond"
+      ],
+      "pca_loadings": [
+        1.0
+      ],
+      "explained_variance_ratio": 1.0
+    },
+    "ionization_affinity": {
+      "columns": [
+        "atomic_ip",
+        "atomic_ea"
+      ],
+      "pca_loadings": [
+        0.7071067811040744,
+        0.7071067812690207
+      ],
+      "explained_variance_ratio": 0.5228201133497392
+    },
+    "frontier_orbitals": {
+      "columns": [
+        "atomic_hfomo",
+        "atomic_lfumo"
+      ],
+      "pca_loadings": [
+        0.7071067812491443,
+        -0.7071067811239508
+      ],
+      "explained_variance_ratio": 0.6177498056588157
+    },
+    "electronegativity": {
+      "columns": [
+        "X"
+      ],
+      "pca_loadings": [
+        1.0
+      ],
+      "explained_variance_ratio": 1.0
+    },
+    "polarizability": {
+      "columns": [
+        "atomic_pol"
+      ],
+      "pca_loadings": [
+        1.0
+      ],
+      "explained_variance_ratio": 1.0
+    },
+    "valence_total": {
+      "columns": [
+        "atomic_nvalences"
+      ],
+      "pca_loadings": [
+        1.0
+      ],
+      "explained_variance_ratio": 1.0
+    },
+    "valence_orbitals": {
+      "columns": [
+        "atomic_nsval",
+        "atomic_npval",
+        "atomic_ndval"
+      ],
+      "pca_loadings": [
+        0.3376593838073116,
+        0.7552870527356734,
+        0.5617184423683513
+      ],
+      "explained_variance_ratio": 0.4479138801033965
+    }
+  },
+  "known_limitation": "No explicit nf-valence column exists in the supplied table; the model does not fabricate one."
+}

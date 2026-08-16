@@ -1,0 +1,113 @@
+{
+  "artifact": "Materon_TF29_v3",
+  "static_validation": {
+    "python_3_9_ast": "PASS",
+    "compileall": "PASS",
+    "pytest_static": "2 passed",
+    "python_files": 45,
+    "raw_feature_table": {
+      "shape": [
+        100,
+        21
+      ],
+      "nan_count": 0,
+      "physical_features": 20
+    },
+    "grouped_context_table": {
+      "shape": [
+        100,
+        13
+      ],
+      "nan_count": 0,
+      "contexts": 12
+    },
+    "clone_model_absent": "PASS",
+    "model_surgery_absent": "PASS",
+    "zip_cache_free": "PASS"
+  },
+  "runtime_acceptance": {
+    "status": "ENCODED_AS_HARD_GATE; run on the target TF2.9/kgcnn2.1 server",
+    "command": "bash scripts/preflight_all.sh 0",
+    "checks": [
+      "official builder injection exactly once",
+      "backbone weight parity",
+      "epoch-0 identity <=1e-6",
+      "added params <1%",
+      "finite nonzero adapter gradient",
+      "weights roundtrip <=1e-6",
+      "analysis tensors",
+      "ElemNet simplex invariants"
+    ]
+  },
+  "known_source_metadata_limits": [
+    "Original physical-feature CSV contains standardized values but no units metadata.",
+    "Original source has no nf-valence channel; none is fabricated."
+  ],
+  "version": "3.6.0",
+  "server_derived_fix": {
+    "component": "CGCNN",
+    "issue": "float32 node_frac_coordinates plus int64 range_image",
+    "fix": "CGCNN range_image float32 specification plus explicit runtime cast",
+    "megnet_contract_changed": false
+  },
+  "server_derived_fix_v3_2": {
+    "observed": "CGCNN full-model identity max abs 0.0625",
+    "root_cause_targeted": "unsafe global flattened weight-order pairing after nested embedding wrapper insertion",
+    "fix": "semantic topological layer pairing, complete coverage check, exact adapter identity test, eager full-model comparison"
+  },
+  "server_derived_fix_v3_3": {
+    "observed_full_model_max_abs": 0.0625,
+    "observed_adapter_max_abs": 0.0,
+    "observed_backbone_max_abs": 0.0,
+    "interpretation": "absolute difference is potentially one float32 ULP at magnitude 524288; use exact structural checks plus ULP/relative full-graph equivalence",
+    "defaults": {
+      "atol": 1e-06,
+      "rtol": 5e-07,
+      "max_ulp": 4
+    }
+  },
+  "server_derived_fix_v3_4": {
+    "observed": "CGCNN fresh-model output after exact-looking checkpoint load differed by 34 ULP while structural identity had passed",
+    "hard_checkpoint_criteria": [
+      "same-model all-weight bit-exact restoration after deliberate perturbation",
+      "fresh-model all-weight bit-exact parity",
+      "same-graph output restoration"
+    ],
+    "cross_graph_output": "diagnostic only",
+    "production_identity_api_fixed": true
+  },
+  "server_derived_fix_v3_5": {
+    "observed": "ElemNet baseline=7 direct layers, Materon=8",
+    "cause": "one inserted CompositionSimplexEIGate was treated as a replacement wrapper",
+    "fix": [
+      "composition-specific semantic pairing after skipping exactly one adapter",
+      "exact differentiable simplex identity correction",
+      "hard support/sum/non-negativity identity checks"
+    ],
+    "graph_backbones_changed": false
+  },
+  "v3_6": {
+    "formal_identity": "exact backbone + adapter; GPU cross-graph output diagnostic only",
+    "small_tasks": 6,
+    "structure_small_tasks": 3,
+    "composition_small_tasks": 3,
+    "persistent_cache": "fingerprinted ragged/dense tensors with fcntl lock",
+    "epoch_logging": [
+      "loss",
+      "train metrics",
+      "lr",
+      "alpha",
+      "seconds",
+      "samples_per_second"
+    ]
+  },
+  "static_validation_v3_6": {
+    "python_files": 56,
+    "ast_parse": "PASS",
+    "compileall": "PASS",
+    "persistent_cache_static_guard": "PASS",
+    "formal_identity_static_guard": "PASS",
+    "performance_logger_static_guard": "PASS",
+    "resume_log_append_static_guard": "PASS"
+  }
+}
