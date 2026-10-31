@@ -1,0 +1,164 @@
+{
+  "protocol_id": "materon_megnet_jcis_official_fixed_v2_0_0_phonons_fold0_gate",
+  "benchmark_suite": "matbench_v0.1",
+  "backend": "megnet_kgcnn_2_1_0",
+  "seed": [
+    42
+  ],
+  "tasks": {
+    "matbench_phonons": {
+      "n_samples": 1265,
+      "property": "highest phonon DOS peak",
+      "unit": "cm^-1"
+    },
+    "matbench_dielectric": {
+      "n_samples": 4764,
+      "property": "refractive index",
+      "unit": "dimensionless"
+    },
+    "matbench_jdft2d": {
+      "n_samples": 636,
+      "property": "exfoliation energy",
+      "unit": "meV/atom"
+    }
+  },
+  "task_order": [
+    "matbench_phonons",
+    "matbench_dielectric",
+    "matbench_jdft2d"
+  ],
+  "outer_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "models": {
+    "megnet_baseline": {
+      "node_mode": "atomic_number",
+      "paper_name": "MEGNet",
+      "role": "official kgcnn-2.1 MEGNet baseline"
+    },
+    "materon_pca_megnet": {
+      "node_mode": "grouped_pca",
+      "paper_name": "Materon-PCA–MEGNet",
+      "role": "compressed physical representation prediction control"
+    },
+    "materon_explain_megnet": {
+      "node_mode": "full20_gate",
+      "paper_name": "Materon-Explain–MEGNet",
+      "role": "fixed full20 biomimetic interpretable model"
+    }
+  },
+  "official_training": {
+    "optimizer": "Adam",
+    "optimizer_config": {
+      "lr": 0.0005
+    },
+    "loss": "mean_absolute_error",
+    "batch_size": 32,
+    "epochs": 1000,
+    "learning_rate_scheduler": "kgcnn>LinearLearningRateScheduler",
+    "learning_rate_start": 0.0005,
+    "learning_rate_stop": 5e-06,
+    "lr_decay_start_epoch": 100,
+    "lr_decay_end_epoch": 1000,
+    "target_scaler": "sklearn.preprocessing.StandardScaler",
+    "target_scaler_config": {
+      "with_std": true,
+      "with_mean": true,
+      "copy": true
+    },
+    "early_stopping": false,
+    "inner_validation": false,
+    "hyperparameter_scan": false,
+    "outer_test_evaluations": 1,
+    "note": "The fixed kgcnn v2.1.0 Matbench MEGNet hyperparameters are used for all three models. Seed 42 is added only as a reproducibility and paired-comparison control because the published submission did not freeze a seed."
+  },
+  "fixed_megnet": {
+    "radius": 5.0,
+    "gaussian_bins": 25,
+    "gaussian_sigma": 0.4,
+    "nblocks": 3,
+    "node_embed": [
+      64,
+      32,
+      32
+    ],
+    "edge_embed": [
+      64,
+      32,
+      32
+    ],
+    "env_embed": [
+      64,
+      32,
+      32
+    ],
+    "set2set_channels": 16,
+    "set2set_T": 3,
+    "set2set_pooling": "sum",
+    "node_ff": [
+      64,
+      32
+    ],
+    "edge_ff": [
+      64,
+      32
+    ],
+    "state_ff": [
+      64,
+      32
+    ],
+    "output_mlp": [
+      32,
+      16,
+      1
+    ],
+    "activation": "kgcnn>softplus2",
+    "dropout": null
+  },
+  "fixed_gate": {
+    "type": "legacy_biomimetic_ei",
+    "feature_dim": 20,
+    "reduced_dim": 8,
+    "comb_dropout": 0.01,
+    "use_shared_expert": true,
+    "low_rank_gate": false,
+    "gate_low_rank_dim": 16,
+    "use_dimension_gating": true,
+    "dimension_gating_type": "soft",
+    "dimension_sparsity_weight": 0.0,
+    "use_gate_context_proj": true,
+    "gate_ctx_proj_units": 8,
+    "synergy_init": 0.1,
+    "synergy_min": 0.005,
+    "synergy_max": 0.5,
+    "l2_reg": 0.0
+  },
+  "interpretability": {
+    "feature_top_k": 5,
+    "feature_random_repeats": 5,
+    "node_fraction": 0.1,
+    "node_random_repeats": 5,
+    "top_k_overlap": [
+      5,
+      10
+    ],
+    "pathway_interventions": [
+      "promotion",
+      "inhibition",
+      "dimension_gate",
+      "synergy"
+    ],
+    "required_exports": [
+      "node_scores",
+      "feature_scores",
+      "feature_fidelity",
+      "node_fidelity",
+      "pathway_interventions",
+      "fold_stability"
+    ]
+  }
+}

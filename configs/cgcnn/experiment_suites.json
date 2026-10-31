@@ -1,0 +1,77 @@
+{
+  "backbone_families": [
+    "cgcnn_baseline",
+    "physics_full20"
+  ],
+  "gate_core": [
+    "simple_input",
+    "legacy_simple_input",
+    "refined_input",
+    "factorial_s0_l0_d0",
+    "factorial_s0_l0_d1",
+    "factorial_s0_l1_d0",
+    "factorial_s0_l1_d1",
+    "factorial_s1_l0_d0",
+    "factorial_s1_l0_d1",
+    "factorial_s1_l1_d0",
+    "factorial_s1_l1_d1"
+  ],
+  "factorial": [
+    "factorial_s0_l0_d0",
+    "factorial_s0_l0_d1",
+    "factorial_s0_l1_d0",
+    "factorial_s0_l1_d1",
+    "factorial_s1_l0_d0",
+    "factorial_s1_l0_d1",
+    "factorial_s1_l1_d0",
+    "factorial_s1_l1_d1"
+  ],
+  "context": [
+    "legacy_input",
+    "context_coord",
+    "context_qeff",
+    "context_emag",
+    "context_all"
+  ],
+  "legacy_capacity": [
+    "legacy_capacity_c1",
+    "legacy_capacity_c2",
+    "legacy_capacity_c3",
+    "legacy_capacity_c4",
+    "legacy_capacity_c5",
+    "legacy_capacity_c6"
+  ],
+  "refined_capacity": [
+    "refined_capacity_c1",
+    "refined_capacity_c2",
+    "refined_capacity_c3",
+    "refined_capacity_c4",
+    "refined_capacity_c5",
+    "refined_capacity_c6"
+  ],
+  "feature_controls": [
+    "physics_grouped_pca",
+    "physics_shuffled_full20"
+  ],
+  "formal_fixed": [
+    "cgcnn_baseline",
+    "physics_full20",
+    "simple_input",
+    "legacy_simple_input",
+    "legacy_input",
+    "refined_input",
+    "factorial_s0_l0_d0",
+    "factorial_s0_l0_d1",
+    "factorial_s0_l1_d1",
+    "factorial_s1_l0_d0",
+    "factorial_s1_l0_d1",
+    "factorial_s1_l1_d0",
+    "factorial_s1_l1_d1",
+    "context_coord",
+    "context_qeff",
+    "context_emag",
+    "context_all",
+    "physics_grouped_pca",
+    "physics_shuffled_full20"
+  ]
+}

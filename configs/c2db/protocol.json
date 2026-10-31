@@ -1,0 +1,48 @@
+{
+  "stage": "c2db_workfunction_v1_20261013",
+  "purpose": "Bounded feasibility comparison of metallic 2D workfunction; not final publication evidence",
+  "target": "source_reported_workfunction",
+  "unit": "eV",
+  "scientific_focus": "element physical descriptors and environment-conditioned contributions",
+  "backbone": "unchanged models.build_megnet",
+  "arms": [
+    "physical20_nogate",
+    "physical20_global_gate",
+    "physical20_environment_gate"
+  ],
+  "fit_budget": 3,
+  "seed": 42,
+  "split": "70/15/15 percent chemical systems, SHA256 c2db-wf-v1-seed42 salt, all phases of a chemistry together",
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "maximum_epochs": 80,
+    "early_stopping_patience": 20,
+    "loss": "MSE on training-only standardized workfunction; unique-material weights one",
+    "sample_weight": "One per qualified source material",
+    "selection": "Minimum validation MAE in eV, earliest tie",
+    "learning_rate_schedule": "none",
+    "precision": "float32, TF32 off",
+    "feature_scaling": "unchanged fixed standardized physical20 table; no additional scaling",
+    "paired_initialization": "existing models.build_paired_models semantic shared-weight pairing",
+    "paired_order": "same seed42 permutations at each epoch"
+  },
+  "test_policy": "Trainer parses only train/validation labels; score all fixed checkpoints once after all3 fits; no test-based tuning. Source-wide labels already audited descriptively, no completely unexposed-source claim.",
+  "reporting": "Record MAE/RMSE/R2; one row per qualified material, mother weights coincide with record weights; training-mean baseline",
+  "decision": {
+    "predictive_feasibility": "Validation R2>=0.70 and MAE >=25% lower than training-mean baseline; operational pilot criterion",
+    "environment_increment": "compare environment gate to both controls; single-seed improvement is preliminary and cannot prove mechanism or robust superiority",
+    "failure": "No parameter sweep or automatic extension on this split; retain failure and diagnose the specific evidence"
+  },
+  "new_DFT": 0,
+  "explanation_policy": "Gate values are modulation, not importance; no explanation release before usable prediction. Static scaling does not control all additional MLP capacity; element-conditioned/capacity controls required if proceeding to contribution claims.",
+  "scope": {
+    "source": "C2DB snapshot referenced by official NIST JARVIS catalog, Figshare file28682010",
+    "metallic": "source gap exactly0, metadata filter only; gap is not model input",
+    "workfunction": "reported scalar wf in eV; no face-resolved or experimental workfunction claim",
+    "spin": "one reported computed state per id; no invented nonmagnetic label",
+    "inputs": "structure-derived originalphysical20+context37 only; no gap,wf,etot,efermi,raman calculated-property features"
+  },
+  "supplementary_phase_control": "Within-test reduced-composition groups with >=2 structures: separately center target and prediction on each composition; equal composition weights for MAE/RMSE/R2. Fixed before fits; supplementary only, no training/selection/filter use, no required substitution pairs."
+}

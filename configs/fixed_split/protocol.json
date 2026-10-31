@@ -1,0 +1,134 @@
+{
+  "protocol_id": "materon_2d_deep_explain_cgcnn_megnet_v1_0_0",
+  "release_date": "2026-07-31",
+  "seed": 42,
+  "datasets": {
+    "hoip_bandgap": {
+      "paper_name": "2D HOIP PBE band gap",
+      "target": "band_gap_pbe",
+      "unit": "eV",
+      "expected_n": 499
+    },
+    "jdft2d_exfoliation": {
+      "paper_name": "JDFT2D exfoliation energy",
+      "target": "exfoliation_en",
+      "unit": "meV/atom",
+      "expected_n": 636,
+      "reuse_cgcnn_task": "matbench_jdft2d",
+      "reuse_megnet_task": "matbench_jdft2d"
+    }
+  },
+  "split": {
+    "train_fraction": 0.7,
+    "validation_fraction": 0.15,
+    "test_fraction": 0.15,
+    "group_key": "reduced_composition_from_atomic_numbers",
+    "target_quantile_bins": 10,
+    "candidate_searches": 500,
+    "seed": 42,
+    "test_locked": true
+  },
+  "models": {
+    "cgcnn_baseline": {
+      "backbone": "cgcnn",
+      "source_config": "cgcnn_baseline",
+      "recipe": "R08",
+      "role": "ordinary CGCNN baseline"
+    },
+    "materon_nogate_cgcnn": {
+      "backbone": "cgcnn",
+      "source_config": "physics_full20",
+      "recipe": "R07",
+      "role": "full20 physical nodes without gate"
+    },
+    "materon_pca_cgcnn": {
+      "backbone": "cgcnn",
+      "source_config": "physics_grouped_pca",
+      "recipe": "R08",
+      "role": "grouped-PCA prediction control"
+    },
+    "materon_explain_cgcnn": {
+      "backbone": "cgcnn",
+      "source_config": "factorial_s1_l0_d1",
+      "recipe": "R07",
+      "role": "fixed S1-L0-D1 full20 biomimetic E/I gate"
+    },
+    "megnet_baseline": {
+      "backbone": "megnet",
+      "node_mode": "atomic_number",
+      "role": "official kgcnn-2.1 MEGNet baseline"
+    },
+    "materon_nogate_megnet": {
+      "backbone": "megnet",
+      "node_mode": "full20",
+      "role": "full20 physical nodes without gate"
+    },
+    "materon_pca_megnet": {
+      "backbone": "megnet",
+      "node_mode": "grouped_pca",
+      "role": "grouped-PCA prediction control"
+    },
+    "materon_explain_megnet": {
+      "backbone": "megnet",
+      "node_mode": "full20_gate",
+      "role": "fixed S1-L0-D1 full20 biomimetic E/I gate"
+    }
+  },
+  "training": {
+    "cgcnn": {
+      "max_epochs": 600,
+      "minimum_epochs": 150,
+      "patience": 80,
+      "min_delta_original_units": 0.0,
+      "checkpoint_every": 25,
+      "monitor": "val_mae_original",
+      "restore_best_weights": true,
+      "target_scaler": "StandardScaler",
+      "test_evaluations": 1
+    },
+    "megnet": {
+      "max_epochs": 1000,
+      "minimum_epochs": 200,
+      "patience": 120,
+      "min_delta_original_units": 0.0,
+      "checkpoint_every": 25,
+      "monitor": "val_mae_original",
+      "restore_best_weights": true,
+      "batch_size": 32,
+      "optimizer": "Adam",
+      "learning_rate_start": 0.0005,
+      "learning_rate_stop": 5e-06,
+      "lr_decay_start_epoch": 100,
+      "lr_decay_end_epoch": 1000,
+      "test_evaluations": 1
+    }
+  },
+  "interpretability": {
+    "explain_models": [
+      "materon_explain_cgcnn",
+      "materon_explain_megnet"
+    ],
+    "feature_top_k": 5,
+    "feature_random_repeats": 10,
+    "node_fraction": 0.1,
+    "node_random_repeats": 10,
+    "bootstrap_repeats": 1000,
+    "top_k_overlap": [
+      5,
+      10
+    ],
+    "case_study_count": 12,
+    "pathways": [
+      "promotion",
+      "inhibition",
+      "dimension_gate",
+      "synergy",
+      "all_ei"
+    ],
+    "paper_figure_dpi": 400
+  },
+  "runtime": {
+    "tf_intra_op_threads": 4,
+    "tf_inter_op_threads": 2
+  }
+}

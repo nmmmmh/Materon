@@ -1,0 +1,187 @@
+{
+  "task": "matbench_phonons",
+  "outer_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "inner_validation_fraction": 0.12,
+  "inner_quantile_bins": 10,
+  "inner_split_base_seed": 5601,
+  "selection_score_std_weight": 0.1,
+  "epoch_search": {
+    "round1": {
+      "seeds": [
+        42
+      ],
+      "repeats": [
+        0
+      ],
+      "max_epochs": 160,
+      "checkpoint_epochs": [
+        40,
+        60,
+        80,
+        120,
+        160
+      ],
+      "keep": 4
+    },
+    "round2": {
+      "seeds": [
+        42
+      ],
+      "repeats": [
+        0,
+        1,
+        2
+      ],
+      "max_epochs": 320,
+      "checkpoint_epochs": [
+        40,
+        60,
+        80,
+        120,
+        160,
+        200,
+        240,
+        280,
+        320
+      ],
+      "keep": 2
+    },
+    "round3": {
+      "seeds": [
+        123
+      ],
+      "repeats": [
+        0,
+        1,
+        2
+      ],
+      "max_epochs": 320,
+      "checkpoint_epochs": [
+        40,
+        60,
+        80,
+        120,
+        160,
+        200,
+        240,
+        280,
+        320
+      ],
+      "keep": 2
+    }
+  },
+  "gate_search": {
+    "core": {
+      "seeds": [
+        42
+      ],
+      "repeats": [
+        0
+      ],
+      "max_epochs": 160,
+      "checkpoint_epochs": [
+        40,
+        60,
+        80,
+        120,
+        160
+      ],
+      "top_recipes_per_fold": 2
+    },
+    "context": {
+      "seeds": [
+        42
+      ],
+      "repeats": [
+        0
+      ],
+      "max_epochs": 160,
+      "checkpoint_epochs": [
+        40,
+        60,
+        80,
+        120,
+        160
+      ]
+    },
+    "capacity": {
+      "seeds": [
+        42
+      ],
+      "repeats": [
+        0
+      ],
+      "max_epochs": 160,
+      "checkpoint_epochs": [
+        40,
+        60,
+        80,
+        120,
+        160
+      ]
+    },
+    "controls": {
+      "seeds": [
+        42
+      ],
+      "repeats": [
+        0,
+        1,
+        2
+      ],
+      "max_epochs": 320,
+      "checkpoint_epochs": [
+        80,
+        120,
+        160,
+        200,
+        240,
+        280,
+        320
+      ]
+    },
+    "confirm": {
+      "seeds": [
+        42,
+        123
+      ],
+      "repeats": [
+        0,
+        1,
+        2
+      ],
+      "max_epochs": 320,
+      "checkpoint_epochs": [
+        40,
+        60,
+        80,
+        120,
+        160,
+        200,
+        240,
+        280,
+        320
+      ],
+      "top_n_per_fold": 4
+    }
+  },
+  "final_refit": {
+    "seeds": [
+      42,
+      123,
+      2024
+    ],
+    "test_once": true,
+    "validation_data": false,
+    "early_stopping": false,
+    "selected_epoch_min": 40,
+    "selected_epoch_max": 320
+  },
+  "search_policy": "balanced recipes + successive halving + milestone checkpoint selection; outer test labels are never read during search"
+}

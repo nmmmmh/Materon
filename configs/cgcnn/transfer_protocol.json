@@ -1,0 +1,92 @@
+{
+  "protocol_id": "jcis_small_structure_calibrated_cgcnn_v1_2_2_unifiedcache",
+  "release_date": "2026-07-30",
+  "backend": "cgcnn",
+  "purpose": "Lightweight external transfer evidence with frozen architectures and leakage-safe task adaptation for a JCIS materials application paper.",
+  "selection_origin": "All model architectures, physical descriptors, PCA grouping and biomimetic gate structure were frozen from matbench_phonons before inspecting jdft2d or dielectric test performance. Only learning rate and epoch are calibrated inside each outer-training fold.",
+  "tasks": {
+    "matbench_dielectric": {
+      "n_samples": 4764,
+      "target": "n",
+      "unit": "unitless",
+      "mad": 0.808534704217072,
+      "priority": 20
+    },
+    "matbench_jdft2d": {
+      "n_samples": 636,
+      "target": "exfoliation_en",
+      "unit": "meV/atom",
+      "mad": 67.20200406491116,
+      "priority": 10
+    }
+  },
+  "outer_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seeds": [
+    42
+  ],
+  "test_once": true,
+  "models": {
+    "fixed_cgcnn_baseline": {
+      "source_config": "cgcnn_baseline",
+      "paper_name": "CGCNN baseline",
+      "role": "ordinary CGCNN reference",
+      "base_recipe": "R08",
+      "freeze_basis": "CGCNN architecture frozen from the phonons development study; only optimization is calibrated within each outer-training fold."
+    },
+    "fixed_materon_pca": {
+      "source_config": "physics_grouped_pca",
+      "paper_name": "Materon-PCA",
+      "role": "grouped-PCA physical node representation without gate",
+      "base_recipe": "R08",
+      "freeze_basis": "Grouped-PCA physical representation frozen from phonons; only optimization is calibrated within each outer-training fold."
+    },
+    "fixed_materon_explain": {
+      "source_config": "factorial_s1_l0_d1",
+      "paper_name": "Materon-Explain",
+      "role": "full20 physical features plus frozen biomimetic excitation/inhibition gate",
+      "base_recipe": "R07",
+      "freeze_basis": "Cross-fold consensus biomimetic gate architecture frozen from phonons; only optimization is calibrated within each outer-training fold."
+    }
+  },
+  "optimization_calibration": {
+    "scope": "per_model_per_outer_fold",
+    "inner_split": "deterministic quantile-stratified holdout from outer-training data only",
+    "inner_validation_fraction": 0.12,
+    "inner_split_seed": 42,
+    "learning_rate_multipliers": [
+      0.3333333333333333,
+      1.0
+    ],
+    "checkpoint_epochs": [
+      160,
+      240,
+      320
+    ],
+    "max_epochs": 320,
+    "selection_metric": "validation_mae",
+    "tie_break_order": [
+      "validation_mae",
+      "selected_epoch",
+      "learning_rate"
+    ],
+    "final_refit": "reinitialize and train on the complete outer-training fold using selected learning rate and epoch",
+    "early_stopping": false,
+    "outer_test_used_for_selection": false
+  },
+  "reporting": {
+    "primary_metric": "mae",
+    "secondary_metrics": [
+      "rmse",
+      "normalized_mae",
+      "relative_improvement_vs_cgcnn"
+    ],
+    "independent_blocks": "five official Matbench outer folds",
+    "cross_task_raw_mae_average_allowed": false
+  }
+}
