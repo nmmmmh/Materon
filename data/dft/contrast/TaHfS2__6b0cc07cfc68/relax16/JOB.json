@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_id": "Hf2S2-6b0cc07cfc68",
+ "species_order": [
+  "Ta",
+  "S",
+  "Hf"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

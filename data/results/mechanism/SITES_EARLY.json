@@ -1,0 +1,64 @@
+{
+ "static24": {
+  "vacuum_eV": 4.086541130328979,
+  "E_F_eV": -0.2345,
+  "phi_eV": 4.321041130328979,
+  "rwigs_A": [
+   1.434,
+   1.535,
+   1.503
+  ],
+  "elements": [
+   "Re",
+   "Te",
+   "Te",
+   "Nb"
+  ],
+  "sites": [
+   {
+    "element": "Re",
+    "core_potential_minus_vacuum_eV": -51.44864113032898,
+    "paw_s": 0.386,
+    "paw_p": 6.231,
+    "paw_tot": 11.114,
+    "s_centre_occ_minus_vac_eV": -8.354236535329076,
+    "p_centre_occ_minus_vac_eV": -6.507452928769599,
+    "s_centre_all_minus_vac_eV": -6.168703753264168,
+    "p_centre_all_minus_vac_eV": -5.654795664290567
+   },
+   {
+    "element": "Te",
+    "core_potential_minus_vacuum_eV": -98.63264113032898,
+    "paw_s": 1.388,
+    "paw_p": 1.989,
+    "paw_tot": 3.436,
+    "s_centre_occ_minus_vac_eV": -7.197743805371832,
+    "p_centre_occ_minus_vac_eV": -6.970893726992882,
+    "s_centre_all_minus_vac_eV": -6.815208121400936,
+    "p_centre_all_minus_vac_eV": -6.448294657577472
+   },
+   {
+    "element": "Te",
+    "core_potential_minus_vacuum_eV": -99.13734113032898,
+    "paw_s": 1.383,
+    "paw_p": 1.95,
+    "paw_tot": 3.415,
+    "s_centre_occ_minus_vac_eV": -7.938509733600311,
+    "p_centre_occ_minus_vac_eV": -7.656096609101056,
+    "s_centre_all_minus_vac_eV": -6.806762835430264,
+    "p_centre_all_minus_vac_eV": -6.790439346634318
+   },
+   {
+    "element": "Nb",
+    "core_potential_minus_vacuum_eV": -45.096241130328984,
+    "paw_s": 0.323,
+    "paw_p": 6.258,
+    "paw_tot": 9.584,
+    "s_centre_occ_minus_vac_eV": -7.48781499025735,
+    "p_centre_occ_minus_vac_eV": -6.212792329711995,
+    "s_centre_all_minus_vac_eV": -6.935188067144682,
+    "p_centre_all_minus_vac_eV": -5.534832839923155
+   }
+  ]
+ }
+}

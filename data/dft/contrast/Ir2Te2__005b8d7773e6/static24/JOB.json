@@ -1,0 +1,14 @@
+{
+ "role": "parent",
+ "parent_id": "Ir2Te2-005b8d7773e6",
+ "species_order": [
+  "Ir",
+  "Te"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

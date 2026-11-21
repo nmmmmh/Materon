@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Ti2Se2__4209d7977c0a",
+ "species_order": [
+  "Ru",
+  "Ti",
+  "Se"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

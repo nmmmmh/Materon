@@ -1,0 +1,36 @@
+[
+ {
+  "parent": "Ta2Te2__14789ef267c9",
+  "candidate": "MoTaTe2__design",
+  "host": "Ta",
+  "sub": "Mo",
+  "dPhi": -0.9289872940166317,
+  "level_shift_X_eV": 0.0054872940166319495,
+  "EF_vs_core_X_eV": 0.9235000000000042,
+  "dN_eff_X": 0.8624035276595805,
+  "level_shift_M_eV": 0.03178729401663105,
+  "EF_vs_core_M_eV": 0.897199999999998,
+  "dN_eff_M": 0.838155300709218,
+  "dThick_A": -0.1617516422611498,
+  "sub_offset_A": 0.0,
+  "mag_p": 0.1652,
+  "mag_q": 0.0
+ },
+ {
+  "parent": "Ta2Te2__14789ef267c9",
+  "candidate": "Ta2TeI__design",
+  "host": "Ta",
+  "sub": "I",
+  "dPhi": -1.9350639652190367,
+  "level_shift_X_eV": 0.6727639652190476,
+  "EF_vs_core_X_eV": 1.2622999999999962,
+  "dN_eff_X": 1.0212475617021255,
+  "level_shift_M_eV": 0.9256639652190373,
+  "EF_vs_core_M_eV": 1.0093999999999994,
+  "dN_eff_M": 0.9362618709219888,
+  "dThick_A": -0.01248666627810735,
+  "sub_offset_A": -2.108794749492006,
+  "mag_p": 0.1652,
+  "mag_q": 0.0
+ }
+]

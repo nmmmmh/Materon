@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_id": "Cu2Se2-21e73df39ca5",
+ "species_order": [
+  "Zn",
+  "Se",
+  "Cu"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

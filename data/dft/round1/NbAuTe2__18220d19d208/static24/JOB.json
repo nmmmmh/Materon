@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Au2Te2__18220d19d208",
+ "species_order": [
+  "Te",
+  "Nb",
+  "Au"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

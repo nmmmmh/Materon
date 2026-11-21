@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Sc2Se2__787760c30b65",
+ "species_order": [
+  "Se",
+  "Rh",
+  "Sc"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

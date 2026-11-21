@@ -1,0 +1,5716 @@
+{
+  "counts_by_reason": {
+    "gap_not_exactly_zero": 1141
+  },
+  "excluded_count": 1141,
+  "records": [
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "V2Br6-992373a7e1ea",
+      "source_index": 2380
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "C2-a6735a4a3797",
+      "source_index": 2381
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pd2Cl6-0e06dc3e0222",
+      "source_index": 2382
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2O2-7ee25fce4d7e",
+      "source_index": 2383
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Si2-90e674c14ad3",
+      "source_index": 2384
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Te2-8ccfc750f219",
+      "source_index": 2385
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Sc2-61ae58549b8a",
+      "source_index": 2386
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "VTe2-89237937bb4b",
+      "source_index": 2387
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2Cl6-223fade6478b",
+      "source_index": 2388
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Se2-06e6f5aeb768",
+      "source_index": 2389
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re2Br6-a420111cdb5e",
+      "source_index": 2390
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2Se2-c654097dd170",
+      "source_index": 2391
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pt2Br6-52ad72865776",
+      "source_index": 2392
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2I6-c83d68971721",
+      "source_index": 2393
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2I6-a8f195bd2c96",
+      "source_index": 2394
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mn2Cl6-eb1a0a07e5b5",
+      "source_index": 2395
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoSeTe-f3f66ff2fdc2",
+      "source_index": 2396
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I4Se4Ti4-914ac491bbc4",
+      "source_index": 2397
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Cl6-1aa6995ffbaa",
+      "source_index": 2398
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ni2Cl6-60147a25e3e9",
+      "source_index": 2399
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Se6-db5c2ca6031b",
+      "source_index": 2400
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2W2S6-11f0b4777895",
+      "source_index": 2401
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Te2-ef14a5c7db3f",
+      "source_index": 2402
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Co2S2-e6620312026c",
+      "source_index": 2403
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pd2Br6-ddb0a72d2720",
+      "source_index": 2404
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2N2Pb2-e3542755464a",
+      "source_index": 2405
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2Cl6-2d728ba2b114",
+      "source_index": 2406
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2I2-21a9678ba949",
+      "source_index": 2407
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Rh2S2-a6b02080c19f",
+      "source_index": 2408
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mn2I6-2033b3b9502c",
+      "source_index": 2409
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2I6-41f4ae1663be",
+      "source_index": 2410
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2I2-f6f163b5b46a",
+      "source_index": 2411
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ti2-eb96c223dc67",
+      "source_index": 2412
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2Cl6-a7111f341a6a",
+      "source_index": 2413
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSeV-0f3ba3ea815f",
+      "source_index": 2414
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Pd2S6-8f893a677af5",
+      "source_index": 2415
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "V2I6-fdc45f6a05cc",
+      "source_index": 2416
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiH2-2d25b4df71af",
+      "source_index": 2417
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SbI2-26c3bd3e8850",
+      "source_index": 2418
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ti2-6d5bff05a4a4",
+      "source_index": 2419
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Cl2-0c2607fe7f56",
+      "source_index": 2420
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PtF2-2ab881c60144",
+      "source_index": 2421
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Zr2-a1b04a4b1428",
+      "source_index": 2422
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "C2F2S2Zr3-cbe54c0bb127",
+      "source_index": 2423
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TeBi2S2-b59e7817764f",
+      "source_index": 2424
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClCrI-ce902f0bf788",
+      "source_index": 2425
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiS2-69e1739b4521",
+      "source_index": 2426
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mn2Br6-6f33dda6bf52",
+      "source_index": 2427
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "V2Cl6-bcfbab457bdd",
+      "source_index": 2428
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2I6-6dbe90bb6b5d",
+      "source_index": 2429
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2-bbbd76379a3d",
+      "source_index": 2430
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2V2-981dc5596cdb",
+      "source_index": 2431
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2Te2-e2842dbafac1",
+      "source_index": 2432
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2Br6-a2a0962a63e0",
+      "source_index": 2433
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pt2Cl6-20b975a3a1e8",
+      "source_index": 2434
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2Br6-26f91951e231",
+      "source_index": 2435
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PdF2-ee10b74aa014",
+      "source_index": 2436
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsBiCr-b299416bff28",
+      "source_index": 2437
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "VS2-c18868e1945f",
+      "source_index": 2438
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sn2Te2-f781c3e79c56",
+      "source_index": 2439
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ni2P2S6-de2432ed42aa",
+      "source_index": 2440
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pd2I6-152fee6d123c",
+      "source_index": 2441
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgSe2-91e6386449a5",
+      "source_index": 2442
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Sn2-b58e7666b7c1",
+      "source_index": 2443
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2V2-42b0d411a908",
+      "source_index": 2444
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pt2S2-e5e6367b4577",
+      "source_index": 2445
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Y2-6bcf8250b71d",
+      "source_index": 2446
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "W2Se4-da5839e805ee",
+      "source_index": 2447
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Rh2Se6-c10e77a99b6c",
+      "source_index": 2448
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "W2Se4-800574ca4834",
+      "source_index": 2449
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2F2-52d465efe86e",
+      "source_index": 2450
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2Te4-be93b1621bc7",
+      "source_index": 2451
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Sn2-00c809eb48fe",
+      "source_index": 2452
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiTe2-9ebfacbfe4b5",
+      "source_index": 2453
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Zr2-14bc47f10ec6",
+      "source_index": 2454
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2I2-8ae8bdf96f94",
+      "source_index": 2455
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Ti2Te8-e5661cc69af0",
+      "source_index": 2456
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2P2Se6-cb1e8fb4e4b9",
+      "source_index": 2457
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Te2-aafa8f843d5b",
+      "source_index": 2458
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2P2S6-7ed08fbf9472",
+      "source_index": 2459
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfSTe-2602a918955b",
+      "source_index": 2460
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Sb2-28e29e59c246",
+      "source_index": 2461
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mn2Cl6-5d0554fdd87b",
+      "source_index": 2462
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Te2-3d8cdaa4e035",
+      "source_index": 2463
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2O2Rh2-c6c664595ece",
+      "source_index": 2464
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Ti2-f346fce11db3",
+      "source_index": 2465
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2Se4-82a84bbe4a89",
+      "source_index": 2466
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2S2-bf9a5b4e8e88",
+      "source_index": 2467
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl4Se4Ti4-716f6cdbc2ad",
+      "source_index": 2468
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2Br6-c559fabf0ecf",
+      "source_index": 2469
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsBr2-f58af04155b3",
+      "source_index": 2470
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2Br6-867615d39c9d",
+      "source_index": 2471
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Rh2S2-65afba8ca713",
+      "source_index": 2472
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Se2-a2f6b7b424d2",
+      "source_index": 2473
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Zr2-f703da1e62c8",
+      "source_index": 2474
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ru2O4-4baaa6dbfe38",
+      "source_index": 2475
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Br6-8e63ef562431",
+      "source_index": 2476
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Ta2-4cde9903abea",
+      "source_index": 2477
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbO2-0963dec75c0c",
+      "source_index": 2478
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Se2-9d15026319ec",
+      "source_index": 2479
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Te2-538c4ff6b6b4",
+      "source_index": 2480
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2S4-b06001f565b8",
+      "source_index": 2481
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfTi3Te8-2530a31366be",
+      "source_index": 2482
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ir2Se2-d80ae2271835",
+      "source_index": 2483
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "O2W2-42fa50003592",
+      "source_index": 2484
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Pt2S6-a8142ebd8fa4",
+      "source_index": 2485
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Ti2-89ee439948ac",
+      "source_index": 2486
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Zr2-c43918606ab5",
+      "source_index": 2487
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2P2S6-2ddba2a8216d",
+      "source_index": 2488
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Zr2-f89b20d72c95",
+      "source_index": 2489
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiSe2-c1ffa88ee5ca",
+      "source_index": 2490
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ir2Se2-bffe34735848",
+      "source_index": 2491
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2N2Ti2-46ee28088a80",
+      "source_index": 2492
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2Cl6-579e034365b4",
+      "source_index": 2493
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br4Se4Ti4-073c9eb8c253",
+      "source_index": 2494
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2P2Se6-65c3ae4ecac2",
+      "source_index": 2495
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeTeTi-03e8a2c97f5b",
+      "source_index": 2496
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sn2-3deec82af6d4",
+      "source_index": 2497
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgS-5256ed7d716e",
+      "source_index": 2498
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Co2-83f0609e2ecd",
+      "source_index": 2499
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeI2-51934c0239e8",
+      "source_index": 2500
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Sn2-b8e2ee0faa87",
+      "source_index": 2501
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "O2Rh2-740bf2751050",
+      "source_index": 2502
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2Se2-a4d54cf399c5",
+      "source_index": 2503
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiHf3Te8-1667d1443160",
+      "source_index": 2504
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrTi3Te8-099b15e60b07",
+      "source_index": 2505
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbSe2-d0003c75d651",
+      "source_index": 2506
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Br6-dbc278a06722",
+      "source_index": 2507
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Te3-61e21cf8e36d",
+      "source_index": 2508
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2Te2-bd638f8e00a9",
+      "source_index": 2509
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Sn2-5236d993e815",
+      "source_index": 2510
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2Se2-f2919d1605f0",
+      "source_index": 2511
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReCu2Br6-1a7b2ddbd336",
+      "source_index": 2512
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2Br4-f17c589d58bd",
+      "source_index": 2513
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Tl2I6-8b75f770fbf8",
+      "source_index": 2514
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "STeTi-be00293bffd6",
+      "source_index": 2515
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsBr2-bf30e1249164",
+      "source_index": 2516
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Re2-2a19e3a22295",
+      "source_index": 2517
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Ru2Se6-3c9fd4879cb7",
+      "source_index": 2518
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2Se2-1a46a7cf8fab",
+      "source_index": 2519
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ru2Se4-ab2245bf1ecd",
+      "source_index": 2520
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ScI2-d71a8b9a636e",
+      "source_index": 2521
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiI2-0e87e38a2099",
+      "source_index": 2522
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2Br6-d725eac1ffd0",
+      "source_index": 2523
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ScCl2-945f3bbaeedc",
+      "source_index": 2524
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Rh2Te6-0f1f68e6fa79",
+      "source_index": 2525
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Ti2-ecf4b958e9a1",
+      "source_index": 2526
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TeBi2Se2-1b60ea5085cd",
+      "source_index": 2527
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2S4-7bc65335570f",
+      "source_index": 2528
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re2I4-4c3e36d33545",
+      "source_index": 2529
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Te4-9bd929fede8e",
+      "source_index": 2530
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2Te4-7fefaf781300",
+      "source_index": 2531
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgSe-619ed885f677",
+      "source_index": 2532
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Zr2Te8-18e377cce57f",
+      "source_index": 2533
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2N2Pt2-290429806df0",
+      "source_index": 2534
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Ge2-aac9cc861c7f",
+      "source_index": 2535
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeTeV-716e51e45afe",
+      "source_index": 2536
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2O2-53ac438f321b",
+      "source_index": 2537
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeBi2Te2-a4c0cfe98b2a",
+      "source_index": 2538
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Cl6-a84bffeebbfa",
+      "source_index": 2539
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Pb2-80918d6f39e4",
+      "source_index": 2540
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2O2-06ebe3806790",
+      "source_index": 2541
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbTe2-dbf3271b4bb1",
+      "source_index": 2542
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2P2Te6-e7118905b599",
+      "source_index": 2543
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2P2Se6-e43e13dd81a7",
+      "source_index": 2544
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfTe2-59c0e014651d",
+      "source_index": 2545
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Zr2-8e309f5eccc0",
+      "source_index": 2546
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2S4-b1aa62ba3954",
+      "source_index": 2547
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2S2-e7d34362869c",
+      "source_index": 2548
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2Se2-eefb43e4bb5e",
+      "source_index": 2549
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ca2I2-946217a67549",
+      "source_index": 2550
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Hg2-22382c05fc78",
+      "source_index": 2551
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re2I6-6d143127b423",
+      "source_index": 2552
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeF2-c67fbd722c30",
+      "source_index": 2553
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re2Br6-601836adaccc",
+      "source_index": 2554
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdO2-5382e660b43f",
+      "source_index": 2555
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re2I6-04979b21e197",
+      "source_index": 2556
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "YI2-ed68c71a1964",
+      "source_index": 2557
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfSeTe-305c779b8752",
+      "source_index": 2558
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrHf3Te8-3663f526cdf1",
+      "source_index": 2559
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2Se4-4dd409ecc12c",
+      "source_index": 2560
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeI2-958162d78580",
+      "source_index": 2561
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PtBr2-685abbcc5057",
+      "source_index": 2562
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgTe-1a3bdd1b142a",
+      "source_index": 2563
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2I4-2ba3a49daa02",
+      "source_index": 2564
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ru2Te4-dad62a80b90e",
+      "source_index": 2565
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ScBr2-78039e746a9a",
+      "source_index": 2566
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SBi2Te2-fe3f31afca68",
+      "source_index": 2567
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Se2-edce62e11778",
+      "source_index": 2568
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2O2-520a721ec074",
+      "source_index": 2569
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Zr2Te8-93099006c996",
+      "source_index": 2570
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CoCl2-2f828537d676",
+      "source_index": 2571
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2O4-234278d00297",
+      "source_index": 2572
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReAg2I6-bab1ec0bdac5",
+      "source_index": 2573
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2S2-63439e4f4178",
+      "source_index": 2574
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Br6-e43fad8616c0",
+      "source_index": 2575
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2O2-c99b8d2aa925",
+      "source_index": 2576
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CoBr2-807b6a88f950",
+      "source_index": 2577
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Mn2N2-2e64187886f8",
+      "source_index": 2578
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cr2Se2-fb83a5a9c5f2",
+      "source_index": 2579
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoOTe-b04a15aa2b0d",
+      "source_index": 2580
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cr2Se2-6d18e7a36c5a",
+      "source_index": 2581
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Ta2Te6-601435d29c97",
+      "source_index": 2582
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReCu2I6-ec359e53fb49",
+      "source_index": 2583
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb4-e7b31f8232bb",
+      "source_index": 2584
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReAu2F6-c25153c7d7c0",
+      "source_index": 2585
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiZr3Te8-4f1ab08988cc",
+      "source_index": 2586
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "O2Pb2-20f098bd3f31",
+      "source_index": 2587
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Hg2-af8820ebee08",
+      "source_index": 2588
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PdBr2-724e74d0941a",
+      "source_index": 2589
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "W2Br6-14e114b103e1",
+      "source_index": 2590
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Ru2Te6-dc750358a911",
+      "source_index": 2591
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "STeW-916afba26723",
+      "source_index": 2592
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoSTe-2ea941c8bc3c",
+      "source_index": 2593
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Zr2-6f8a67e0a912",
+      "source_index": 2594
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "STeZr-3f3c7bc0ce7d",
+      "source_index": 2595
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Cl6-1fee35476d21",
+      "source_index": 2596
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2I6-0e99355f14de",
+      "source_index": 2597
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "VTe2-45a0c1470922",
+      "source_index": 2598
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfZr3Te8-916e19eae465",
+      "source_index": 2599
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2V2-605c732d5111",
+      "source_index": 2600
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Ir2S2-3b5f1a6b5904",
+      "source_index": 2601
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAu2Te4-ad1f06ea8eee",
+      "source_index": 2602
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Ti2-b43c14735d8e",
+      "source_index": 2603
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2Cl6-06f695e97385",
+      "source_index": 2604
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ru2Se6-4180429ddf3f",
+      "source_index": 2605
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsIS-e23390b66883",
+      "source_index": 2606
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OBi2Te2-6c4ee4d06519",
+      "source_index": 2607
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "W2I6-37deba64dc68",
+      "source_index": 2608
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2V2-5da53e6996e3",
+      "source_index": 2609
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2P2Te6-1a850181de67",
+      "source_index": 2610
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2V2-18940cda2df4",
+      "source_index": 2611
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PdSe2-0ae696751911",
+      "source_index": 2612
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2O4-f49f66feaadf",
+      "source_index": 2613
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "H2Sn2-2d3c4b88b3c3",
+      "source_index": 2614
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re2S2-1c04b3436460",
+      "source_index": 2615
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsCl2-d37ba63794ad",
+      "source_index": 2616
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2Se2-cd869dd2bb7e",
+      "source_index": 2617
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "O2Pb2-5491391bc7ab",
+      "source_index": 2618
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "N2O2Y3-325898b817e4",
+      "source_index": 2619
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "VSe2-8535e643c6c5",
+      "source_index": 2620
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnH2O2-3bd136c8a265",
+      "source_index": 2621
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2S2Tl2-c8eaa504c957",
+      "source_index": 2622
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2V2-9cf30bd127fe",
+      "source_index": 2623
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrTe2-f7ad606317e6",
+      "source_index": 2624
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrSTe-8a0864d30ce1",
+      "source_index": 2625
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeTeZr-dd69b684c867",
+      "source_index": 2626
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeBr2-8a7a18d48fc2",
+      "source_index": 2627
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsO2-c5cf01fee776",
+      "source_index": 2628
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2Cl6-be7870547213",
+      "source_index": 2629
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Cl6-f753db8ae919",
+      "source_index": 2630
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Se3-709937cca934",
+      "source_index": 2631
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2Br6-c284d6de2b3e",
+      "source_index": 2632
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Te2-dd0dba21843d",
+      "source_index": 2633
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Se6-719c77b60be8",
+      "source_index": 2634
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "RuBr2-77387040b6e7",
+      "source_index": 2635
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2Te4-0ff691c9a0cf",
+      "source_index": 2636
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2S4-0e37fa3453af",
+      "source_index": 2637
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2P2Te6-4cb4ea247ef4",
+      "source_index": 2638
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Te2-c3cac8e74dc1",
+      "source_index": 2639
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Ta2Se6-e2c90519357b",
+      "source_index": 2640
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Tl2-44ffc9d405b8",
+      "source_index": 2641
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2S6-5529ea42c5a9",
+      "source_index": 2642
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbSe2-45aa9714a72b",
+      "source_index": 2643
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ir2O2-d6d12161deb8",
+      "source_index": 2644
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2S2-dd6289af8e01",
+      "source_index": 2645
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CoF2-2f2f01730826",
+      "source_index": 2646
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgO-a8678fa85c38",
+      "source_index": 2647
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PtTe2-747f8e0087c0",
+      "source_index": 2648
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2Se2-53337987551a",
+      "source_index": 2649
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2S2-cca08641e07b",
+      "source_index": 2650
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnZrCl6-7998bc9c5621",
+      "source_index": 2651
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2O2Tl2-819911a90521",
+      "source_index": 2652
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAg2Te4-b7068b149e72",
+      "source_index": 2653
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BSb-71730c0eaab1",
+      "source_index": 2654
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Sn2-327ecc5b4be0",
+      "source_index": 2655
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "N2O2Hf3-bb4e40ae9164",
+      "source_index": 2656
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Cl4-66087709613c",
+      "source_index": 2657
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co4S8-cdea8fd17b0b",
+      "source_index": 2658
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAu2Te4-fa9b643288c1",
+      "source_index": 2659
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CO2Ti2-c5bb3a35a784",
+      "source_index": 2660
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Ru2S6-9caed1a0620c",
+      "source_index": 2661
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsITe-114b3382699c",
+      "source_index": 2662
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2I2S2-a68f6e0481d3",
+      "source_index": 2663
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Te2-23a0796492d1",
+      "source_index": 2664
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrSe2-7dc2a0a57b42",
+      "source_index": 2665
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2Te3-3e3e0acdba55",
+      "source_index": 2666
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Tl2-73117163f0e2",
+      "source_index": 2667
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ir2S2-c0fadae216ee",
+      "source_index": 2668
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "YBr2-32aac6e20434",
+      "source_index": 2669
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiITe-a84d988e38ac",
+      "source_index": 2670
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2P2S6-91367f7f5dce",
+      "source_index": 2671
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Se2-d13cbee86f79",
+      "source_index": 2672
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CoBr2-02049cf3cf55",
+      "source_index": 2673
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CoCl2-cb7655063dfe",
+      "source_index": 2674
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeCl2-a0004cbce0c5",
+      "source_index": 2675
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SBi2Se2-489b3230e427",
+      "source_index": 2676
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2N2Pt2-99b108ef426c",
+      "source_index": 2677
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ir2S2-4064ccdd7b40",
+      "source_index": 2678
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Sb2-7aaf15f5af96",
+      "source_index": 2679
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2P2Te6-9b561ced539c",
+      "source_index": 2680
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2H2S4-8a604096ad78",
+      "source_index": 2681
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ScH2-979f4dbd9c1b",
+      "source_index": 2682
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Br2-de613e74c70a",
+      "source_index": 2683
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mn2P2S6-677c868c0469",
+      "source_index": 2684
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "YCl2-097c5f54659a",
+      "source_index": 2685
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiTe2-bbb8e581bf27",
+      "source_index": 2686
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2Cl6-694f11fd831a",
+      "source_index": 2687
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoCu2Te4-27e4c4f1ee97",
+      "source_index": 2688
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "C2O2Zr3-23672dbca7d0",
+      "source_index": 2689
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2O2-d14171d2ba1a",
+      "source_index": 2690
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CoZrBr6-47a72745bf3d",
+      "source_index": 2691
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Si2Te2-0864146ccb4e",
+      "source_index": 2692
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnTe2-c81de95356c1",
+      "source_index": 2693
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2H2O4-3e1267eb3704",
+      "source_index": 2694
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2P2Te6-cf7927ab6730",
+      "source_index": 2695
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Zr2Se6-2486f04ec8ea",
+      "source_index": 2696
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "N2C6-375230208918",
+      "source_index": 2697
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Se2-9fb15588e4d4",
+      "source_index": 2698
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeSb2Te2-915f01ae4126",
+      "source_index": 2699
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "N2O2Zr3-c317fbd68215",
+      "source_index": 2700
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiIS-40034665f9f1",
+      "source_index": 2701
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PtCl2-fa8d38b71cd1",
+      "source_index": 2702
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiZrF6-7f625b8b1eb9",
+      "source_index": 2703
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zr2Se6-150e33f95933",
+      "source_index": 2704
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2S4-306c5b32dc19",
+      "source_index": 2705
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeBi2S2-5db44a94f3a6",
+      "source_index": 2706
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiITe-2d41b3dd1772",
+      "source_index": 2707
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfH2O2-da43912bde43",
+      "source_index": 2708
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2Cl4-a791cc1e3449",
+      "source_index": 2709
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Sc2-e9d256b367c7",
+      "source_index": 2710
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Pt2Se6-3a65ac9ff395",
+      "source_index": 2711
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrO2-2433700165bb",
+      "source_index": 2712
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "C2O2Hf3-082ae1b027e9",
+      "source_index": 2713
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Pb2-f05bafd14cfc",
+      "source_index": 2714
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2Se3-d07765390360",
+      "source_index": 2715
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2S2-5995ac9fd69f",
+      "source_index": 2716
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zr2I4-a5233adfb04f",
+      "source_index": 2717
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CH2O2Sc2-f72d84df3799",
+      "source_index": 2718
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2Cl6-28fbb0f1e271",
+      "source_index": 2719
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfSe2-7a708c5759cf",
+      "source_index": 2720
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2P2Se6-2897f2d181b7",
+      "source_index": 2721
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Sn2Te6-321533580298",
+      "source_index": 2722
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "O2Pt2-33a0441eb478",
+      "source_index": 2723
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiISe-433f707c632c",
+      "source_index": 2724
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Te2-8541bd4f0edd",
+      "source_index": 2725
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Sb2-a6ccabb6ac8a",
+      "source_index": 2726
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2Se2-a59fe0d07081",
+      "source_index": 2727
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Pb2-8636f6ce6483",
+      "source_index": 2728
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WCr3Te8-6523c349753c",
+      "source_index": 2729
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Sb2-1b03587c5de9",
+      "source_index": 2730
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ir2O2-6a5e088e0608",
+      "source_index": 2731
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Te2-fdc4a7cc1d0d",
+      "source_index": 2732
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsISe-ca926a42865b",
+      "source_index": 2733
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2Se2-0fb3eda814f3",
+      "source_index": 2734
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Tl2-16490f81af26",
+      "source_index": 2735
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Zr2-8912432cb37b",
+      "source_index": 2736
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrTe2-c31911a1b3f9",
+      "source_index": 2737
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cr2S2-806bd2cbdf65",
+      "source_index": 2738
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CH2O2Y2-310f97f320f8",
+      "source_index": 2739
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Nb4O8-b3130faeb4ab",
+      "source_index": 2740
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cr2S2-92b8a07f1c47",
+      "source_index": 2741
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OBi2Se2-110a911596c0",
+      "source_index": 2742
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PdCl2-e3731b3b3a79",
+      "source_index": 2743
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "RuCl2-5bd943a75688",
+      "source_index": 2744
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSb2Se2-7c436126f878",
+      "source_index": 2745
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2F2O4-228807f6476a",
+      "source_index": 2746
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoCr3Te8-899032b4ad0c",
+      "source_index": 2747
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SiSe2-0dae128e0ffe",
+      "source_index": 2748
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReCu2Cl6-86c5de50519d",
+      "source_index": 2749
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2P2Se6-6a2980949468",
+      "source_index": 2750
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2S3-9e4974207024",
+      "source_index": 2751
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSb2Te2-46c4fdc6b66a",
+      "source_index": 2752
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "InSb-466fcf7fad66",
+      "source_index": 2753
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sn2Se4-ac25ae8c4758",
+      "source_index": 2754
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Te2-648de0a225fe",
+      "source_index": 2755
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Se2-10f26d33197a",
+      "source_index": 2756
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OSb2Te2-48bbacdd20ba",
+      "source_index": 2757
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Br2-3a3802ce88e9",
+      "source_index": 2758
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "W2Cl6-de9b6fb4fc55",
+      "source_index": 2759
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Tl2-625697b299d1",
+      "source_index": 2760
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2W2Te8-62bb754c4cb2",
+      "source_index": 2761
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2F2-44f6ed525a5a",
+      "source_index": 2762
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgO2-e979c6fac343",
+      "source_index": 2763
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSeTi-358305cad463",
+      "source_index": 2764
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "RuH2O2-cd1e59aa5b1c",
+      "source_index": 2765
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2Cl6-61d74efeaeeb",
+      "source_index": 2766
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Nb2P2S6-c9aa3a9d876c",
+      "source_index": 2767
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Sb2Te6-82b85dfd7723",
+      "source_index": 2768
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OSb2Se2-e778cdf6e967",
+      "source_index": 2769
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiSe2-509ef368050d",
+      "source_index": 2770
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2I6-04fd9e7d4375",
+      "source_index": 2771
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiBrTe-f4f45fcade85",
+      "source_index": 2772
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2S4-e187219404db",
+      "source_index": 2773
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiClTe-badda86cab42",
+      "source_index": 2774
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OTeW-49e950612b4e",
+      "source_index": 2775
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrW3Te8-eef072f845ce",
+      "source_index": 2776
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Te2Zn2-4e0f8a77aaf0",
+      "source_index": 2777
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir4Te8-b7f7b2f1f103",
+      "source_index": 2778
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TaO2-aa97a13a2bcc",
+      "source_index": 2779
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2F2-0556adc9bc7b",
+      "source_index": 2780
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2Mo2Te8-988b11badabb",
+      "source_index": 2781
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2-e50c9fb190b0",
+      "source_index": 2782
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PdSe2-f7acacb69123",
+      "source_index": 2783
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ScSe2-b94c70080d61",
+      "source_index": 2784
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReAg2Br6-832b3b1525d2",
+      "source_index": 2785
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeSe2-8af45b2cf14e",
+      "source_index": 2786
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OBi2S2-a54b57ee42bb",
+      "source_index": 2787
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2Se4-a27442d3eef5",
+      "source_index": 2788
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrSeTe-5d9d3ded04de",
+      "source_index": 2789
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TeSb2Se2-bd9858a68aa6",
+      "source_index": 2790
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2Se4-5f4dce912dea",
+      "source_index": 2791
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Se6-2ca0de31712d",
+      "source_index": 2792
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrTi3Se8-52a5e2b280d4",
+      "source_index": 2793
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zr2Br4-112846d9ccdd",
+      "source_index": 2794
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ta4O8-7be3b2108e86",
+      "source_index": 2795
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh4Se8-af61e881e0fa",
+      "source_index": 2796
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiS2-c07043374f26",
+      "source_index": 2797
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Sb2-d7e53bedc66f",
+      "source_index": 2798
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfTi3Se8-c55716558616",
+      "source_index": 2799
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAg2Te4-a9f65ead2b7c",
+      "source_index": 2800
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiBrTe-304bc6a92d82",
+      "source_index": 2801
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Zn2Te6-eec4f1768dac",
+      "source_index": 2802
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAu2Se4-f187d0336ed9",
+      "source_index": 2803
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OS2Sb2-184d60788920",
+      "source_index": 2804
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiI2-088e8488f895",
+      "source_index": 2805
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh4S8-eb7f99d79736",
+      "source_index": 2806
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeS2Sb2-ca777fa17a63",
+      "source_index": 2807
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2S3-37e5cfa7f658",
+      "source_index": 2808
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiClTe-968a6902b7f5",
+      "source_index": 2809
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2P2Se6-90d84f697622",
+      "source_index": 2810
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sn2Te2-03bcf7dcdaf2",
+      "source_index": 2811
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2P2Se6-1be2727e385c",
+      "source_index": 2812
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ga2Se2-b30d856bad04",
+      "source_index": 2813
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiISe-70cbc0e44d36",
+      "source_index": 2814
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zr2Cl4-78bf3c7e79be",
+      "source_index": 2815
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSeZr-1a9901838600",
+      "source_index": 2816
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "InN-8cf70870bc5b",
+      "source_index": 2817
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Te2-d57228736661",
+      "source_index": 2818
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2N2Ti2-d1fef18803ee",
+      "source_index": 2819
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2N2Ti2-bbcb5bbdd462",
+      "source_index": 2820
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Zr2Se8-846b50801a93",
+      "source_index": 2821
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2S2-ed5f6e977271",
+      "source_index": 2822
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2I4-236ec74b0662",
+      "source_index": 2823
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Tl2-fb0b06c4bab6",
+      "source_index": 2824
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfI2-05a69240794c",
+      "source_index": 2825
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2Te2-3a9e0525e324",
+      "source_index": 2826
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Cl2Se2-c326c8e73d16",
+      "source_index": 2827
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ru2Te4-76c40a7e8f78",
+      "source_index": 2828
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrMo3Te8-159f028a85d0",
+      "source_index": 2829
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Ti2Se8-cce78d90e899",
+      "source_index": 2830
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cr2O2-f0c029f3be24",
+      "source_index": 2831
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WCu2Te4-42331331be92",
+      "source_index": 2832
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Fe2S4-ae77a95fa237",
+      "source_index": 2833
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2P2S6-287dcf4f1a19",
+      "source_index": 2834
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2I6-d90f9a6ab379",
+      "source_index": 2835
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Br2Se2-d2aaca216b91",
+      "source_index": 2836
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnZrF6-73428c8e9502",
+      "source_index": 2837
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeZrI6-8357694f8740",
+      "source_index": 2838
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnO2-d5f47e5d4cf7",
+      "source_index": 2839
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Si2-aa042bf2fe06",
+      "source_index": 2840
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Pb2Te6-f0b8906970f5",
+      "source_index": 2841
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbS2-9842835dff03",
+      "source_index": 2842
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Tl2-751e767bff79",
+      "source_index": 2843
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WCr3Se8-c798e725e2fb",
+      "source_index": 2844
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrITi-233dbbf8f473",
+      "source_index": 2845
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfSSe-63618e5bf062",
+      "source_index": 2846
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Sc2Se6-093920d00119",
+      "source_index": 2847
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrSe2-9a6ff6a3c41a",
+      "source_index": 2848
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeI2-c1fe088ac2c5",
+      "source_index": 2849
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrI2-9c024b5a2e89",
+      "source_index": 2850
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2P2Se6-aa9a981d89aa",
+      "source_index": 2851
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsIn-c77a730c90f8",
+      "source_index": 2852
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir4S8-1ad827226ca1",
+      "source_index": 2853
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAg2Se4-e20f318fc059",
+      "source_index": 2854
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfMnF6-3283ef87d8ba",
+      "source_index": 2855
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "O2Sc2-b757b8efeeab",
+      "source_index": 2856
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgI2-0ff7ee261fec",
+      "source_index": 2857
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "W2I6-b36e4bfa0c87",
+      "source_index": 2858
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2I2Se2-efb58383c7bd",
+      "source_index": 2859
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "W2Cl6-eea8aee9e120",
+      "source_index": 2860
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiZr3Se8-a148361e5e9a",
+      "source_index": 2861
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoCr3Se8-961c37d6e527",
+      "source_index": 2862
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2I2Te4-2f737d1570ba",
+      "source_index": 2863
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrHfI-836a1091409d",
+      "source_index": 2864
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Os2Te4-20733aabace8",
+      "source_index": 2865
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2I2Se4-96893388f5ca",
+      "source_index": 2866
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ScS2-8cb59bd9248e",
+      "source_index": 2867
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Sn2Se6-a056ab5346bf",
+      "source_index": 2868
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiHf3Se8-3e1923c616ad",
+      "source_index": 2869
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ru2S4-00e84e7b8e1e",
+      "source_index": 2870
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WTe2-3c87365bc48c",
+      "source_index": 2871
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Se4-129ec20b7c07",
+      "source_index": 2872
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeS2-6b1efcdcfd40",
+      "source_index": 2873
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfBr2-84e9162c0c53",
+      "source_index": 2874
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiBrSe-de5756e4fbfa",
+      "source_index": 2875
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeBr2-9ca1eca1fa7f",
+      "source_index": 2876
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiS2-65d41aaec667",
+      "source_index": 2877
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ga2Se2-cb32583b36c8",
+      "source_index": 2878
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrSe2-f17029facf63",
+      "source_index": 2879
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClITi-ae06e7424bb1",
+      "source_index": 2880
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Se2-248fffac5959",
+      "source_index": 2881
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoOSe-d6479152c1bb",
+      "source_index": 2882
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbS2-b874a236aaca",
+      "source_index": 2883
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsB-b6e76caa350b",
+      "source_index": 2884
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiBr2-57116f9a9a4e",
+      "source_index": 2885
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2W2Se8-548aa830244c",
+      "source_index": 2886
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Zr2S6-f821141337d6",
+      "source_index": 2887
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAu2Se4-1578c3f86c73",
+      "source_index": 2888
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnSe2-2c6d4c024ca0",
+      "source_index": 2889
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnS2-8f2fa65321f0",
+      "source_index": 2890
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgH2O2-fbafb48f0196",
+      "source_index": 2891
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Tl2I6-18e956bdc488",
+      "source_index": 2892
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrIZr-28c61999c692",
+      "source_index": 2893
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2I2-c3fa8fd438b6",
+      "source_index": 2894
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiIS-acdcd16c0d76",
+      "source_index": 2895
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReAg2Cl6-63c4affdd5b9",
+      "source_index": 2896
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ru2Se4-7bbcf668755a",
+      "source_index": 2897
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeHfI6-7894abe85502",
+      "source_index": 2898
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2I2-2a704c8deb56",
+      "source_index": 2899
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrSSe-09e1e5ef94cb",
+      "source_index": 2900
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrTe2-599f0c912458",
+      "source_index": 2901
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2Se2-f615d3b872f4",
+      "source_index": 2902
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2I2Se4-b30d27347163",
+      "source_index": 2903
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ISSb-4c49d27e66e5",
+      "source_index": 2904
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2I6-29ae3f5ef5a7",
+      "source_index": 2905
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAu2S4-29cfac904ac7",
+      "source_index": 2906
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TeS2Sb2-df38f9c3a56d",
+      "source_index": 2907
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoW3Te8-5c3fe56a1a89",
+      "source_index": 2908
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2P2Te6-d839f9ec2709",
+      "source_index": 2909
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfSe2-d2d9fee03594",
+      "source_index": 2910
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClHfI-d3756ea15451",
+      "source_index": 2911
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2Te2-3b5fa8791e0d",
+      "source_index": 2912
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re4Te8-7c1336422fd2",
+      "source_index": 2913
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2P2Te6-e8f4b479deef",
+      "source_index": 2914
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2Mo2Se8-60065d3bbcf2",
+      "source_index": 2915
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2I2Se2-f28b21b26964",
+      "source_index": 2916
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ni2S4-f295a651d590",
+      "source_index": 2917
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfZr3Se8-70e7ab872359",
+      "source_index": 2918
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir4Se8-7a9859f02406",
+      "source_index": 2919
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Sc2S6-bc8b8c21ad4f",
+      "source_index": 2920
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CoHfF6-a1afa529df1b",
+      "source_index": 2921
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrBr2-7897c7cc2491",
+      "source_index": 2922
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cu2Se4-c8d0d00e7aa3",
+      "source_index": 2923
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2I2-e482cb121690",
+      "source_index": 2924
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsH2O2-192c92216c12",
+      "source_index": 2925
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSeZr-2be14f373da0",
+      "source_index": 2926
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrClTi-d3f135b9cf41",
+      "source_index": 2927
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrClHf-72257f9ad66d",
+      "source_index": 2928
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2I2S2-890beabfa390",
+      "source_index": 2929
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "As4-ff6eb167410f",
+      "source_index": 2930
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2I2Te4-87eeef832712",
+      "source_index": 2931
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cu2Se4-f0ed4ed73f83",
+      "source_index": 2932
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2I2S2-c8b75389b30c",
+      "source_index": 2933
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ISbTe-0f02957b17cf",
+      "source_index": 2934
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2P2S6-793870f62166",
+      "source_index": 2935
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Br2Se4-195d21444368",
+      "source_index": 2936
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Zr2Se8-81af2831dbb2",
+      "source_index": 2937
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Cl4-ddc64205f942",
+      "source_index": 2938
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeCl2-bdb4e65e9e72",
+      "source_index": 2939
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrHf3Se8-b8fb10416122",
+      "source_index": 2940
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2Te2-ed3311682142",
+      "source_index": 2941
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2Zr2S8-a99139546333",
+      "source_index": 2942
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrTi3S8-e6e376c80c43",
+      "source_index": 2943
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiClSe-a80866a2c6b4",
+      "source_index": 2944
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiZrI6-6664877fdd91",
+      "source_index": 2945
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Br4-69aac3df8db3",
+      "source_index": 2946
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cu2Te4-fc8a3cace7a2",
+      "source_index": 2947
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2I2S4-f8587bc84f8a",
+      "source_index": 2948
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfTi3S8-fde2d81d10df",
+      "source_index": 2949
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2P2S6-d44b5a63c91e",
+      "source_index": 2950
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnSe2-bfa429d647f9",
+      "source_index": 2951
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2W2Te8-c04fc052f2ca",
+      "source_index": 2952
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfNiI6-96019ef5d6a6",
+      "source_index": 2953
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WCr3S8-dc4259e69783",
+      "source_index": 2954
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Pd2-28a66c9b9a33",
+      "source_index": 2955
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Br2-a71d673909fb",
+      "source_index": 2956
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeZrBr6-248e1ae388d3",
+      "source_index": 2957
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReCu2F6-9c6f35d960fb",
+      "source_index": 2958
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cu2Te4-af27d0354197",
+      "source_index": 2959
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiBr2-7b8108883def",
+      "source_index": 2960
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClIZr-73202b4b7837",
+      "source_index": 2961
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnI2-49cdfdc22d83",
+      "source_index": 2962
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrS2-c5ee5e35d2b4",
+      "source_index": 2963
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiSe2-0684166af1fd",
+      "source_index": 2964
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrW3Se8-0b7696e1f4c9",
+      "source_index": 2965
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfSSe-9afb20358166",
+      "source_index": 2966
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2I6-462e253dd5f0",
+      "source_index": 2967
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiBrS-49b7be14f786",
+      "source_index": 2968
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnH2O2-94609f9a55af",
+      "source_index": 2969
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Cl2-0b97cd6baa5d",
+      "source_index": 2970
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoCu2Se4-2b6237b24f79",
+      "source_index": 2971
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnI2-701e1fc14b22",
+      "source_index": 2972
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BP-0a5e44762c75",
+      "source_index": 2973
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoCr3S8-3fb52099b370",
+      "source_index": 2974
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2N2O2Zr3-57adb92deade",
+      "source_index": 2975
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WMo3Te8-323fb700d903",
+      "source_index": 2976
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiCl2-95688ba68ca1",
+      "source_index": 2977
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P4-276f0a298324",
+      "source_index": 2978
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfCl2-864f8b497185",
+      "source_index": 2979
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Ti2S8-c8cfffe63bfa",
+      "source_index": 2980
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrClZr-8cb69386d06b",
+      "source_index": 2981
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoO2-152bd69757aa",
+      "source_index": 2982
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2H2-c6017e131897",
+      "source_index": 2983
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ni2Te4-5257d747113d",
+      "source_index": 2984
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Sn2-95443c1cf2fb",
+      "source_index": 2985
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbTe-3bc08d486d65",
+      "source_index": 2986
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoTe2-38a53176109a",
+      "source_index": 2987
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cu2S4-1d7274dec874",
+      "source_index": 2988
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CHf2O2-27e68f9f2aef",
+      "source_index": 2989
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeHfBr6-181fcd1ccbdd",
+      "source_index": 2990
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAg2S4-65c1c4665d99",
+      "source_index": 2991
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2W2S8-5974b6403c31",
+      "source_index": 2992
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Cl2S2-99346f7e250f",
+      "source_index": 2993
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CO2Zr2-091a247432d0",
+      "source_index": 2994
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrMo3Se8-a7233837cfe9",
+      "source_index": 2995
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Se2-3a5cf30b34d6",
+      "source_index": 2996
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zn2Te4-e203877e40e2",
+      "source_index": 2997
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2S2-ca95bca41f95",
+      "source_index": 2998
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2Br6-a3381f5ec841",
+      "source_index": 2999
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrS2-1a039e022308",
+      "source_index": 3000
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Br2S2-9e8786952b94",
+      "source_index": 3001
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Pb2Se6-1811d52ac455",
+      "source_index": 3002
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Sb2Se6-5d1a32a28ffa",
+      "source_index": 3003
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2I6-d182faf4b34d",
+      "source_index": 3004
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrCl2-dc09b7c396eb",
+      "source_index": 3005
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Cl2Te4-ad0f58cb7fb5",
+      "source_index": 3006
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsITe-b6d803aafe3a",
+      "source_index": 3007
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2-63094a4b50b5",
+      "source_index": 3008
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2P2Se6-6152fa4b5f1b",
+      "source_index": 3009
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2In2-9ab97b2e26fc",
+      "source_index": 3010
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfTe2-1e2c6946ca41",
+      "source_index": 3011
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2I6-cead7a19c832",
+      "source_index": 3012
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoSTe-e4bb8738150a",
+      "source_index": 3013
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiZr3S8-ec37c6657ea3",
+      "source_index": 3014
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2I2O2-02b711e42a2f",
+      "source_index": 3015
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiClS-c96ef4fc869c",
+      "source_index": 3016
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ISbSe-343d2125478e",
+      "source_index": 3017
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiHf3S8-eb71cb1c9077",
+      "source_index": 3018
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ISbTe-052a3116531d",
+      "source_index": 3019
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ISbSe-df0019ec24b5",
+      "source_index": 3020
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeI2-694ac91aec01",
+      "source_index": 3021
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2O2Tl2-c3c952d61f44",
+      "source_index": 3022
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2Br2Te4-5e64ed168c9e",
+      "source_index": 3023
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2Mo2S8-72b286460831",
+      "source_index": 3024
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ni2Se4-d3aef0ef49cc",
+      "source_index": 3025
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2P2S6-b81eb586acfd",
+      "source_index": 3026
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CF2Sc2-b592b469c203",
+      "source_index": 3027
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiBrSe-11db0908d9ef",
+      "source_index": 3028
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "RuI2-9aaf5722abcc",
+      "source_index": 3029
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ReAg2F6-0117514b5a66",
+      "source_index": 3030
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2I2Te4-27e83673114d",
+      "source_index": 3031
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbSe2-0bc5d11454a7",
+      "source_index": 3032
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2O2Tl2-9b3666807d82",
+      "source_index": 3033
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeTeW-6e2a4c6f4f57",
+      "source_index": 3034
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Sn2S6-aa34f4a1c451",
+      "source_index": 3035
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "RuBr2-88699c6d39e3",
+      "source_index": 3036
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnI2-2b7cf85310ef",
+      "source_index": 3037
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeZrCl6-7a4195b3cc8f",
+      "source_index": 3038
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrSbTe-18e62ba75259",
+      "source_index": 3039
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnZrI6-87bf2615c49d",
+      "source_index": 3040
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2I2Se4-5480bc670f81",
+      "source_index": 3041
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoOS-85f406e841b4",
+      "source_index": 3042
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfS2-2c5e65012601",
+      "source_index": 3043
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsBrTe-671e6de2497a",
+      "source_index": 3044
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2In2Se2-59bbb5bc246d",
+      "source_index": 3045
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2Te4-c9c123996733",
+      "source_index": 3046
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2N2Sn2-6b6a530fe6cf",
+      "source_index": 3047
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrSbSe-89b15ddef41d",
+      "source_index": 3048
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAg2Se4-9f6654987212",
+      "source_index": 3049
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAu2S4-5bbbcec3454f",
+      "source_index": 3050
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2I2O2-26ea03aefca3",
+      "source_index": 3051
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiH2O2-4f81e6b4f5aa",
+      "source_index": 3052
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2S4-13a422bdb0e1",
+      "source_index": 3053
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeHfCl6-f2aeeb1b6428",
+      "source_index": 3054
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Tl2Br6-ef8df28dd878",
+      "source_index": 3055
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnI2-7f0ca28e3229",
+      "source_index": 3056
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "InP-c5672c6c1c78",
+      "source_index": 3057
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClIV-9f3e8b6323b9",
+      "source_index": 3058
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsI2-1f04d0d433a3",
+      "source_index": 3059
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2I6-01a2d5e89adc",
+      "source_index": 3060
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2N2Zr2-0da35ef15eab",
+      "source_index": 3061
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re4Se8-c3bc24117d8e",
+      "source_index": 3062
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CF2Y2-c1e2c223ffeb",
+      "source_index": 3063
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsGa-728f322893fe",
+      "source_index": 3064
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pd2S4-b53de4491ef5",
+      "source_index": 3065
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeH2O2-ab32018371c5",
+      "source_index": 3066
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2Se2-9b75762d0ef6",
+      "source_index": 3067
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbO2-8d2de90b58b6",
+      "source_index": 3068
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrW3S8-a9f87eba4b96",
+      "source_index": 3069
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2Zr2S8-540829ada792",
+      "source_index": 3070
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Co2Cl6-bdec053d68e4",
+      "source_index": 3071
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnO2-5cbde8fd417d",
+      "source_index": 3072
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoSeTe-42eb12e7b656",
+      "source_index": 3073
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "STeW-75ee10091f43",
+      "source_index": 3074
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Te2-3cf9ea4cebc4",
+      "source_index": 3075
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrHf3S8-9cbc09153aeb",
+      "source_index": 3076
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsISe-5d829e480507",
+      "source_index": 3077
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2I6-944c9b326b62",
+      "source_index": 3078
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfZr3S8-78bb1ac31c01",
+      "source_index": 3079
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsBr2-a5ea024ddd2a",
+      "source_index": 3080
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2S6-240d9960ec51",
+      "source_index": 3081
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrS2-8913f4e54692",
+      "source_index": 3082
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pb2S2-d4ed2cd9ee0c",
+      "source_index": 3083
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PtSe2-d000f0288397",
+      "source_index": 3084
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Br2S4-5979f170cce4",
+      "source_index": 3085
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PdS2-02762a09ebbf",
+      "source_index": 3086
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClSbSe-0c0fbdaf8f4a",
+      "source_index": 3087
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "RuCl2-6be75763d9c1",
+      "source_index": 3088
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zr2S6-ca713875183d",
+      "source_index": 3089
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CrMo3S8-644f7c1c85c7",
+      "source_index": 3090
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Cl2S4-f98532e454a0",
+      "source_index": 3091
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiBrS-3b305c3e2c18",
+      "source_index": 3092
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2I2S4-c6527bc4fbaf",
+      "source_index": 3093
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrIV-2da05db34435",
+      "source_index": 3094
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2In2O2-7c4141b0ea1e",
+      "source_index": 3095
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Si2-aa0e94e8944e",
+      "source_index": 3096
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiO2-1cfb690281c9",
+      "source_index": 3097
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgI2-efa4b9d311d3",
+      "source_index": 3098
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "VI2-d480b343c982",
+      "source_index": 3099
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeZrF6-d0f34941e6b6",
+      "source_index": 3100
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pd2Te4-7af34a9daaff",
+      "source_index": 3101
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Br2Te4-ce52fbc99f30",
+      "source_index": 3102
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Au2S2-8074370a0af2",
+      "source_index": 3103
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrSSb-4da5c6be60db",
+      "source_index": 3104
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiCl2-3ad667c285e2",
+      "source_index": 3105
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ISSb-5b94060698bc",
+      "source_index": 3106
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "FeHfF6-84841eb484b0",
+      "source_index": 3107
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfS2-d48ddb34811e",
+      "source_index": 3108
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnI2-c37f0a810838",
+      "source_index": 3109
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cu2-c1a86f114149",
+      "source_index": 3110
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsBrSe-989f469f06bd",
+      "source_index": 3111
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2In2Se2-06798ff26674",
+      "source_index": 3112
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Te2-fcd97ff5abcd",
+      "source_index": 3113
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WCu2Se4-3630245c0f9d",
+      "source_index": 3114
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiClSe-7fe9c5cb910c",
+      "source_index": 3115
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Br2Se4-c7e3d505588c",
+      "source_index": 3116
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsBrTe-64921449e408",
+      "source_index": 3117
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AlAs-814ae25a188e",
+      "source_index": 3118
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WSe2-1cfbe6183886",
+      "source_index": 3119
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OSeW-1d3a0d54f893",
+      "source_index": 3120
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "VBr2-606bfb261671",
+      "source_index": 3121
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClSbTe-da5fd2bb47af",
+      "source_index": 3122
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoW3Se8-24d6cc0a0fed",
+      "source_index": 3123
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2In2Se2-597a69fb8eaf",
+      "source_index": 3124
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiS2-0428a52595e8",
+      "source_index": 3125
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Te2-1b0b43b113f5",
+      "source_index": 3126
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2W2Se8-a1d716aad84d",
+      "source_index": 3127
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnBr2-0155c4de2320",
+      "source_index": 3128
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2P2Se6-0460cce85156",
+      "source_index": 3129
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re4S8-627997a105e1",
+      "source_index": 3130
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hg2I2-f7e70d2b90ad",
+      "source_index": 3131
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiO2-c444fe118e1b",
+      "source_index": 3132
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsClTe-fba4cc0df459",
+      "source_index": 3133
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrClV-878148656c6a",
+      "source_index": 3134
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Cl2Te4-d2ed9275e89c",
+      "source_index": 3135
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbI2-14411dde597c",
+      "source_index": 3136
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Te2-55c23ca88a05",
+      "source_index": 3137
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WMo3Se8-05a06afa3b20",
+      "source_index": 3138
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiZrBr6-58bbdebe3477",
+      "source_index": 3139
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeBr2-204ef2affa10",
+      "source_index": 3140
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Re4O8-7ae3f753661d",
+      "source_index": 3141
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2P2S6-669d6f1af4d4",
+      "source_index": 3142
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Zn2Se6-80919996ffa8",
+      "source_index": 3143
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Pt2-93dfef2d1004",
+      "source_index": 3144
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pt2Te4-9b0c8e2f4e4e",
+      "source_index": 3145
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pd2Se4-12f02221b8c5",
+      "source_index": 3146
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2O2-bce0ccee4eca",
+      "source_index": 3147
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClSSb-9188c300265c",
+      "source_index": 3148
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrSbTe-f1e78a09001d",
+      "source_index": 3149
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Se2-178396d52e5c",
+      "source_index": 3150
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoSe2-f61b14d398c7",
+      "source_index": 3151
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OsCl2-3ed14a37e3d3",
+      "source_index": 3152
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2In2-03fd837646b6",
+      "source_index": 3153
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsIS-b13beafa16aa",
+      "source_index": 3154
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2In2-d38747f97b6c",
+      "source_index": 3155
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Cl2Se4-55e92c5d7b58",
+      "source_index": 3156
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WO2-94cfbb3f9284",
+      "source_index": 3157
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2Br6-e56454dbf5b1",
+      "source_index": 3158
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeS2-69b36b84eb8c",
+      "source_index": 3159
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbO2-e2a7fd3e05fc",
+      "source_index": 3160
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Br6-e9e5bee778b6",
+      "source_index": 3161
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "VCl2-1ccb0b28392d",
+      "source_index": 3162
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfNiBr6-f5da1fb79dd2",
+      "source_index": 3163
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2I6-cc505909d655",
+      "source_index": 3164
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfMnI6-502a8c200800",
+      "source_index": 3165
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdS2-605cc644570a",
+      "source_index": 3166
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2Se4-f25f251c7be8",
+      "source_index": 3167
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Pb2S6-7cf77f91eef0",
+      "source_index": 3168
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2N2Sn2-f82c8da396f5",
+      "source_index": 3169
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeCl2-3ea474649fa9",
+      "source_index": 3170
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsClSe-1a3be826b3e0",
+      "source_index": 3171
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2I6-433fccc74b5d",
+      "source_index": 3172
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PdO2-de604d79f9c3",
+      "source_index": 3173
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAg2S4-b2684e86acec",
+      "source_index": 3174
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zn2Se4-5234a9f6507a",
+      "source_index": 3175
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SiS2-c70107ea4985",
+      "source_index": 3176
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsBrS-1dcd471c2288",
+      "source_index": 3177
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbS2-372c217dd52f",
+      "source_index": 3178
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Sc2Se2-95558a590f15",
+      "source_index": 3179
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClSbTe-04fdd7d1ec5c",
+      "source_index": 3180
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSeW-001e03f2c095",
+      "source_index": 3181
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2Se2-6e69c77cf8fc",
+      "source_index": 3182
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Se2-eb204c739879",
+      "source_index": 3183
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2P2S6-57b6b4812de1",
+      "source_index": 3184
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2N2Sn2-7fb47020feec",
+      "source_index": 3185
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Sc2Se2-0fa2e5513bb2",
+      "source_index": 3186
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Sn2-7a8373382b33",
+      "source_index": 3187
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Cl2Se2-b7d248345211",
+      "source_index": 3188
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsBrS-d9f4d4011670",
+      "source_index": 3189
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Si2-0726c763a59a",
+      "source_index": 3190
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ga2S2-e8c957867a6c",
+      "source_index": 3191
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrSSb-4ae37f15e1fe",
+      "source_index": 3192
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BiClS-99fd027b1d0b",
+      "source_index": 3193
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Br2O2-1562a8a7b1c7",
+      "source_index": 3194
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnS2-08a9307b286e",
+      "source_index": 3195
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pt2Se4-60c67ebd5bd2",
+      "source_index": 3196
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrSe2-001dfe9a7fa2",
+      "source_index": 3197
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cu2-820b7699bd43",
+      "source_index": 3198
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnCl2-95805103ce95",
+      "source_index": 3199
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoSSe-de7ac5fc6945",
+      "source_index": 3200
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeO2-77905aa4e75f",
+      "source_index": 3201
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ScO2-f4888020712e",
+      "source_index": 3202
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BrSbSe-c2a344b393f0",
+      "source_index": 3203
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeTe-eadd37f03ca5",
+      "source_index": 3204
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnBr2-2afc82f66833",
+      "source_index": 3205
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsClTe-4fd8ad708fb0",
+      "source_index": 3206
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "As2-2cfe371476fd",
+      "source_index": 3207
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ga2S2-b03c8123f1c4",
+      "source_index": 3208
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdI2-66c5fba8ad87",
+      "source_index": 3209
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2I2Se2-c5dc6126821b",
+      "source_index": 3210
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cu2-c8531601b146",
+      "source_index": 3211
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsBrSe-206b9dcf2af6",
+      "source_index": 3212
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbI2-82db29775962",
+      "source_index": 3213
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ge2N2-eaf4f392b6cd",
+      "source_index": 3214
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OSW-b3f989013f80",
+      "source_index": 3215
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AlSb-1734deee2ac1",
+      "source_index": 3216
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2Br6-e406fd4547de",
+      "source_index": 3217
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Sc2Se2-5ac3898b9a10",
+      "source_index": 3218
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2S4-04d0ed1bbce6",
+      "source_index": 3219
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cu2-1d4af93f2f8f",
+      "source_index": 3220
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoW3S8-2f6f133abcc8",
+      "source_index": 3221
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Mo2W2S8-449640ec4d30",
+      "source_index": 3222
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbSe-a0dbdc6630fa",
+      "source_index": 3223
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WS2-64090c9845f8",
+      "source_index": 3224
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WCu2S4-812e863395ac",
+      "source_index": 3225
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Br2Se2-1b6ba48355c2",
+      "source_index": 3226
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsClS-afd0d75a82a2",
+      "source_index": 3227
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2In2S2-2563c60fafcf",
+      "source_index": 3228
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgI2-7c2657e15a6f",
+      "source_index": 3229
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2In2-9d0130e99f0c",
+      "source_index": 3230
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2O2-16c96094d1a0",
+      "source_index": 3231
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WMo3S8-9c2979187585",
+      "source_index": 3232
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2Br6-c59955626932",
+      "source_index": 3233
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbH2O2-312f30a3cbc6",
+      "source_index": 3234
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Cl2-dd5f0964d63d",
+      "source_index": 3235
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdF2O2-ba123f9bc3c3",
+      "source_index": 3236
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgBr2-9965e7e32aa2",
+      "source_index": 3237
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbI2-9e6494406d07",
+      "source_index": 3238
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoS2-b3b4685fb6e1",
+      "source_index": 3239
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnTe-e688959ea45b",
+      "source_index": 3240
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GaP-d467820f3f04",
+      "source_index": 3241
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2I2N2-f02e6e3d1130",
+      "source_index": 3242
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnS2-42a44e4e7298",
+      "source_index": 3243
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnBr2-4d6ea02f2407",
+      "source_index": 3244
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Rh2Cl6-2c405e8c0414",
+      "source_index": 3245
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2I6-68457dfb5c70",
+      "source_index": 3246
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "NiZrCl6-fb1017d33c02",
+      "source_index": 3247
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeF2-943ceb2df00b",
+      "source_index": 3248
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2S2-1b7899449ed6",
+      "source_index": 3249
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2I2S2-57fa2b38763c",
+      "source_index": 3250
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfNiCl6-1cbc55708ee3",
+      "source_index": 3251
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Se2Zn2-4349b5bd2e79",
+      "source_index": 3252
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnF2-d6c3ab6de6b8",
+      "source_index": 3253
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnZrBr6-e6c3b44451c3",
+      "source_index": 3254
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In4Br8-5d48ce80db68",
+      "source_index": 3255
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Se2-8a6a5075fdf0",
+      "source_index": 3256
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbBr2-cabd4ba0f21c",
+      "source_index": 3257
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Tl2Br6-a53871fb1a3b",
+      "source_index": 3258
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2S2Sc2-211074b92a35",
+      "source_index": 3259
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClSSb-0495f35048b5",
+      "source_index": 3260
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ClSbSe-f705a30af945",
+      "source_index": 3261
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PtO2-6f43cd15097d",
+      "source_index": 3262
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2S2-172ef584c4a6",
+      "source_index": 3263
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Tl2Cl6-a7ad562f5ed6",
+      "source_index": 3264
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfSe2-08401460f377",
+      "source_index": 3265
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PtS2-77caffd1d3ed",
+      "source_index": 3266
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Li2S2-46174a65d380",
+      "source_index": 3267
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrO2-24a8929c68ce",
+      "source_index": 3268
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zn2S4-b7597244c206",
+      "source_index": 3269
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OSn-026ebfd86b48",
+      "source_index": 3270
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnCl2-36192c4a6b20",
+      "source_index": 3271
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ge2S2-ecbb7c185669",
+      "source_index": 3272
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsClSe-df329350eef2",
+      "source_index": 3273
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Br2-9d25bdce5cb7",
+      "source_index": 3274
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AsClS-0fd6ab210774",
+      "source_index": 3275
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Cl2O2-50556ff9cabd",
+      "source_index": 3276
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cr2Cl6-9f9e75488d50",
+      "source_index": 3277
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Br6-2b3b022fdf0a",
+      "source_index": 3278
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Te2-e54041554385",
+      "source_index": 3279
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnI2-69f5f8718ba5",
+      "source_index": 3280
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Se2-394e5709a3ac",
+      "source_index": 3281
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2I2-0c52f79478e2",
+      "source_index": 3282
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnBr2-6e4f4724ab75",
+      "source_index": 3283
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2S2-d9ca01c61c76",
+      "source_index": 3284
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2I2-996fda50f076",
+      "source_index": 3285
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2I2-ac7333c6ab94",
+      "source_index": 3286
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2In2-3e7cf76994f4",
+      "source_index": 3287
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnCl2-81a2afdb71c1",
+      "source_index": 3288
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2In2S2-deefb141a3ba",
+      "source_index": 3289
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "OPb-2a393480e273",
+      "source_index": 3290
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Pt2S4-216f8f2dd8c1",
+      "source_index": 3291
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2O2Sc2-4e9b068d07a4",
+      "source_index": 3292
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2N2Zr2-63d69e4c4075",
+      "source_index": 3293
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbS-5e4ff1f56b4a",
+      "source_index": 3294
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ir2Cl6-8e4ef34c974b",
+      "source_index": 3295
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2I6-d7ab89c33511",
+      "source_index": 3296
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Br2-e5d5e94b098e",
+      "source_index": 3297
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnI2-bf884c9076a0",
+      "source_index": 3298
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Na2S2-08f5ab934dc0",
+      "source_index": 3299
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2N2Zr2-fb4c67eeb415",
+      "source_index": 3300
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2I6-0a5d381b331c",
+      "source_index": 3301
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ge2N2-8f94e8abac80",
+      "source_index": 3302
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2I6-d59c550c4a3a",
+      "source_index": 3303
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cu2I2-48470661aab1",
+      "source_index": 3304
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2I2-d7506967a8d5",
+      "source_index": 3305
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GaN-c973e283b023",
+      "source_index": 3306
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cd2P2S6-ebcb2404504e",
+      "source_index": 3307
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2In2S2-7214206fb620",
+      "source_index": 3308
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Tl2Cl4-30ddf92eb9d6",
+      "source_index": 3309
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "As2I6-7c51a624bf63",
+      "source_index": 3310
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnI2-d9c422656482",
+      "source_index": 3311
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrS2-2e44a755e594",
+      "source_index": 3312
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfO2-512afaae525a",
+      "source_index": 3313
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CSiF2-ee1174d1d821",
+      "source_index": 3314
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbCl2-f9d58a299674",
+      "source_index": 3315
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAg2O4-cb4221af4e5e",
+      "source_index": 3316
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Br6-2a1d71d82f8a",
+      "source_index": 3317
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeI2-24970c2cdc0f",
+      "source_index": 3318
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Te2-1584210aaef9",
+      "source_index": 3319
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgBr2-2af12bd12520",
+      "source_index": 3320
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Se2-129a514b51ad",
+      "source_index": 3321
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ag2Cl2-be4990592165",
+      "source_index": 3322
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbBr2-0dc6977a707b",
+      "source_index": 3323
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgBr2-978e95bef964",
+      "source_index": 3324
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Br6-d59933910be2",
+      "source_index": 3325
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MnCl2-8eec64049548",
+      "source_index": 3326
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2In2-97f88130feea",
+      "source_index": 3327
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Tl2-4dec0d273348",
+      "source_index": 3328
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Hf2N2-429f38307441",
+      "source_index": 3329
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgCl2-6cbe2e585099",
+      "source_index": 3330
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAg2O4-f245f06b7e15",
+      "source_index": 3331
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2S2-f9df9f4a5c34",
+      "source_index": 3332
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "P2Zn2S6-7acea360f955",
+      "source_index": 3333
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgF2-f5965c8b3d89",
+      "source_index": 3334
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Zn2-748053f4b718",
+      "source_index": 3335
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2I6-c16b24ee2d30",
+      "source_index": 3336
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfS2-3d4bfe131291",
+      "source_index": 3337
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnBr2-a41087b2c98b",
+      "source_index": 3338
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnO2-96a036411ab6",
+      "source_index": 3339
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Hf2N2-4fcefac18ea4",
+      "source_index": 3340
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2S2Sc2-8dd7b2e2ca68",
+      "source_index": 3341
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ga2-5e74b3f59c30",
+      "source_index": 3342
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2S2Sc2-d38af92ba9a0",
+      "source_index": 3343
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeO-a42f736f1682",
+      "source_index": 3344
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdI2-b474b300c0f6",
+      "source_index": 3345
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Se2-136900211245",
+      "source_index": 3346
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2S2-dce599ea3912",
+      "source_index": 3347
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "H2Si2-8d6b4834e8cd",
+      "source_index": 3348
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SeSn-d59c96fdfda1",
+      "source_index": 3349
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2S2-6f3b2e422ac9",
+      "source_index": 3350
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Cl6-3e134cb61e06",
+      "source_index": 3351
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeSe-211bcb7f05d6",
+      "source_index": 3352
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2I2O2-086883f2d3a8",
+      "source_index": 3353
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdH2O2-d41831225acf",
+      "source_index": 3354
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AlP-fd5144909f06",
+      "source_index": 3355
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdH2S2-b78d7cc4d25a",
+      "source_index": 3356
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Br2S2-0df11388b5d6",
+      "source_index": 3357
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbBr2-cbdc15b42a05",
+      "source_index": 3358
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SSn-f98da23471a1",
+      "source_index": 3359
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2In2O2-1e3e9d3ccdf7",
+      "source_index": 3360
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2In2-9669b3269d2d",
+      "source_index": 3361
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeBr2-a64179cfe007",
+      "source_index": 3362
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2S2-ac002f4ce724",
+      "source_index": 3363
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnCl2-b44ab946b72b",
+      "source_index": 3364
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sb2Br6-fd1a1303c198",
+      "source_index": 3365
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnH2O2-ed8127ad41ef",
+      "source_index": 3366
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Cl2S2-eaa4915152ca",
+      "source_index": 3367
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdI2-d63ad801fdb5",
+      "source_index": 3368
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgH2S2-60c1ca2daded",
+      "source_index": 3369
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2Cl6-8fd22b48e9b1",
+      "source_index": 3370
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbCl2-ec34fbc566ef",
+      "source_index": 3371
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdBr2-a7bb757c6234",
+      "source_index": 3372
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ga2-68c9368e1839",
+      "source_index": 3373
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Tl2-c0f52097ab62",
+      "source_index": 3374
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnBr2-553cb6a56984",
+      "source_index": 3375
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Tl2-495c0ec26ef4",
+      "source_index": 3376
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Tl2Cl6-428082203077",
+      "source_index": 3377
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnI2-ce0e9cd74bb3",
+      "source_index": 3378
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgCl2-31f13a321b70",
+      "source_index": 3379
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeS-227b12019ade",
+      "source_index": 3380
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoCu2O4-260fda9edb77",
+      "source_index": 3381
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2O6-e13b860d55ed",
+      "source_index": 3382
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HgCl2-ce3ed4728e8f",
+      "source_index": 3383
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "As2Br6-744410ea2c2e",
+      "source_index": 3384
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnBr2-8d365ca62c55",
+      "source_index": 3385
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Br6-fab8ea0c0979",
+      "source_index": 3386
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgF2S2-b90602f22cdb",
+      "source_index": 3387
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Ga2O2-f06d0758fdea",
+      "source_index": 3388
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Cl6-c306553fa81a",
+      "source_index": 3389
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeBr2-36a198743d35",
+      "source_index": 3390
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "S2Zn2-fdc73006aad8",
+      "source_index": 3391
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgI2-67bb6819958f",
+      "source_index": 3392
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Y2I6-d2a7ba833570",
+      "source_index": 3393
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbF2-ccc95033446d",
+      "source_index": 3394
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Br6-f99a20bc06b2",
+      "source_index": 3395
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2In2O2-17adcd54556e",
+      "source_index": 3396
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeCl2-8b0f0207ae45",
+      "source_index": 3397
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MoAu2O4-2bb1599db07a",
+      "source_index": 3398
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Br6-a43351c43cd3",
+      "source_index": 3399
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Tl2-4995f864f56a",
+      "source_index": 3400
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnO2-9c24e87a3dde",
+      "source_index": 3401
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiO2-08ea3807f888",
+      "source_index": 3402
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbF4-0ace524dc18a",
+      "source_index": 3403
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Br6-a3e0d1173fbf",
+      "source_index": 3404
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnCl2-514a8a12dca9",
+      "source_index": 3405
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Y2I6-4040d3dcb2dd",
+      "source_index": 3406
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "PbCl2-b0b142073783",
+      "source_index": 3407
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Na2O2-feda03610e19",
+      "source_index": 3408
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaF2O2-c9928cc76ebe",
+      "source_index": 3409
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ti2O4-312489eced4d",
+      "source_index": 3410
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrF2O2-3bbaf8ef2ded",
+      "source_index": 3411
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Cl6-89b069b9f428",
+      "source_index": 3412
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "AlN-4fcd8dcb9c90",
+      "source_index": 3413
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WCu2O4-0e59c155c5bf",
+      "source_index": 3414
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Li2O2-b828755117a8",
+      "source_index": 3415
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdBr2-bb3c9722fb14",
+      "source_index": 3416
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaI2-066f40f26c53",
+      "source_index": 3417
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeCl2-a7216f084785",
+      "source_index": 3418
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "WAu2O4-08a6045d63d6",
+      "source_index": 3419
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgF2O2-a989681fd871",
+      "source_index": 3420
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Br6-28805c67295d",
+      "source_index": 3421
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeO2-21281ac194c2",
+      "source_index": 3422
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Tl2-948c61cd5626",
+      "source_index": 3423
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdBr2-5acf0d634aa9",
+      "source_index": 3424
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdCl2-46c028e03e8b",
+      "source_index": 3425
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "C2F2-02ae369021e9",
+      "source_index": 3426
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2O2Sc2-7a1e1bf3f7d9",
+      "source_index": 3427
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Cl6-3eef25de07b3",
+      "source_index": 3428
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnBr2-4718298eb660",
+      "source_index": 3429
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgI2-440644551de5",
+      "source_index": 3430
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaI2-c4707a226b8f",
+      "source_index": 3431
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgH2O2-aae66ddf6472",
+      "source_index": 3432
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnBr2-88424f85cf2b",
+      "source_index": 3433
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrI2-6cfaae647808",
+      "source_index": 3434
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnCl2-62c6ee7a0a25",
+      "source_index": 3435
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "C2H2-1b265530a869",
+      "source_index": 3436
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Hf2O6-e464c4b902d8",
+      "source_index": 3437
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "TiO2-badf6957f0bb",
+      "source_index": 3438
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Y2Br6-6d976a1e88b3",
+      "source_index": 3439
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "H2Na2O2-656a6c539ad1",
+      "source_index": 3440
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgH2S2-508dbde022e2",
+      "source_index": 3441
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaI2-ee886d522d75",
+      "source_index": 3442
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "H2Na2S2-4175a1c2b529",
+      "source_index": 3443
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgBr2-bee1987fb4e6",
+      "source_index": 3444
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Zr2O6-04a84154f901",
+      "source_index": 3445
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdCl2-ff50eed37ec7",
+      "source_index": 3446
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Tl2-9c35cd88980f",
+      "source_index": 3447
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "GeO2-630e9718ed1f",
+      "source_index": 3448
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Ga2O2-d5722b10ff79",
+      "source_index": 3449
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrH2O2-dc3df56e9ede",
+      "source_index": 3450
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaH2O2-3bf48754e0f0",
+      "source_index": 3451
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2Rb2-11be6212a512",
+      "source_index": 3452
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "In2Cl6-8e55d0f45518",
+      "source_index": 3453
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CSiH2-8a1587098151",
+      "source_index": 3454
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdF2-14736784891b",
+      "source_index": 3455
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrH2S2-98dac0d24d5d",
+      "source_index": 3456
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaH2S2-6c8ab372da70",
+      "source_index": 3457
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Ga2Cl6-68439f1fa55d",
+      "source_index": 3458
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Cl6-450a3fc3ff50",
+      "source_index": 3459
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CdCl2-3861891e1b05",
+      "source_index": 3460
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaI2-080cc67ae6c9",
+      "source_index": 3461
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "I2K2-5a28480fd516",
+      "source_index": 3462
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Br6-d185cf10e109",
+      "source_index": 3463
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrI2-1059dc7f5fe4",
+      "source_index": 3464
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Sc2Cl6-dbf1b04d5e0f",
+      "source_index": 3465
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "H2Li2O2-c94cd98c2120",
+      "source_index": 3466
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaI2-e20476acac18",
+      "source_index": 3467
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "H2Li2S2-2067f1965013",
+      "source_index": 3468
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaI2-793f311ee701",
+      "source_index": 3469
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrI2-7d9241a9f3b1",
+      "source_index": 3470
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Cs2-a9677b59b7ce",
+      "source_index": 3471
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SnF4-a61b85728555",
+      "source_index": 3472
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Y2Br6-fd5f6e2221ca",
+      "source_index": 3473
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaBr2-fbb623b6f288",
+      "source_index": 3474
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Br2O2-5c86a74cc470",
+      "source_index": 3475
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cs2F2-fd11b1cd0dc1",
+      "source_index": 3476
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaBr2-1a59eff92917",
+      "source_index": 3477
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2Rb2-307d05b0f770",
+      "source_index": 3478
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnCl2-1b7175e04416",
+      "source_index": 3479
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2O2Sc2-4f02b8743bf5",
+      "source_index": 3480
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrBr2-2876a0cb2478",
+      "source_index": 3481
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Bi2F6-720f09b813a6",
+      "source_index": 3482
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrO2-da3987f48688",
+      "source_index": 3483
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Br2K2-a110a9463b72",
+      "source_index": 3484
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Y2Cl6-e9b63ba77c55",
+      "source_index": 3485
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnF2-a57169b6ba57",
+      "source_index": 3486
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZrO2-f09f2879d995",
+      "source_index": 3487
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "ZnCl2-29e6de323923",
+      "source_index": 3488
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Cs2-e85b67045b23",
+      "source_index": 3489
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfO2-6e4ac7453419",
+      "source_index": 3490
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2Rb2-b58f604cba62",
+      "source_index": 3491
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaBr2-df54a81e64da",
+      "source_index": 3492
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrBr2-a4c9c803de7d",
+      "source_index": 3493
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgBr2-702277c8c7ed",
+      "source_index": 3494
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2Rb2-c867862764fc",
+      "source_index": 3495
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BN-4a5edc763604",
+      "source_index": 3496
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaBr2-49f279264c91",
+      "source_index": 3497
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaCl2-54ec344f88a7",
+      "source_index": 3498
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgCl2-e73a5c5ae5ac",
+      "source_index": 3499
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaCl2-3ca106221b9b",
+      "source_index": 3500
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "HfO2-a555d8dafaf2",
+      "source_index": 3501
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaBr2-819000a41305",
+      "source_index": 3502
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Cl2K2-85e2702c201b",
+      "source_index": 3503
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaBr2-74dc20d8f1ff",
+      "source_index": 3504
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrBr2-a17f01139eff",
+      "source_index": 3505
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrCl2-77398c835c11",
+      "source_index": 3506
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "F2K2-1a3c550a375a",
+      "source_index": 3507
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Y2Cl6-7a926d84d193",
+      "source_index": 3508
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaCl2-ef1fab58e11f",
+      "source_index": 3509
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrCl2-e03e4067ecb2",
+      "source_index": 3510
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Cl6-b8b35ca6154e",
+      "source_index": 3511
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaCl2-55e6ef39650c",
+      "source_index": 3512
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaCl2-00a09165a480",
+      "source_index": 3513
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "BaF2-4b7403281822",
+      "source_index": 3514
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "Al2Cl2O2-7b01cbac3629",
+      "source_index": 3515
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrCl2-67727fec854b",
+      "source_index": 3516
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaCl2-643810e6bb76",
+      "source_index": 3517
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "MgCl2-85b63b2e4472",
+      "source_index": 3518
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "SrF2-c99805c05244",
+      "source_index": 3519
+    },
+    {
+      "reason": "gap_not_exactly_zero",
+      "source_id": "CaF2-9632fda9fd46",
+      "source_index": 3520
+    }
+  ],
+  "schema": "materon.c2db_workfunction_exclusions.v1",
+  "source_file": "C2DB_SOURCE.json",
+  "source_sha256": "c15fb53c70c49c9cc62edac73c835e068323af959b183717594d11699f34ff47"
+}

@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Os2Te2__13c7ec5be36a",
+ "species_order": [
+  "Pt",
+  "Os",
+  "Te"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

@@ -1,0 +1,5471 @@
+{
+  "status": "completed",
+  "raw_results_sha256": "840f0995c927b1a2774c402c6b7e81e8385bb7ef03ae79d9f9f9e5d040baf3da",
+  "fixed_material_count": 64,
+  "chemical_system_count": 45,
+  "k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "methods": [
+    "gate_path_ig",
+    "modulation_magnitude",
+    "endpoint_gradient",
+    "random"
+  ],
+  "cluster_bootstrap": {
+    "unit": "chemical_system",
+    "resamples": 3000,
+    "seed": 20261015,
+    "material_weighted": true,
+    "paired_resamples_across_methods": true,
+    "random_rankings_in_interval": "20 ranking responses averaged per material before chemical-system resampling"
+  },
+  "curves": {
+    "gate_path_ig": {
+      "1": {
+        "delta_prediction_eV": {
+          "mean": 0.09185133039212352,
+          "ci95_low": 0.029380844721185812,
+          "ci95_high": 0.14927117902077539,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.175531786823577,
+          "ci95_low": 0.13063364709784717,
+          "ci95_high": 0.22946702432152488,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "3": {
+        "delta_prediction_eV": {
+          "mean": 0.15967811910423385,
+          "ci95_low": 0.03667688033273524,
+          "ci95_high": 0.26232748662322547,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.2786694386109706,
+          "ci95_low": 0.19106479933695522,
+          "ci95_high": 0.39279311568330766,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "5": {
+        "delta_prediction_eV": {
+          "mean": 0.1561509274701895,
+          "ci95_low": 0.027428489072585202,
+          "ci95_high": 0.26167871716606134,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.29614063686019587,
+          "ci95_low": 0.20506191941148522,
+          "ci95_high": 0.40886389588939503,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "10": {
+        "delta_prediction_eV": {
+          "mean": 0.1373841131800982,
+          "ci95_low": -0.0021550434419608665,
+          "ci95_high": 0.2491690610370676,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.30899275111635593,
+          "ci95_low": 0.21520194657671135,
+          "ci95_high": 0.43065154636410097,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      }
+    },
+    "modulation_magnitude": {
+      "1": {
+        "delta_prediction_eV": {
+          "mean": 0.0246101768610903,
+          "ci95_low": -0.03544436443229983,
+          "ci95_high": 0.07589279048572728,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.11354381038232461,
+          "ci95_low": 0.07557438195606334,
+          "ci95_high": 0.15930602709772598,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "3": {
+        "delta_prediction_eV": {
+          "mean": 0.05477219970978269,
+          "ci95_low": -0.0622679248911701,
+          "ci95_high": 0.14401596115597026,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.19952593681842457,
+          "ci95_low": 0.12697912193465133,
+          "ci95_high": 0.2955644121845806,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "5": {
+        "delta_prediction_eV": {
+          "mean": 0.08033828351363664,
+          "ci95_low": -0.04183724288322079,
+          "ci95_high": 0.17619294533137037,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.22821406410684236,
+          "ci95_low": 0.1477478611622025,
+          "ci95_high": 0.3344168479199099,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "10": {
+        "delta_prediction_eV": {
+          "mean": 0.1337826046080357,
+          "ci95_low": 0.0014348038237379029,
+          "ci95_high": 0.24514771317098213,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.29465251678807225,
+          "ci95_low": 0.2001488540554245,
+          "ci95_high": 0.4154123109318429,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      }
+    },
+    "endpoint_gradient": {
+      "1": {
+        "delta_prediction_eV": {
+          "mean": 0.09302271053688088,
+          "ci95_low": 0.030892207860031835,
+          "ci95_high": 0.14989851845109223,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.17450255227005057,
+          "ci95_low": 0.13041706531568076,
+          "ci95_high": 0.22842342994802065,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "3": {
+        "delta_prediction_eV": {
+          "mean": 0.14071195085587543,
+          "ci95_low": 0.01894644589181727,
+          "ci95_high": 0.2438431606033218,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.27348481510944733,
+          "ci95_low": 0.18707070522712932,
+          "ci95_high": 0.3846015298736909,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "5": {
+        "delta_prediction_eV": {
+          "mean": 0.1448432782175255,
+          "ci95_low": 0.01950615642566742,
+          "ci95_high": 0.24931626546830538,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.28900194905072385,
+          "ci95_low": 0.2030970748217995,
+          "ci95_high": 0.40032519771344666,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "10": {
+        "delta_prediction_eV": {
+          "mean": 0.1358464497766464,
+          "ci95_low": 0.005175462466303828,
+          "ci95_high": 0.24278455467508644,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.2995136628466142,
+          "ci95_low": 0.21051266424474854,
+          "ci95_high": 0.4142358266186855,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      }
+    },
+    "random": {
+      "1": {
+        "delta_prediction_eV": {
+          "mean": 0.006516321654339802,
+          "ci95_low": -0.0024348169212532896,
+          "ci95_high": 0.014127740275217408,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.03461325171925331,
+          "ci95_low": 0.02681216858128518,
+          "ci95_high": 0.04447403434614818,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        }
+      },
+      "3": {
+        "delta_prediction_eV": {
+          "mean": 0.023367721121513217,
+          "ci95_low": -0.0012800375317668256,
+          "ci95_high": 0.04415489549415163,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.07833095371912394,
+          "ci95_low": 0.059273341852085625,
+          "ci95_high": 0.10154295234778911,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        }
+      },
+      "5": {
+        "delta_prediction_eV": {
+          "mean": 0.03459002026392469,
+          "ci95_low": -0.007638939733370137,
+          "ci95_high": 0.06852937771658696,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.11652503139979814,
+          "ci95_low": 0.08772894710954805,
+          "ci95_high": 0.15268794364626787,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        }
+      },
+      "10": {
+        "delta_prediction_eV": {
+          "mean": 0.068511244594,
+          "ci95_low": -0.014954115382809245,
+          "ci95_high": 0.13381807967395667,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        },
+        "absolute_delta_prediction_eV": {
+          "mean": 0.1885115025256107,
+          "ci95_low": 0.13517118901107344,
+          "ci95_high": 0.2609476237422918,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 20,
+          "bootstrap_draws": 3000
+        }
+      }
+    }
+  },
+  "paired_absolute_response_contrasts": {
+    "estimand": "gate_path_ig minus comparator absolute response, paired by material",
+    "positive_means": "gate_path_ig has larger mean absolute response",
+    "by_k": {
+      "1": {
+        "modulation_magnitude": {
+          "mean": 0.06198797644125242,
+          "ci95_low": 0.03505855297514757,
+          "ci95_high": 0.09626350493062297,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "endpoint_gradient": {
+          "mean": 0.0010292345535264716,
+          "ci95_low": -0.0010278220297720603,
+          "ci95_high": 0.004058147098847451,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "random": {
+          "mean": 0.1409185351043237,
+          "ci95_low": 0.10345113924641602,
+          "ci95_high": 0.18503410307345167,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "3": {
+        "modulation_magnitude": {
+          "mean": 0.07914350179254602,
+          "ci95_low": 0.03566378103207157,
+          "ci95_high": 0.13315385009340291,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "endpoint_gradient": {
+          "mean": 0.005184623501523274,
+          "ci95_low": -0.016507695803999814,
+          "ci95_high": 0.023840751410989673,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "random": {
+          "mean": 0.20033848489184664,
+          "ci95_low": 0.12960316022855164,
+          "ci95_high": 0.2941907567306298,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "5": {
+        "modulation_magnitude": {
+          "mean": 0.06792657275335354,
+          "ci95_low": 0.03909177777100754,
+          "ci95_high": 0.10166073682957516,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "endpoint_gradient": {
+          "mean": 0.007138687809472084,
+          "ci95_low": -0.0075838360853253345,
+          "ci95_high": 0.020707273393647526,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "random": {
+          "mean": 0.1796156054603978,
+          "ci95_low": 0.11648456218753983,
+          "ci95_high": 0.2567529617425185,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      },
+      "10": {
+        "modulation_magnitude": {
+          "mean": 0.014340234328283685,
+          "ci95_low": -0.003712611882344651,
+          "ci95_high": 0.03263348088056871,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "endpoint_gradient": {
+          "mean": 0.00947908826974176,
+          "ci95_low": -0.0020790546043152054,
+          "ci95_high": 0.02218807208605477,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        },
+        "random": {
+          "mean": 0.12048124859074529,
+          "ci95_low": 0.077572781902329,
+          "ci95_high": 0.1725919439899347,
+          "bootstrap_unit": "chemical_system",
+          "material_weighted": true,
+          "random_ranking_replicates_averaged_per_material": 1,
+          "bootstrap_draws": 3000
+        }
+      }
+    }
+  },
+  "per_chemical_system": [
+    {
+      "chemical_system": "Ag-Br-O-Sr",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.1157035476972661,
+            "mean_absolute_delta_eV": 0.1157035476972661,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.1462704342204857,
+            "mean_absolute_delta_eV": 0.1462704342204857,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.028490381065269688,
+            "mean_absolute_delta_eV": 0.028490381065269688,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.1243792964279109,
+            "mean_absolute_delta_eV": 0.1243792964279109,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.06122554745106168,
+            "mean_absolute_delta_eV": 0.06122554745106168,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.02640329588400281,
+            "mean_absolute_delta_eV": 0.02640329588400281,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.03421038046829494,
+            "mean_absolute_delta_eV": 0.03421038046829494,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.013265783601985603,
+            "mean_absolute_delta_eV": 0.013265783601985603,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.11013498232205965,
+            "mean_absolute_delta_eV": 0.11013498232205965,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.14627018381283285,
+            "mean_absolute_delta_eV": 0.14627018381283285,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.09291820417778851,
+            "mean_absolute_delta_eV": 0.09291820417778851,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.13706181800542527,
+            "mean_absolute_delta_eV": 0.13706181800542527,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.0004792802467913582,
+            "mean_absolute_delta_eV": 0.031277142788631626,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.009465011740501206,
+            "mean_absolute_delta_eV": 0.07099566839569219,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.015000584342449086,
+            "mean_absolute_delta_eV": 0.10497204447781985,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.05685973698201354,
+            "mean_absolute_delta_eV": 0.10765357082019178,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Ag-Ca-Cl-S",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.2155254908531301,
+            "mean_absolute_delta_eV": 0.2155254908531301,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.2661407652545371,
+            "mean_absolute_delta_eV": 0.2661407652545371,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.2617477386037619,
+            "mean_absolute_delta_eV": 0.2617477386037619,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.33320394110336427,
+            "mean_absolute_delta_eV": 0.33320394110336427,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.2155251778435643,
+            "mean_absolute_delta_eV": 0.2155251778435643,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.3654456166080893,
+            "mean_absolute_delta_eV": 0.3654456166080893,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.4296327979666028,
+            "mean_absolute_delta_eV": 0.4296327979666028,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.444548173280066,
+            "mean_absolute_delta_eV": 0.444548173280066,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.21552561605695608,
+            "mean_absolute_delta_eV": 0.21552561605695608,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.4562027714442687,
+            "mean_absolute_delta_eV": 0.4562027714442687,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.40325948839898107,
+            "mean_absolute_delta_eV": 0.40325948839898107,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3332038158995374,
+            "mean_absolute_delta_eV": 0.3332038158995374,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.003121559884785485,
+            "mean_absolute_delta_eV": 0.03299522412315041,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.03803020209194048,
+            "mean_absolute_delta_eV": 0.07444731251784265,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.09874351251905308,
+            "mean_absolute_delta_eV": 0.12908869436698356,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.18288190950117303,
+            "mean_absolute_delta_eV": 0.18599352507206007,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Ag-Cl",
+      "n_materials": 4,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.2707563417064274,
+            "mean_absolute_delta_eV": 0.2707563417064274,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.394550998867778,
+            "mean_absolute_delta_eV": 0.394550998867778,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.44102002335990065,
+            "mean_absolute_delta_eV": 0.44102002335990065,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3735014185931784,
+            "mean_absolute_delta_eV": 0.3735014185931784,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.2707563417064274,
+            "mean_absolute_delta_eV": 0.2707563417064274,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.3299492676406315,
+            "mean_absolute_delta_eV": 0.3299492676406315,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.3020129448073665,
+            "mean_absolute_delta_eV": 0.3020129448073665,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.36048654345894837,
+            "mean_absolute_delta_eV": 0.36048654345894837,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.2707561852016447,
+            "mean_absolute_delta_eV": 0.2707561852016447,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.34573606158462455,
+            "mean_absolute_delta_eV": 0.34573606158462455,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.37179176034606876,
+            "mean_absolute_delta_eV": 0.37179176034606876,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3428651691502298,
+            "mean_absolute_delta_eV": 0.3428651691502298,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.017925956091730165,
+            "mean_absolute_delta_eV": 0.04147119293352638,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.07998253141898173,
+            "mean_absolute_delta_eV": 0.10166148941734736,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.11794352083578423,
+            "mean_absolute_delta_eV": 0.1291424678452997,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.22352629862259726,
+            "mean_absolute_delta_eV": 0.22826369839740526,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Ag-Cl-O",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.14053616158127014,
+            "mean_absolute_delta_eV": 0.14053616158127014,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.35489237390127926,
+            "mean_absolute_delta_eV": 0.35489237390127926,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.5423201228881824,
+            "mean_absolute_delta_eV": 0.5423201228881824,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.5089712073462316,
+            "mean_absolute_delta_eV": 0.5089712073462316,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.1492781431359873,
+            "mean_absolute_delta_eV": 0.1492781431359873,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.30099049906145225,
+            "mean_absolute_delta_eV": 0.30099049906145225,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.3510284586201333,
+            "mean_absolute_delta_eV": 0.3510284586201333,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.5230656524720914,
+            "mean_absolute_delta_eV": 0.5230656524720914,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.1405359111736173,
+            "mean_absolute_delta_eV": 0.1405359111736173,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.35489237390127926,
+            "mean_absolute_delta_eV": 0.35489237390127926,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.45371550353342904,
+            "mean_absolute_delta_eV": 0.45371550353342904,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.42123950906792196,
+            "mean_absolute_delta_eV": 0.42123950906792196,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.02562499759922856,
+            "mean_absolute_delta_eV": 0.0367768022380746,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.06324161702209326,
+            "mean_absolute_delta_eV": 0.08330204950836376,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.11133694531401592,
+            "mean_absolute_delta_eV": 0.13600397713783657,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.20553426934167224,
+            "mean_absolute_delta_eV": 0.20963211545173777,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Al-Br-Pt",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.21964244697969715,
+            "mean_absolute_delta_eV": 0.21964244697969715,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.013006549079785934,
+            "mean_absolute_delta_eV": 0.013006549079785934,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.0109213419559131,
+            "mean_absolute_delta_eV": 0.0109213419559131,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.08059231396141886,
+            "mean_absolute_delta_eV": 0.08059231396141886,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.2196424313292189,
+            "mean_absolute_delta_eV": 0.2196424313292189,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.18431034978176886,
+            "mean_absolute_delta_eV": 0.18431034978176886,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.15424837898876032,
+            "mean_absolute_delta_eV": 0.15424837898876032,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.030836574586754928,
+            "mean_absolute_delta_eV": 0.030836574586754928,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.2196423217758703,
+            "mean_absolute_delta_eV": 0.2196423217758703,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.01300661168169892,
+            "mean_absolute_delta_eV": 0.01300661168169892,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.010921169800651498,
+            "mean_absolute_delta_eV": 0.010921169800651498,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0805923609128536,
+            "mean_absolute_delta_eV": 0.0805923609128536,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.014765584390232078,
+            "mean_absolute_delta_eV": 0.033850282721842984,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.0037066632858417936,
+            "mean_absolute_delta_eV": 0.07826239410069431,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.055566043357865524,
+            "mean_absolute_delta_eV": 0.13112608492692718,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.020115343558725886,
+            "mean_absolute_delta_eV": 0.12245136389472004,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Al-Cl-Pd",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.17318869344175436,
+            "mean_absolute_delta_eV": 0.17318869344175436,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.39250141223246615,
+            "mean_absolute_delta_eV": 0.39250141223246615,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.38672575972868284,
+            "mean_absolute_delta_eV": 0.38672575972868284,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.35785773262256093,
+            "mean_absolute_delta_eV": 0.35785773262256093,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.044097538819585225,
+            "mean_absolute_delta_eV": 0.044097538819585225,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.07932469956065802,
+            "mean_absolute_delta_eV": 0.07932469956065802,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.19896071163392826,
+            "mean_absolute_delta_eV": 0.19896071163392826,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.17410775212816265,
+            "mean_absolute_delta_eV": 0.17410775212816265,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.17318875604366735,
+            "mean_absolute_delta_eV": 0.17318875604366735,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.39250147483437914,
+            "mean_absolute_delta_eV": 0.39250147483437914,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.3867260101363357,
+            "mean_absolute_delta_eV": 0.3867260101363357,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.37337918835782524,
+            "mean_absolute_delta_eV": 0.37337918835782524,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.03864858065957235,
+            "mean_absolute_delta_eV": 0.06158905171974287,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.09012917783021943,
+            "mean_absolute_delta_eV": 0.10794047382293984,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.11956550979872263,
+            "mean_absolute_delta_eV": 0.1319817729193853,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.19291166405519866,
+            "mean_absolute_delta_eV": 0.19414454613204132,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Al-Cl-Pt",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.2631902744876191,
+            "mean_absolute_delta_eV": 0.2631902744876191,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.20216993610774026,
+            "mean_absolute_delta_eV": 0.20216993610774026,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.25768149393943585,
+            "mean_absolute_delta_eV": 0.25768149393943585,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.38609404382346213,
+            "mean_absolute_delta_eV": 0.38609404382346213,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.1997563819495909,
+            "mean_absolute_delta_eV": 0.1997563819495909,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0033797520851317486,
+            "mean_absolute_delta_eV": 0.0033797520851317486,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.008705547241286915,
+            "mean_absolute_delta_eV": 0.008705547241286915,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.19335445990702738,
+            "mean_absolute_delta_eV": 0.19335445990702738,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.26319005538092277,
+            "mean_absolute_delta_eV": 0.26319005538092277,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.20216990480678376,
+            "mean_absolute_delta_eV": 0.20216990480678376,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.25768099312413106,
+            "mean_absolute_delta_eV": 0.25768099312413106,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3860936995129398,
+            "mean_absolute_delta_eV": 0.3860936995129398,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.029314106428293973,
+            "mean_absolute_delta_eV": 0.0351938095718618,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0474786384108965,
+            "mean_absolute_delta_eV": 0.13549083082109908,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.13870067779268513,
+            "mean_absolute_delta_eV": 0.1758236560898907,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.18452023795469547,
+            "mean_absolute_delta_eV": 0.21510661245346702,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Al-I-Ni",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.037241064285910674,
+            "mean_absolute_delta_eV": 0.037241064285910674,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.012141891455872411,
+            "mean_absolute_delta_eV": 0.012141891455872411,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.012845536959259718,
+            "mean_absolute_delta_eV": 0.012845536959259718,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0014339594217611662,
+            "mean_absolute_delta_eV": 0.0014339594217611662,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.012963353759738006,
+            "mean_absolute_delta_eV": 0.012963353759738006,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.033348665134298905,
+            "mean_absolute_delta_eV": 0.033348665134298905,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.023839935347774954,
+            "mean_absolute_delta_eV": 0.023839935347774954,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.007853472601909495,
+            "mean_absolute_delta_eV": 0.007853472601909495,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.03724112688782366,
+            "mean_absolute_delta_eV": 0.03724112688782366,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.03334891554195085,
+            "mean_absolute_delta_eV": 0.03334891554195085,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.013446953538534423,
+            "mean_absolute_delta_eV": 0.013446953538534423,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0014338968198481794,
+            "mean_absolute_delta_eV": 0.0014338968198481794,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.0039650924931190715,
+            "mean_absolute_delta_eV": 0.009554178775443178,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0036882464877125987,
+            "mean_absolute_delta_eV": 0.013683828222417694,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.0005197774243844045,
+            "mean_absolute_delta_eV": 0.01657683634766709,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.004137814301492826,
+            "mean_absolute_delta_eV": 0.027210131250869952,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Al-S",
+      "n_materials": 2,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.07513634986480544,
+            "mean_absolute_delta_eV": 0.196380730289768,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0001674914185327836,
+            "mean_absolute_delta_eV": 0.3026882942460265,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.17416966542023138,
+            "mean_absolute_delta_eV": 0.4330950593732168,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.3682439769009034,
+            "mean_absolute_delta_eV": 0.6089931557892521,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.16066884293546368,
+            "mean_absolute_delta_eV": 0.16066884293546368,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.24691768969787153,
+            "mean_absolute_delta_eV": 0.3234355072802919,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.2752889393224871,
+            "mean_absolute_delta_eV": 0.41017890915629085,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.2725683540814763,
+            "mean_absolute_delta_eV": 0.5283437449704542,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.07513638116576216,
+            "mean_absolute_delta_eV": 0.19638088679455068,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.1795015642629143,
+            "mean_absolute_delta_eV": 0.48235709951982164,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.1847183381873836,
+            "mean_absolute_delta_eV": 0.4225463866060646,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.35583463442173535,
+            "mean_absolute_delta_eV": 0.6214023417636367,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.02606541927350331,
+            "mean_absolute_delta_eV": 0.043324967044812666,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.06914595871361515,
+            "mean_absolute_delta_eV": 0.13724577216205858,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.13031285756237776,
+            "mean_absolute_delta_eV": 0.23040760107501246,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.20318921576189913,
+            "mean_absolute_delta_eV": 0.3318005079394843,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "As-Bi-Cr",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.04145041692361229,
+            "mean_absolute_delta_eV": 0.04145041692361229,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.009313630924308036,
+            "mean_absolute_delta_eV": 0.009313630924308036,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.02893203756227969,
+            "mean_absolute_delta_eV": 0.02893203756227969,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.027289911128940858,
+            "mean_absolute_delta_eV": 0.027289911128940858,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.04145044822456878,
+            "mean_absolute_delta_eV": 0.04145044822456878,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.05101758559602665,
+            "mean_absolute_delta_eV": 0.05101758559602665,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.04628794845844464,
+            "mean_absolute_delta_eV": 0.04628794845844464,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.03313456659145242,
+            "mean_absolute_delta_eV": 0.03313456659145242,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.041450291719786314,
+            "mean_absolute_delta_eV": 0.041450291719786314,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.009313834380525243,
+            "mean_absolute_delta_eV": 0.009313834380525243,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.028932100164193564,
+            "mean_absolute_delta_eV": 0.028932100164193564,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.02728989547846261,
+            "mean_absolute_delta_eV": 0.02728989547846261,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.002266541390443466,
+            "mean_absolute_delta_eV": 0.006713028509968267,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.005152521668422105,
+            "mean_absolute_delta_eV": 0.017008557138542768,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.009546999118533206,
+            "mean_absolute_delta_eV": 0.02203625450483746,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.012142112127616178,
+            "mean_absolute_delta_eV": 0.0221339643533478,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "As-Br",
+      "n_materials": 2,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.1596645517443518,
+            "mean_absolute_delta_eV": 0.1596645517443518,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.146463717627221,
+            "mean_absolute_delta_eV": 0.146463717627221,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.08654279404542864,
+            "mean_absolute_delta_eV": 0.08654279404542864,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.042350569832260376,
+            "mean_absolute_delta_eV": 0.042350569832260376,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.004772550749021054,
+            "mean_absolute_delta_eV": 0.004772550749021054,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.1718250046674621,
+            "mean_absolute_delta_eV": 0.1718250046674621,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.007297974525902529,
+            "mean_absolute_delta_eV": 0.028445464192611514,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.09243591903916748,
+            "mean_absolute_delta_eV": 0.09243591903916748,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.15966483345296112,
+            "mean_absolute_delta_eV": 0.15966483345296112,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.16244604864682177,
+            "mean_absolute_delta_eV": 0.16244604864682177,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.0865425436377758,
+            "mean_absolute_delta_eV": 0.0865425436377758,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.04007930982261643,
+            "mean_absolute_delta_eV": 0.049622032447960596,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.0008671554402467141,
+            "mean_absolute_delta_eV": 0.015583453539915703,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.012479185868580123,
+            "mean_absolute_delta_eV": 0.0468464811621883,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.002137554843617795,
+            "mean_absolute_delta_eV": 0.0629855251159318,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.022621144961573792,
+            "mean_absolute_delta_eV": 0.10266689022736879,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "As-In",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.0663323611151494,
+            "mean_absolute_delta_eV": 0.0663323611151494,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.13751737212714676,
+            "mean_absolute_delta_eV": 0.13751737212714676,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.12558081494628404,
+            "mean_absolute_delta_eV": 0.12558081494628404,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.12578765166720896,
+            "mean_absolute_delta_eV": 0.12578765166720896,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.014186156928569282,
+            "mean_absolute_delta_eV": 0.014186156928569282,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.0026998953087273847,
+            "mean_absolute_delta_eV": 0.0026998953087273847,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.09955682405383115,
+            "mean_absolute_delta_eV": 0.09955682405383115,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.11057670142098353,
+            "mean_absolute_delta_eV": 0.11057670142098353,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.0663323611151494,
+            "mean_absolute_delta_eV": 0.0663323611151494,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.13751755993288572,
+            "mean_absolute_delta_eV": 0.13751755993288572,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.1255805645386321,
+            "mean_absolute_delta_eV": 0.1255805645386321,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.12578765166720896,
+            "mean_absolute_delta_eV": 0.12578765166720896,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.0009817576324865573,
+            "mean_absolute_delta_eV": 0.008832776239401197,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.0288483794956917,
+            "mean_absolute_delta_eV": 0.030793051584817776,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.04342420203243145,
+            "mean_absolute_delta_eV": 0.04460268304677908,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.07108509522857398,
+            "mean_absolute_delta_eV": 0.07237615952346363,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "As-Sb-V",
+      "n_materials": 2,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.04942455080042585,
+            "mean_absolute_delta_eV": 0.04942455080042585,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.06905320458905084,
+            "mean_absolute_delta_eV": 0.06905320458905084,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.058947569473617456,
+            "mean_absolute_delta_eV": 0.058947569473617456,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.06709033334125891,
+            "mean_absolute_delta_eV": 0.06709033334125891,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.04942462905281708,
+            "mean_absolute_delta_eV": 0.04942462905281708,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.035563509082368494,
+            "mean_absolute_delta_eV": 0.035563509082368494,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.02329914089611096,
+            "mean_absolute_delta_eV": 0.02329914089611096,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.06025522171043418,
+            "mean_absolute_delta_eV": 0.06025522171043418,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.049424449072317245,
+            "mean_absolute_delta_eV": 0.049424449072317245,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.055788676937947645,
+            "mean_absolute_delta_eV": 0.055788676937947645,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.05894756164837789,
+            "mean_absolute_delta_eV": 0.05894756164837789,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.06709020422481338,
+            "mean_absolute_delta_eV": 0.06709020422481338,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.008556757948664706,
+            "mean_absolute_delta_eV": 0.010863535936237168,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.013391427402281409,
+            "mean_absolute_delta_eV": 0.016613590126486732,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.01810580356286353,
+            "mean_absolute_delta_eV": 0.02449168464771554,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.03586596513916747,
+            "mean_absolute_delta_eV": 0.03913338748150528,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "As-Sn",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.040267678979172494,
+            "mean_absolute_delta_eV": 0.040267678979172494,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.04634970524572957,
+            "mean_absolute_delta_eV": 0.04634970524572957,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.04399862779686714,
+            "mean_absolute_delta_eV": 0.04399862779686714,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.04036546316745415,
+            "mean_absolute_delta_eV": 0.04036546316745415,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.04026780418299847,
+            "mean_absolute_delta_eV": 0.04026780418299847,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0541235482141591,
+            "mean_absolute_delta_eV": 0.0541235482141591,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.04399850259304028,
+            "mean_absolute_delta_eV": 0.04399850259304028,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.041142352909183444,
+            "mean_absolute_delta_eV": 0.041142352909183444,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.040267678979172494,
+            "mean_absolute_delta_eV": 0.040267678979172494,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.04634964264381658,
+            "mean_absolute_delta_eV": 0.04634964264381658,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.027577707773998483,
+            "mean_absolute_delta_eV": 0.027577707773998483,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.040685984962592237,
+            "mean_absolute_delta_eV": 0.040685984962592237,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.0026798924324394234,
+            "mean_absolute_delta_eV": 0.006099675310911312,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0025761313265028284,
+            "mean_absolute_delta_eV": 0.012938425677936304,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.0043924100219303154,
+            "mean_absolute_delta_eV": 0.01823234080983851,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.02265726626543958,
+            "mean_absolute_delta_eV": 0.02690748856211731,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-Br-Ca-S",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.1406961720711859,
+            "mean_absolute_delta_eV": 0.1406961720711859,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.10947835085541957,
+            "mean_absolute_delta_eV": 0.10947835085541957,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.18559201048678453,
+            "mean_absolute_delta_eV": 0.18559201048678453,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.17467649050879164,
+            "mean_absolute_delta_eV": 0.17467649050879164,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.14069629727501187,
+            "mean_absolute_delta_eV": 0.14069629727501187,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.062272752253612396,
+            "mean_absolute_delta_eV": 0.062272752253612396,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.05762831631977683,
+            "mean_absolute_delta_eV": 0.05762831631977683,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.15673090089206188,
+            "mean_absolute_delta_eV": 0.15673090089206188,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.14069642247883785,
+            "mean_absolute_delta_eV": 0.14069642247883785,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.10947872646689838,
+            "mean_absolute_delta_eV": 0.10947872646689838,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.12256427916103263,
+            "mean_absolute_delta_eV": 0.12256427916103263,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.13817318976891535,
+            "mean_absolute_delta_eV": 0.13817318976891535,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.0010005538568987227,
+            "mean_absolute_delta_eV": 0.011336812072668234,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.009257874530393373,
+            "mean_absolute_delta_eV": 0.04185847184375931,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.02691397412031584,
+            "mean_absolute_delta_eV": 0.07305009415888755,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.10787395459511387,
+            "mean_absolute_delta_eV": 0.11350560391816375,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-Br-N",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.21834238913746518,
+            "mean_absolute_delta_eV": 0.21834238913746518,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.4602375586472558,
+            "mean_absolute_delta_eV": 0.4602375586472558,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.48932653920570957,
+            "mean_absolute_delta_eV": 0.48932653920570957,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.6226174996738303,
+            "mean_absolute_delta_eV": 0.6226174996738303,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.05658712130088528,
+            "mean_absolute_delta_eV": 0.05658712130088528,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.10449818086156082,
+            "mean_absolute_delta_eV": 0.10449818086156082,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.2662267176812412,
+            "mean_absolute_delta_eV": 0.2662267176812412,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.5244343180984758,
+            "mean_absolute_delta_eV": 0.5244343180984758,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.21834226393363831,
+            "mean_absolute_delta_eV": 0.21834226393363831,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.46023774645299476,
+            "mean_absolute_delta_eV": 0.46023774645299476,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.48932653920570957,
+            "mean_absolute_delta_eV": 0.48932653920570957,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.6226174996738303,
+            "mean_absolute_delta_eV": 0.6226174996738303,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.03272701874680193,
+            "mean_absolute_delta_eV": 0.04336504948473099,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.08900559712862414,
+            "mean_absolute_delta_eV": 0.10519034517408321,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.13515201831199858,
+            "mean_absolute_delta_eV": 0.15538120051525556,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.31994227983735707,
+            "mean_absolute_delta_eV": 0.31994227983735707,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-Br-O-Sr",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.06812966204061599,
+            "mean_absolute_delta_eV": 0.06812966204061599,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.045237206647802175,
+            "mean_absolute_delta_eV": 0.045237206647802175,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.038804171454422054,
+            "mean_absolute_delta_eV": 0.038804171454422054,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.05253934420092765,
+            "mean_absolute_delta_eV": 0.05253934420092765,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.06156660267370029,
+            "mean_absolute_delta_eV": 0.06156660267370029,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.08256647702928888,
+            "mean_absolute_delta_eV": 0.08256647702928888,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.12387647786178846,
+            "mean_absolute_delta_eV": 0.12387647786178846,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.14060164318238488,
+            "mean_absolute_delta_eV": 0.14060164318238488,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.06812934903105106,
+            "mean_absolute_delta_eV": 0.06812934903105106,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0430617275652212,
+            "mean_absolute_delta_eV": 0.0430617275652212,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.03880442186207489,
+            "mean_absolute_delta_eV": 0.03880442186207489,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.03127416293756724,
+            "mean_absolute_delta_eV": 0.03127416293756724,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.002607019110433262,
+            "mean_absolute_delta_eV": 0.03701269250687491,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.004296450679416042,
+            "mean_absolute_delta_eV": 0.0432918208968673,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.008641896746128941,
+            "mean_absolute_delta_eV": 0.05069619050420075,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.0018872880454715358,
+            "mean_absolute_delta_eV": 0.06881538148618374,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-Cl",
+      "n_materials": 4,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.201079567286099,
+            "mean_absolute_delta_eV": 0.201079567286099,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.27548062638043835,
+            "mean_absolute_delta_eV": 0.27548062638043835,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.25351849801839377,
+            "mean_absolute_delta_eV": 0.25351849801839377,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.1757634162252122,
+            "mean_absolute_delta_eV": 0.1757634162252122,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.18513013357183916,
+            "mean_absolute_delta_eV": 0.18513013357183916,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.22715877306591703,
+            "mean_absolute_delta_eV": 0.22715877306591703,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.2140141554667616,
+            "mean_absolute_delta_eV": 0.2140141554667616,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.1592731958845277,
+            "mean_absolute_delta_eV": 0.164747420176673,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.20107959858705549,
+            "mean_absolute_delta_eV": 0.20107959858705549,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.19779234082854802,
+            "mean_absolute_delta_eV": 0.19779234082854802,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.2380173879048908,
+            "mean_absolute_delta_eV": 0.2380173879048908,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.18352320506414777,
+            "mean_absolute_delta_eV": 0.18352320506414777,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.009350919753853059,
+            "mean_absolute_delta_eV": 0.03851183617066421,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.029811664868666442,
+            "mean_absolute_delta_eV": 0.07645378052045022,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.05351604985902603,
+            "mean_absolute_delta_eV": 0.11549773764771638,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.07242225644218421,
+            "mean_absolute_delta_eV": 0.1317592356386521,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-Cl-N",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.30849108467914466,
+            "mean_absolute_delta_eV": 0.30849108467914466,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.6919629847699653,
+            "mean_absolute_delta_eV": 0.6919629847699653,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.6971767225016485,
+            "mean_absolute_delta_eV": 0.6971767225016485,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.7111454629859777,
+            "mean_absolute_delta_eV": 0.7111454629859777,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.0786383947872018,
+            "mean_absolute_delta_eV": 0.0786383947872018,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.12512306975760357,
+            "mean_absolute_delta_eV": 0.12512306975760357,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.4301050667991255,
+            "mean_absolute_delta_eV": 0.4301050667991255,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.7632152302366464,
+            "mean_absolute_delta_eV": 0.7632152302366464,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.30849108467914466,
+            "mean_absolute_delta_eV": 0.30849108467914466,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.5561622823041974,
+            "mean_absolute_delta_eV": 0.5561622823041974,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.7415225405086394,
+            "mean_absolute_delta_eV": 0.7415225405086394,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.6206369942496384,
+            "mean_absolute_delta_eV": 0.6206369942496384,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.05759324672805151,
+            "mean_absolute_delta_eV": 0.07552898280365725,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.07174059047049086,
+            "mean_absolute_delta_eV": 0.11851040463473747,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.14635256793048965,
+            "mean_absolute_delta_eV": 0.19347260223745427,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.4031917468688017,
+            "mean_absolute_delta_eV": 0.4130830995482701,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-F",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.5000555680845391,
+            "mean_absolute_delta_eV": 0.5000555680845391,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.5960708767097556,
+            "mean_absolute_delta_eV": 0.5960708767097556,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.542125055326923,
+            "mean_absolute_delta_eV": 0.542125055326923,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3998950111806483,
+            "mean_absolute_delta_eV": 0.3998950111806483,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.16508500099313306,
+            "mean_absolute_delta_eV": 0.16508500099313306,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.3638277953675155,
+            "mean_absolute_delta_eV": 0.3638277953675155,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.18225520331404876,
+            "mean_absolute_delta_eV": 0.18225520331404876,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.40369870342137926,
+            "mean_absolute_delta_eV": 0.40369870342137926,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.5000550672692343,
+            "mean_absolute_delta_eV": 0.5000550672692343,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.5960713775250595,
+            "mean_absolute_delta_eV": 0.5960713775250595,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.5776063172333208,
+            "mean_absolute_delta_eV": 0.5776063172333208,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.39989476077299546,
+            "mean_absolute_delta_eV": 0.39989476077299546,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.016621008257559567,
+            "mean_absolute_delta_eV": 0.07699997751721543,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.055914000490331794,
+            "mean_absolute_delta_eV": 0.1461208532092937,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.10523213195108583,
+            "mean_absolute_delta_eV": 0.21251896511378496,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.07953041570733758,
+            "mean_absolute_delta_eV": 0.24296017203623915,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-I-S",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.0843787711129469,
+            "mean_absolute_delta_eV": 0.0843787711129469,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.07397696243395657,
+            "mean_absolute_delta_eV": 0.07397696243395657,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.08517437882669654,
+            "mean_absolute_delta_eV": 0.08517437882669654,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.10545273483270368,
+            "mean_absolute_delta_eV": 0.10545273483270368,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.08437852070529406,
+            "mean_absolute_delta_eV": 0.08437852070529406,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.01617567702824907,
+            "mean_absolute_delta_eV": 0.01617567702824907,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.019454076616051807,
+            "mean_absolute_delta_eV": 0.019454076616051807,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.08032304357002396,
+            "mean_absolute_delta_eV": 0.08032304357002396,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.0843787085110339,
+            "mean_absolute_delta_eV": 0.0843787085110339,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.06680669581080423,
+            "mean_absolute_delta_eV": 0.06680669581080423,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.14890738330557785,
+            "mean_absolute_delta_eV": 0.14890738330557785,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.09473513080301643,
+            "mean_absolute_delta_eV": 0.09473513080301643,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.011445654888901702,
+            "mean_absolute_delta_eV": 0.027184420645154493,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.012159481028409047,
+            "mean_absolute_delta_eV": 0.03354533999967666,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.017245786305759746,
+            "mean_absolute_delta_eV": 0.0519914882534648,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.06569909581257845,
+            "mean_absolute_delta_eV": 0.0818060234198474,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-I-Se",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.0694124378422103,
+            "mean_absolute_delta_eV": 0.0694124378422103,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.0730851668807091,
+            "mean_absolute_delta_eV": 0.0730851668807091,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.16556910158723426,
+            "mean_absolute_delta_eV": 0.16556910158723426,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.18353462991329117,
+            "mean_absolute_delta_eV": 0.18353462991329117,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.0694124378422103,
+            "mean_absolute_delta_eV": 0.0694124378422103,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.032355548384677135,
+            "mean_absolute_delta_eV": 0.032355548384677135,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.046761062416793564,
+            "mean_absolute_delta_eV": 0.046761062416793564,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.09744322696236196,
+            "mean_absolute_delta_eV": 0.09744322696236196,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.06673301335907045,
+            "mean_absolute_delta_eV": 0.06673301335907045,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.07308501037592663,
+            "mean_absolute_delta_eV": 0.07308501037592663,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.16556919549010463,
+            "mean_absolute_delta_eV": 0.16556919549010463,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.21402980594503962,
+            "mean_absolute_delta_eV": 0.21402980594503962,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.0018463182234348175,
+            "mean_absolute_delta_eV": 0.0162956129034864,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.010612055639131545,
+            "mean_absolute_delta_eV": 0.04283210531297166,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.05052690241076161,
+            "mean_absolute_delta_eV": 0.0713117704957639,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.10199944975790638,
+            "mean_absolute_delta_eV": 0.10667312391526132,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Au-Te",
+      "n_materials": 6,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.051793601519384946,
+            "mean_absolute_delta_eV": 0.051793601519384946,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.08320954931281059,
+            "mean_absolute_delta_eV": 0.08735493583737641,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.07653815081422073,
+            "mean_absolute_delta_eV": 0.08557556905580925,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.11653728845344391,
+            "mean_absolute_delta_eV": 0.11653728845344391,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.03387738915458982,
+            "mean_absolute_delta_eV": 0.03387738915458982,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.04010584015473695,
+            "mean_absolute_delta_eV": 0.041170570884545565,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.06010760770352105,
+            "mean_absolute_delta_eV": 0.06010760770352105,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.06922311074596221,
+            "mean_absolute_delta_eV": 0.06922311074596221,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.05179356891422193,
+            "mean_absolute_delta_eV": 0.05179356891422193,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.068405208925905,
+            "mean_absolute_delta_eV": 0.08065143951204472,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.07338304439008751,
+            "mean_absolute_delta_eV": 0.08584448209461766,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.11620675296062159,
+            "mean_absolute_delta_eV": 0.11620675296062159,
+            "n_materials": 6,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.006077017053840302,
+            "mean_absolute_delta_eV": 0.012651989108348794,
+            "n_materials": 6,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.020651872342114644,
+            "mean_absolute_delta_eV": 0.027914437074020002,
+            "n_materials": 6,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.034130639325158155,
+            "mean_absolute_delta_eV": 0.0419221447060586,
+            "n_materials": 6,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0696426311005292,
+            "mean_absolute_delta_eV": 0.07205743038464618,
+            "n_materials": 6,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "B-F-S-V",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.2909808287662008,
+            "mean_absolute_delta_eV": 0.2909808287662008,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.6575247959398531,
+            "mean_absolute_delta_eV": 0.6575247959398531,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.5586325537956265,
+            "mean_absolute_delta_eV": 0.5586325537956265,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.6158827545602019,
+            "mean_absolute_delta_eV": 0.6158827545602019,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.29098020274706915,
+            "mean_absolute_delta_eV": 0.29098020274706915,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.6575242951245475,
+            "mean_absolute_delta_eV": 0.6575242951245475,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.5586320529803217,
+            "mean_absolute_delta_eV": 0.5586320529803217,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.6511789652114386,
+            "mean_absolute_delta_eV": 0.6511789652114386,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.2240953171467872,
+            "mean_absolute_delta_eV": 0.2240953171467872,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.4343056551689912,
+            "mean_absolute_delta_eV": 0.4343056551689912,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.43697011779489614,
+            "mean_absolute_delta_eV": 0.43697011779489614,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.5827923849194079,
+            "mean_absolute_delta_eV": 0.5827923849194079,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.00975946922911346,
+            "mean_absolute_delta_eV": 0.03195723119211467,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.11607527159713774,
+            "mean_absolute_delta_eV": 0.1268552709536245,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.20187817989167808,
+            "mean_absolute_delta_eV": 0.2062830007428833,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.38060373083964655,
+            "mean_absolute_delta_eV": 0.38060373083964655,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "B-H-S-Ti",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.11450641131281047,
+            "mean_absolute_delta_eV": 0.11450641131281047,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.03933152997048461,
+            "mean_absolute_delta_eV": 0.03933152997048461,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.04335007197701879,
+            "mean_absolute_delta_eV": 0.04335007197701879,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.08369775620114961,
+            "mean_absolute_delta_eV": 0.08369775620114961,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.010746494812588825,
+            "mean_absolute_delta_eV": 0.010746494812588825,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.005874062711196615,
+            "mean_absolute_delta_eV": 0.005874062711196615,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.04921011185967794,
+            "mean_absolute_delta_eV": 0.04921011185967794,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.14862946211231343,
+            "mean_absolute_delta_eV": 0.14862946211231343,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.11450641131281047,
+            "mean_absolute_delta_eV": 0.11450641131281047,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.005874062711196615,
+            "mean_absolute_delta_eV": 0.005874062711196615,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.07824387753076589,
+            "mean_absolute_delta_eV": 0.07824387753076589,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.06168742436600816,
+            "mean_absolute_delta_eV": 0.06168742436600816,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.004728372578937212,
+            "mean_absolute_delta_eV": 0.014490489868975654,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.01215968291957883,
+            "mean_absolute_delta_eV": 0.030627572817791028,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.015362158907157707,
+            "mean_absolute_delta_eV": 0.04625818124875889,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.04900497791079002,
+            "mean_absolute_delta_eV": 0.06464949648685152,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "B-H-Se-Ti",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.12034541695266388,
+            "mean_absolute_delta_eV": 0.12034541695266388,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.05742348286007193,
+            "mean_absolute_delta_eV": 0.05742348286007193,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.05387395438657849,
+            "mean_absolute_delta_eV": 0.05387395438657849,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.019488726774959275,
+            "mean_absolute_delta_eV": 0.019488726774959275,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.07856990829425747,
+            "mean_absolute_delta_eV": 0.07856990829425747,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.05742348286007193,
+            "mean_absolute_delta_eV": 0.05742348286007193,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.02923659586957328,
+            "mean_absolute_delta_eV": 0.02923659586957328,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.009285366160536768,
+            "mean_absolute_delta_eV": 0.009285366160536768,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.07857040910956226,
+            "mean_absolute_delta_eV": 0.07857040910956226,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.05742348286007193,
+            "mean_absolute_delta_eV": 0.05742348286007193,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.07447824725320729,
+            "mean_absolute_delta_eV": 0.07447824725320729,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.04791625551946366,
+            "mean_absolute_delta_eV": 0.04791625551946366,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.00484782954953884,
+            "mean_absolute_delta_eV": 0.03158212678893433,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.006523983252750387,
+            "mean_absolute_delta_eV": 0.052810710973888716,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.017409692199719284,
+            "mean_absolute_delta_eV": 0.06711976797828108,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0036900447276664973,
+            "mean_absolute_delta_eV": 0.05407734800228192,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "B-S-V",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.17963080591253533,
+            "mean_absolute_delta_eV": 0.17963080591253533,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.18562393746247174,
+            "mean_absolute_delta_eV": 0.18562393746247174,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.1538176582634465,
+            "mean_absolute_delta_eV": 0.1538176582634465,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.0515225639281498,
+            "mean_absolute_delta_eV": 0.0515225639281498,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.1796309311163613,
+            "mean_absolute_delta_eV": 0.1796309311163613,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.2290180811863225,
+            "mean_absolute_delta_eV": 0.2290180811863225,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.19478297296234715,
+            "mean_absolute_delta_eV": 0.19478297296234715,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.05176351869172091,
+            "mean_absolute_delta_eV": 0.05176351869172091,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.1796309311163613,
+            "mean_absolute_delta_eV": 0.1796309311163613,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.1856236870548198,
+            "mean_absolute_delta_eV": 0.1856236870548198,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.1538176582634465,
+            "mean_absolute_delta_eV": 0.1538176582634465,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.051763769099373746,
+            "mean_absolute_delta_eV": 0.051763769099373746,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.0075369448088283605,
+            "mean_absolute_delta_eV": 0.04473568394128287,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.0035173448299619103,
+            "mean_absolute_delta_eV": 0.07372763153441139,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.0018523092265192887,
+            "mean_absolute_delta_eV": 0.09089397757747886,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.005114066095720826,
+            "mean_absolute_delta_eV": 0.08740630292423646,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Ba-Br",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -1.0212449160168147,
+            "mean_absolute_delta_eV": 1.0212449160168147,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -2.527980000799962,
+            "mean_absolute_delta_eV": 2.527980000799962,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -2.6197200369729687,
+            "mean_absolute_delta_eV": 2.6197200369729687,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -2.9075412219805425,
+            "mean_absolute_delta_eV": 2.9075412219805425,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -1.0212452290263805,
+            "mean_absolute_delta_eV": 1.0212452290263805,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -2.446323505179681,
+            "mean_absolute_delta_eV": 2.446323505179681,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -2.619719723963403,
+            "mean_absolute_delta_eV": 2.619719723963403,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -2.7143967288900948,
+            "mean_absolute_delta_eV": 2.7143967288900948,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -1.021244978618728,
+            "mean_absolute_delta_eV": 1.021244978618728,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -2.458125781256916,
+            "mean_absolute_delta_eV": 2.458125781256916,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -2.6197200995748817,
+            "mean_absolute_delta_eV": 2.6197200995748817,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -2.7027175907759524,
+            "mean_absolute_delta_eV": 2.7027175907759524,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.1815928500325506,
+            "mean_absolute_delta_eV": 0.18481492041893383,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.4882463306745658,
+            "mean_absolute_delta_eV": 0.4949437963489343,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.8645653682566034,
+            "mean_absolute_delta_eV": 0.8645653682566034,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -1.8056450464321834,
+            "mean_absolute_delta_eV": 1.8056450464321834,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Bi-I",
+      "n_materials": 4,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.10516485993525482,
+            "mean_absolute_delta_eV": 0.10516485993525482,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.241360447443699,
+            "mean_absolute_delta_eV": 0.241360447443699,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.3404107926758011,
+            "mean_absolute_delta_eV": 0.3404107926758011,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.4058156780816926,
+            "mean_absolute_delta_eV": 0.4058156780816926,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.026772811501390104,
+            "mean_absolute_delta_eV": 0.026772811501390104,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.10084335597021155,
+            "mean_absolute_delta_eV": 0.10084335597021155,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.27362885005270376,
+            "mean_absolute_delta_eV": 0.27362885005270376,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.4110123372289549,
+            "mean_absolute_delta_eV": 0.4110123372289549,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.10516491471192868,
+            "mean_absolute_delta_eV": 0.10516491471192868,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.21442340373587743,
+            "mean_absolute_delta_eV": 0.21442340373587743,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.29228665478783356,
+            "mean_absolute_delta_eV": 0.29228665478783356,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.33588047318248604,
+            "mean_absolute_delta_eV": 0.33588047318248604,
+            "n_materials": 4,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.016096819354610957,
+            "mean_absolute_delta_eV": 0.019392556542249716,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.05851367757014263,
+            "mean_absolute_delta_eV": 0.0598275305264532,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.09495662419684883,
+            "mean_absolute_delta_eV": 0.09632873214593039,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.189276445007066,
+            "mean_absolute_delta_eV": 0.189276445007066,
+            "n_materials": 4,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Bi-O",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.2948885653865254,
+            "mean_absolute_delta_eV": 0.2948885653865254,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.4534230273953659,
+            "mean_absolute_delta_eV": 0.4534230273953659,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.510094410871301,
+            "mean_absolute_delta_eV": 0.510094410871301,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.667016936219401,
+            "mean_absolute_delta_eV": 0.667016936219401,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.06934276191291477,
+            "mean_absolute_delta_eV": 0.06934276191291477,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.5173988020932976,
+            "mean_absolute_delta_eV": 0.5173988020932976,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.49575919878761,
+            "mean_absolute_delta_eV": 0.49575919878761,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.7161926796287803,
+            "mean_absolute_delta_eV": 0.7161926796287803,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.2948886905903514,
+            "mean_absolute_delta_eV": 0.2948886905903514,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.4534226517838871,
+            "mean_absolute_delta_eV": 0.4534226517838871,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.5100946612789539,
+            "mean_absolute_delta_eV": 0.5100946612789539,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.643836073812877,
+            "mean_absolute_delta_eV": 0.643836073812877,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.03831662775510018,
+            "mean_absolute_delta_eV": 0.049452043213093336,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.1107056864027606,
+            "mean_absolute_delta_eV": 0.1107056864027606,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.21411158908432965,
+            "mean_absolute_delta_eV": 0.21411158908432965,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.38391664912233897,
+            "mean_absolute_delta_eV": 0.38391664912233897,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Bi-Sb-Zr",
+      "n_materials": 2,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.04361182622622195,
+            "mean_absolute_delta_eV": 0.04361182622622195,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.0009992908633016384,
+            "mean_absolute_delta_eV": 0.0009992908633016384,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.0009637016756967043,
+            "mean_absolute_delta_eV": 0.0009637016756967043,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0010364216230165368,
+            "mean_absolute_delta_eV": 0.0010364216230165368,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.04361177144954764,
+            "mean_absolute_delta_eV": 0.04361177144954764,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.039024381509035866,
+            "mean_absolute_delta_eV": 0.039024381509035866,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.021534956382680548,
+            "mean_absolute_delta_eV": 0.021534956382680548,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.002528366066798071,
+            "mean_absolute_delta_eV": 0.002528366066798071,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.04361170102239509,
+            "mean_absolute_delta_eV": 0.04361170102239509,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.000999369115692872,
+            "mean_absolute_delta_eV": 0.000999369115692872,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.010226726778491901,
+            "mean_absolute_delta_eV": 0.010226726778491901,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0010363903220604875,
+            "mean_absolute_delta_eV": 0.0010363903220604875,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.0016384442670620558,
+            "mean_absolute_delta_eV": 0.006317210307524901,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -8.020361477014681e-05,
+            "mean_absolute_delta_eV": 0.018330294414547987,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.0004708031652320255,
+            "mean_absolute_delta_eV": 0.023891679741582107,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0030655794934009383,
+            "mean_absolute_delta_eV": 0.023293755762166655,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-Co",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.061216908387052626,
+            "mean_absolute_delta_eV": 0.061216908387052626,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.05162961319957304,
+            "mean_absolute_delta_eV": 0.05162961319957304,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.04340597548542835,
+            "mean_absolute_delta_eV": 0.04340597548542835,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.1508364925591037,
+            "mean_absolute_delta_eV": 0.1508364925591037,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.07645865877452929,
+            "mean_absolute_delta_eV": 0.07645865877452929,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.04091454454736665,
+            "mean_absolute_delta_eV": 0.04091454454736665,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.07314495170773228,
+            "mean_absolute_delta_eV": 0.07314495170773228,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.14183352362861879,
+            "mean_absolute_delta_eV": 0.14183352362861879,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.0764585961726163,
+            "mean_absolute_delta_eV": 0.0764585961726163,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.06215005250391137,
+            "mean_absolute_delta_eV": 0.06215005250391137,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.04340566247586297,
+            "mean_absolute_delta_eV": 0.04340566247586297,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.14332551502383506,
+            "mean_absolute_delta_eV": 0.14332551502383506,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.01499352754179335,
+            "mean_absolute_delta_eV": 0.02738269655446084,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.03759714083759993,
+            "mean_absolute_delta_eV": 0.05364134132792977,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.032752760653473455,
+            "mean_absolute_delta_eV": 0.06174734378714415,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.07764886825729882,
+            "mean_absolute_delta_eV": 0.09220248589545735,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-Co-S",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.061524534188088786,
+            "mean_absolute_delta_eV": 0.061524534188088786,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.14603649087118242,
+            "mean_absolute_delta_eV": 0.14603649087118242,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.2011662396348033,
+            "mean_absolute_delta_eV": 0.2011662396348033,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.19296563942468392,
+            "mean_absolute_delta_eV": 0.19296563942468392,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.044649938100891795,
+            "mean_absolute_delta_eV": 0.044649938100891795,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.11262998156916826,
+            "mean_absolute_delta_eV": 0.11262998156916826,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.1044090983392012,
+            "mean_absolute_delta_eV": 0.1044090983392012,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.2196768741192887,
+            "mean_absolute_delta_eV": 0.2196768741192887,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.06152465939191476,
+            "mean_absolute_delta_eV": 0.06152465939191476,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.14357723731646121,
+            "mean_absolute_delta_eV": 0.14357723731646121,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.20116642744054225,
+            "mean_absolute_delta_eV": 0.20116642744054225,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.19296563942468392,
+            "mean_absolute_delta_eV": 0.19296563942468392,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.006525588991821651,
+            "mean_absolute_delta_eV": 0.013613045804308888,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.03207205249105023,
+            "mean_absolute_delta_eV": 0.03500734351346395,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.047280583173333744,
+            "mean_absolute_delta_eV": 0.047280583173333744,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.09995615852748152,
+            "mean_absolute_delta_eV": 0.09995615852748152,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-Cu-O",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.1911600750466862,
+            "mean_absolute_delta_eV": 0.1911600750466862,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.290816811753845,
+            "mean_absolute_delta_eV": 0.290816811753845,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.36793736055571546,
+            "mean_absolute_delta_eV": 0.36793736055571546,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.33302402320507696,
+            "mean_absolute_delta_eV": 0.33302402320507696,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.19116032545433814,
+            "mean_absolute_delta_eV": 0.19116032545433814,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.1054610608871478,
+            "mean_absolute_delta_eV": 0.1054610608871478,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.13853578004966494,
+            "mean_absolute_delta_eV": 0.13853578004966494,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.34767913106477444,
+            "mean_absolute_delta_eV": 0.34767913106477444,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.19115994984285933,
+            "mean_absolute_delta_eV": 0.19115994984285933,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.3202559874142512,
+            "mean_absolute_delta_eV": 0.3202559874142512,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.38442833211935756,
+            "mean_absolute_delta_eV": 0.38442833211935756,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3330241484089038,
+            "mean_absolute_delta_eV": 0.3330241484089038,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.004904133710192405,
+            "mean_absolute_delta_eV": 0.028270097453408118,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.046210447290010094,
+            "mean_absolute_delta_eV": 0.06354535524432534,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.0436059823376322,
+            "mean_absolute_delta_eV": 0.08986619188837608,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.14310638954736618,
+            "mean_absolute_delta_eV": 0.16059544845253,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-Ga-N",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.6775200347938073,
+            "mean_absolute_delta_eV": 0.6775200347938073,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 1.3206826685263744,
+            "mean_absolute_delta_eV": 1.3206826685263744,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 1.0802564216068173,
+            "mean_absolute_delta_eV": 1.0802564216068173,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 1.0043064033763294,
+            "mean_absolute_delta_eV": 1.0043064033763294,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.08559484457611788,
+            "mean_absolute_delta_eV": 0.08559484457611788,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.509922255610241,
+            "mean_absolute_delta_eV": 0.509922255610241,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 1.1361934533409839,
+            "mean_absolute_delta_eV": 1.1361934533409839,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 1.0077485069669212,
+            "mean_absolute_delta_eV": 1.0077485069669212,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.6775202852014592,
+            "mean_absolute_delta_eV": 0.6775202852014592,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 1.320682574623505,
+            "mean_absolute_delta_eV": 1.320682574623505,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 1.0802562338010784,
+            "mean_absolute_delta_eV": 1.0802562338010784,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 1.0061188539647699,
+            "mean_absolute_delta_eV": 1.0061188539647699,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.10804689864027876,
+            "mean_absolute_delta_eV": 0.12057799871035586,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.29349524086656564,
+            "mean_absolute_delta_eV": 0.33584207962480483,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.34724721699049177,
+            "mean_absolute_delta_eV": 0.3648705069177521,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.5727298786094887,
+            "mean_absolute_delta_eV": 0.5784908572248382,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-N-Ni",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.3997062038107,
+            "mean_absolute_delta_eV": 0.3997062038107,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.5145087534734909,
+            "mean_absolute_delta_eV": 0.5145087534734909,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.4545620379034956,
+            "mean_absolute_delta_eV": 0.4545620379034956,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.35833454009378407,
+            "mean_absolute_delta_eV": 0.35833454009378407,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.2512448278350954,
+            "mean_absolute_delta_eV": 0.2512448278350954,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.26020428843596655,
+            "mean_absolute_delta_eV": 0.26020428843596655,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.07837784562482675,
+            "mean_absolute_delta_eV": 0.07837784562482675,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3229769795676969,
+            "mean_absolute_delta_eV": 0.3229769795676969,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.399706078606874,
+            "mean_absolute_delta_eV": 0.399706078606874,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.5145088473763604,
+            "mean_absolute_delta_eV": 0.5145088473763604,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.39239636622226204,
+            "mean_absolute_delta_eV": 0.39239636622226204,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.4394368209772779,
+            "mean_absolute_delta_eV": 0.4394368209772779,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.041670536205450893,
+            "mean_absolute_delta_eV": 0.12574815455517768,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.04230992241007585,
+            "mean_absolute_delta_eV": 0.1815073107784729,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.10853198051936781,
+            "mean_absolute_delta_eV": 0.26369497267618175,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3307338867623198,
+            "mean_absolute_delta_eV": 0.3607538704522037,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-N-Sc",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.45297016515590816,
+            "mean_absolute_delta_eV": 0.45297016515590816,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.9041805905342173,
+            "mean_absolute_delta_eV": 0.9041805905342173,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.7552563360130558,
+            "mean_absolute_delta_eV": 0.7552563360130558,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.6704435145355419,
+            "mean_absolute_delta_eV": 0.6704435145355419,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.07227741439581514,
+            "mean_absolute_delta_eV": 0.07227741439581514,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.04253549588359551,
+            "mean_absolute_delta_eV": 0.04253549588359551,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.24674218523446,
+            "mean_absolute_delta_eV": 0.24674218523446,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.6848900328207463,
+            "mean_absolute_delta_eV": 0.6848900328207463,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.452970478165474,
+            "mean_absolute_delta_eV": 0.452970478165474,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.9041807783399562,
+            "mean_absolute_delta_eV": 0.9041807783399562,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.7552565864207077,
+            "mean_absolute_delta_eV": 0.7552565864207077,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.7095534337336069,
+            "mean_absolute_delta_eV": 0.7095534337336069,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.04989081376190989,
+            "mean_absolute_delta_eV": 0.07364685002573075,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.13034506781172195,
+            "mean_absolute_delta_eV": 0.16247537451301935,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.20033514289650994,
+            "mean_absolute_delta_eV": 0.2584047776629664,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.36458297789587346,
+            "mean_absolute_delta_eV": 0.3743455709604515,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-N-Tl",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.47988836177526295,
+            "mean_absolute_delta_eV": 0.47988836177526295,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.947252271803622,
+            "mean_absolute_delta_eV": 0.947252271803622,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.9763135197145667,
+            "mean_absolute_delta_eV": 0.9763135197145667,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.9601523350292034,
+            "mean_absolute_delta_eV": 0.9601523350292034,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.11785861855617341,
+            "mean_absolute_delta_eV": 0.11785861855617341,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.6760622240431502,
+            "mean_absolute_delta_eV": 0.6760622240431502,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.731011241083614,
+            "mean_absolute_delta_eV": 0.731011241083614,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.969534921960804,
+            "mean_absolute_delta_eV": 0.969534921960804,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.4798884869790889,
+            "mean_absolute_delta_eV": 0.4798884869790889,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.947252271803622,
+            "mean_absolute_delta_eV": 0.947252271803622,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.9763135823164806,
+            "mean_absolute_delta_eV": 0.9763135823164806,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 1.0549408339631485,
+            "mean_absolute_delta_eV": 1.0549408339631485,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.0713996980128258,
+            "mean_absolute_delta_eV": 0.09060064379320613,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.18305483633081132,
+            "mean_absolute_delta_eV": 0.18305483633081132,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.27376005974996814,
+            "mean_absolute_delta_eV": 0.27376005974996814,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.5065285589489632,
+            "mean_absolute_delta_eV": 0.5065285589489632,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-N-W",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.13437679847630069,
+            "mean_absolute_delta_eV": 0.13437679847630069,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.14215631865572576,
+            "mean_absolute_delta_eV": 0.14215631865572576,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.33390741445148997,
+            "mean_absolute_delta_eV": 0.33390741445148997,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.5622714151991319,
+            "mean_absolute_delta_eV": 0.5622714151991319,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.1343767163112899,
+            "mean_absolute_delta_eV": 0.1343767163112899,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.3616088079553208,
+            "mean_absolute_delta_eV": 0.3616088079553208,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.2915308413495703,
+            "mean_absolute_delta_eV": 0.2915308413495703,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.47296941053230235,
+            "mean_absolute_delta_eV": 0.47296941053230235,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.15201704041473896,
+            "mean_absolute_delta_eV": 0.15201704041473896,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.3587053625261074,
+            "mean_absolute_delta_eV": 0.3587053625261074,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.4872272153504289,
+            "mean_absolute_delta_eV": 0.4872272153504289,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.5122058794977251,
+            "mean_absolute_delta_eV": 0.5122058794977251,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.03784581114023866,
+            "mean_absolute_delta_eV": 0.04772872508181956,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.10015289085946014,
+            "mean_absolute_delta_eV": 0.10532486372481001,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.18383401691129908,
+            "mean_absolute_delta_eV": 0.18383401691129908,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.3306874981578106,
+            "mean_absolute_delta_eV": 0.3306874981578106,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-Ni-Se",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.05548751869705981,
+            "mean_absolute_delta_eV": 0.05548751869705981,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.13369114319769437,
+            "mean_absolute_delta_eV": 0.13369114319769437,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.1803833435100639,
+            "mean_absolute_delta_eV": 0.1803833435100639,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.20060200859191823,
+            "mean_absolute_delta_eV": 0.20060200859191823,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.008354162702985057,
+            "mean_absolute_delta_eV": 0.008354162702985057,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.057277933412085424,
+            "mean_absolute_delta_eV": 0.057277933412085424,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.0841372842331145,
+            "mean_absolute_delta_eV": 0.0841372842331145,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.15895755703861347,
+            "mean_absolute_delta_eV": 0.15895755703861347,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.055487268289407865,
+            "mean_absolute_delta_eV": 0.055487268289407865,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.13369120579960736,
+            "mean_absolute_delta_eV": 0.13369120579960736,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.18038340611197778,
+            "mean_absolute_delta_eV": 0.18038340611197778,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.18708512871643723,
+            "mean_absolute_delta_eV": 0.18708512871643723,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.006392437852726784,
+            "mean_absolute_delta_eV": 0.01039765817215046,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.030657624866181045,
+            "mean_absolute_delta_eV": 0.03297245580735146,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.05694447806169869,
+            "mean_absolute_delta_eV": 0.057261706996206294,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.10287783363379366,
+            "mean_absolute_delta_eV": 0.10287783363379366,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-O-Pt",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.11718104674959662,
+            "mean_absolute_delta_eV": 0.11718104674959662,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.12723322374385226,
+            "mean_absolute_delta_eV": 0.12723322374385226,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.21081704446313587,
+            "mean_absolute_delta_eV": 0.21081704446313587,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.24892251596530723,
+            "mean_absolute_delta_eV": 0.24892251596530723,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.05229438291491739,
+            "mean_absolute_delta_eV": 0.05229438291491739,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.16719521758129474,
+            "mean_absolute_delta_eV": 0.16719521758129474,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.17143364880763734,
+            "mean_absolute_delta_eV": 0.17143364880763734,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.13849687296066548,
+            "mean_absolute_delta_eV": 0.13849687296066548,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.11718067113811781,
+            "mean_absolute_delta_eV": 0.11718067113811781,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.12723341154959122,
+            "mean_absolute_delta_eV": 0.12723341154959122,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.193651224276139,
+            "mean_absolute_delta_eV": 0.193651224276139,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.24892245336339425,
+            "mean_absolute_delta_eV": 0.24892245336339425,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.0073655712891581345,
+            "mean_absolute_delta_eV": 0.029023110042952327,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.02456461352892032,
+            "mean_absolute_delta_eV": 0.044370149805569394,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.05189581296713084,
+            "mean_absolute_delta_eV": 0.0670157149909247,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.09268057514085175,
+            "mean_absolute_delta_eV": 0.10870338925261454,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-O-Ru",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.11343621302320539,
+            "mean_absolute_delta_eV": 0.11343621302320539,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.120017700828293,
+            "mean_absolute_delta_eV": 0.120017700828293,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.2512982008567981,
+            "mean_absolute_delta_eV": 0.2512982008567981,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.22138379842347433,
+            "mean_absolute_delta_eV": 0.22138379842347433,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.06104715645256409,
+            "mean_absolute_delta_eV": 0.06104715645256409,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.3104699047424573,
+            "mean_absolute_delta_eV": 0.3104699047424573,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.3110204885682837,
+            "mean_absolute_delta_eV": 0.3110204885682837,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.41230161971689316,
+            "mean_absolute_delta_eV": 0.41230161971689316,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.11343611129509679,
+            "mean_absolute_delta_eV": 0.11343611129509679,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.08859652512301963,
+            "mean_absolute_delta_eV": 0.08859652512301963,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.12043210984262132,
+            "mean_absolute_delta_eV": 0.12043210984262132,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.24858775712571202,
+            "mean_absolute_delta_eV": 0.24858775712571202,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.020023524696963425,
+            "mean_absolute_delta_eV": 0.0311779895258546,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.046871984252343554,
+            "mean_absolute_delta_eV": 0.051100330897376756,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.07885774298954051,
+            "mean_absolute_delta_eV": 0.09842390099485851,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.14779949797957018,
+            "mean_absolute_delta_eV": 0.14779949797957018,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-O-Sn",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.08273468836982278,
+            "mean_absolute_delta_eV": 0.08273468836982278,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.25894498835179025,
+            "mean_absolute_delta_eV": 0.25894498835179025,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.3378746698407067,
+            "mean_absolute_delta_eV": 0.3378746698407067,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.30792184548321,
+            "mean_absolute_delta_eV": 0.30792184548321,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.08478145791904446,
+            "mean_absolute_delta_eV": 0.08478145791904446,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.10794898611807557,
+            "mean_absolute_delta_eV": 0.10794898611807557,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.20943551414360684,
+            "mean_absolute_delta_eV": 0.20943551414360684,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3318449161715984,
+            "mean_absolute_delta_eV": 0.3318449161715984,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": 0.09303151364052287,
+            "mean_absolute_delta_eV": 0.09303151364052287,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.2589448631479643,
+            "mean_absolute_delta_eV": 0.2589448631479643,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.3378747324426197,
+            "mean_absolute_delta_eV": 0.3378747324426197,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.3042457359414028,
+            "mean_absolute_delta_eV": 0.3042457359414028,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.014799073479282488,
+            "mean_absolute_delta_eV": 0.019566403228749606,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.05336639685563425,
+            "mean_absolute_delta_eV": 0.062165909568503076,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.07382880874638423,
+            "mean_absolute_delta_eV": 0.07678877744294699,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.15379156265596552,
+            "mean_absolute_delta_eV": 0.15504214855383647,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-Os",
+      "n_materials": 2,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": -0.005911044302290502,
+            "mean_absolute_delta_eV": 0.06859994668593972,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.042771107965144495,
+            "mean_absolute_delta_eV": 0.042771107965144495,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.041457688527082315,
+            "mean_absolute_delta_eV": 0.041457688527082315,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.002824042727668896,
+            "mean_absolute_delta_eV": 0.0036662575657313567,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": 0.0544600589291675,
+            "mean_absolute_delta_eV": 0.0544600589291675,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.07457260594305648,
+            "mean_absolute_delta_eV": 0.07457260594305648,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.013684083716475559,
+            "mean_absolute_delta_eV": 0.013684083716475559,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.027876735104452877,
+            "mean_absolute_delta_eV": 0.027876735104452877,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.07212971447429695,
+            "mean_absolute_delta_eV": 0.07212971447429695,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.04295813118056868,
+            "mean_absolute_delta_eV": 0.04295813118056868,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.04145754767277765,
+            "mean_absolute_delta_eV": 0.04145754767277765,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.002823909698603355,
+            "mean_absolute_delta_eV": 0.0036663436433621577,
+            "n_materials": 2,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": 0.008255696447296224,
+            "mean_absolute_delta_eV": 0.025455018439357647,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.009968337944558092,
+            "mean_absolute_delta_eV": 0.037455391154561514,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": 0.001798349140704003,
+            "mean_absolute_delta_eV": 0.039885789677942894,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": 0.0007262314177530538,
+            "mean_absolute_delta_eV": 0.04601784260050081,
+            "n_materials": 2,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    },
+    {
+      "chemical_system": "Br-Pt-S",
+      "n_materials": 1,
+      "methods": {
+        "gate_path_ig": {
+          "1": {
+            "mean_signed_delta_eV": 0.028522746254348696,
+            "mean_absolute_delta_eV": 0.028522746254348696,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": 0.032384407866622666,
+            "mean_absolute_delta_eV": 0.032384407866622666,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.022057377172845172,
+            "mean_absolute_delta_eV": 0.022057377172845172,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.017565627305091702,
+            "mean_absolute_delta_eV": 0.017565627305091702,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "modulation_magnitude": {
+          "1": {
+            "mean_signed_delta_eV": -0.02165528508492187,
+            "mean_absolute_delta_eV": 0.02165528508492187,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.04833258954261943,
+            "mean_absolute_delta_eV": 0.04833258954261943,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.052056151334566536,
+            "mean_absolute_delta_eV": 0.052056151334566536,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.035867609613172924,
+            "mean_absolute_delta_eV": 0.035867609613172924,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "endpoint_gradient": {
+          "1": {
+            "mean_signed_delta_eV": -0.029323080412538616,
+            "mean_absolute_delta_eV": 0.029323080412538616,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.02718237669269108,
+            "mean_absolute_delta_eV": 0.02718237669269108,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.02205718936710621,
+            "mean_absolute_delta_eV": 0.02205718936710621,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.017668826558858264,
+            "mean_absolute_delta_eV": 0.017668826558858264,
+            "n_materials": 1,
+            "random_rankings_per_material": 1
+          }
+        },
+        "random": {
+          "1": {
+            "mean_signed_delta_eV": -0.004631513333921334,
+            "mean_absolute_delta_eV": 0.013374073956335853,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "3": {
+            "mean_signed_delta_eV": -0.006162360171558934,
+            "mean_absolute_delta_eV": 0.024050202653537946,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "5": {
+            "mean_signed_delta_eV": -0.012410844925082865,
+            "mean_absolute_delta_eV": 0.02782173629150324,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          },
+          "10": {
+            "mean_signed_delta_eV": -0.009686256291728456,
+            "mean_absolute_delta_eV": 0.024692241614231093,
+            "n_materials": 1,
+            "random_rankings_per_material": 20
+          }
+        }
+      }
+    }
+  ],
+  "randomization_summary": {
+    "gate_head": {
+      "completeness_max_abs_eV": 9.078529653516743e-05,
+      "randomization_cases": 8,
+      "signed_spearman_median_defined_cases": 0.06616541353383458,
+      "signed_spearman_defined_cases": 8,
+      "absolute_spearman_median_defined_cases": 0.6864661654135338,
+      "absolute_spearman_defined_cases": 8,
+      "top5_overlap_fraction_mean": 0.65,
+      "undefined_signed_correlations": 0,
+      "undefined_absolute_correlations": 0
+    },
+    "whole_gate": {
+      "completeness_max_abs_eV": 1.0364640501414613e-05,
+      "randomization_cases": 8,
+      "signed_spearman_median_defined_cases": -0.5676691729323308,
+      "signed_spearman_defined_cases": 8,
+      "absolute_spearman_median_defined_cases": 0.6398496240601503,
+      "absolute_spearman_defined_cases": 8,
+      "top5_overlap_fraction_mean": 0.65,
+      "undefined_signed_correlations": 0,
+      "undefined_absolute_correlations": 0
+    },
+    "whole_model": {
+      "completeness_max_abs_eV": 5.564239681553687e-08,
+      "randomization_cases": 8,
+      "signed_spearman_median_defined_cases": -0.19473684210526315,
+      "signed_spearman_defined_cases": 8,
+      "absolute_spearman_median_defined_cases": 0.42330827067669174,
+      "absolute_spearman_defined_cases": 8,
+      "top5_overlap_fraction_mean": 0.45,
+      "undefined_signed_correlations": 0,
+      "undefined_absolute_correlations": 0
+    }
+  },
+  "correlation_note": "Within-system materials can be correlated; these fixed-case curves and cluster intervals do not establish population-level causality.",
+  "figures": [
+    "deletion_curves.png",
+    "deletion_curves.pdf",
+    "deletion_curves.svg"
+  ]
+}

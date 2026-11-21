@@ -1,0 +1,42 @@
+{
+  "fixed_ids_source": "functional_probe_v1/ATTRIBUTION.npz",
+  "n_materials": 64,
+  "k_values": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "methods": [
+    "gate_path_ig",
+    "modulation_magnitude",
+    "endpoint_gradient",
+    "random"
+  ],
+  "random_rankings": 20,
+  "random_seed": 20261013,
+  "rank_ties": "stable feature index ascending",
+  "randomization_cases": 8,
+  "randomization_steps": 32,
+  "randomization_seed": 20261014,
+  "randomization_levels": [
+    "gate_head",
+    "whole_gate",
+    "whole_model"
+  ],
+  "checkpoint_sha256": "09d88a54211a20f183459893c6e873e92b0c94bedfcba80a897a3f478e1a5350",
+  "completeness_tolerance_eV": 0.002,
+  "cluster_bootstrap_resamples": 3000,
+  "bootstrap_seed": 20261015,
+  "new_fits": 0,
+  "new_DFT": 0,
+  "labels_read": false,
+  "randomization": "Isolated seeded pristine weights, with nonzero Glorot head override to avoid neutral zero-head gate; cumulative head->gate->all; trainedmodel/checkpoint untouched",
+  "goal": "Measure full curves and model dependence; do not require IG to outperform every gradient comparator; retain complete predeclared comparisons",
+  "randomization_head_override": {
+    "kernel_initializer": "GlorotUniform",
+    "kernel_seed": 20261015,
+    "bias_initializer": "zeros"
+  },
+  "randomization_reason": "Original training head initializes atzero; a nonzero randomizedhead tests modeldependence ratherthan trivially bypassinggate"
+}

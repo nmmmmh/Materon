@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Cu2Se2__21e73df39ca5",
+ "species_order": [
+  "K",
+  "Se",
+  "Cu"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

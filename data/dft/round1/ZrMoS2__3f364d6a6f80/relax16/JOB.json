@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Mo2S2__3f364d6a6f80",
+ "species_order": [
+  "Zr",
+  "S",
+  "Mo"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  3,
+  2
+ ]
+}

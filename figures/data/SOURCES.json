@@ -1,0 +1,504 @@
+{
+ "note": "Every input file read by the figure scripts, with SHA-256 and origin.",
+ "files": [
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/hoip_bandgap/cgcnn/feature_scores.csv",
+   "bytes": 2105,
+   "sha256": "a1ac19fa3ed4abf5fbc4a7e6e3f5c22284f669ebf35e88e5f0c1c329f25693b3",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/hoip_bandgap/cgcnn/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/hoip_bandgap/cgcnn/sample_feature_scores.csv",
+   "bytes": 158782,
+   "sha256": "c1f85e9f9e88fc803b5e109dfbec755fc278e3bef95c1ebd6f8851da5b60d662",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/hoip_bandgap/cgcnn/sample_feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/hoip_bandgap/cgcnn/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "bytes": 22653,
+   "sha256": "919e0d46fcc87a5d19a197ba286bfcca998d121498da62d80f41dbca782d3003",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/hoip_bandgap/cgcnn/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/hoip_bandgap/megnet/feature_scores.csv",
+   "bytes": 2107,
+   "sha256": "3c580d5754cb1db5255e8dc4440694e4a1243f85a965e537b8bdfc2acbf6435d",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/hoip_bandgap/megnet/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/hoip_bandgap/megnet/sample_feature_scores.csv",
+   "bytes": 158933,
+   "sha256": "c658c891814479d8f27e33180725f792d47a02e6f4c866f72d2226affadebc45",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/hoip_bandgap/megnet/sample_feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/hoip_bandgap/megnet/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "bytes": 22818,
+   "sha256": "577e444064f2257c23b33b9c71881f1034b99484717d986add2cb51625a1c315",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/hoip_bandgap/megnet/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/jdft2d_exfoliation/cgcnn/feature_scores.csv",
+   "bytes": 2135,
+   "sha256": "3d98a3fe8881206393ac14cc70f5b303e4382dd87a29ff73ebfb9a7c9f6c74d9",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/jdft2d_exfoliation/cgcnn/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/jdft2d_exfoliation/cgcnn/sample_feature_scores.csv",
+   "bytes": 213080,
+   "sha256": "1dc9929e120e333dc8fe58e6a9abde838f5f213c4aabae79f14c0aa7d77abc20",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/jdft2d_exfoliation/cgcnn/sample_feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/jdft2d_exfoliation/cgcnn/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "bytes": 15645,
+   "sha256": "cf74d4ef266198cbd69fa098294fd60974ba388b4d245b0c627884391f08011f",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/jdft2d_exfoliation/cgcnn/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/jdft2d_exfoliation/megnet/feature_scores.csv",
+   "bytes": 2140,
+   "sha256": "c906750de6c05308b2bcb5a4232a2fa050de28c1d8d90317ef2eb63f48cb95e9",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/jdft2d_exfoliation/megnet/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/jdft2d_exfoliation/megnet/sample_feature_scores.csv",
+   "bytes": 213379,
+   "sha256": "3243b647465ed66a739e14c1d6245e1c5950ba0687640abfe9a4f210c40b03d6",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/jdft2d_exfoliation/megnet/sample_feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/interpretability/jdft2d_exfoliation/megnet/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "bytes": 15937,
+   "sha256": "33607a5f0098e99673336c2175f5201f10036b7bdd6b77bd2a84dc48b6ba9128",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/interpretability/jdft2d_exfoliation/megnet/role_matched_forward/role_matched_forward_sample_effects.csv.gz",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/case_studies/hoip_bandgap/cif/hoip_0275.cif",
+   "bytes": 6949,
+   "sha256": "5559ff74113294e9a0e280cca2dac9552a129ce0f4ba83d73903b1c48f4d7c22",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/case_studies/hoip_bandgap/cif/hoip_0275.cif",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/case_studies/hoip_bandgap/node_tables/hoip_0275_node_explanations.csv",
+   "bytes": 31559,
+   "sha256": "3247660bf786b0ed4e16b9b81cb1e78b57bf960e3dea55d1943c4c37498a6671",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/case_studies/hoip_bandgap/node_tables/hoip_0275_node_explanations.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/case_studies/jdft2d_exfoliation/cif/mb-jdft2d-541.cif",
+   "bytes": 1236,
+   "sha256": "b4d1727e1041d344bad0e7adac6f6561f0d9daaf6a4d4be31260c0863009e5c9",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/case_studies/jdft2d_exfoliation/cif/mb-jdft2d-541.cif",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_2d/results/case_studies/jdft2d_exfoliation/node_tables/mb-jdft2d-541_node_explanations.csv",
+   "bytes": 3383,
+   "sha256": "b89425983aa2bd224ff80c5d56522b05e236e5086bae29ef579330fc0704eb0c",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_2d/results/case_studies/jdft2d_exfoliation/node_tables/mb-jdft2d-541_node_explanations.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_0/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1544,
+   "sha256": "01206d1ce06585ad704acd0d8a46cba94122e1b7cc9bf676827f85110767a3fd",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_0/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_1/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1552,
+   "sha256": "eaaa5dce09827eec2a81e358ee0f6a883bd1739ac9ec41d1636bbad3f7131f94",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_1/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_2/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1548,
+   "sha256": "1be18efd4dabc08ad6c270ffd0f666af86c12bc5ea687f79553ec4aec4624bdd",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_2/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_3/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1553,
+   "sha256": "14a69eafe74b3fb3fd611ff79aa82e61be44f18996dcd75ea4ff2184cdd9cd8d",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_3/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_4/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1550,
+   "sha256": "5a78033cd53bc058c25e3c0566cb8e7fd5931fe40c48efeb2d74c369ea663773",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_phonons/materon_explain_megnet/outer_fold_4/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_0/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1548,
+   "sha256": "bb9fb25b53b15588dfaf18b0faf0f84a766c3952d752b7318b7c7a473cb61f68",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_0/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_1/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1546,
+   "sha256": "67999f60f04f08773265573927933f996b6bb4a6059ddb2eccd584ae1c922115",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_1/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_2/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1538,
+   "sha256": "ee41d4bd05c4c6248059ebdcbeda698da3023b493268e65887349096496d5aa7",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_2/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_3/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1544,
+   "sha256": "5a3d42fb9be02fecb9a30f00bf60e74a045924bb830444b61e209a2d57aea922",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_3/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_4/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1549,
+   "sha256": "53ef2c7896805d45099d72172c59c505c37b0eee9cd0d724fd1a7c0f29127976",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_dielectric/materon_explain_megnet/outer_fold_4/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_0/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1564,
+   "sha256": "58c3a8d9b6a276ce39d79c5603ee2b872d94022b1cb491ed49256851cdb3eb8e",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_0/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_1/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1572,
+   "sha256": "0be4e3f592f383c0002347772af519fa995d5ab8521bc52cca3aef7e0a4f9635",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_1/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_2/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1547,
+   "sha256": "7de80477e49383ecf819442944298357f976d8aeb9be818e58b43cf45d0959e3",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_2/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_3/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1570,
+   "sha256": "683313704ebe9716a7d0f8e26d0c773401aec7ab3eb1ac9ef83e303b26adb9b6",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_3/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_4/seed_42/interpretability/feature_scores.csv",
+   "bytes": 1561,
+   "sha256": "20ea4e0dfd43d6be907cbb7eacdb3871bce4fab5e4cbdcaad10e89f9d79845f0",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/matbench_jdft2d/materon_explain_megnet/outer_fold_4/seed_42/interpretability/feature_scores.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_megnet/results/reports/interpretability_stability.csv",
+   "bytes": 339,
+   "sha256": "914f1e9497224e1dece81d2927f63d4fd61d88676b5873f173a517d9034a536b",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_megnet/results/reports/interpretability_stability.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/original_phonons/results/paper_tables/fold_level_results.csv",
+   "bytes": 8356,
+   "sha256": "6e0951ee4dc49f18cb26be86f3db109aa9f6adc0af09b914c667c86d859b9cd6",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/original_phonons/results/paper_tables/fold_level_results.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/research/eigate_v2/c2db_workfunction_v1_20261013/evidence_strengthening_v1/explanation_controls/outputs/ANALYSIS.json",
+   "bytes": 196012,
+   "sha256": "3237212048207365b5519db39a8d576e4eee200c81e2de50c9af8d5214511e54",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/research/eigate_v2/c2db_workfunction_v1_20261013/evidence_strengthening_v1/explanation_controls/outputs/ANALYSIS.json",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/research/eigate_v2/c2db_workfunction_v1_20261013/evidence_strengthening_v1/physics_figure/source_data/ig_channels.csv",
+   "bytes": 1819,
+   "sha256": "e177f122f81a56b342c998f6c44f6ac2a68c5b31bbecfff700bda16a8cbfabec",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/research/eigate_v2/c2db_workfunction_v1_20261013/evidence_strengthening_v1/physics_figure/source_data/ig_channels.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/research/eigate_v2/c2db_workfunction_v1_20261013/evidence_strengthening_v1/physics_figure/source_data/Al_index1_projected_populations.csv",
+   "bytes": 363,
+   "sha256": "adb742851edfd501e27852201d7013a8a163880152c8cd62d600c078d888ff52",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/research/eigate_v2/c2db_workfunction_v1_20261013/evidence_strengthening_v1/physics_figure/source_data/Al_index1_projected_populations.csv",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/research/eigate_v2/c2db_workfunction_v1_20261013/cross_environment_explain_v1/FIGURE_SOURCE.json",
+   "bytes": 69291,
+   "sha256": "4f2d3d2fec464ffdd9b43adfaedc9ac1242f1e96fdc1dc151732f419216dae74",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/research/eigate_v2/c2db_workfunction_v1_20261013/cross_environment_explain_v1/FIGURE_SOURCE.json",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "evidence/sources/research/eigate_v2/c2db_workfunction_v1_20261013/cross_environment_explain_v1/SAME_ELEMENT_CONTEXT_DISPERSION.json",
+   "bytes": 52743,
+   "sha256": "bf69b1d6478765d223fc64e91dc57a6278fc7e55c5011cdfd422ca9351a304ed",
+   "origin": "evidence package (SHA-256 manifest)",
+   "canonical_path": "sources/research/eigate_v2/c2db_workfunction_v1_20261013/cross_environment_explain_v1/SAME_ELEMENT_CONTEXT_DISPERSION.json",
+   "canonical_sha256_verified": true
+  },
+  {
+   "file": "mechanism/SHUTDOWN_L400.json",
+   "bytes": 10806,
+   "sha256": "19dafd52128ece1b564453a8ba900b89154842eabf051cf8799b063a39c84bce",
+   "origin": "mechanism/SHUTDOWN_L400.json"
+  },
+  {
+   "file": "mechanism/GATE_RULES_L400.json",
+   "bytes": 1989607,
+   "sha256": "28d01f6f3250ee6cdcd96f6820e8f7249e9b9f943a67c2c455ca0da6f6f34426",
+   "origin": "mechanism/GATE_RULES_L400.json"
+  },
+  {
+   "file": "mechanism/GATE_RULES_SEEDS.json",
+   "bytes": 1993942,
+   "sha256": "8150c626496b28a616231e0c6593697ec9367b8ec28b67d6496191d9979aa494",
+   "origin": "mechanism/GATE_RULES_SEEDS.json"
+  },
+  {
+   "file": "mechanism/DOS_FIG.json",
+   "bytes": 118383,
+   "sha256": "dae9e3d9ebadafa00d58597d17ea4e9767ce837e82aeecf29905bd41aa79ab5f",
+   "origin": "mechanism/DOS_FIG.json"
+  },
+  {
+   "file": "mechanism/MECH_PAIRS.json",
+   "bytes": 15267,
+   "sha256": "9dd018f28f6a82be8f1f14df4b911351ebcbec1e3404400efeb4f905a47cf7c2",
+   "origin": "mechanism/MECH_PAIRS.json"
+  },
+  {
+   "file": "mechanism/MECH_PAIRS_R2.json",
+   "bytes": 7754,
+   "sha256": "a0e4077f541cf2aa9d0149b5f37092e9da35670616f374964ac2c58f96dd84e9",
+   "origin": "mechanism/MECH_PAIRS_R2.json"
+  },
+  {
+   "file": "mechanism/DESIGN_MECH.json",
+   "bytes": 2731,
+   "sha256": "19282e44c87a3601ad80136e76aa7642b3ab0cadfc0f4724ab1d4355b71d8824",
+   "origin": "mechanism/DESIGN_MECH.json"
+  },
+  {
+   "file": "mechanism/DESIGN2_MECH.json",
+   "bytes": 948,
+   "sha256": "f9b7c15ab1d681d498481a71edaa1e270f264dab969490435077218e1f86ec3b",
+   "origin": "mechanism/DESIGN2_MECH.json"
+  },
+  {
+   "file": "mechanism/CONTRAST_ANALYSIS.json",
+   "bytes": 15121,
+   "sha256": "d04224a7014ff1232ab2779a08595e0619c713520a2ae0d1f1a56d2e6433ad90",
+   "origin": "mechanism/CONTRAST_ANALYSIS.json"
+  },
+  {
+   "file": "mechanism/EVAL_L400.json",
+   "bytes": 10952,
+   "sha256": "a08a801b79fbe64a08f847449662566cfe23e29c4b7b8e6359939b3e714e4d73",
+   "origin": "mechanism/EVAL_L400.json"
+  },
+  {
+   "file": "mechanism/ROUND1_ANALYSIS.json",
+   "bytes": 11507,
+   "sha256": "9e261460db16d442845e500ba0990e920b1990f22bdf8f492152c2e102c3f68a",
+   "origin": "mechanism/ROUND1_ANALYSIS.json"
+  },
+  {
+   "file": "mechanism/ROUND2_ANALYSIS.json",
+   "bytes": 12865,
+   "sha256": "a640c117ac6b2a90ca24da679ca488a1146a826c693b875047bedfe3e0e29655",
+   "origin": "mechanism/ROUND2_ANALYSIS.json"
+  },
+  {
+   "file": "mechanism/DESIGN_SUMMARY.json",
+   "bytes": 3221,
+   "sha256": "8dd9f1d6adb9d8f25c22006fe497256b05e1d876aa34b0ca1916318c60e9fbd3",
+   "origin": "mechanism/DESIGN_SUMMARY.json"
+  },
+  {
+   "file": "mechanism/DESIGN_PREREGISTERED.json",
+   "bytes": 10631,
+   "sha256": "7980aea7485d0de3b4b165a107f2b6dd9b83745c71be99b1707ebb2fe09d8a4c",
+   "origin": "mechanism/DESIGN_PREREGISTERED.json"
+  },
+  {
+   "file": "mechanism/DESIGN2_SUMMARY.json",
+   "bytes": 1260,
+   "sha256": "8bfcc2357b02185cbd1ab3112b0e069413aa05240ae56bd44e4fc57f101bc7dc",
+   "origin": "mechanism/DESIGN2_SUMMARY.json"
+  },
+  {
+   "file": "mechanism/DESIGN2_PREREGISTERED.json",
+   "bytes": 4466,
+   "sha256": "f8b86a8cb243454e157832538e8152022231cb286bbc5702d2097e1eb0de6360",
+   "origin": "mechanism/DESIGN2_PREREGISTERED.json"
+  },
+  {
+   "file": "mechanism/DOS_DESIGN.json",
+   "bytes": 24540,
+   "sha256": "6bbf4c6fa03ad1fc532a692177d4a88d9de92379c2111a15b6fb86e3b7d872f0",
+   "origin": "mechanism/DOS_DESIGN.json"
+  },
+  {
+   "file": "mechanism/STABILITY_ENERGETICS.json",
+   "bytes": 1738,
+   "sha256": "32ee46d9f330b05ea16bb1a3136514734a904187c34ddff5026c771945c219d8",
+   "origin": "mechanism/STABILITY_ENERGETICS.json"
+  },
+  {
+   "file": "mechanism/PHONONS.json",
+   "bytes": 110213,
+   "sha256": "51c7c65887f7c3589d49d37e98a1d3c2a2ef4032914cd4c4e99c299489c3222b",
+   "origin": "mechanism/PHONONS.json"
+  },
+  {
+   "file": "mechanism/PHONONS_Q.json",
+   "bytes": 980,
+   "sha256": "5665845b648f56458945a41aeb01952475ee56f6167d2e8b8dd1694b14bc01dd",
+   "origin": "mechanism/PHONONS_Q.json"
+  },
+  {
+   "file": "candidate_dft_v3/GAINS.csv",
+   "bytes": 118,
+   "sha256": "d87bae01cacddcfa3026180eccac96606fe6b4562ada15bdd309ddd4a70bd4af",
+   "origin": "figures/candidate_dft_v3/GAINS.csv"
+  },
+  {
+   "file": "candidate_dft_v3/WORK_FUNCTIONS.csv",
+   "bytes": 155,
+   "sha256": "3cdb57fdcbc82cfa5bc065c1e7235c519845ba55b713b749042e71b1732d9673",
+   "origin": "figures/candidate_dft_v3/WORK_FUNCTIONS.csv"
+  },
+  {
+   "file": "candidate_dft_v3/POTENTIAL.csv",
+   "bytes": 42118,
+   "sha256": "4411b889483b0acfa9e22f5ece421fd1181c39e07313aedfb5d6afe2ef4a8d3b",
+   "origin": "figures/candidate_dft_v3/POTENTIAL.csv"
+  },
+  {
+   "file": "candidate_dft_v3/PDOS.csv",
+   "bytes": 98828,
+   "sha256": "0f81a12271d9bb7465fc09c43de25d9976083bff1a597de9c67a8a49991df028",
+   "origin": "figures/candidate_dft_v3/PDOS.csv"
+  },
+  {
+   "file": "structures/structure_Al2S2.png",
+   "bytes": 298188,
+   "sha256": "ab5c9a3aa6ac9cc7a52a5548c833bcf3dc930426d0643537e09e8bfb49876362",
+   "origin": "structures/structure_Al2S2.png (OVITO render)"
+  },
+  {
+   "file": "structures/structure_Al2S2.json",
+   "bytes": 146,
+   "sha256": "53bf366d845b86cfb50cba0082209f55ecc461467fffce2ff2fd64231d52cd58",
+   "origin": "structures/structure_Al2S2.json (OVITO render)"
+  },
+  {
+   "file": "structures/structure_Ta2Te2_W.png",
+   "bytes": 304019,
+   "sha256": "3c2e1aa302a2eb279c2470ac159ad876e49265a2f2d67d397895d179eaaf3774",
+   "origin": "structures/structure_Ta2Te2_W.png (OVITO render)"
+  },
+  {
+   "file": "structures/structure_MoTaTe2_cell.png",
+   "bytes": 399633,
+   "sha256": "138b701c8805885de5001f16b25dbb7fbc8b18da241ecaf40d66afea341dfaa9",
+   "origin": "structures/structure_MoTaTe2_cell.png (OVITO render)"
+  },
+  {
+   "file": "structures/Al2S2_parent.vasp",
+   "bytes": 511,
+   "sha256": "9395f6231c8b9a4785d9f752d95c28c5151330aa3d4d6722c976d4ed98ccc036",
+   "origin": "mechanism/structures/Al2S2_parent.vasp"
+  },
+  {
+   "file": "structures/Ta2Te2_3x3_W.vasp",
+   "bytes": 1396,
+   "sha256": "535d562dd2e205d73171c27d82e3b3b7e76789ac9e7b6d545066606cad84d1a9",
+   "origin": "mechanism/structures/Ta2Te2_3x3_W.vasp"
+  },
+  {
+   "file": "structures/MoTaTe2_relaxed.vasp",
+   "bytes": 784,
+   "sha256": "ed0700ccf2285624908409c8510d6ba05f1d2f7a63a025b490e3127974b78672",
+   "origin": "mechanism/structures/MoTaTe2_relaxed.vasp"
+  },
+  {
+   "file": "original_artwork/Manuscript_image1.png",
+   "bytes": 361002,
+   "sha256": "dd22fb28823d00652091170edb5191ee30e9917fdc35277d46aa91f1f55745eb",
+   "origin": "original_submission/Manuscript.docx :: word/media/image1.tiff, converted losslessly to RGBA PNG (pixel-identical to the TIFF after .convert(\"RGBA\"))",
+   "canonical_path": "original_submission/Manuscript.docx",
+   "canonical_docx_sha256": "93b1cba6ceaacf44ba1fcb3ac283846e7d568c51f7a4d1b1a455524e1749fadc",
+   "source_tiff_sha256": "a8215d050b3b51507ce58afa05644005c08036830d6246d209157ccf966c120a"
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Ir2Se2__bd586ade6200",
+ "species_order": [
+  "Ag",
+  "Ir",
+  "Se"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

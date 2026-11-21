@@ -1,0 +1,585 @@
+{
+ "summary": {
+  "n_candidates": 16,
+  "n_with_dft": 16,
+  "pred_seed42_eV": {
+   "sign_agreement": 7,
+   "spearman": 0.3235294117647059,
+   "mae_eV": 0.3096452706124992,
+   "sign_agreement_dft_ge_0.1": "4/8"
+  },
+  "pred_ensemble_eV": {
+   "sign_agreement": 8,
+   "spearman": 0.40294117647058825,
+   "mae_eV": 0.28494400640433154,
+   "sign_agreement_dft_ge_0.1": "4/8"
+  },
+  "dchi": {
+   "sign_agreement": 6,
+   "spearman": -0.4418266941843933
+  },
+  "mae_zero_predictor_eV": 0.23065963999904177
+ },
+ "rows": [
+  {
+   "candidate": "HgAuTe2",
+   "parent": "Au2Te2",
+   "parent_id": "Au2Te2-18220d19d208",
+   "partition": "validation",
+   "pred_seed42_eV": 0.10770368576049805,
+   "pred_ensemble_eV": 0.045393848419189455,
+   "pred_seeds_eV": [
+    0.10770368576049805,
+    0.07981634140014648,
+    -0.08334493637084961,
+    -0.004628181457519531,
+    0.12742233276367188
+   ],
+   "dchi": -0.54,
+   "phi_parent_eV": 4.785992448757984,
+   "phi_candidate_eV": 4.760377501301224,
+   "dft_change_eV": -0.025614947456760184,
+   "mesh_change_parent_eV": 0.03606364310097021,
+   "mesh_change_candidate_eV": -0.003639064399506786,
+   "face_diff_max_eV": 0.314268835143265,
+   "plateau_max_eV": 0.047325470850585916,
+   "magnetization_muB": [
+    0.0,
+    -0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.011912022750146172,
+    0.011332184476084035
+   ],
+   "relax_ionic_steps": [
+    4,
+    11
+   ]
+  },
+  {
+   "candidate": "ZnCuSe2",
+   "parent": "Cu2Se2",
+   "parent_id": "Cu2Se2-21e73df39ca5",
+   "partition": "validation",
+   "pred_seed42_eV": -0.1111907958984375,
+   "pred_ensemble_eV": -0.034490203857421874,
+   "pred_seeds_eV": [
+    -0.1111903190612793,
+    -0.10377216339111328,
+    0.021060943603515625,
+    0.023937702178955078,
+    -0.0024871826171875
+   ],
+   "dchi": -0.25,
+   "phi_parent_eV": 6.189598277785887,
+   "phi_candidate_eV": 6.103597711526796,
+   "dft_change_eV": -0.08600056625909058,
+   "mesh_change_parent_eV": -0.0008292079685618958,
+   "mesh_change_candidate_eV": 0.051280744831912806,
+   "face_diff_max_eV": 0.14496901442101695,
+   "plateau_max_eV": 0.01653412385420916,
+   "magnetization_muB": [
+    0.0,
+    -0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.013828614319591098,
+    0.018766559647415398
+   ],
+   "relax_ionic_steps": [
+    3,
+    9
+   ]
+  },
+  {
+   "candidate": "TaHfS2",
+   "parent": "Hf2S2",
+   "parent_id": "Hf2S2-6b0cc07cfc68",
+   "partition": "validation",
+   "pred_seed42_eV": 0.08845949172973633,
+   "pred_ensemble_eV": 0.05734176635742187,
+   "pred_seeds_eV": [
+    0.08845949172973633,
+    0.007874488830566406,
+    -0.06080341339111328,
+    0.25606250762939453,
+    -0.004884243011474609
+   ],
+   "dchi": 0.19999999999999996,
+   "phi_parent_eV": 4.7552851571838195,
+   "phi_candidate_eV": 4.696983936837139,
+   "dft_change_eV": -0.058301220346680616,
+   "mesh_change_parent_eV": -0.0040713188982932635,
+   "mesh_change_candidate_eV": -0.004278243975187834,
+   "face_diff_max_eV": 0.1258944480773092,
+   "plateau_max_eV": 0.08015521136463599,
+   "magnetization_muB": [
+    0.6876,
+    0.4903
+   ],
+   "relax_max_force_eV_A": [
+    0.015881329006100214,
+    0.012897245713717328
+   ],
+   "relax_ionic_steps": [
+    5,
+    8
+   ]
+  },
+  {
+   "candidate": "PtIrSe2",
+   "parent": "Ir2Se2",
+   "parent_id": "Ir2Se2-bd586ade6200",
+   "partition": "validation",
+   "pred_seed42_eV": 0.1704568862915039,
+   "pred_ensemble_eV": 0.16513705253601074,
+   "pred_seeds_eV": [
+    0.1704566478729248,
+    0.1765427589416504,
+    0.14916372299194336,
+    0.2190995216369629,
+    0.11042261123657227
+   ],
+   "dchi": 0.07999999999999963,
+   "phi_parent_eV": 3.7108115962736514,
+   "phi_candidate_eV": 4.194369160106321,
+   "dft_change_eV": 0.4835575638326697,
+   "mesh_change_parent_eV": 0.008623927035290802,
+   "mesh_change_candidate_eV": 0.009367682354634255,
+   "face_diff_max_eV": 5.854712139718998e-05,
+   "plateau_max_eV": 0.00433694116872152,
+   "magnetization_muB": [
+    0.0,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.013829,
+    0.005996
+   ],
+   "relax_ionic_steps": [
+    1,
+    4
+   ]
+  },
+  {
+   "candidate": "PtIrTe2",
+   "parent": "Ir2Te2",
+   "parent_id": "Ir2Te2-005b8d7773e6",
+   "partition": "validation",
+   "pred_seed42_eV": 0.13142728805541992,
+   "pred_ensemble_eV": 0.1309365749359131,
+   "pred_seeds_eV": [
+    0.13142728805541992,
+    0.12194347381591797,
+    0.1720433235168457,
+    0.10944056510925293,
+    0.1198282241821289
+   ],
+   "dchi": 0.07999999999999963,
+   "phi_parent_eV": 4.151810466150494,
+   "phi_candidate_eV": 4.185178340663371,
+   "dft_change_eV": 0.03336787451287648,
+   "mesh_change_parent_eV": -0.02604197588942725,
+   "mesh_change_candidate_eV": -0.008990701434735904,
+   "face_diff_max_eV": 0.10502881338993042,
+   "plateau_max_eV": 0.05431846636244453,
+   "magnetization_muB": [
+    0.0,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.015156,
+    0.000757
+   ],
+   "relax_ionic_steps": [
+    2,
+    8
+   ]
+  },
+  {
+   "candidate": "NbMoS2",
+   "parent": "Mo2S2",
+   "parent_id": "Mo2S2-3f364d6a6f80",
+   "partition": "test",
+   "pred_seed42_eV": -0.05214405059814453,
+   "pred_ensemble_eV": -0.030609989166259767,
+   "pred_seeds_eV": [
+    -0.052144527435302734,
+    0.020119190216064453,
+    -0.10404729843139648,
+    0.00017118453979492188,
+    -0.017148494720458984
+   ],
+   "dchi": -0.56,
+   "phi_parent_eV": 4.971043062069217,
+   "phi_candidate_eV": 5.230755778297405,
+   "dft_change_eV": 0.25971271622818737,
+   "mesh_change_parent_eV": 0.0045848751054382575,
+   "mesh_change_candidate_eV": 0.006946199064226555,
+   "face_diff_max_eV": 0.00039908523351250835,
+   "plateau_max_eV": 0.0025489096223525465,
+   "magnetization_muB": [
+    0.0,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.009783269494397053,
+    0.014846767190200028
+   ],
+   "relax_ionic_steps": [
+    6,
+    12
+   ]
+  },
+  {
+   "candidate": "MoNbTe2",
+   "parent": "Nb2Te2",
+   "parent_id": "Nb2Te2-57c18790645b",
+   "partition": "test",
+   "pred_seed42_eV": -0.0313267707824707,
+   "pred_ensemble_eV": -0.07133054733276367,
+   "pred_seeds_eV": [
+    -0.0313267707824707,
+    -0.06643104553222656,
+    -0.03150367736816406,
+    -0.09515094757080078,
+    -0.13224029541015625
+   ],
+   "dchi": 0.56,
+   "phi_parent_eV": 4.3075735012006335,
+   "phi_candidate_eV": 4.214431741707641,
+   "dft_change_eV": -0.0931417594929922,
+   "mesh_change_parent_eV": -0.008567964900635161,
+   "mesh_change_candidate_eV": 0.008416154514348406,
+   "face_diff_max_eV": 0.16821959287049637,
+   "plateau_max_eV": 0.7439247379555485,
+   "magnetization_muB": [
+    0.7445,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.018575880113738893,
+    0.016340640991099463
+   ],
+   "relax_ionic_steps": [
+    7,
+    11
+   ]
+  },
+  {
+   "candidate": "ReOsTe2",
+   "parent": "Os2Te2",
+   "parent_id": "Os2Te2-13c7ec5be36a",
+   "partition": "validation",
+   "pred_seed42_eV": -0.05834460258483887,
+   "pred_ensemble_eV": -0.011845254898071289,
+   "pred_seeds_eV": [
+    -0.05834484100341797,
+    0.04724407196044922,
+    -0.007355213165283203,
+    -0.0736076831817627,
+    0.0328373908996582
+   ],
+   "dchi": -0.30000000000000027,
+   "phi_parent_eV": 3.6355482248277413,
+   "phi_candidate_eV": 3.8153371159512295,
+   "dft_change_eV": 0.17978889112348817,
+   "mesh_change_parent_eV": 0.024983695402668094,
+   "mesh_change_candidate_eV": 0.00530758685019217,
+   "face_diff_max_eV": 0.00016150740674802933,
+   "plateau_max_eV": 0.008914532134444375,
+   "magnetization_muB": [
+    0.0,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.000626,
+    0.002711
+   ],
+   "relax_ionic_steps": [
+    4,
+    4
+   ]
+  },
+  {
+   "candidate": "AgPdSe2",
+   "parent": "Pd2Se2",
+   "parent_id": "Pd2Se2-6fadb4af8d9e",
+   "partition": "test",
+   "pred_seed42_eV": 0.2202925682067871,
+   "pred_ensemble_eV": 0.27925643920898435,
+   "pred_seeds_eV": [
+    0.2202920913696289,
+    0.25345754623413086,
+    0.2604246139526367,
+    0.36797332763671875,
+    0.29413461685180664
+   ],
+   "dchi": -0.27000000000000024,
+   "phi_parent_eV": 5.200697795282657,
+   "phi_candidate_eV": 5.477218550394772,
+   "dft_change_eV": 0.2765207551121147,
+   "mesh_change_parent_eV": -0.010791468371659896,
+   "mesh_change_candidate_eV": -0.008833759438502398,
+   "face_diff_max_eV": 0.680238106613392,
+   "plateau_max_eV": 0.0535798099374043,
+   "magnetization_muB": [
+    0.0,
+    -0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.009898,
+    0.01727
+   ],
+   "relax_ionic_steps": [
+    3,
+    9
+   ]
+  },
+  {
+   "candidate": "AuPtSe2",
+   "parent": "Pt2Se2",
+   "parent_id": "Pt2Se2-36a8f524fcf6",
+   "partition": "test",
+   "pred_seed42_eV": 0.30467987060546875,
+   "pred_ensemble_eV": 0.30965290069580076,
+   "pred_seeds_eV": [
+    0.30467939376831055,
+    0.270477294921875,
+    0.28337812423706055,
+    0.4142451286315918,
+    0.275484561920166
+   ],
+   "dchi": 0.26000000000000023,
+   "phi_parent_eV": 4.884744482848378,
+   "phi_candidate_eV": 5.20964897398491,
+   "dft_change_eV": 0.3249044911365324,
+   "mesh_change_parent_eV": 0.009108157600952183,
+   "mesh_change_candidate_eV": 0.00858733224291175,
+   "face_diff_max_eV": 0.3575832486857067,
+   "plateau_max_eV": 0.027198028609305425,
+   "magnetization_muB": [
+    0.0,
+    -0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.0183737071381907,
+    0.005918305162797876
+   ],
+   "relax_ionic_steps": [
+    2,
+    10
+   ]
+  },
+  {
+   "candidate": "SnSbSe2",
+   "parent": "Sb2Se2",
+   "parent_id": "Sb2Se2-c0121d92a20c",
+   "partition": "validation",
+   "pred_seed42_eV": 0.019857406616210938,
+   "pred_ensemble_eV": 0.06069736480712891,
+   "pred_seeds_eV": [
+    0.019857406616210938,
+    0.04165792465209961,
+    0.10628986358642578,
+    0.08883810043334961,
+    0.046843528747558594
+   ],
+   "dchi": -0.08999999999999986,
+   "phi_parent_eV": 4.781332117215025,
+   "phi_candidate_eV": 4.306187814003411,
+   "dft_change_eV": -0.47514430321161427,
+   "mesh_change_parent_eV": 0.007779429038561325,
+   "mesh_change_candidate_eV": -0.0032017500224528206,
+   "face_diff_max_eV": 1.2249030518773907e-06,
+   "plateau_max_eV": 0.00011867051612823865,
+   "magnetization_muB": [
+    0.4853,
+    -0.0034
+   ],
+   "relax_max_force_eV_A": [
+    0.0,
+    0.0
+   ],
+   "relax_ionic_steps": [
+    1,
+    1
+   ]
+  },
+  {
+   "candidate": "CaScSe2",
+   "parent": "Sc2Se2",
+   "parent_id": "Sc2Se2-787760c30b65",
+   "partition": "test",
+   "pred_seed42_eV": -1.255098819732666,
+   "pred_ensemble_eV": -1.0502635478973388,
+   "pred_seeds_eV": [
+    -1.2550981044769287,
+    -0.6062943935394287,
+    -1.4976806640625,
+    -0.9751369953155518,
+    -0.9171075820922852
+   ],
+   "dchi": -0.3600000000000001,
+   "phi_parent_eV": 3.5112077849631285,
+   "phi_candidate_eV": 3.7071626975000607,
+   "dft_change_eV": 0.1959549125369322,
+   "mesh_change_parent_eV": 0.002170694646807636,
+   "mesh_change_candidate_eV": -0.0015569113031936865,
+   "face_diff_max_eV": 0.2516037967029141,
+   "plateau_max_eV": 0.00600993939807104,
+   "magnetization_muB": [
+    0.7697,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.014404895938534232,
+    0.010939561280051408
+   ],
+   "relax_ionic_steps": [
+    3,
+    11
+   ]
+  },
+  {
+   "candidate": "WTaS2",
+   "parent": "Ta2S2",
+   "parent_id": "S2Ta2-10321bd326e0",
+   "partition": "validation",
+   "pred_seed42_eV": 0.03739213943481445,
+   "pred_ensemble_eV": -0.01809215545654297,
+   "pred_seeds_eV": [
+    0.03739213943481445,
+    -0.05294370651245117,
+    -0.015445709228515625,
+    -0.08354043960571289,
+    0.02407693862915039
+   ],
+   "dchi": 0.8599999999999999,
+   "phi_parent_eV": 5.1425493482567735,
+   "phi_candidate_eV": 5.092376041783125,
+   "dft_change_eV": -0.05017330647364826,
+   "mesh_change_parent_eV": 0.023909873937450143,
+   "mesh_change_candidate_eV": -0.03322664241105766,
+   "face_diff_max_eV": 0.1294466399366474,
+   "plateau_max_eV": 0.12885714719010455,
+   "magnetization_muB": [
+    0.4048,
+    0.6233
+   ],
+   "relax_max_force_eV_A": [
+    0.007811670819997473,
+    0.019105399106011892
+   ],
+   "relax_ionic_steps": [
+    2,
+    9
+   ]
+  },
+  {
+   "candidate": "WTaTe2",
+   "parent": "Ta2Te2",
+   "parent_id": "Ta2Te2-14789ef267c9",
+   "partition": "test",
+   "pred_seed42_eV": -0.08361673355102539,
+   "pred_ensemble_eV": -0.08038167953491211,
+   "pred_seeds_eV": [
+    -0.08361673355102539,
+    -0.08063459396362305,
+    -0.036820411682128906,
+    -0.1309795379638672,
+    -0.06985712051391602
+   ],
+   "dchi": 0.8599999999999999,
+   "phi_parent_eV": 5.009316859858709,
+   "phi_candidate_eV": 3.9511459764220915,
+   "dft_change_eV": -1.0581708834366172,
+   "mesh_change_parent_eV": -0.013289963490644041,
+   "mesh_change_candidate_eV": -0.0012063331151410672,
+   "face_diff_max_eV": 0.0003201979167073432,
+   "plateau_max_eV": 0.02446453085066702,
+   "magnetization_muB": [
+    0.1652,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.000371,
+    0.001809
+   ],
+   "relax_ionic_steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "candidate": "ScTiSe2",
+   "parent": "Ti2Se2",
+   "parent_id": "Se2Ti2-4209d7977c0a",
+   "partition": "test",
+   "pred_seed42_eV": -0.22362709045410156,
+   "pred_ensemble_eV": -0.3558926582336426,
+   "pred_seeds_eV": [
+    -0.22362756729125977,
+    -0.35496997833251953,
+    -0.5939426422119141,
+    -0.3213620185852051,
+    -0.28556108474731445
+   ],
+   "dchi": -0.17999999999999994,
+   "phi_parent_eV": 4.244333588601588,
+   "phi_candidate_eV": 4.249884609833741,
+   "dft_change_eV": 0.005551021232152564,
+   "mesh_change_parent_eV": 0.00424336711822626,
+   "mesh_change_candidate_eV": -0.013786509481196418,
+   "face_diff_max_eV": 1.5426276239516312e-05,
+   "plateau_max_eV": 0.0011755667543944526,
+   "magnetization_muB": [
+    0.0,
+    0.1364
+   ],
+   "relax_max_force_eV_A": [
+    0.007006,
+    0.018122
+   ],
+   "relax_ionic_steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "candidate": "NbZrSe2",
+   "parent": "Zr2Se2",
+   "parent_id": "Se2Zr2-57b3bf262ba1",
+   "partition": "test",
+   "pred_seed42_eV": 0.22763442993164062,
+   "pred_ensemble_eV": 0.1451742172241211,
+   "pred_seeds_eV": [
+    0.22763395309448242,
+    0.2097644805908203,
+    -0.1260991096496582,
+    0.24411964416503906,
+    0.17045211791992188
+   ],
+   "dchi": 0.27,
+   "phi_parent_eV": 4.906507641333661,
+   "phi_candidate_eV": 4.82185861374135,
+   "dft_change_eV": -0.0846490275923113,
+   "mesh_change_parent_eV": -0.017031444616504743,
+   "mesh_change_candidate_eV": 0.005848498990222772,
+   "face_diff_max_eV": 0.00011968257228911483,
+   "plateau_max_eV": 0.0035768084579839154,
+   "magnetization_muB": [
+    -0.0,
+    0.0
+   ],
+   "relax_max_force_eV_A": [
+    0.005947343020206587,
+    0.005576365303672276
+   ],
+   "relax_ionic_steps": [
+    3,
+    4
+   ]
+  }
+ ]
+}

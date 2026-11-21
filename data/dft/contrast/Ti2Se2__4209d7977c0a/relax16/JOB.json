@@ -1,0 +1,14 @@
+{
+ "role": "parent",
+ "parent_id": "Se2Ti2-4209d7977c0a",
+ "species_order": [
+  "Ti",
+  "Se"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

@@ -1,0 +1,17 @@
+SYSTEM = Materon review-stage DFT
+PREC = Accurate
+ENCUT = 520
+ISMEAR = 1
+SIGMA = 0.05
+LASPH = .TRUE.
+LREAL = .FALSE.
+LWAVE = .FALSE.
+IBRION = -1
+NSW = 0
+ISPIN = 1
+EDIFF = 1E-8
+ISYM = 0
+NELM = 200
+ADDGRID = .TRUE.
+LCHARG = .FALSE.
+NCORE = 1

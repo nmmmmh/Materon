@@ -1,0 +1,85 @@
+{
+  "artifacts_sha256": {
+    "EXCLUSIONS.json": "19ac671d2b063e69d989a156814a420c49c6ddf5b78cc7f165ff4f6525a91f49",
+    "GRAPHS.pkl.gz": "ffd0328537bba3ca1f8af41cdcb085cd5a1a79b30d748f38df3046087f96b40f",
+    "QUALIFICATION.json": "7abb64e275704279642c4bb8e2b71d0cbfefbf0bae729a727d75065e8e4b0e7a",
+    "SPLIT.json": "a0d41d6d689d1b683b771ed23661d2f998b34f87bbdf8d2163c55fa6c472db15",
+    "TEST_LABELS.json": "0c8a6875472a834ab9fb668ee60294dd10ae3a5aa52e28abf21003ba0b8e3b68",
+    "TRAIN_LABELS.json": "22895b24f9d83811eca04579aae81501edfdc45e8ccc13fe2e54f8f6aa48aa23",
+    "VALIDATION_LABELS.json": "9d8cf52f60e16cdfd992c2c1cc753ad9c95d288603def3d3167e36640b8f640e",
+    "WF_INPUTS.json.gz": "e0a1f43f96641c96b411b728ce2f064750874a0e9e954a3fca0d51e2d816042c"
+  },
+  "candidate_count_exact_gap_zero_finite_wf": 2379,
+  "dataset": "C2DB_metallic_2D_work_function",
+  "dft_runs": 0,
+  "fits_run": 0,
+  "graph_cache_representation": "unchanged data.build_graph arrays; fixed element x and 37-value context with original graph geometry; no feature or target transformation",
+  "graph_cache_sha256": "ffd0328537bba3ca1f8af41cdcb085cd5a1a79b30d748f38df3046087f96b40f",
+  "graph_stats": {
+    "all_builder_graph_arrays_finite": true,
+    "all_cached_arrays_finite": true,
+    "all_edges_in_bounds_and_reciprocal": true,
+    "all_nodes_have_neighbors": true,
+    "cached_graph_keys": [
+      "z",
+      "x",
+      "context",
+      "edges",
+      "distances",
+      "radial",
+      "coords",
+      "images",
+      "lattice"
+    ],
+    "context_width": 37,
+    "cutoff_angstrom": 5.0,
+    "feature_table_Z_range": [
+      1,
+      100
+    ],
+    "fixed_feature_table_used_without_rescaling": true,
+    "graph_count": 2379,
+    "graph_periodicity_metadata": "data.build_graph uses pymatgen lattice periodicity; vacuum and zero z-image edges were validated",
+    "graphs_with_image_z_edges": 0,
+    "graphs_with_neighborless_nodes": 0,
+    "image_z_edges": 0,
+    "neighborless_nodes": 0,
+    "source_pbc_metadata": "not specified in C2DB_SOURCE.json",
+    "total_directed_edges": 261276,
+    "total_nodes": 11789,
+    "x_width": 20
+  },
+  "label_exposure": {
+    "source_label_audit_preceded_this_split": true,
+    "test_is_fully_unexposed": false,
+    "test_labels_file": "TEST_LABELS.json",
+    "trainer_access_contract": "read train and validation labels during selection; read test labels only for fixed final scoring"
+  },
+  "metallic_scope_source_count": 2379,
+  "mother_group_count": 2379,
+  "record_count": 2379,
+  "schema": "materon.c2db_workfunction_prepared.v1",
+  "source_record_count": 3520,
+  "source_sha256": {
+    "C2DB_SOURCE.json": "c15fb53c70c49c9cc62edac73c835e068323af959b183717594d11699f34ff47",
+    "FEATURE_TABLE.csv": "ab540d6c9043fe53ee8f51468186c95f719f769ca14480ca466599d2cdbd5db3",
+    "context.py": "7625284553764674472fac0386537bdc9636d58c515cee9c99ee7f1898581728",
+    "data.py": "b7ddb3b56221c62ebf3e34d1d0ce89a1b3a6f63bd579433d711ffb71389525ed",
+    "prepare.py": "0e5d11ab5ab6f06d2fe9f6b84930817fe548acf816c5df80db785d07ca732b97"
+  },
+  "spin_coverage": "unknown; this source snapshot has no spin field",
+  "spin_filter_applied": false,
+  "status": "prepared",
+  "system_count": 1108,
+  "target": {
+    "name": "wf",
+    "unit": "eV"
+  },
+  "target_scaling": {
+    "mean": 4.8385859307363965,
+    "normalized_sample_weight_mean": 1.0,
+    "std": 1.0502858183059975,
+    "std_ddof": 0,
+    "weighting": "mother-balanced; mother=id, so each unique training id has weight 1"
+  }
+}

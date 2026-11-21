@@ -1,0 +1,514 @@
+{
+ "AgPdSe2__6fadb4af8d9e": {
+  "phi_eV": 5.477218550394772,
+  "core_X_eV": -60.90405,
+  "vac_minus_coreX_eV": 63.94796855039477,
+  "EF_minus_coreX_eV": 58.470749999999995,
+  "core_by_species_eV": {
+   "Ag": -81.2845,
+   "Se": -60.90405,
+   "Pd": -83.2976
+  }
+ },
+ "Au2Te2__18220d19d208": {
+  "phi_eV": 4.785992448757983,
+  "core_X_eV": -96.36205000000001,
+  "vac_minus_coreX_eV": 99.579342448758,
+  "EF_minus_coreX_eV": 94.79335,
+  "core_by_species_eV": {
+   "Te": -96.36205000000001,
+   "Au": -75.2059
+  }
+ },
+ "AuPtSe2__36a8f524fcf6": {
+  "phi_eV": 5.20964897398491,
+  "core_X_eV": -61.221900000000005,
+  "vac_minus_coreX_eV": 64.07144897398491,
+  "EF_minus_coreX_eV": 58.8618,
+  "core_by_species_eV": {
+   "Se": -61.221900000000005,
+   "Au": -75.9215,
+   "Pt": -76.2861
+  }
+ },
+ "CaScSe2__787760c30b65": {
+  "phi_eV": 3.7071626975000607,
+  "core_X_eV": -60.2521,
+  "vac_minus_coreX_eV": 62.27776269750006,
+  "EF_minus_coreX_eV": 58.5706,
+  "core_by_species_eV": {
+   "Se": -60.2521,
+   "Sc": -53.9919,
+   "Ca": -51.1818
+  }
+ },
+ "Cu2Se2__21e73df39ca5": {
+  "phi_eV": 6.189598277785887,
+  "core_X_eV": -61.4092,
+  "vac_minus_coreX_eV": 63.856398277785885,
+  "EF_minus_coreX_eV": 57.666799999999995,
+  "core_by_species_eV": {
+   "Se": -61.4092,
+   "Cu": -89.8934
+  }
+ },
+ "Hf2S2__6b0cc07cfc68": {
+  "phi_eV": 4.7552851571838195,
+  "core_X_eV": -93.49665,
+  "vac_minus_coreX_eV": 96.72313515718382,
+  "EF_minus_coreX_eV": 91.96785,
+  "core_by_species_eV": {
+   "Hf": -44.5469,
+   "S": -93.49665
+  }
+ },
+ "HgAuTe2__18220d19d208": {
+  "phi_eV": 4.760377501301224,
+  "core_X_eV": -96.26105000000001,
+  "vac_minus_coreX_eV": 99.25772750130123,
+  "EF_minus_coreX_eV": 94.49735000000001,
+  "core_by_species_eV": {
+   "Te": -96.26105000000001,
+   "Au": -75.2933,
+   "Hg": -45.1492
+  }
+ },
+ "Ir2Se2__bd586ade6200": {
+  "phi_eV": 3.7108115962736514,
+  "core_X_eV": -61.8013,
+  "vac_minus_coreX_eV": 63.98461159627365,
+  "EF_minus_coreX_eV": 60.273799999999994,
+  "core_by_species_eV": {
+   "Ir": -60.5577,
+   "Se": -61.8013
+  }
+ },
+ "Ir2Te2__005b8d7773e6": {
+  "phi_eV": 4.151810466150494,
+  "core_X_eV": -96.0384,
+  "vac_minus_coreX_eV": 99.28221046615049,
+  "EF_minus_coreX_eV": 95.1304,
+  "core_by_species_eV": {
+   "Te": -96.0384,
+   "Ir": -59.1663
+  }
+ },
+ "Mo2S2__3f364d6a6f80": {
+  "phi_eV": 4.971043062069218,
+  "core_X_eV": -94.3249,
+  "vac_minus_coreX_eV": 97.16754306206921,
+  "EF_minus_coreX_eV": 92.1965,
+  "core_by_species_eV": {
+   "S": -94.3249,
+   "Mo": -75.71405
+  }
+ },
+ "MoNbTe2__57c18790645b": {
+  "phi_eV": 4.214431741707641,
+  "core_X_eV": -94.3928,
+  "vac_minus_coreX_eV": 98.77423174170764,
+  "EF_minus_coreX_eV": 94.5598,
+  "core_by_species_eV": {
+   "Te": -94.3928,
+   "Nb": -40.6223,
+   "Mo": -72.9331
+  }
+ },
+ "Nb2Te2__57c18790645b": {
+  "phi_eV": 4.3075735012006335,
+  "core_X_eV": -94.64,
+  "vac_minus_coreX_eV": 98.72957350120063,
+  "EF_minus_coreX_eV": 94.422,
+  "core_by_species_eV": {
+   "Te": -94.64,
+   "Nb": -41.1313
+  }
+ },
+ "NbMoS2__3f364d6a6f80": {
+  "phi_eV": 5.2307557782974055,
+  "core_X_eV": -94.51095000000001,
+  "vac_minus_coreX_eV": 97.12720577829741,
+  "EF_minus_coreX_eV": 91.89645,
+  "core_by_species_eV": {
+   "Nb": -43.7325,
+   "S": -94.51095000000001,
+   "Mo": -75.8616
+  }
+ },
+ "NbZrSe2__57b3bf262ba1": {
+  "phi_eV": 4.82185861374135,
+  "core_X_eV": -61.02525,
+  "vac_minus_coreX_eV": 63.24060861374135,
+  "EF_minus_coreX_eV": 58.41875,
+  "core_by_species_eV": {
+   "Zr": -86.5609,
+   "Se": -61.02525,
+   "Nb": -43.7511
+  }
+ },
+ "Os2Te2__13c7ec5be36a": {
+  "phi_eV": 3.6355482248277413,
+  "core_X_eV": -96.44835,
+  "vac_minus_coreX_eV": 98.98909822482774,
+  "EF_minus_coreX_eV": 95.35355,
+  "core_by_species_eV": {
+   "Te": -96.44835,
+   "Os": -54.7168
+  }
+ },
+ "Pd2Se2__6fadb4af8d9e": {
+  "phi_eV": 5.200697795282657,
+  "core_X_eV": -60.95185,
+  "vac_minus_coreX_eV": 63.94984779528266,
+  "EF_minus_coreX_eV": 58.74915,
+  "core_by_species_eV": {
+   "Se": -60.95185,
+   "Pd": -83.0291
+  }
+ },
+ "Pt2Se2__36a8f524fcf6": {
+  "phi_eV": 4.884744482848378,
+  "core_X_eV": -61.2512,
+  "vac_minus_coreX_eV": 64.06914448284837,
+  "EF_minus_coreX_eV": 59.1844,
+  "core_by_species_eV": {
+   "Se": -61.2512,
+   "Pt": -76.2331
+  }
+ },
+ "PtIrSe2__bd586ade6200": {
+  "phi_eV": 4.19436916010632,
+  "core_X_eV": -61.7458,
+  "vac_minus_coreX_eV": 64.06776916010632,
+  "EF_minus_coreX_eV": 59.873400000000004,
+  "core_by_species_eV": {
+   "Ir": -60.6684,
+   "Pt": -76.7172,
+   "Se": -61.7458
+  }
+ },
+ "PtIrTe2__005b8d7773e6": {
+  "phi_eV": 4.185178340663371,
+  "core_X_eV": -95.94550000000001,
+  "vac_minus_coreX_eV": 99.29697834066339,
+  "EF_minus_coreX_eV": 95.11180000000002,
+  "core_by_species_eV": {
+   "Te": -95.94550000000001,
+   "Ir": -58.9622,
+   "Pt": -75.0597
+  }
+ },
+ "ReOsTe2__13c7ec5be36a": {
+  "phi_eV": 3.8153371159512295,
+  "core_X_eV": -96.4441,
+  "vac_minus_coreX_eV": 98.99793711595123,
+  "EF_minus_coreX_eV": 95.18260000000001,
+  "core_by_species_eV": {
+   "Te": -96.4441,
+   "Re": -48.3203,
+   "Os": -54.9119
+  }
+ },
+ "Sb2Se2__c0121d92a20c": {
+  "phi_eV": 4.781332117215025,
+  "core_X_eV": -62.0646,
+  "vac_minus_coreX_eV": 63.56103211721502,
+  "EF_minus_coreX_eV": 58.7797,
+  "core_by_species_eV": {
+   "Se": -62.0646,
+   "Sb": -96.582
+  }
+ },
+ "Sc2Se2__787760c30b65": {
+  "phi_eV": 3.511207784963129,
+  "core_X_eV": -60.48965,
+  "vac_minus_coreX_eV": 62.48515778496313,
+  "EF_minus_coreX_eV": 58.973949999999995,
+  "core_by_species_eV": {
+   "Se": -60.48965,
+   "Sc": -53.2409
+  }
+ },
+ "ScTiSe2__4209d7977c0a": {
+  "phi_eV": 4.249884609833741,
+  "core_X_eV": -61.1129,
+  "vac_minus_coreX_eV": 63.02358460983374,
+  "EF_minus_coreX_eV": 58.773700000000005,
+  "core_by_species_eV": {
+   "Ti": -59.7834,
+   "Se": -61.1129,
+   "Sc": -53.0581
+  }
+ },
+ "SnSbSe2__c0121d92a20c": {
+  "phi_eV": 4.306187814003411,
+  "core_X_eV": -61.4152,
+  "vac_minus_coreX_eV": 62.85218781400341,
+  "EF_minus_coreX_eV": 58.546,
+  "core_by_species_eV": {
+   "Se": -61.4152,
+   "Sn": -96.1281,
+   "Sb": -61.4152
+  }
+ },
+ "Ta2S2__10321bd326e0": {
+  "phi_eV": 5.1425493482567735,
+  "core_X_eV": -93.1481,
+  "vac_minus_coreX_eV": 96.92294934825678,
+  "EF_minus_coreX_eV": 91.7804,
+  "core_by_species_eV": {
+   "Ta": -44.3909,
+   "S": -93.1481
+  }
+ },
+ "Ta2Te2__14789ef267c9": {
+  "phi_eV": 5.009316859858709,
+  "core_X_eV": -95.9751,
+  "vac_minus_coreX_eV": 98.85331685985871,
+  "EF_minus_coreX_eV": 93.844,
+  "core_by_species_eV": {
+   "Te": -95.9751,
+   "Ta": -44.4056
+  }
+ },
+ "TaHfS2__6b0cc07cfc68": {
+  "phi_eV": 4.696983936837139,
+  "core_X_eV": -93.68095,
+  "vac_minus_coreX_eV": 96.83993393683714,
+  "EF_minus_coreX_eV": 92.14295,
+  "core_by_species_eV": {
+   "Hf": -44.4608,
+   "Ta": -45.0351,
+   "S": -93.68095
+  }
+ },
+ "Ti2Se2__4209d7977c0a": {
+  "phi_eV": 4.244333588601588,
+  "core_X_eV": -61.2555,
+  "vac_minus_coreX_eV": 63.15093358860159,
+  "EF_minus_coreX_eV": 58.9066,
+  "core_by_species_eV": {
+   "Se": -61.2555,
+   "Ti": -59.7772
+  }
+ },
+ "WTaS2__10321bd326e0": {
+  "phi_eV": 5.092376041783125,
+  "core_X_eV": -93.2398,
+  "vac_minus_coreX_eV": 97.00367604178312,
+  "EF_minus_coreX_eV": 91.9113,
+  "core_by_species_eV": {
+   "Ta": -44.2827,
+   "W": -47.2702,
+   "S": -93.2398
+  }
+ },
+ "WTaTe2__14789ef267c9": {
+  "phi_eV": 3.9511459764220915,
+  "core_X_eV": -96.0186,
+  "vac_minus_coreX_eV": 98.8668459764221,
+  "EF_minus_coreX_eV": 94.9157,
+  "core_by_species_eV": {
+   "Ta": -44.1995,
+   "W": -46.9475,
+   "Te": -96.0186
+  }
+ },
+ "ZnCuSe2__21e73df39ca5": {
+  "phi_eV": 6.103597711526795,
+  "core_X_eV": -61.2658,
+  "vac_minus_coreX_eV": 63.581497711526794,
+  "EF_minus_coreX_eV": 57.4779,
+  "core_by_species_eV": {
+   "Zn": -42.3987,
+   "Se": -61.2658,
+   "Cu": -90.0446
+  }
+ },
+ "Zr2Se2__57b3bf262ba1": {
+  "phi_eV": 4.90650764133366,
+  "core_X_eV": -60.61065,
+  "vac_minus_coreX_eV": 63.13795764133366,
+  "EF_minus_coreX_eV": 58.23145,
+  "core_by_species_eV": {
+   "Zr": -86.28729999999999,
+   "Se": -60.61065
+  }
+ },
+ "AgPtSe2__36a8f524fcf6": {
+  "phi_eV": 5.541755356078699,
+  "core_X_eV": -61.2239,
+  "vac_minus_coreX_eV": 64.0584553560787,
+  "EF_minus_coreX_eV": 58.5167,
+  "core_by_species_eV": {
+   "Ag": -81.4465,
+   "Pt": -76.5799,
+   "Se": -61.2239
+  }
+ },
+ "AuIrTe2__005b8d7773e6": {
+  "phi_eV": 4.561640462496619,
+  "core_X_eV": -96.00450000000001,
+  "vac_minus_coreX_eV": 99.39454046249662,
+  "EF_minus_coreX_eV": 94.83290000000001,
+  "core_by_species_eV": {
+   "Te": -96.00450000000001,
+   "Ir": -59.0453,
+   "Au": -74.7738
+  }
+ },
+ "CdIrSe2__bd586ade6200": {
+  "phi_eV": 4.9501920429049795,
+  "core_X_eV": -61.5611,
+  "vac_minus_coreX_eV": 63.62099204290498,
+  "EF_minus_coreX_eV": 58.6708,
+  "core_by_species_eV": {
+   "Ir": -60.8104,
+   "Se": -61.5611,
+   "Cd": -44.4858
+  }
+ },
+ "IrPdSe2__6fadb4af8d9e": {
+  "phi_eV": 4.799576585799772,
+  "core_X_eV": -61.030100000000004,
+  "vac_minus_coreX_eV": 63.89917658579978,
+  "EF_minus_coreX_eV": 59.0996,
+  "core_by_species_eV": {
+   "Ir": -60.102,
+   "Se": -61.030100000000004,
+   "Pd": -82.934
+  }
+ },
+ "IrTaTe2__14789ef267c9": {
+  "phi_eV": 3.8204805509715616,
+  "core_X_eV": -96.1013,
+  "vac_minus_coreX_eV": 98.99978055097155,
+  "EF_minus_coreX_eV": 95.1793,
+  "core_by_species_eV": {
+   "Te": -96.1013,
+   "Ir": -59.3515,
+   "Ta": -44.6696
+  }
+ },
+ "KCuSe2__21e73df39ca5": {
+  "phi_eV": 5.755271320808171,
+  "core_X_eV": -60.877250000000004,
+  "vac_minus_coreX_eV": 63.488121320808176,
+  "EF_minus_coreX_eV": 57.732850000000006,
+  "core_by_species_eV": {
+   "Se": -60.877250000000004,
+   "Cu": -89.1917,
+   "K": -40.4232
+  }
+ },
+ "MgHfS2__6b0cc07cfc68": {
+  "phi_eV": 5.526761378528075,
+  "core_X_eV": -93.5672,
+  "vac_minus_coreX_eV": 96.65826137852807,
+  "EF_minus_coreX_eV": 91.1315,
+  "core_by_species_eV": {
+   "Hf": -45.814,
+   "Mg": -42.751,
+   "S": -93.5672
+  }
+ },
+ "NaZrSe2__57b3bf262ba1": {
+  "phi_eV": 6.050934615452874,
+  "core_X_eV": -60.970349999999996,
+  "vac_minus_coreX_eV": 63.17458461545287,
+  "EF_minus_coreX_eV": 57.12365,
+  "core_by_species_eV": {
+   "Zr": -88.5168,
+   "Se": -60.970349999999996,
+   "Na": -52.8455
+  }
+ },
+ "NbAuTe2__18220d19d208": {
+  "phi_eV": 4.236784788384815,
+  "core_X_eV": -96.02115,
+  "vac_minus_coreX_eV": 99.03693478838483,
+  "EF_minus_coreX_eV": 94.80015,
+  "core_by_species_eV": {
+   "Te": -96.02115,
+   "Au": -75.3021,
+   "Nb": -42.4924
+  }
+ },
+ "OsSbSe2__c0121d92a20c": {
+  "phi_eV": 4.740781555184098,
+  "core_X_eV": -62.2421,
+  "vac_minus_coreX_eV": 63.5256815551841,
+  "EF_minus_coreX_eV": 58.7849,
+  "core_by_species_eV": {
+   "Se": -62.2421,
+   "Sb": -96.8936,
+   "Os": -57.0
+  }
+ },
+ "PbTaS2__10321bd326e0": {
+  "phi_eV": 5.4752868598802795,
+  "core_X_eV": -92.4163,
+  "vac_minus_coreX_eV": 96.91808685988029,
+  "EF_minus_coreX_eV": 91.4428,
+  "core_by_species_eV": {
+   "Pb": -98.4895,
+   "Ta": -43.7712,
+   "S": -92.4163
+  }
+ },
+ "PdScSe2__787760c30b65": {
+  "phi_eV": 5.416505101760117,
+  "core_X_eV": -61.0995,
+  "vac_minus_coreX_eV": 63.27380510176012,
+  "EF_minus_coreX_eV": 57.8573,
+  "core_by_species_eV": {
+   "Se": -61.0995,
+   "Sc": -54.4079,
+   "Pd": -83.0268
+  }
+ },
+ "PtOsTe2__13c7ec5be36a": {
+  "phi_eV": 3.6146554296550226,
+  "core_X_eV": -96.4996,
+  "vac_minus_coreX_eV": 99.22295542965503,
+  "EF_minus_coreX_eV": 95.6083,
+  "core_by_species_eV": {
+   "Te": -96.4996,
+   "Pt": -75.652,
+   "Os": -54.8947
+  }
+ },
+ "ReNbTe2__57c18790645b": {
+  "phi_eV": 4.321041130328979,
+  "core_X_eV": -94.79845,
+  "vac_minus_coreX_eV": 98.88499113032898,
+  "EF_minus_coreX_eV": 94.56395,
+  "core_by_species_eV": {
+   "Te": -94.79845,
+   "Re": -47.3621,
+   "Nb": -41.0097
+  }
+ },
+ "RhTiSe2__4209d7977c0a": {
+  "phi_eV": 4.850280541722389,
+  "core_X_eV": -61.4273,
+  "vac_minus_coreX_eV": 63.44428054172239,
+  "EF_minus_coreX_eV": 58.594,
+  "core_by_species_eV": {
+   "Rh": -84.69,
+   "Se": -61.4273,
+   "Ti": -60.494
+  }
+ },
+ "ZrMoS2__3f364d6a6f80": {
+  "phi_eV": 5.412351074803321,
+  "core_X_eV": -94.0018,
+  "vac_minus_coreX_eV": 96.95835107480332,
+  "EF_minus_coreX_eV": 91.546,
+  "core_by_species_eV": {
+   "Zr": -85.6214,
+   "S": -94.0018,
+   "Mo": -75.3802
+  }
+ }
+}

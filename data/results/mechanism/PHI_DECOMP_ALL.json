@@ -1,0 +1,848 @@
+{
+ "AgPdSe2__6fadb4af8d9e": {
+  "root": "contrast_dft",
+  "phi_eV": 5.477218550394772,
+  "thickness_A": 5.069619252054395,
+  "dipole_eV": 10.787050361954709,
+  "filling_eV": 5.3098318115599366,
+  "dipole_pad1_eV": 10.122294827591183,
+  "filling_pad1_eV": 4.645076277196411
+ },
+ "Au2Te2__18220d19d208": {
+  "root": "contrast_dft",
+  "phi_eV": 4.785992448757983,
+  "thickness_A": 4.211592955262233,
+  "dipole_eV": 12.779575005126564,
+  "filling_eV": 7.99358255636858,
+  "dipole_pad1_eV": 12.00914742542955,
+  "filling_pad1_eV": 7.223154976671566
+ },
+ "AuPtSe2__36a8f524fcf6": {
+  "root": "contrast_dft",
+  "phi_eV": 5.20964897398491,
+  "thickness_A": 4.546818477913234,
+  "dipole_eV": 11.15643681562215,
+  "filling_eV": 5.946787841637241,
+  "dipole_pad1_eV": 10.165664167252872,
+  "filling_pad1_eV": 4.956015193267963
+ },
+ "CaScSe2__787760c30b65": {
+  "root": "contrast_dft",
+  "phi_eV": 3.7071626975000607,
+  "thickness_A": 3.649519622347384,
+  "dipole_eV": 8.96418044493838,
+  "filling_eV": 5.2570177474383195,
+  "dipole_pad1_eV": 8.349512329328835,
+  "filling_pad1_eV": 4.642349631828774
+ },
+ "Cu2Se2__21e73df39ca5": {
+  "root": "contrast_dft",
+  "phi_eV": 6.189598277785887,
+  "thickness_A": 4.092513334601165,
+  "dipole_eV": 9.673131316250968,
+  "filling_eV": 3.4835330384650813,
+  "dipole_pad1_eV": 9.334008476732244,
+  "filling_pad1_eV": 3.144410198946357
+ },
+ "Hf2S2__6b0cc07cfc68": {
+  "root": "contrast_dft",
+  "phi_eV": 4.7552851571838195,
+  "thickness_A": 5.6923106630602565,
+  "dipole_eV": 10.316680170997731,
+  "filling_eV": 5.561395013813913,
+  "dipole_pad1_eV": 9.892847879878852,
+  "filling_pad1_eV": 5.137562722695032
+ },
+ "HgAuTe2__18220d19d208": {
+  "root": "contrast_dft",
+  "phi_eV": 4.760377501301224,
+  "thickness_A": 4.474919017569791,
+  "dipole_eV": 10.975928313671421,
+  "filling_eV": 6.215550812370196,
+  "dipole_pad1_eV": 10.725307957117241,
+  "filling_pad1_eV": 5.964930455816018
+ },
+ "Ir2Se2__bd586ade6200": {
+  "root": "contrast_dft",
+  "phi_eV": 3.7108115962736514,
+  "thickness_A": 3.0006756792000147,
+  "dipole_eV": 12.841067881533558,
+  "filling_eV": 9.130256285259907,
+  "dipole_pad1_eV": 10.14045492715233,
+  "filling_pad1_eV": 6.429643330878679
+ },
+ "Ir2Te2__005b8d7773e6": {
+  "root": "contrast_dft",
+  "phi_eV": 4.151810466150494,
+  "thickness_A": 4.623869891768891,
+  "dipole_eV": 11.312728715178183,
+  "filling_eV": 7.160918249027689,
+  "dipole_pad1_eV": 11.374391715121709,
+  "filling_pad1_eV": 7.222581248971214
+ },
+ "Mo2S2__3f364d6a6f80": {
+  "root": "contrast_dft",
+  "phi_eV": 4.971043062069218,
+  "thickness_A": 3.3338270169610382,
+  "dipole_eV": 15.970346319268625,
+  "filling_eV": 10.999303257199408,
+  "dipole_pad1_eV": 12.623152671017332,
+  "filling_pad1_eV": 7.6521096089481135
+ },
+ "MoNbTe2__57c18790645b": {
+  "root": "contrast_dft",
+  "phi_eV": 4.214431741707641,
+  "thickness_A": 6.154773635712674,
+  "dipole_eV": 11.948937680808282,
+  "filling_eV": 7.734505939100641,
+  "dipole_pad1_eV": 12.575449006467363,
+  "filling_pad1_eV": 8.361017264759722
+ },
+ "Nb2Te2__57c18790645b": {
+  "root": "contrast_dft",
+  "phi_eV": 4.3075735012006335,
+  "thickness_A": 6.4039290819335974,
+  "dipole_eV": 10.340581420577442,
+  "filling_eV": 6.033007919376808,
+  "dipole_pad1_eV": 11.449317501191178,
+  "filling_pad1_eV": 7.141743999990545
+ },
+ "NbMoS2__3f364d6a6f80": {
+  "root": "contrast_dft",
+  "phi_eV": 5.2307557782974055,
+  "thickness_A": 3.4449919293204503,
+  "dipole_eV": 13.880545503166303,
+  "filling_eV": 8.6497897248689,
+  "dipole_pad1_eV": 11.32713523281462,
+  "filling_pad1_eV": 6.096379454517216
+ },
+ "NbZrSe2__57b3bf262ba1": {
+  "root": "contrast_dft",
+  "phi_eV": 4.82185861374135,
+  "thickness_A": 3.5233261095873445,
+  "dipole_eV": 11.66868799281205,
+  "filling_eV": 6.846829379070698,
+  "dipole_pad1_eV": 9.533837374733569,
+  "filling_pad1_eV": 4.711978760992217
+ },
+ "Os2Te2__13c7ec5be36a": {
+  "root": "contrast_dft",
+  "phi_eV": 3.6355482248277413,
+  "thickness_A": 3.2416663013527227,
+  "dipole_eV": 12.359871427231356,
+  "filling_eV": 8.724323202403616,
+  "dipole_pad1_eV": 11.354498558781744,
+  "filling_pad1_eV": 7.718950333954003
+ },
+ "Pd2Se2__6fadb4af8d9e": {
+  "root": "contrast_dft",
+  "phi_eV": 5.200697795282657,
+  "thickness_A": 4.79120692400039,
+  "dipole_eV": 11.201571657807955,
+  "filling_eV": 6.000873862525298,
+  "dipole_pad1_eV": 10.37017124683383,
+  "filling_pad1_eV": 5.169473451551173
+ },
+ "Pt2Se2__36a8f524fcf6": {
+  "root": "contrast_dft",
+  "phi_eV": 4.884744482848378,
+  "thickness_A": 4.223631071592989,
+  "dipole_eV": 11.728878931454407,
+  "filling_eV": 6.844134448606029,
+  "dipole_pad1_eV": 10.584008534660601,
+  "filling_pad1_eV": 5.699264051812223
+ },
+ "PtIrSe2__bd586ade6200": {
+  "root": "contrast_dft",
+  "phi_eV": 4.19436916010632,
+  "thickness_A": 3.1700991892215016,
+  "dipole_eV": 13.1624998093518,
+  "filling_eV": 8.968130649245479,
+  "dipole_pad1_eV": 10.495996365523379,
+  "filling_pad1_eV": 6.301627205417058
+ },
+ "PtIrTe2__005b8d7773e6": {
+  "root": "contrast_dft",
+  "phi_eV": 4.185178340663371,
+  "thickness_A": 4.755928166566777,
+  "dipole_eV": 11.554309236487335,
+  "filling_eV": 7.369130895823963,
+  "dipole_pad1_eV": 11.532377683200412,
+  "filling_pad1_eV": 7.347199342537042
+ },
+ "ReOsTe2__13c7ec5be36a": {
+  "root": "contrast_dft",
+  "phi_eV": 3.8153371159512295,
+  "thickness_A": 3.3760704783460938,
+  "dipole_eV": 11.930113461518214,
+  "filling_eV": 8.114776345566986,
+  "dipole_pad1_eV": 11.12468667143612,
+  "filling_pad1_eV": 7.309349555484889
+ },
+ "Sb2Se2__c0121d92a20c": {
+  "root": "contrast_dft",
+  "phi_eV": 4.781332117215025,
+  "thickness_A": 0.0,
+  "dipole_eV": NaN,
+  "filling_eV": NaN,
+  "dipole_pad1_eV": 16.26550770727223,
+  "filling_pad1_eV": 11.484175590057205
+ },
+ "Sc2Se2__787760c30b65": {
+  "root": "contrast_dft",
+  "phi_eV": 3.511207784963129,
+  "thickness_A": 3.498586367025838,
+  "dipole_eV": 9.111641326812506,
+  "filling_eV": 5.6004335418493785,
+  "dipole_pad1_eV": 8.504758073148356,
+  "filling_pad1_eV": 4.993550288185227
+ },
+ "ScTiSe2__4209d7977c0a": {
+  "root": "contrast_dft",
+  "phi_eV": 4.249884609833741,
+  "thickness_A": 3.0082250143494775,
+  "dipole_eV": 11.004244543874789,
+  "filling_eV": 6.754359934041048,
+  "dipole_pad1_eV": 8.874086689705884,
+  "filling_pad1_eV": 4.624202079872144
+ },
+ "SnSbSe2__c0121d92a20c": {
+  "root": "contrast_dft",
+  "phi_eV": 4.306187814003411,
+  "thickness_A": 0.0,
+  "dipole_eV": NaN,
+  "filling_eV": NaN,
+  "dipole_pad1_eV": 15.651594719455062,
+  "filling_pad1_eV": 11.34540690545165
+ },
+ "Ta2S2__10321bd326e0": {
+  "root": "contrast_dft",
+  "phi_eV": 5.1425493482567735,
+  "thickness_A": 5.854766027203878,
+  "dipole_eV": 11.662388355467066,
+  "filling_eV": 6.519839007210292,
+  "dipole_pad1_eV": 11.37160293964653,
+  "filling_pad1_eV": 6.229053591389756
+ },
+ "Ta2Te2__14789ef267c9": {
+  "root": "contrast_dft",
+  "phi_eV": 5.009316859858709,
+  "thickness_A": 4.177830709644752,
+  "dipole_eV": 11.132623864072295,
+  "filling_eV": 6.123307004213586,
+  "dipole_pad1_eV": 10.928516345085677,
+  "filling_pad1_eV": 5.919199485226969
+ },
+ "TaHfS2__6b0cc07cfc68": {
+  "root": "contrast_dft",
+  "phi_eV": 4.696983936837139,
+  "thickness_A": 5.470365560589814,
+  "dipole_eV": 10.3694998543742,
+  "filling_eV": 5.67251591753706,
+  "dipole_pad1_eV": 10.015881934879433,
+  "filling_pad1_eV": 5.318897998042293
+ },
+ "Ti2Se2__4209d7977c0a": {
+  "root": "contrast_dft",
+  "phi_eV": 4.244333588601588,
+  "thickness_A": 2.8951988207999193,
+  "dipole_eV": 11.294172710853793,
+  "filling_eV": 7.049839122252205,
+  "dipole_pad1_eV": 9.032594899147146,
+  "filling_pad1_eV": 4.788261310545558
+ },
+ "WTaS2__10321bd326e0": {
+  "root": "contrast_dft",
+  "phi_eV": 5.092376041783125,
+  "thickness_A": 5.718581895610837,
+  "dipole_eV": 11.88235756107592,
+  "filling_eV": 6.789981519292795,
+  "dipole_pad1_eV": 11.530340571106663,
+  "filling_pad1_eV": 6.437964529323537
+ },
+ "WTaTe2__14789ef267c9": {
+  "root": "contrast_dft",
+  "phi_eV": 3.9511459764220915,
+  "thickness_A": 4.0341600009440395,
+  "dipole_eV": 11.36513205521218,
+  "filling_eV": 7.413986078790089,
+  "dipole_pad1_eV": 11.054850885347129,
+  "filling_pad1_eV": 7.103704908925037
+ },
+ "ZnCuSe2__21e73df39ca5": {
+  "root": "contrast_dft",
+  "phi_eV": 6.103597711526795,
+  "thickness_A": 4.127660822577354,
+  "dipole_eV": 8.81132578872381,
+  "filling_eV": 2.707728077197013,
+  "dipole_pad1_eV": 8.809611534988566,
+  "filling_pad1_eV": 2.706013823461769
+ },
+ "Zr2Se2__57b3bf262ba1": {
+  "root": "contrast_dft",
+  "phi_eV": 4.90650764133366,
+  "thickness_A": 3.619570812935649,
+  "dipole_eV": 13.403662814916636,
+  "filling_eV": 8.497155173582975,
+  "dipole_pad1_eV": 10.654101391937058,
+  "filling_pad1_eV": 5.747593750603397
+ },
+ "AgPtSe2__36a8f524fcf6": {
+  "root": "app_dft",
+  "phi_eV": 5.541755356078699,
+  "thickness_A": 4.667984938455106,
+  "dipole_eV": 10.7793988475884,
+  "filling_eV": 5.237643491509701,
+  "dipole_pad1_eV": 9.988832419317696,
+  "filling_pad1_eV": 4.447077063238996
+ },
+ "AuIrTe2__005b8d7773e6": {
+  "root": "app_dft",
+  "phi_eV": 4.561640462496619,
+  "thickness_A": 5.0563332513579,
+  "dipole_eV": 10.9384829963412,
+  "filling_eV": 6.376842533844582,
+  "dipole_pad1_eV": 11.199540271732777,
+  "filling_pad1_eV": 6.637899809236158
+ },
+ "CdIrSe2__bd586ade6200": {
+  "root": "app_dft",
+  "phi_eV": 4.9501920429049795,
+  "thickness_A": 3.5191457166423006,
+  "dipole_eV": 10.26772323800412,
+  "filling_eV": 5.317531195099141,
+  "dipole_pad1_eV": 8.830098297983277,
+  "filling_pad1_eV": 3.8799062550782963
+ },
+ "IrPdSe2__6fadb4af8d9e": {
+  "root": "app_dft",
+  "phi_eV": 4.799576585799772,
+  "thickness_A": 4.579024916213543,
+  "dipole_eV": 11.05623566833853,
+  "filling_eV": 6.256659082538759,
+  "dipole_pad1_eV": 10.22731436780072,
+  "filling_pad1_eV": 5.427737782000946
+ },
+ "IrTaTe2__14789ef267c9": {
+  "root": "app_dft",
+  "phi_eV": 3.8204805509715616,
+  "thickness_A": 3.875542679906232,
+  "dipole_eV": 12.08283934744088,
+  "filling_eV": 8.262358796469318,
+  "dipole_pad1_eV": 11.503211854475602,
+  "filling_pad1_eV": 7.682731303504041
+ },
+ "KCuSe2__21e73df39ca5": {
+  "root": "app_dft",
+  "phi_eV": 5.755271320808171,
+  "thickness_A": 5.750018698879728,
+  "dipole_eV": 7.950456481904028,
+  "filling_eV": 2.195185161095857,
+  "dipole_pad1_eV": 7.857420727366336,
+  "filling_pad1_eV": 2.1021494065581656
+ },
+ "MgHfS2__6b0cc07cfc68": {
+  "root": "app_dft",
+  "phi_eV": 5.526761378528075,
+  "thickness_A": 5.997462049075805,
+  "dipole_eV": 9.228434247934803,
+  "filling_eV": 3.7016728694067287,
+  "dipole_pad1_eV": 9.184032228388599,
+  "filling_pad1_eV": 3.6572708498605233
+ },
+ "NaZrSe2__57b3bf262ba1": {
+  "root": "app_dft",
+  "phi_eV": 6.050934615452874,
+  "thickness_A": 3.564881100726724,
+  "dipole_eV": 11.283205859184672,
+  "filling_eV": 5.232271243731796,
+  "dipole_pad1_eV": 9.270994880044366,
+  "filling_pad1_eV": 3.2200602645914915
+ },
+ "NbAuTe2__18220d19d208": {
+  "root": "app_dft",
+  "phi_eV": 4.236784788384815,
+  "thickness_A": 4.194093675053237,
+  "dipole_eV": 11.769261935844474,
+  "filling_eV": 7.532477147459659,
+  "dipole_pad1_eV": 11.36412033490638,
+  "filling_pad1_eV": 7.127335546521564
+ },
+ "OsSbSe2__c0121d92a20c": {
+  "root": "app_dft",
+  "phi_eV": 4.740781555184098,
+  "thickness_A": 0.0,
+  "dipole_eV": NaN,
+  "filling_eV": NaN,
+  "dipole_pad1_eV": 13.882236720488779,
+  "filling_pad1_eV": 9.14145516530468
+ },
+ "PbTaS2__10321bd326e0": {
+  "root": "app_dft",
+  "phi_eV": 5.4752868598802795,
+  "thickness_A": 6.251313949622331,
+  "dipole_eV": 13.770874963928556,
+  "filling_eV": 8.295588104048276,
+  "dipole_pad1_eV": 12.949036543089619,
+  "filling_pad1_eV": 7.4737496832093395
+ },
+ "PdScSe2__787760c30b65": {
+  "root": "app_dft",
+  "phi_eV": 5.416505101760117,
+  "thickness_A": 3.3935401685518514,
+  "dipole_eV": 10.835252084147589,
+  "filling_eV": 5.418746982387471,
+  "dipole_pad1_eV": 9.445659531843969,
+  "filling_pad1_eV": 4.029154430083853
+ },
+ "PtOsTe2__13c7ec5be36a": {
+  "root": "app_dft",
+  "phi_eV": 3.6146554296550226,
+  "thickness_A": 3.3669102241331643,
+  "dipole_eV": 13.186972112253649,
+  "filling_eV": 9.572316682598627,
+  "dipole_pad1_eV": 11.892283491337523,
+  "filling_pad1_eV": 8.2776280616825
+ },
+ "ReNbTe2__57c18790645b": {
+  "root": "app_dft",
+  "phi_eV": 4.321041130328979,
+  "thickness_A": 6.194377225088203,
+  "dipole_eV": 10.63192274181579,
+  "filling_eV": 6.310881611486812,
+  "dipole_pad1_eV": 11.693305799056812,
+  "filling_pad1_eV": 7.372264668727834
+ },
+ "RhTiSe2__4209d7977c0a": {
+  "root": "app_dft",
+  "phi_eV": 4.850280541722389,
+  "thickness_A": 2.8477395451112684,
+  "dipole_eV": 12.589144391866915,
+  "filling_eV": 7.738863850144526,
+  "dipole_pad1_eV": 9.859048791553423,
+  "filling_pad1_eV": 5.008768249831034
+ },
+ "ZrMoS2__3f364d6a6f80": {
+  "root": "app_dft",
+  "phi_eV": 5.412351074803321,
+  "thickness_A": 3.4854844380914187,
+  "dipole_eV": 16.114581823908598,
+  "filling_eV": 10.702230749105277,
+  "dipole_pad1_eV": 12.815174705784521,
+  "filling_pad1_eV": 7.402823630981201
+ },
+ "AgIrSe2__bd586ade6200": {
+  "root": "round2_dft",
+  "phi_eV": 4.650929458010195,
+  "thickness_A": 3.2901639808983987,
+  "dipole_eV": 12.356350459600895,
+  "filling_eV": 7.7054210015907,
+  "dipole_pad1_eV": 9.986750518630247,
+  "filling_pad1_eV": 5.335821060620052
+ },
+ "CsCuSe2__21e73df39ca5": {
+  "root": "round2_dft",
+  "phi_eV": 5.7136868421487765,
+  "thickness_A": 6.415202314541489,
+  "dipole_eV": 9.012009138576062,
+  "filling_eV": 3.2983222964272856,
+  "dipole_pad1_eV": 8.6623749837436,
+  "filling_pad1_eV": 2.948688141594824
+ },
+ "CsOsTe2__13c7ec5be36a": {
+  "root": "round2_dft",
+  "phi_eV": 4.674036553532074,
+  "thickness_A": 4.622717785048337,
+  "dipole_eV": 10.23170657638818,
+  "filling_eV": 5.557670022856107,
+  "dipole_pad1_eV": 9.884025321022431,
+  "filling_pad1_eV": 5.209988767490357
+ },
+ "CsPdSe2__6fadb4af8d9e": {
+  "root": "round2_dft",
+  "phi_eV": 5.761101887243438,
+  "thickness_A": 7.025239837950039,
+  "dipole_eV": 9.72874992787808,
+  "filling_eV": 3.9676480406346424,
+  "dipole_pad1_eV": 9.442010347146569,
+  "filling_pad1_eV": 3.6809084599031308
+ },
+ "HfTaTe2__design": {
+  "root": "round2_dft",
+  "phi_eV": 5.047097317064189,
+  "thickness_A": 4.300387267416056,
+  "dipole_eV": 11.140638626581376,
+  "filling_eV": 6.093541309517187,
+  "dipole_pad1_eV": 10.915672403372227,
+  "filling_pad1_eV": 5.868575086308038
+ },
+ "KTaS2__10321bd326e0": {
+  "root": "round2_dft",
+  "phi_eV": 6.009717590135466,
+  "thickness_A": 7.356174751109279,
+  "dipole_eV": 9.746366099508137,
+  "filling_eV": 3.7366485093726705,
+  "dipole_pad1_eV": 9.996654831852817,
+  "filling_pad1_eV": 3.9869372417173516
+ },
+ "KZrSe2__57b3bf262ba1": {
+  "root": "round2_dft",
+  "phi_eV": 6.029636182439152,
+  "thickness_A": 3.791624585594549,
+  "dipole_eV": 11.30546444767395,
+  "filling_eV": 5.275828265234798,
+  "dipole_pad1_eV": 9.417318103318133,
+  "filling_pad1_eV": 3.387681920878981
+ },
+ "NM_Hf2S2__6b0cc07cfc68": {
+  "root": "round2_dft",
+  "phi_eV": 4.70679617283022,
+  "thickness_A": 5.6923106630602565,
+  "dipole_eV": 10.318106735095984,
+  "filling_eV": 5.611310562265765,
+  "dipole_pad1_eV": 9.887029522541276,
+  "filling_pad1_eV": 5.180233349711056
+ },
+ "NM_Nb2Te2__57c18790645b": {
+  "root": "round2_dft",
+  "phi_eV": 4.270481222861645,
+  "thickness_A": 6.4039290819335974,
+  "dipole_eV": 10.325908705168388,
+  "filling_eV": 6.055427482306742,
+  "dipole_pad1_eV": 11.440696482838932,
+  "filling_pad1_eV": 7.1702152599772875
+ },
+ "NM_Sb2Se2__c0121d92a20c": {
+  "root": "round2_dft",
+  "phi_eV": 4.830376301556906,
+  "thickness_A": 0.0,
+  "dipole_eV": NaN,
+  "filling_eV": NaN,
+  "dipole_pad1_eV": 16.283204448386527,
+  "filling_pad1_eV": 11.452828146829622
+ },
+ "NM_Sc2Se2__787760c30b65": {
+  "root": "round2_dft",
+  "phi_eV": 3.4118762277052594,
+  "thickness_A": 3.498586367025838,
+  "dipole_eV": 9.09975003500511,
+  "filling_eV": 5.687873807299852,
+  "dipole_pad1_eV": 8.498573327597352,
+  "filling_pad1_eV": 5.086697099892094
+ },
+ "NM_Ta2S2__10321bd326e0": {
+  "root": "round2_dft",
+  "phi_eV": 5.087711342540247,
+  "thickness_A": 5.854766027203878,
+  "dipole_eV": 11.644766855758327,
+  "filling_eV": 6.55705551321808,
+  "dipole_pad1_eV": 11.358732619193926,
+  "filling_pad1_eV": 6.27102127665368
+ },
+ "NM_Ta2Te2__14789ef267c9": {
+  "root": "round2_dft",
+  "phi_eV": 5.015112497055249,
+  "thickness_A": 4.177830709644752,
+  "dipole_eV": 11.133020862138414,
+  "filling_eV": 6.117908365083166,
+  "dipole_pad1_eV": 10.928550633477853,
+  "filling_pad1_eV": 5.913438136422605
+ },
+ "NaHfS2__6b0cc07cfc68": {
+  "root": "round2_dft",
+  "phi_eV": 5.93341352231063,
+  "thickness_A": 6.742443399093988,
+  "dipole_eV": 8.532138870610789,
+  "filling_eV": 2.598725348300158,
+  "dipole_pad1_eV": 8.67414697505141,
+  "filling_pad1_eV": 2.740733452740781
+ },
+ "NaMoS2__3f364d6a6f80": {
+  "root": "round2_dft",
+  "phi_eV": 5.688936230063497,
+  "thickness_A": 3.274243720589709,
+  "dipole_eV": 13.111025251780154,
+  "filling_eV": 7.422089021716657,
+  "dipole_pad1_eV": 10.699473739785219,
+  "filling_pad1_eV": 5.010537509721722
+ },
+ "NaNbTe2__57c18790645b": {
+  "root": "round2_dft",
+  "phi_eV": 4.682541440461883,
+  "thickness_A": 7.676414835785863,
+  "dipole_eV": 8.418611534035954,
+  "filling_eV": 3.736070093574072,
+  "dipole_pad1_eV": 9.796543087654822,
+  "filling_pad1_eV": 5.114001647192939
+ },
+ "NbTaTe2__design": {
+  "root": "round2_dft",
+  "phi_eV": 5.014559758778122,
+  "thickness_A": 4.169648193009209,
+  "dipole_eV": 11.020598827786975,
+  "filling_eV": 6.006039069008852,
+  "dipole_pad1_eV": 10.83331460035851,
+  "filling_pad1_eV": 5.818754841580386
+ },
+ "OsTaTe2__design": {
+  "root": "round2_dft",
+  "phi_eV": 3.6696824887506394,
+  "thickness_A": 3.8604468547286515,
+  "dipole_eV": 11.647270539822511,
+  "filling_eV": 7.977588051071871,
+  "dipole_pad1_eV": 11.154818602625344,
+  "filling_pad1_eV": 7.485136113874704
+ },
+ "OsTaTe2__relaxlat": {
+  "root": "round2_dft",
+  "phi_eV": 3.666556704150366,
+  "thickness_A": 3.8641044964162448,
+  "dipole_eV": 11.642753314568761,
+  "filling_eV": 7.976196610418394,
+  "dipole_pad1_eV": 11.163374882282,
+  "filling_pad1_eV": 7.496818178131634
+ },
+ "PtTaTe2__14789ef267c9": {
+  "root": "round2_dft",
+  "phi_eV": 3.9208041436955154,
+  "thickness_A": 3.9151101599325684,
+  "dipole_eV": 12.672760687518782,
+  "filling_eV": 8.751956543823265,
+  "dipole_pad1_eV": 11.983093764253315,
+  "filling_pad1_eV": 8.062289620557799
+ },
+ "REF_Hf": {
+  "root": "round2_dft",
+  "phi_eV": -7.279482703386643,
+  "thickness_A": 2.529313,
+  "dipole_eV": -2.367282703387704,
+  "filling_eV": 4.91219999999894,
+  "dipole_pad1_eV": -1.9405755456161122,
+  "filling_pad1_eV": 5.338907157770532
+ },
+ "REF_Nb": {
+  "root": "round2_dft",
+  "phi_eV": -4.681519988415307,
+  "thickness_A": 1.661255,
+  "dipole_eV": 0.15028001158316331,
+  "filling_eV": 4.83179999999847,
+  "dipole_pad1_eV": 0.14527906034106247,
+  "filling_pad1_eV": 4.826799048756369
+ },
+ "REF_Os": {
+  "root": "round2_dft",
+  "phi_eV": -12.012476032247061,
+  "thickness_A": 2.1791225,
+  "dipole_eV": -3.284176032248476,
+  "filling_eV": 8.728299999998585,
+  "dipole_pad1_eV": -3.088136162396371,
+  "filling_pad1_eV": 8.924339869850689
+ },
+ "REF_Re": {
+  "root": "round2_dft",
+  "phi_eV": -10.215849359746922,
+  "thickness_A": 2.244846,
+  "dipole_eV": -2.964149359747322,
+  "filling_eV": 7.251699999999599,
+  "dipole_pad1_eV": -2.6615208320087067,
+  "filling_pad1_eV": 7.554328527738215
+ },
+ "REF_Ta": {
+  "root": "round2_dft",
+  "phi_eV": -5.224334201266952,
+  "thickness_A": 1.6597365,
+  "dipole_eV": 0.14176579873623282,
+  "filling_eV": 5.366100000003185,
+  "dipole_pad1_eV": 0.13757606884952042,
+  "filling_pad1_eV": 5.361910270116473
+ },
+ "REF_Te": {
+  "root": "round2_dft",
+  "phi_eV": -3.717743421534338,
+  "thickness_A": 3.9665053333333193,
+  "dipole_eV": 1.8179565784659861,
+  "filling_eV": 5.5357000000003245,
+  "dipole_pad1_eV": 1.876686346528527,
+  "filling_pad1_eV": 5.594429768062865
+ },
+ "REF_W": {
+  "root": "round2_dft",
+  "phi_eV": -7.384519602022252,
+  "thickness_A": 1.5857085,
+  "dipole_eV": 0.4113803979779548,
+  "filling_eV": 7.7959000000002066,
+  "dipole_pad1_eV": 0.38302745122881726,
+  "filling_pad1_eV": 7.767547053251069
+ },
+ "ReTaTe2__design": {
+  "root": "round2_dft",
+  "phi_eV": 3.552790273792805,
+  "thickness_A": 3.924916588738198,
+  "dipole_eV": 11.319240336585445,
+  "filling_eV": 7.7664500627926385,
+  "dipole_pad1_eV": 11.067633308541666,
+  "filling_pad1_eV": 7.51484303474886
+ },
+ "ReTaTe2__relaxlat": {
+  "root": "round2_dft",
+  "phi_eV": 3.5061128577084064,
+  "thickness_A": 3.94525989691482,
+  "dipole_eV": 11.50841016957575,
+  "filling_eV": 8.002297311867345,
+  "dipole_pad1_eV": 10.990536952645998,
+  "filling_pad1_eV": 7.484424094937592
+ },
+ "RhScSe2__787760c30b65": {
+  "root": "round2_dft",
+  "phi_eV": 4.688793571732377,
+  "thickness_A": 3.3134783147517624,
+  "dipole_eV": 10.7800093967061,
+  "filling_eV": 6.091215824973722,
+  "dipole_pad1_eV": 9.474498161080394,
+  "filling_pad1_eV": 4.785704589348017
+ },
+ "RuTiSe2__4209d7977c0a": {
+  "root": "round2_dft",
+  "phi_eV": 4.755229788750626,
+  "thickness_A": 2.8951988207999193,
+  "dipole_eV": 12.46764810651516,
+  "filling_eV": 7.712418317764534,
+  "dipole_pad1_eV": 9.704374973249276,
+  "filling_pad1_eV": 4.949145184498651
+ },
+ "Ta2Te2__relaxlat": {
+  "root": "round2_dft",
+  "phi_eV": 5.006066125351583,
+  "thickness_A": 4.178880956428372,
+  "dipole_eV": 11.146307046579162,
+  "filling_eV": 6.14024092122758,
+  "dipole_pad1_eV": 10.946731547485493,
+  "filling_pad1_eV": 5.940665422133911
+ },
+ "TaAuTe2__18220d19d208": {
+  "root": "round2_dft",
+  "phi_eV": 4.401825993117904,
+  "thickness_A": 4.371968683887134,
+  "dipole_eV": 11.831851015168263,
+  "filling_eV": 7.430025022050359,
+  "dipole_pad1_eV": 11.35936809530646,
+  "filling_pad1_eV": 6.9575421021885555
+ },
+ "TaSbSe2__c0121d92a20c": {
+  "root": "round2_dft",
+  "phi_eV": 4.4808823592924885,
+  "thickness_A": 0.0,
+  "dipole_eV": NaN,
+  "filling_eV": NaN,
+  "dipole_pad1_eV": 14.140498606769638,
+  "filling_pad1_eV": 9.65961624747715
+ },
+ "W2Te2__design": {
+  "root": "round2_dft",
+  "phi_eV": 3.465858752040151,
+  "thickness_A": 3.8839422838803443,
+  "dipole_eV": 11.749608271074719,
+  "filling_eV": 8.283749519034568,
+  "dipole_pad1_eV": 11.258762549133495,
+  "filling_pad1_eV": 7.792903797093344
+ },
+ "W2Te2__relaxlat": {
+  "root": "round2_dft",
+  "phi_eV": 3.3220338563448624,
+  "thickness_A": 3.9244958966899617,
+  "dipole_eV": 11.829728439622746,
+  "filling_eV": 8.507694583277884,
+  "dipole_pad1_eV": 11.491598572130462,
+  "filling_pad1_eV": 8.169564715785599
+ },
+ "WReTe2__design": {
+  "root": "round2_dft",
+  "phi_eV": 3.420408721914536,
+  "thickness_A": 3.7743240354141676,
+  "dipole_eV": 11.73286120376572,
+  "filling_eV": 8.312452481851185,
+  "dipole_pad1_eV": 11.293995384782425,
+  "filling_pad1_eV": 7.87358666286789
+ },
+ "WReTe2__relaxlat": {
+  "root": "round2_dft",
+  "phi_eV": 3.354570468650575,
+  "thickness_A": 3.797256350309965,
+  "dipole_eV": 11.778266971881935,
+  "filling_eV": 8.42369650323136,
+  "dipole_pad1_eV": 11.427003783457284,
+  "filling_pad1_eV": 8.072433314806709
+ },
+ "ZnIrTe2__005b8d7773e6": {
+  "root": "round2_dft",
+  "phi_eV": 4.720529157681064,
+  "thickness_A": 4.798094146504868,
+  "dipole_eV": 9.64543774759231,
+  "filling_eV": 4.9249085899112455,
+  "dipole_pad1_eV": 10.328435573573298,
+  "filling_pad1_eV": 5.607906415892234
+ },
+ "ZnPtSe2__36a8f524fcf6": {
+  "root": "round2_dft",
+  "phi_eV": 5.619322548591797,
+  "thickness_A": 4.207328937521822,
+  "dipole_eV": 9.685635118559386,
+  "filling_eV": 4.066312569967589,
+  "dipole_pad1_eV": 9.28273455358708,
+  "filling_pad1_eV": 3.6634120049952816
+ },
+ "MoTaTe2__design": {
+  "root": "design2_dft",
+  "phi_eV": 4.080329565842077,
+  "thickness_A": 4.016079067383602,
+  "dipole_eV": 12.564081919922794,
+  "filling_eV": 8.483752354080716,
+  "dipole_pad1_eV": 11.813714439745501,
+  "filling_pad1_eV": 7.733384873903423
+ },
+ "MoTaTe2__relaxlat": {
+  "root": "design2_dft",
+  "phi_eV": 3.9873297826826217,
+  "thickness_A": 4.053297376132889,
+  "dipole_eV": 12.653826123762345,
+  "filling_eV": 8.666496341079723,
+  "dipole_pad1_eV": 12.032696536334043,
+  "filling_pad1_eV": 8.045366753651422
+ },
+ "REF_I": {
+  "root": "design2_dft",
+  "phi_eV": -0.4319219150860747,
+  "thickness_A": 7.420737043914936,
+  "dipole_eV": 0.5837220899460137,
+  "filling_eV": 1.0156440050320885,
+  "dipole_pad1_eV": 0.7727744814014337,
+  "filling_pad1_eV": 1.2046963964875084
+ },
+ "REF_Mo": {
+  "root": "design2_dft",
+  "phi_eV": -10.581571568616809,
+  "thickness_A": 1.5796185,
+  "dipole_eV": 1.4670284313813162,
+  "filling_eV": 12.048599999998125,
+  "dipole_pad1_eV": 1.3585032502576884,
+  "filling_pad1_eV": 11.940074818874496
+ },
+ "Ta2TeI__design": {
+  "root": "design2_dft",
+  "phi_eV": 3.074252894639672,
+  "thickness_A": 4.165344043366645,
+  "dipole_eV": 10.727320413614247,
+  "filling_eV": 7.653067518974575,
+  "dipole_pad1_eV": 10.654535323106597,
+  "filling_pad1_eV": 7.580282428466925
+ },
+ "Ta2TeI__relaxlat": {
+  "root": "design2_dft",
+  "phi_eV": 3.1232202271785074,
+  "thickness_A": 4.149655818184728,
+  "dipole_eV": 10.684816343936006,
+  "filling_eV": 7.5615961167575,
+  "dipole_pad1_eV": 10.552625350423735,
+  "filling_pad1_eV": 7.429405123245227
+ }
+}

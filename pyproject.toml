@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "materon"
-version = "1.0.0"
-description = "Environment-modulated material neurons for interpretable crystal graph learning"
+version = "1.1.0"
+description = "Neuron-inspired gating of named elemental attributes for interpretable crystal graph networks"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [{name = "the Materon authors"}]

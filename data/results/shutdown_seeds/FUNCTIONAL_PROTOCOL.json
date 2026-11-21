@@ -1,0 +1,25 @@
+{
+  "stage": "c2db_workfunction_functional_probe_v1",
+  "new_fits": 0,
+  "new_DFT": 0,
+  "checkpoint": "physical20_environment_gate/best.weights.h5",
+  "evaluation": "all378 validation records only; no test labels/predictions/scoring; whole frozen graphcache deserialized but only train/validation graphs indexed",
+  "reference": "atom-weighted training context mean conditional on central atomic number; global training fallback for unseen element",
+  "contrasts": [
+    "full gate",
+    "same checkpoint mask0 bypass",
+    "same checkpoint training element-conditioned context",
+    "same checkpoint training element-conditioned neighbor chemistry only (first20context)",
+    "same checkpoint training element-conditioned geometric context only (last17context)"
+  ],
+  "attribution": "Integrated gradients over mask0 to1, fixed x/context/geometry, feature contributions sum over atoms; explains gate-on minus gate-bypass of this checkpoint only",
+  "attribution_subset": "first64 validation IDs in already-fixed SPLIT order, no label selection",
+  "integration_steps": [
+    16,
+    32
+  ],
+  "verification": "full validation reproduction<=2e-5eV; mask0 output equals direct original nested backbone on rawx; IG completeness max<=0.002eV, step16/32 convergence reported; graph-wide shared node-feature-offset gradients with context fixed compared to central finite difference epsilon0.01 on first8 validation graphs",
+  "interpretation": "Functional input/path reliance, not causal element share; correlated element features prevent unique physical attribution; fixed-gate input replacements can be out of training distribution; not a retrained capacity control",
+  "success": "Return measured evidence, including null or harmful intervention effects, without new fits or test-based tuning",
+  "ranking_faithfulness": "On same fixed first64 validation IDs, disable top5 features by absolute summed-over-atoms IG32 per graph and compare absolute prediction response to20 random5 feature subsets, RNG20261013; report pergraphwinfraction, means, signedIG/deletion direction agreement. Model-function criterion only."
+}

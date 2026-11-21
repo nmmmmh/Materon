@@ -1,0 +1,25 @@
+{
+ "locked_at_utc": "2026-10-23T08:18:34.447466+00:00",
+ "read_before_lock": [
+  "contrast-set DFT work-function changes (16 pairs)",
+  "model gate-rule summary (C2DB-trained ensemble L400)"
+ ],
+ "not_read_before_lock": [
+  "any potential decomposition (dipole/filling terms)",
+  "round-1 application DFT results",
+  "round-2 and design DFT"
+ ],
+ "definitions": {
+  "decomposition": "Phi = D - F with D = V_vac - Vbar, F = E_F - Vbar; V(z) plane-averaged ionic+Hartree potential, V_vac the two-face vacuum mean of Eq. (S8), Vbar the mean of V(z) between the outermost atomic planes (main) and over those planes extended by 1 A on each side (sensitivity). Static24 jobs, parent in-plane lattice (clamped).",
+  "pair change": "dX = X(candidate) - X(parent) for X in Phi, D, F.",
+  "valence count": "N = group number for groups 1-12, group - 10 for groups 13-18; dN = N(substituent) - N(host) for one M-site substitution.",
+  "early host": "host metal of groups 3-6 (Sc, Y, Ti, Zr, Hf, Nb, Ta, Mo, W).",
+  "flagged pairs": "two-face difference > 0.1 eV or |magnetization| > 0.1 muB in either system: reported separately, excluded from tests."
+ },
+ "hypotheses": {
+  "H1_sign_rule": "In early hosts, single M-site substitutions with dN != 0 change Phi with sign opposite to dN (electron addition lowers Phi). Formulated from the contrast set (8/8); tested only on pairs computed after this lock (round 1, round 2, design). Supported if the sign agreement exceeds 50% with a one-sided binomial p < 0.05.",
+  "H2_filling_term": "In early hosts, dF has the sign of dN (electron addition raises E_F relative to the slab-mean potential) in a majority of pairs, and -dF tracks dPhi more closely than dD does: Spearman(dPhi, -dF) > Spearman(dPhi, dD). Tested on all early-host pairs (contrast, round 1, round 2, design); reported for both Vbar windows.",
+  "H3_model_variable": "The C2DB-trained ensemble identifies valence count as the controlling variable but with the inter-compound sign: within early hosts its predicted change correlates positively with dN (Spearman > 0 in all five members). Reported on the same pairs as H2."
+ },
+ "not_claimed": "Late hosts (groups 8-12) and the p-block host Sb2Se2 are reported descriptively; no sign rule is asserted for them."
+}

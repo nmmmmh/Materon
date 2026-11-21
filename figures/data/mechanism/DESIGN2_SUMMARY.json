@@ -1,0 +1,52 @@
+{
+ "mu_eV_atom": {
+  "Ta": -11.811398865,
+  "Te": -3.1439548333333334,
+  "Mo": -10.92356608,
+  "I": -1.523235725
+ },
+ "rows": {
+  "MoTaTe2": {
+   "phi_clamped_eV": 4.080329565842077,
+   "phi_faces_clamped_eV": [
+    4.080465245731824,
+    4.080193885952331
+   ],
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": -0.1622621745833337,
+   "dos_EF_clamped": 0.6613755631571432,
+   "mag_clamped": 0.0,
+   "phi_relaxed_eV": 3.9873297826826217,
+   "phi_faces_relaxed_eV": [
+    3.987473764541742,
+    3.987185800823502
+   ],
+   "a_relaxed_A": 3.895392,
+   "b_relaxed_A": 3.895392,
+   "Ef_relaxed_eV_atom": -0.16662359958333361,
+   "dos_EF_relaxed": 0.6324363796285711,
+   "mag_relaxed": 0.0
+  },
+  "Ta2TeI": {
+   "phi_clamped_eV": 3.074252894639672,
+   "phi_faces_clamped_eV": [
+    2.362806931362867,
+    3.785698857916478
+   ],
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": 0.03397202458333304,
+   "dos_EF_clamped": 0.43964505843478274,
+   "mag_clamped": 0.0,
+   "phi_relaxed_eV": 3.123220227178507,
+   "phi_faces_relaxed_eV": [
+    2.410422486199783,
+    3.8360179681572313
+   ],
+   "a_relaxed_A": 3.965539,
+   "b_relaxed_A": 3.965539,
+   "Ef_relaxed_eV_atom": 0.03242241458333339,
+   "dos_EF_relaxed": 0.5658639673913043,
+   "mag_relaxed": 0.0
+  }
+ }
+}

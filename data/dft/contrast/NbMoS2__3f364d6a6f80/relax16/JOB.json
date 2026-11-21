@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_id": "Mo2S2-3f364d6a6f80",
+ "species_order": [
+  "Nb",
+  "S",
+  "Mo"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  3,
+  2
+ ]
+}

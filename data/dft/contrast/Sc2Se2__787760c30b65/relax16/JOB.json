@@ -1,0 +1,14 @@
+{
+ "role": "parent",
+ "parent_id": "Sc2Se2-787760c30b65",
+ "species_order": [
+  "Se",
+  "Sc"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

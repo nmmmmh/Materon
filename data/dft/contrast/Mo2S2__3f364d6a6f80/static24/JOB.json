@@ -1,0 +1,14 @@
+{
+ "role": "parent",
+ "parent_id": "Mo2S2-3f364d6a6f80",
+ "species_order": [
+  "Mo",
+  "S"
+ ],
+ "poscar_to_original_site": [
+  0,
+  2,
+  1,
+  3
+ ]
+}

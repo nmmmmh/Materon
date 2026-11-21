@@ -1,0 +1,28 @@
+protocol: V14_P1_stdX_rawY_mae_b32_checkpoint
+feature_view: legacy_engineered
+formal_seeds: [42, 123, 2024]
+folds: [0, 1, 2, 3, 4]
+candidates:
+  - V14_G0_H5_R32_D0p10
+  - V14_G1_I64P64_D0p10
+  - V14_G2_I64P64_PD0p025
+  - V14_G3_I64P64_PD0p025_TR0p10
+  - V14_G4_INPUT_ONLY_FULL_R32_D0p10
+blend_lambda_grid: [0.00, 0.05, 0.10, 0.20, 0.33, 0.50]
+selection:
+  source: inner_validation_predictions_only
+  all_candidates_use_all_three_seeds: true
+  strict_constraints:
+    mean_improvement_mpa: 0.0
+    median_improvement_mpa: 0.0
+    run_wins: 9
+    seed_wins: 3
+    fold_wins: 4
+    worst_seed_improvement_mpa: -1.0
+    worst_fold_improvement_mpa: -1.0
+  fallback: lambda_zero_exact_baseline
+model_retention:
+  search_weights: none
+  search_predictions: compact_csv
+  formal_initial_saved_configs: [baseline, selected_gate]
+  post_formal: baseline_only_if_blend_fails

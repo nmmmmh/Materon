@@ -1,0 +1,403 @@
+{
+ "locked_file": "APPLICATION_PREREGISTERED.json",
+ "summary": {
+  "n_candidates": 16,
+  "n_with_dft": 16,
+  "all": {
+   "L400": {
+    "n": 16,
+    "sign_agreement": 10,
+    "spearman": 0.5147058823529412,
+    "mae_eV": 0.6028692048301028
+   },
+   "FT1": {
+    "n": 16,
+    "sign_agreement": 11,
+    "spearman": 0.5588235294117647,
+    "mae_eV": 0.5343959789196054
+   },
+   "dchi": {
+    "n": 16,
+    "sign_agreement": 8,
+    "spearman": 0.13823529411764704
+   },
+   "mae_zero_predictor_eV": 0.6347385892499717,
+   "dft_abs_ge_0.243": 13
+  },
+  "confident": {
+   "L400": {
+    "n": 16,
+    "sign_agreement": 10,
+    "spearman": 0.5147058823529412,
+    "mae_eV": 0.6028692048301028
+   },
+   "FT1": {
+    "n": 16,
+    "sign_agreement": 11,
+    "spearman": 0.5588235294117647,
+    "mae_eV": 0.5343959789196054
+   },
+   "dchi": {
+    "n": 16,
+    "sign_agreement": 8,
+    "spearman": 0.13823529411764704
+   },
+   "mae_zero_predictor_eV": 0.6347385892499717,
+   "dft_abs_ge_0.243": 13
+  }
+ },
+ "rows": [
+  {
+   "candidate": "RhTiSe2",
+   "parent": "Ti2Se2",
+   "parent_id": "Se2Ti2-4209d7977c0a",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Rh",
+   "dchi": 0.7399999999999998,
+   "pred_locked_mean_eV": 0.6271938800811767,
+   "pred_locked_sd_eV": 0.07437050243883227,
+   "pred_eV": {
+    "L400": 0.2991037368774414,
+    "FT1": 0.6271937370300293
+   },
+   "phi_parent_eV": 4.244333588601588,
+   "phi_candidate_eV": 4.850280541722389,
+   "dft_change_eV": 0.6059469531208013,
+   "face_diff_eV": 1.722789729274865e-05,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.000409,
+   "relax_ionic_steps": 4
+  },
+  {
+   "candidate": "IrPdSe2",
+   "parent": "Pd2Se2",
+   "parent_id": "Pd2Se2-6fadb4af8d9e",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Ir",
+   "dchi": 0.0,
+   "pred_locked_mean_eV": -0.48007850646972655,
+   "pred_locked_sd_eV": 0.05772228667184966,
+   "pred_eV": {
+    "L400": -0.586767578125,
+    "FT1": -0.48007888793945314
+   },
+   "phi_parent_eV": 5.200697795282657,
+   "phi_candidate_eV": 4.799576585799772,
+   "dft_change_eV": -0.4011212094828851,
+   "face_diff_eV": 0.5338179046648381,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.016534,
+   "relax_ionic_steps": 10
+  },
+  {
+   "candidate": "PdScSe2",
+   "parent": "Sc2Se2",
+   "parent_id": "Sc2Se2-787760c30b65",
+   "selection": "confident",
+   "site": 2,
+   "substituent": "Pd",
+   "dchi": 0.8400000000000001,
+   "pred_locked_mean_eV": 1.394938850402832,
+   "pred_locked_sd_eV": 0.22375039161397994,
+   "pred_eV": {
+    "L400": 1.417252254486084,
+    "FT1": 1.394939088821411
+   },
+   "phi_parent_eV": 3.5112077849631285,
+   "phi_candidate_eV": 5.416505101760117,
+   "dft_change_eV": 1.9052973167969882,
+   "face_diff_eV": 0.831851372526037,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.006786182210934215,
+   "relax_ionic_steps": 13
+  },
+  {
+   "candidate": "OsSbSe2",
+   "parent": "Sb2Se2",
+   "parent_id": "Sb2Se2-c0121d92a20c",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Os",
+   "dchi": 0.15000000000000036,
+   "pred_locked_mean_eV": -0.444459342956543,
+   "pred_locked_sd_eV": 0.07347701193663866,
+   "pred_eV": {
+    "L400": -0.2752684593200684,
+    "FT1": -0.4444594383239746
+   },
+   "phi_parent_eV": 4.781332117215025,
+   "phi_candidate_eV": 4.740781555184098,
+   "dft_change_eV": -0.04055056203092722,
+   "face_diff_eV": 1.2112097955707668e-06,
+   "magnetization_muB": 2.6428,
+   "relax_max_force_eV_A": 0.0,
+   "relax_ionic_steps": 1
+  },
+  {
+   "candidate": "PbTaS2",
+   "parent": "Ta2S2",
+   "parent_id": "S2Ta2-10321bd326e0",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Pb",
+   "dchi": 0.8300000000000001,
+   "pred_locked_mean_eV": -0.49837379455566405,
+   "pred_locked_sd_eV": 0.08624112535817492,
+   "pred_eV": {
+    "L400": -0.5448726654052735,
+    "FT1": -0.49837379455566405
+   },
+   "phi_parent_eV": 5.1425493482567735,
+   "phi_candidate_eV": 5.475286859880279,
+   "dft_change_eV": 0.3327375116235052,
+   "face_diff_eV": 0.016809603647599758,
+   "magnetization_muB": -0.0,
+   "relax_max_force_eV_A": 0.019995012028003384,
+   "relax_ionic_steps": 11
+  },
+  {
+   "candidate": "AgPtSe2",
+   "parent": "Pt2Se2",
+   "parent_id": "Pt2Se2-36a8f524fcf6",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Ag",
+   "dchi": -0.34999999999999987,
+   "pred_locked_mean_eV": 0.43764381408691405,
+   "pred_locked_sd_eV": 0.07587774703091847,
+   "pred_eV": {
+    "L400": 0.7377725601196289,
+    "FT1": 0.43764381408691405
+   },
+   "phi_parent_eV": 4.884744482848378,
+   "phi_candidate_eV": 5.541755356078699,
+   "dft_change_eV": 0.6570108732303215,
+   "face_diff_eV": 0.973964008262552,
+   "magnetization_muB": -0.0,
+   "relax_max_force_eV_A": 0.017374178340284183,
+   "relax_ionic_steps": 11
+  },
+  {
+   "candidate": "PtOsTe2",
+   "parent": "Os2Te2",
+   "parent_id": "Os2Te2-13c7ec5be36a",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Pt",
+   "dchi": 0.07999999999999963,
+   "pred_locked_mean_eV": 0.39799137115478517,
+   "pred_locked_sd_eV": 0.06945240203333315,
+   "pred_eV": {
+    "L400": 0.17489204406738282,
+    "FT1": 0.39799132347106936
+   },
+   "phi_parent_eV": 3.6355482248277413,
+   "phi_candidate_eV": 3.6146554296550226,
+   "dft_change_eV": -0.020892795172718692,
+   "face_diff_eV": 0.0001357770590360019,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.003354,
+   "relax_ionic_steps": 4
+  },
+  {
+   "candidate": "IrTaTe2",
+   "parent": "Ta2Te2",
+   "parent_id": "Ta2Te2-14789ef267c9",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Ir",
+   "dchi": 0.7000000000000002,
+   "pred_locked_mean_eV": -0.862953519821167,
+   "pred_locked_sd_eV": 0.1614115231831014,
+   "pred_eV": {
+    "L400": -0.09250221252441407,
+    "FT1": -0.8629532814025879
+   },
+   "phi_parent_eV": 5.009316859858709,
+   "phi_candidate_eV": 3.8204805509715616,
+   "dft_change_eV": -1.1888363088871472,
+   "face_diff_eV": 0.0002956331380419286,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.007877,
+   "relax_ionic_steps": 4
+  },
+  {
+   "candidate": "CdIrSe2",
+   "parent": "Ir2Se2",
+   "parent_id": "Ir2Se2-bd586ade6200",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Cd",
+   "dchi": -0.5100000000000002,
+   "pred_locked_mean_eV": 0.7134345054626465,
+   "pred_locked_sd_eV": 0.17675729633038378,
+   "pred_eV": {
+    "L400": 0.6113617420196533,
+    "FT1": 0.7134345531463623
+   },
+   "phi_parent_eV": 3.7108115962736514,
+   "phi_candidate_eV": 4.950192042904979,
+   "dft_change_eV": 1.2393804466313272,
+   "face_diff_eV": 5.6466471295202325e-05,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.002832,
+   "relax_ionic_steps": 4
+  },
+  {
+   "candidate": "NaZrSe2",
+   "parent": "Zr2Se2",
+   "parent_id": "Se2Zr2-57b3bf262ba1",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Na",
+   "dchi": -0.4,
+   "pred_locked_mean_eV": -2.2193527698516844,
+   "pred_locked_sd_eV": 0.6236659016742027,
+   "pred_eV": {
+    "L400": -2.4432396411895754,
+    "FT1": -2.2193525791168214
+   },
+   "phi_parent_eV": 4.906507641333661,
+   "phi_candidate_eV": 6.050934615452874,
+   "dft_change_eV": 1.144426974119213,
+   "face_diff_eV": 0.00014227470529348807,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.006209100578988876,
+   "relax_ionic_steps": 3
+  },
+  {
+   "candidate": "MgHfS2",
+   "parent": "Hf2S2",
+   "parent_id": "Hf2S2-6b0cc07cfc68",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Mg",
+   "dchi": 0.010000000000000009,
+   "pred_locked_mean_eV": 1.016416358947754,
+   "pred_locked_sd_eV": 0.3081830846010695,
+   "pred_eV": {
+    "L400": 0.9858539581298829,
+    "FT1": 1.016416358947754
+   },
+   "phi_parent_eV": 4.7552851571838195,
+   "phi_candidate_eV": 5.526761378528075,
+   "dft_change_eV": 0.7714762213442556,
+   "face_diff_eV": 2.5849664286328116,
+   "magnetization_muB": -0.0,
+   "relax_max_force_eV_A": 0.006889470661814302,
+   "relax_ionic_steps": 17
+  },
+  {
+   "candidate": "NbAuTe2",
+   "parent": "Au2Te2",
+   "parent_id": "Au2Te2-18220d19d208",
+   "selection": "confident",
+   "site": 2,
+   "substituent": "Nb",
+   "dchi": -0.94,
+   "pred_locked_mean_eV": -0.6630978107452392,
+   "pred_locked_sd_eV": 0.21502136615014583,
+   "pred_eV": {
+    "L400": -0.5641820907592774,
+    "FT1": -0.66309814453125
+   },
+   "phi_parent_eV": 4.785992448757984,
+   "phi_candidate_eV": 4.236784788384815,
+   "dft_change_eV": -0.5492076603731686,
+   "face_diff_eV": 0.4288238072034538,
+   "magnetization_muB": -0.0032,
+   "relax_max_force_eV_A": 0.002351212665838631,
+   "relax_ionic_steps": 7
+  },
+  {
+   "candidate": "ZrMoS2",
+   "parent": "Mo2S2",
+   "parent_id": "Mo2S2-3f364d6a6f80",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Zr",
+   "dchi": -0.8300000000000001,
+   "pred_locked_mean_eV": 0.3200209617614746,
+   "pred_locked_sd_eV": 0.11083299037562365,
+   "pred_eV": {
+    "L400": -0.039454174041748044,
+    "FT1": 0.3200209617614746
+   },
+   "phi_parent_eV": 4.971043062069217,
+   "phi_candidate_eV": 5.412351074803321,
+   "dft_change_eV": 0.4413080127341038,
+   "face_diff_eV": 0.00014839838262226124,
+   "magnetization_muB": 0.0,
+   "relax_max_force_eV_A": 0.0059102136171207895,
+   "relax_ionic_steps": 10
+  },
+  {
+   "candidate": "AuIrTe2",
+   "parent": "Ir2Te2",
+   "parent_id": "Ir2Te2-005b8d7773e6",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Au",
+   "dchi": 0.33999999999999986,
+   "pred_locked_mean_eV": 0.348757266998291,
+   "pred_locked_sd_eV": 0.1431276595218308,
+   "pred_eV": {
+    "L400": 0.5436391830444336,
+    "FT1": 0.3487574577331543
+   },
+   "phi_parent_eV": 4.151810466150494,
+   "phi_candidate_eV": 4.561640462496619,
+   "dft_change_eV": 0.40982999634612494,
+   "face_diff_eV": 0.6006354277480792,
+   "magnetization_muB": -0.0,
+   "relax_max_force_eV_A": 0.018096,
+   "relax_ionic_steps": 13
+  },
+  {
+   "candidate": "KCuSe2",
+   "parent": "Cu2Se2",
+   "parent_id": "Cu2Se2-21e73df39ca5",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "K",
+   "dchi": -1.08,
+   "pred_locked_mean_eV": 0.5385095596313476,
+   "pred_locked_sd_eV": 0.24417090256650664,
+   "pred_eV": {
+    "L400": 0.36213159561157227,
+    "FT1": 0.538509464263916
+   },
+   "phi_parent_eV": 6.189598277785887,
+   "phi_candidate_eV": 5.755271320808171,
+   "dft_change_eV": -0.43432695697771617,
+   "face_diff_eV": 2.056948498943008,
+   "magnetization_muB": 0.0832,
+   "relax_max_force_eV_A": 0.018048238418194727,
+   "relax_ionic_steps": 20
+  },
+  {
+   "candidate": "ReNbTe2",
+   "parent": "Nb2Te2",
+   "parent_id": "Nb2Te2-57c18790645b",
+   "selection": "confident",
+   "site": 0,
+   "substituent": "Re",
+   "dchi": 0.2999999999999998,
+   "pred_locked_mean_eV": -0.32339868545532224,
+   "pred_locked_sd_eV": 0.15731506621854496,
+   "pred_eV": {
+    "L400": -0.31062889099121094,
+    "FT1": -0.32339887619018554
+   },
+   "phi_parent_eV": 4.3075735012006335,
+   "phi_candidate_eV": 4.321041130328979,
+   "dft_change_eV": 0.013467629128345315,
+   "face_diff_eV": 0.22854129344076046,
+   "magnetization_muB": -0.0,
+   "relax_max_force_eV_A": 0.00829297739053954,
+   "relax_ionic_steps": 11
+  }
+ ]
+}

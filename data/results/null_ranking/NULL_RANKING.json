@@ -1,0 +1,6872 @@
+{
+ "description": "Null baselines for the CGCNN-vs-MEGNet attribute-ranking agreement (Materon v1.0.3, original 2D).",
+ "readout": "feature score = mean over test nodes of |actual_total_delta_j|, actual_total_delta = (d-1)*x + s*(w+ p - w- i), taken from the gate analysis output exactly as materon_2d/scripts/explain_job.py",
+ "correlation_convention": "scipy.stats.spearmanr on 20 scores in study order; top-K overlap = |topK(A) & topK(B)|; SD = sample SD (ddof=1)",
+ "untrained_seeds": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "datasets": {
+  "hoip_bandgap": {
+   "audit": {
+    "n_test_structures": {
+     "cgcnn": 75,
+     "megnet": 75
+    },
+    "n_test_nodes": {
+     "cgcnn": 12078,
+     "megnet": 12078
+    },
+    "test_ids_sha256": {
+     "cgcnn": "8bb214cf731cfc183398b0828f8bad9fcaaa78538c7421e39bd35568734f0d31",
+     "megnet": "8bb214cf731cfc183398b0828f8bad9fcaaa78538c7421e39bd35568734f0d31"
+    },
+    "input_only_max_abs_diff_cgcnn_vs_megnet_cache": 0.0,
+    "trained_check_max_abs_diff_vs_archived_feature_scores": {
+     "cgcnn": 0.00010055074679637954,
+     "megnet": 4.578776569030829e-05
+    },
+    "trained_check_spearman_vs_archived": {
+     "cgcnn": 1.0,
+     "megnet": 1.0
+    },
+    "identity_max_abs_err": {
+     "cgcnn": [
+      4.181615971265984e-07,
+      1.7026415166654374e-07,
+      3.2961966556221967e-07,
+      2.018433220563054e-07,
+      4.454443169876754e-07,
+      1.5101331063416268e-07
+     ],
+     "megnet": [
+      2.1494093194185382e-07,
+      4.1599424793759e-07,
+      2.0019927560177564e-07,
+      4.3346667899513136e-07,
+      4.513079023826805e-07,
+      2.0964010305490888e-07
+     ]
+    },
+    "untrained_init_fingerprint_equals_trained_run_init": {
+     "cgcnn": {
+      "42": true,
+      "43": false,
+      "44": false,
+      "45": false,
+      "46": false
+     },
+     "megnet": {
+      "42": false,
+      "43": false,
+      "44": false,
+      "45": false,
+      "46": false
+     }
+    },
+    "untrained_dimension_gate_unique": {
+     "cgcnn": [
+      0.731059
+     ],
+     "megnet": [
+      0.731059
+     ]
+    },
+    "untrained_synergy": {
+     "cgcnn": [
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612
+     ],
+     "megnet": [
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612
+     ]
+    },
+    "trained_synergy": {
+     "cgcnn": 0.17588546872138977,
+     "megnet": 0.2005264014005661
+    },
+    "devices": {
+     "cgcnn": [
+      "/device:CPU:0"
+     ],
+     "megnet": [
+      "/device:CPU:0"
+     ]
+    },
+    "megnet_untrained_gpu_crosscheck": {
+     "note": "Same script on one GPU (CUDA_VISIBLE_DEVICES=3). CPU backbone init differs from GPU (fingerprint), gate readout agrees to float32 round-off; CPU results are the reported ones.",
+     "gpu_fingerprint_equals_trained_run_init": {
+      "42": true,
+      "43": false,
+      "44": false,
+      "45": false,
+      "46": false
+     },
+     "max_abs_diff_gpu_vs_cpu_mean_abs_actual_delta": {
+      "42": 7.215697928414366e-06,
+      "43": 1.8988066821878924e-05,
+      "44": 1.053045494386895e-05,
+      "45": 3.331294121344808e-05,
+      "46": 3.887162458859894e-06
+     },
+     "spearman_gpu_vs_cpu": {
+      "42": 1.0,
+      "43": 1.0,
+      "44": 1.0,
+      "45": 1.0,
+      "46": 1.0
+     }
+    }
+   },
+   "feature_names_study_order": [
+    "density",
+    "atom_melting_point",
+    "atom_specific_heat_capacity",
+    "atomic_boiling_point",
+    "atomic_fusion_heat",
+    "atomic_thermal_cond",
+    "atomic_ip",
+    "atomic_ea",
+    "atomic_hfomo",
+    "atomic_lfumo",
+    "X",
+    "atomic_pol",
+    "atomic_nvalences",
+    "atomic_ndval",
+    "atomic_npval",
+    "atomic_nsval",
+    "atomic_radius",
+    "atomic_covalent Radius",
+    "atomic_volume",
+    "atomic_weight"
+   ],
+   "scores_study_order": {
+    "trained_cgcnn": [
+     0.3065812,
+     0.5496603,
+     1.5446993,
+     0.36022067,
+     0.6191808,
+     0.253256,
+     0.20773101,
+     0.15759923,
+     0.28724086,
+     0.47549242,
+     0.28419128,
+     0.33756942,
+     0.23061675,
+     0.25381267,
+     0.23070113,
+     0.3600634,
+     0.37843302,
+     0.6142041,
+     0.27634302,
+     0.32447463
+    ],
+    "trained_megnet": [
+     0.2676831,
+     0.4939915,
+     1.3147585,
+     0.33882973,
+     0.5702627,
+     0.21730047,
+     0.2244106,
+     0.133409,
+     0.26733398,
+     0.44500792,
+     0.26000312,
+     0.3158082,
+     0.20454189,
+     0.26008388,
+     0.184089,
+     0.35371563,
+     0.40092653,
+     0.70160186,
+     0.32159594,
+     0.38003874
+    ],
+    "input_only_mean_abs_x": [
+     1.063500709530681,
+     1.705873228180219,
+     4.85049064062495,
+     1.3448541941315382,
+     2.1795679680364013,
+     0.7840189521410229,
+     0.856157506949025,
+     0.6762782210081021,
+     1.084078634404834,
+     1.6721456568798574,
+     1.0785295126253671,
+     1.1046468520286876,
+     0.8255186680927046,
+     0.9456240905991333,
+     0.7696372479333607,
+     1.2711620167413478,
+     1.427425616614966,
+     2.2882656801302597,
+     1.077747201644184,
+     1.3939063720310103
+    ],
+    "untrained_cgcnn_seed42": [
+     0.2926932711473145,
+     0.467663229771463,
+     1.308496043857142,
+     0.3691854259074178,
+     0.5778230244272526,
+     0.21900565441840333,
+     0.21870468670894327,
+     0.1894586901198181,
+     0.28621718803296364,
+     0.44793198167004517,
+     0.27579571718097445,
+     0.2966775042388115,
+     0.22175574867974884,
+     0.2473115261707663,
+     0.206965258178144,
+     0.3439379782052126,
+     0.3797319592964469,
+     0.6174647414893045,
+     0.2866857119150106,
+     0.37870733355534236
+    ],
+    "untrained_cgcnn_seed43": [
+     0.31400790632432374,
+     0.4839304083402158,
+     1.2520114458513825,
+     0.2671801819748119,
+     0.6128992860941554,
+     0.13566257003808893,
+     0.33075505093102164,
+     0.16599996934013664,
+     0.271315332669299,
+     0.45721041585242717,
+     0.2909757643950402,
+     0.31858712265992484,
+     0.15048195307944504,
+     0.2978246495470659,
+     0.12634582074593778,
+     0.34581157541429,
+     0.4007083057766892,
+     0.5725534309203271,
+     0.27149317886709357,
+     0.34668498135526993
+    ],
+    "untrained_cgcnn_seed44": [
+     0.3038835900250127,
+     0.47210326483792414,
+     1.3121742920484007,
+     0.3886397845551463,
+     0.6012076930878405,
+     0.2244975846233027,
+     0.17964412997973184,
+     0.15445011221014282,
+     0.3056186745746737,
+     0.4744213361686025,
+     0.3113271531021729,
+     0.26828402318313316,
+     0.21011330806166748,
+     0.28916730205040336,
+     0.2380288016580947,
+     0.33051948478076215,
+     0.3542843483836273,
+     0.5815941503431539,
+     0.2973102939323314,
+     0.42967885995684996
+    ],
+    "untrained_cgcnn_seed45": [
+     0.2827156684215662,
+     0.46815867413721807,
+     1.2733591122268684,
+     0.37279701405881077,
+     0.6241979678362697,
+     0.21244556303696632,
+     0.21045995475750556,
+     0.19825375436722373,
+     0.25939405398478194,
+     0.4383022699367528,
+     0.27943318611401696,
+     0.2982115667966605,
+     0.22449433619977227,
+     0.23423963642057194,
+     0.21169851408195842,
+     0.37155623999252324,
+     0.4069090155904055,
+     0.6059872039750596,
+     0.3057659991254552,
+     0.37249407232903275
+    ],
+    "untrained_cgcnn_seed46": [
+     0.2853583511884865,
+     0.453474722537384,
+     1.3016254875681261,
+     0.3696123081771279,
+     0.5770746881380063,
+     0.20446654160077218,
+     0.22195992340852086,
+     0.1683326543067135,
+     0.28873238144656804,
+     0.4451425765095256,
+     0.2975827439667018,
+     0.30492250197651094,
+     0.21928233840959438,
+     0.25958581446693285,
+     0.20540271070959315,
+     0.33880143271492974,
+     0.3877112163000375,
+     0.6179002131770178,
+     0.2946313224926574,
+     0.37097303878246385
+    ],
+    "untrained_megnet_seed42": [
+     0.2640073233526024,
+     0.46911393347427455,
+     1.2999506559895944,
+     0.3620243900368247,
+     0.5798731512098759,
+     0.2284645860973702,
+     0.21071108961272766,
+     0.15561329233619745,
+     0.26796909691255444,
+     0.4555611380689447,
+     0.2498606071480656,
+     0.29813924838936395,
+     0.22215516966667212,
+     0.24896945935011028,
+     0.2029853232808215,
+     0.33214066158977046,
+     0.37939985095868595,
+     0.6072238300400946,
+     0.31207323648772073,
+     0.38049929032984664
+    ],
+    "untrained_megnet_seed43": [
+     0.31088864589136234,
+     0.42936553546486755,
+     1.3238486196549055,
+     0.33353396826685106,
+     0.6151645370675947,
+     0.15768622615505556,
+     0.25333132171649614,
+     0.19257783068590437,
+     0.25685110717449267,
+     0.46685384944054165,
+     0.28093335130422353,
+     0.3065870068862474,
+     0.22803368976691007,
+     0.2776000623593249,
+     0.1743668290997878,
+     0.3192601276215861,
+     0.3985478971344728,
+     0.614498850037141,
+     0.25711762799018856,
+     0.395241433435332
+    ],
+    "untrained_megnet_seed44": [
+     0.31744265202250893,
+     0.4756446760422318,
+     1.3350972266860663,
+     0.3803759327917547,
+     0.570465896325502,
+     0.21715724919288043,
+     0.22976359304415112,
+     0.19004688687199373,
+     0.2857170390727939,
+     0.45469601208316035,
+     0.2972588855288966,
+     0.30921180051058844,
+     0.22437747568385571,
+     0.24759620530732837,
+     0.19726660757353812,
+     0.3594259057668369,
+     0.39756855836079835,
+     0.6187752197121997,
+     0.27693747360050175,
+     0.3570595077724918
+    ],
+    "untrained_megnet_seed45": [
+     0.30529827424199363,
+     0.4513676817507159,
+     1.2554748307806822,
+     0.3948047849620947,
+     0.561471101248214,
+     0.19046221337663474,
+     0.29325054728924627,
+     0.2751803340121677,
+     0.2787052269239737,
+     0.45453218665417505,
+     0.2573743240303562,
+     0.3159571122128278,
+     0.17239859771266602,
+     0.18438028441416662,
+     0.22861968682862055,
+     0.30897873679540233,
+     0.3602426703232796,
+     0.5949059189535526,
+     0.3301691149669405,
+     0.3369482969567562
+    ],
+    "untrained_megnet_seed46": [
+     0.28437375528471104,
+     0.4636638492979954,
+     1.2987499487436573,
+     0.35864340560580155,
+     0.5867822038876159,
+     0.20871850404050063,
+     0.22623991970133853,
+     0.18679986822450176,
+     0.29345205491481186,
+     0.4654182805478484,
+     0.29616786000840234,
+     0.2977382720928157,
+     0.229815926375048,
+     0.25272408051292594,
+     0.20844142478237604,
+     0.3396926563165898,
+     0.38581038323696937,
+     0.6131571814415372,
+     0.2965447966883486,
+     0.37507219945709325
+    ]
+   },
+   "rankings": {
+    "trained_cgcnn": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.5446993
+     },
+     {
+      "rank": 2,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.6191808
+     },
+     {
+      "rank": 3,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.6142041
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.5496603
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.47549242
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.37843302
+     },
+     {
+      "rank": 7,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.36022067
+     },
+     {
+      "rank": 8,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.3600634
+     },
+     {
+      "rank": 9,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.33756942
+     },
+     {
+      "rank": 10,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.32447463
+     },
+     {
+      "rank": 11,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.3065812
+     },
+     {
+      "rank": 12,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.28724086
+     },
+     {
+      "rank": 13,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.28419128
+     },
+     {
+      "rank": 14,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.27634302
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.25381267
+     },
+     {
+      "rank": 16,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.253256
+     },
+     {
+      "rank": 17,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.23070113
+     },
+     {
+      "rank": 18,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.23061675
+     },
+     {
+      "rank": 19,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.20773101
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.15759923
+     }
+    ],
+    "trained_megnet": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.3147585
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.70160186
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.5702627
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.4939915
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.44500792
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.40092653
+     },
+     {
+      "rank": 7,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.38003874
+     },
+     {
+      "rank": 8,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.35371563
+     },
+     {
+      "rank": 9,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.33882973
+     },
+     {
+      "rank": 10,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.32159594
+     },
+     {
+      "rank": 11,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.3158082
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.2676831
+     },
+     {
+      "rank": 13,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.26733398
+     },
+     {
+      "rank": 14,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.26008388
+     },
+     {
+      "rank": 15,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.26000312
+     },
+     {
+      "rank": 16,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.2244106
+     },
+     {
+      "rank": 17,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.21730047
+     },
+     {
+      "rank": 18,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.20454189
+     },
+     {
+      "rank": 19,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.184089
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.133409
+     }
+    ],
+    "input_only_mean_abs_x": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 4.85049064062495
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 2.2882656801302597
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 2.1795679680364013
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 1.705873228180219
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 1.6721456568798574
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 1.427425616614966
+     },
+     {
+      "rank": 7,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 1.3939063720310103
+     },
+     {
+      "rank": 8,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 1.3448541941315382
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 1.2711620167413478
+     },
+     {
+      "rank": 10,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 1.1046468520286876
+     },
+     {
+      "rank": 11,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 1.084078634404834
+     },
+     {
+      "rank": 12,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 1.0785295126253671
+     },
+     {
+      "rank": 13,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 1.077747201644184
+     },
+     {
+      "rank": 14,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 1.063500709530681
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.9456240905991333
+     },
+     {
+      "rank": 16,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.856157506949025
+     },
+     {
+      "rank": 17,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.8255186680927046
+     },
+     {
+      "rank": 18,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.7840189521410229
+     },
+     {
+      "rank": 19,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.7696372479333607
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.6762782210081021
+     }
+    ],
+    "untrained_cgcnn_seed42": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.308496043857142
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.6174647414893045
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.5778230244272526
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.467663229771463
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.44793198167004517
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.3797319592964469
+     },
+     {
+      "rank": 7,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.37870733355534236
+     },
+     {
+      "rank": 8,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.3691854259074178
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.3439379782052126
+     },
+     {
+      "rank": 10,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.2966775042388115
+     },
+     {
+      "rank": 11,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.2926932711473145
+     },
+     {
+      "rank": 12,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.2866857119150106
+     },
+     {
+      "rank": 13,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.28621718803296364
+     },
+     {
+      "rank": 14,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.27579571718097445
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2473115261707663
+     },
+     {
+      "rank": 16,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.22175574867974884
+     },
+     {
+      "rank": 17,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.21900565441840333
+     },
+     {
+      "rank": 18,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.21870468670894327
+     },
+     {
+      "rank": 19,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.206965258178144
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.1894586901198181
+     }
+    ],
+    "untrained_cgcnn_seed43": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.2520114458513825
+     },
+     {
+      "rank": 2,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.6128992860941554
+     },
+     {
+      "rank": 3,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.5725534309203271
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.4839304083402158
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.45721041585242717
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.4007083057766892
+     },
+     {
+      "rank": 7,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.34668498135526993
+     },
+     {
+      "rank": 8,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.34581157541429
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.33075505093102164
+     },
+     {
+      "rank": 10,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.31858712265992484
+     },
+     {
+      "rank": 11,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.31400790632432374
+     },
+     {
+      "rank": 12,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2978246495470659
+     },
+     {
+      "rank": 13,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.2909757643950402
+     },
+     {
+      "rank": 14,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.27149317886709357
+     },
+     {
+      "rank": 15,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.271315332669299
+     },
+     {
+      "rank": 16,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.2671801819748119
+     },
+     {
+      "rank": 17,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.16599996934013664
+     },
+     {
+      "rank": 18,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.15048195307944504
+     },
+     {
+      "rank": 19,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.13566257003808893
+     },
+     {
+      "rank": 20,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.12634582074593778
+     }
+    ],
+    "untrained_cgcnn_seed44": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.3121742920484007
+     },
+     {
+      "rank": 2,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.6012076930878405
+     },
+     {
+      "rank": 3,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.5815941503431539
+     },
+     {
+      "rank": 4,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4744213361686025
+     },
+     {
+      "rank": 5,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.47210326483792414
+     },
+     {
+      "rank": 6,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.42967885995684996
+     },
+     {
+      "rank": 7,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.3886397845551463
+     },
+     {
+      "rank": 8,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.3542843483836273
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.33051948478076215
+     },
+     {
+      "rank": 10,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.3113271531021729
+     },
+     {
+      "rank": 11,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.3056186745746737
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.3038835900250127
+     },
+     {
+      "rank": 13,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.2973102939323314
+     },
+     {
+      "rank": 14,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.28916730205040336
+     },
+     {
+      "rank": 15,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.26828402318313316
+     },
+     {
+      "rank": 16,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.2380288016580947
+     },
+     {
+      "rank": 17,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.2244975846233027
+     },
+     {
+      "rank": 18,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.21011330806166748
+     },
+     {
+      "rank": 19,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.17964412997973184
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.15445011221014282
+     }
+    ],
+    "untrained_cgcnn_seed45": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.2733591122268684
+     },
+     {
+      "rank": 2,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.6241979678362697
+     },
+     {
+      "rank": 3,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.6059872039750596
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.46815867413721807
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4383022699367528
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.4069090155904055
+     },
+     {
+      "rank": 7,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.37279701405881077
+     },
+     {
+      "rank": 8,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.37249407232903275
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.37155623999252324
+     },
+     {
+      "rank": 10,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.3057659991254552
+     },
+     {
+      "rank": 11,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.2982115667966605
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.2827156684215662
+     },
+     {
+      "rank": 13,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.27943318611401696
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.25939405398478194
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.23423963642057194
+     },
+     {
+      "rank": 16,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.22449433619977227
+     },
+     {
+      "rank": 17,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.21244556303696632
+     },
+     {
+      "rank": 18,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.21169851408195842
+     },
+     {
+      "rank": 19,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.21045995475750556
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.19825375436722373
+     }
+    ],
+    "untrained_cgcnn_seed46": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.3016254875681261
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.6179002131770178
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.5770746881380063
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.453474722537384
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4451425765095256
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.3877112163000375
+     },
+     {
+      "rank": 7,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.37097303878246385
+     },
+     {
+      "rank": 8,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.3696123081771279
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.33880143271492974
+     },
+     {
+      "rank": 10,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.30492250197651094
+     },
+     {
+      "rank": 11,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.2975827439667018
+     },
+     {
+      "rank": 12,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.2946313224926574
+     },
+     {
+      "rank": 13,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.28873238144656804
+     },
+     {
+      "rank": 14,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.2853583511884865
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.25958581446693285
+     },
+     {
+      "rank": 16,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.22195992340852086
+     },
+     {
+      "rank": 17,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.21928233840959438
+     },
+     {
+      "rank": 18,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.20540271070959315
+     },
+     {
+      "rank": 19,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.20446654160077218
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.1683326543067135
+     }
+    ],
+    "untrained_megnet_seed42": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.2999506559895944
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.6072238300400946
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.5798731512098759
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.46911393347427455
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4555611380689447
+     },
+     {
+      "rank": 6,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.38049929032984664
+     },
+     {
+      "rank": 7,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.37939985095868595
+     },
+     {
+      "rank": 8,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.3620243900368247
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.33214066158977046
+     },
+     {
+      "rank": 10,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.31207323648772073
+     },
+     {
+      "rank": 11,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.29813924838936395
+     },
+     {
+      "rank": 12,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.26796909691255444
+     },
+     {
+      "rank": 13,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.2640073233526024
+     },
+     {
+      "rank": 14,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.2498606071480656
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.24896945935011028
+     },
+     {
+      "rank": 16,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.2284645860973702
+     },
+     {
+      "rank": 17,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.22215516966667212
+     },
+     {
+      "rank": 18,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.21071108961272766
+     },
+     {
+      "rank": 19,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.2029853232808215
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.15561329233619745
+     }
+    ],
+    "untrained_megnet_seed43": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.3238486196549055
+     },
+     {
+      "rank": 2,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.6151645370675947
+     },
+     {
+      "rank": 3,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.614498850037141
+     },
+     {
+      "rank": 4,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.46685384944054165
+     },
+     {
+      "rank": 5,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.42936553546486755
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.3985478971344728
+     },
+     {
+      "rank": 7,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.395241433435332
+     },
+     {
+      "rank": 8,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.33353396826685106
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.3192601276215861
+     },
+     {
+      "rank": 10,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.31088864589136234
+     },
+     {
+      "rank": 11,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.3065870068862474
+     },
+     {
+      "rank": 12,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.28093335130422353
+     },
+     {
+      "rank": 13,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2776000623593249
+     },
+     {
+      "rank": 14,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.25711762799018856
+     },
+     {
+      "rank": 15,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.25685110717449267
+     },
+     {
+      "rank": 16,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.25333132171649614
+     },
+     {
+      "rank": 17,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.22803368976691007
+     },
+     {
+      "rank": 18,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.19257783068590437
+     },
+     {
+      "rank": 19,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.1743668290997878
+     },
+     {
+      "rank": 20,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.15768622615505556
+     }
+    ],
+    "untrained_megnet_seed44": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.3350972266860663
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.6187752197121997
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.570465896325502
+     },
+     {
+      "rank": 4,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.4756446760422318
+     },
+     {
+      "rank": 5,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.45469601208316035
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.39756855836079835
+     },
+     {
+      "rank": 7,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.3803759327917547
+     },
+     {
+      "rank": 8,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.3594259057668369
+     },
+     {
+      "rank": 9,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.3570595077724918
+     },
+     {
+      "rank": 10,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.31744265202250893
+     },
+     {
+      "rank": 11,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.30921180051058844
+     },
+     {
+      "rank": 12,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.2972588855288966
+     },
+     {
+      "rank": 13,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.2857170390727939
+     },
+     {
+      "rank": 14,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.27693747360050175
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.24759620530732837
+     },
+     {
+      "rank": 16,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.22976359304415112
+     },
+     {
+      "rank": 17,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.22437747568385571
+     },
+     {
+      "rank": 18,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.21715724919288043
+     },
+     {
+      "rank": 19,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.19726660757353812
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.19004688687199373
+     }
+    ],
+    "untrained_megnet_seed45": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.2554748307806822
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.5949059189535526
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.561471101248214
+     },
+     {
+      "rank": 4,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.45453218665417505
+     },
+     {
+      "rank": 5,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.4513676817507159
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.3948047849620947
+     },
+     {
+      "rank": 7,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.3602426703232796
+     },
+     {
+      "rank": 8,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.3369482969567562
+     },
+     {
+      "rank": 9,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.3301691149669405
+     },
+     {
+      "rank": 10,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.3159571122128278
+     },
+     {
+      "rank": 11,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.30897873679540233
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.30529827424199363
+     },
+     {
+      "rank": 13,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.29325054728924627
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.2787052269239737
+     },
+     {
+      "rank": 15,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.2751803340121677
+     },
+     {
+      "rank": 16,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.2573743240303562
+     },
+     {
+      "rank": 17,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.22861968682862055
+     },
+     {
+      "rank": 18,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.19046221337663474
+     },
+     {
+      "rank": 19,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.18438028441416662
+     },
+     {
+      "rank": 20,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.17239859771266602
+     }
+    ],
+    "untrained_megnet_seed46": [
+     {
+      "rank": 1,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 1.2987499487436573
+     },
+     {
+      "rank": 2,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.6131571814415372
+     },
+     {
+      "rank": 3,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.5867822038876159
+     },
+     {
+      "rank": 4,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4654182805478484
+     },
+     {
+      "rank": 5,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.4636638492979954
+     },
+     {
+      "rank": 6,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.38581038323696937
+     },
+     {
+      "rank": 7,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.37507219945709325
+     },
+     {
+      "rank": 8,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.35864340560580155
+     },
+     {
+      "rank": 9,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.3396926563165898
+     },
+     {
+      "rank": 10,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.2977382720928157
+     },
+     {
+      "rank": 11,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.2965447966883486
+     },
+     {
+      "rank": 12,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.29616786000840234
+     },
+     {
+      "rank": 13,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.29345205491481186
+     },
+     {
+      "rank": 14,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.28437375528471104
+     },
+     {
+      "rank": 15,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.25272408051292594
+     },
+     {
+      "rank": 16,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.229815926375048
+     },
+     {
+      "rank": 17,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.22623991970133853
+     },
+     {
+      "rank": 18,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.20871850404050063
+     },
+     {
+      "rank": 19,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.20844142478237604
+     },
+     {
+      "rank": 20,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.18679986822450176
+     }
+    ]
+   },
+   "comparisons": {
+    "trained_cgcnn_vs_trained_megnet": {
+     "spearman": 0.9578947368421054,
+     "kendall": 0.8526315789473685,
+     "top10_overlap_count": 9,
+     "top10_overlap_fraction": 0.9,
+     "top5_overlap_count": 5,
+     "top5_overlap_fraction": 1.0,
+     "published_spearman": 0.958
+    },
+    "input_only_vs_trained_cgcnn": {
+     "spearman": 0.9669172932330825,
+     "kendall": 0.8736842105263158,
+     "top10_overlap_count": 10,
+     "top10_overlap_fraction": 1.0,
+     "top5_overlap_count": 5,
+     "top5_overlap_fraction": 1.0
+    },
+    "input_only_vs_trained_megnet": {
+     "spearman": 0.9759398496240601,
+     "kendall": 0.9157894736842106,
+     "top10_overlap_count": 9,
+     "top10_overlap_fraction": 0.9,
+     "top5_overlap_count": 5,
+     "top5_overlap_fraction": 1.0
+    },
+    "untrained_cgcnn_vs_untrained_megnet_matched_seed": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s42"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s43"
+       ],
+       "spearman": 0.9067669172932331,
+       "kendall": 0.7999999999999999,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s44"
+       ],
+       "spearman": 0.9488721804511278,
+       "kendall": 0.8105263157894737,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s45"
+       ],
+       "spearman": 0.9127819548872179,
+       "kendall": 0.768421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s46"
+       ],
+       "spearman": 0.993984962406015,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9503759398496239,
+     "spearman_sd": 0.04107218130450422,
+     "spearman_min": 0.9067669172932331,
+     "spearman_max": 0.993984962406015,
+     "kendall_mean": 0.856842105263158,
+     "kendall_sd": 0.08888350245298762,
+     "kendall_min": 0.768421052631579,
+     "kendall_max": 0.9578947368421054,
+     "top10_overlap_count_mean": 9.0,
+     "top10_overlap_count_sd": 0.7071067811865476,
+     "top10_overlap_count_min": 8.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_untrained_megnet_all_25_pairs": {
+     "n_pairs": 25,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s42"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s43"
+       ],
+       "spearman": 0.9699248120300751,
+       "kendall": 0.8736842105263158,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s44"
+       ],
+       "spearman": 0.9834586466165413,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s45"
+       ],
+       "spearman": 0.9142857142857143,
+       "kendall": 0.768421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s46"
+       ],
+       "spearman": 0.9864661654135337,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s42"
+       ],
+       "spearman": 0.8421052631578947,
+       "kendall": 0.6842105263157895,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s43"
+       ],
+       "spearman": 0.9067669172932331,
+       "kendall": 0.7999999999999999,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s44"
+       ],
+       "spearman": 0.8766917293233082,
+       "kendall": 0.7368421052631579,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s45"
+       ],
+       "spearman": 0.8240601503759398,
+       "kendall": 0.6736842105263158,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s46"
+       ],
+       "spearman": 0.8646616541353382,
+       "kendall": 0.7157894736842105,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s42"
+       ],
+       "spearman": 0.9533834586466164,
+       "kendall": 0.8421052631578948,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s43"
+       ],
+       "spearman": 0.9398496240601503,
+       "kendall": 0.8105263157894737,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s44"
+       ],
+       "spearman": 0.9488721804511278,
+       "kendall": 0.8105263157894737,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s45"
+       ],
+       "spearman": 0.8571428571428572,
+       "kendall": 0.7052631578947369,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s46"
+       ],
+       "spearman": 0.9488721804511278,
+       "kendall": 0.8315789473684211,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s42"
+       ],
+       "spearman": 0.9864661654135337,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s43"
+       ],
+       "spearman": 0.9593984962406013,
+       "kendall": 0.8526315789473685,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s44"
+       ],
+       "spearman": 0.9714285714285714,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s45"
+       ],
+       "spearman": 0.9127819548872179,
+       "kendall": 0.768421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s46"
+       ],
+       "spearman": 0.9849624060150375,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s42"
+       ],
+       "spearman": 0.9759398496240601,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s43"
+       ],
+       "spearman": 0.9699248120300751,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s44"
+       ],
+       "spearman": 0.9774436090225563,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s45"
+       ],
+       "spearman": 0.9157894736842105,
+       "kendall": 0.768421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s46"
+       ],
+       "spearman": 0.993984962406015,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9381654135338344,
+     "spearman_sd": 0.05097337723410952,
+     "spearman_min": 0.8240601503759398,
+     "spearman_max": 0.993984962406015,
+     "kendall_mean": 0.8341052631578948,
+     "kendall_sd": 0.08782169462136366,
+     "kendall_min": 0.6736842105263158,
+     "kendall_max": 0.9578947368421054,
+     "top10_overlap_count_mean": 8.92,
+     "top10_overlap_count_sd": 0.5715476066494083,
+     "top10_overlap_count_min": 8.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_trained_cgcnn": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "trained"
+       ],
+       "spearman": 0.9774436090225563,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "trained"
+       ],
+       "spearman": 0.8225563909774435,
+       "kendall": 0.6842105263157895,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "trained"
+       ],
+       "spearman": 0.9443609022556391,
+       "kendall": 0.8421052631578948,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "trained"
+       ],
+       "spearman": 0.9729323308270676,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "trained"
+       ],
+       "spearman": 0.9609022556390976,
+       "kendall": 0.8421052631578948,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9356390977443608,
+     "spearman_sd": 0.06449883329845944,
+     "spearman_min": 0.8225563909774435,
+     "spearman_max": 0.9774436090225563,
+     "kendall_mean": 0.8357894736842105,
+     "kendall_sd": 0.09042834355753487,
+     "kendall_min": 0.6842105263157895,
+     "kendall_max": 0.9052631578947369,
+     "top10_overlap_count_mean": 9.4,
+     "top10_overlap_count_sd": 0.5477225575051661,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_vs_trained_megnet": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "megnet_s42",
+        "trained"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s43",
+        "trained"
+       ],
+       "spearman": 0.9593984962406013,
+       "kendall": 0.8421052631578948,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s44",
+        "trained"
+       ],
+       "spearman": 0.9699248120300751,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s45",
+        "trained"
+       ],
+       "spearman": 0.9293233082706768,
+       "kendall": 0.7999999999999999,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s46",
+        "trained"
+       ],
+       "spearman": 0.9804511278195487,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9657142857142855,
+     "spearman_sd": 0.02325728111781189,
+     "spearman_min": 0.9293233082706768,
+     "spearman_max": 0.9894736842105262,
+     "kendall_mean": 0.8736842105263157,
+     "kendall_sd": 0.05367388961676618,
+     "kendall_min": 0.7999999999999999,
+     "kendall_max": 0.9368421052631579,
+     "top10_overlap_count_mean": 9.2,
+     "top10_overlap_count_sd": 0.4472135954999579,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_trained_megnet": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "trained_megnet"
+       ],
+       "spearman": 0.9864661654135337,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "trained_megnet"
+       ],
+       "spearman": 0.8917293233082706,
+       "kendall": 0.7473684210526316,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "trained_megnet"
+       ],
+       "spearman": 0.9353383458646616,
+       "kendall": 0.7789473684210527,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "trained_megnet"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "trained_megnet"
+       ],
+       "spearman": 0.9744360902255638,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9533834586466163,
+     "spearman_sd": 0.039743083568127856,
+     "spearman_min": 0.8917293233082706,
+     "spearman_max": 0.9864661654135337,
+     "kendall_mean": 0.8526315789473685,
+     "kendall_sd": 0.08288429341065064,
+     "kendall_min": 0.7473684210526316,
+     "kendall_max": 0.9263157894736842,
+     "top10_overlap_count_mean": 9.0,
+     "top10_overlap_count_sd": 0.7071067811865476,
+     "top10_overlap_count_min": 8.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_vs_trained_cgcnn": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "megnet_s42",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9609022556390976,
+       "kendall": 0.8736842105263158,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s43",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9503759398496241,
+       "kendall": 0.8210526315789474,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s44",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s45",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.8917293233082706,
+       "kendall": 0.7368421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s46",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9609022556390976,
+       "kendall": 0.8421052631578948,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9485714285714286,
+     "spearman_sd": 0.033395649064640764,
+     "spearman_min": 0.8917293233082706,
+     "spearman_max": 0.9789473684210527,
+     "kendall_mean": 0.8357894736842105,
+     "kendall_sd": 0.06385579321306573,
+     "kendall_min": 0.7368421052631579,
+     "kendall_max": 0.9052631578947369,
+     "top10_overlap_count_mean": 9.2,
+     "top10_overlap_count_sd": 0.4472135954999579,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_input_only": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "input_only"
+       ],
+       "spearman": 0.9819548872180449,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "input_only"
+       ],
+       "spearman": 0.8766917293233082,
+       "kendall": 0.7263157894736842,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "input_only"
+       ],
+       "spearman": 0.9518796992481202,
+       "kendall": 0.8210526315789474,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "input_only"
+       ],
+       "spearman": 0.9699248120300751,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "input_only"
+       ],
+       "spearman": 0.993984962406015,
+       "kendall": 0.968421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9548872180451126,
+     "spearman_sd": 0.04639774021215491,
+     "spearman_min": 0.8766917293233082,
+     "spearman_max": 0.993984962406015,
+     "kendall_mean": 0.865263157894737,
+     "kendall_sd": 0.09485372906163207,
+     "kendall_min": 0.7263157894736842,
+     "kendall_max": 0.968421052631579,
+     "top10_overlap_count_mean": 9.4,
+     "top10_overlap_count_sd": 0.5477225575051661,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_seed_vs_seed": {
+     "n_pairs": 10,
+     "pairs": [
+      {
+       "pair": [
+        "s42",
+        "s43"
+       ],
+       "spearman": 0.8616541353383457,
+       "kendall": 0.7368421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s44"
+       ],
+       "spearman": 0.9458646616541352,
+       "kendall": 0.8105263157894737,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s45"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s46"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s44"
+       ],
+       "spearman": 0.793984962406015,
+       "kendall": 0.6105263157894737,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s45"
+       ],
+       "spearman": 0.825563909774436,
+       "kendall": 0.7157894736842105,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s46"
+       ],
+       "spearman": 0.8796992481203006,
+       "kendall": 0.7368421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s44",
+        "s45"
+       ],
+       "spearman": 0.9533834586466164,
+       "kendall": 0.8315789473684211,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s44",
+        "s46"
+       ],
+       "spearman": 0.9518796992481202,
+       "kendall": 0.8315789473684211,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s45",
+        "s46"
+       ],
+       "spearman": 0.9759398496240601,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9156390977443609,
+     "spearman_sd": 0.06981450323107387,
+     "spearman_min": 0.793984962406015,
+     "spearman_max": 0.9894736842105262,
+     "kendall_mean": 0.8021052631578949,
+     "kendall_sd": 0.10227332885466207,
+     "kendall_min": 0.6105263157894737,
+     "kendall_max": 0.9368421052631579,
+     "top10_overlap_count_mean": 8.9,
+     "top10_overlap_count_sd": 0.5676462121975466,
+     "top10_overlap_count_min": 8.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_vs_input_only": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "megnet_s42",
+        "input_only"
+       ],
+       "spearman": 0.9804511278195487,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s43",
+        "input_only"
+       ],
+       "spearman": 0.9624060150375938,
+       "kendall": 0.8631578947368421,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s44",
+        "input_only"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s45",
+        "input_only"
+       ],
+       "spearman": 0.9097744360902256,
+       "kendall": 0.7578947368421053,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s46",
+        "input_only"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9645112781954885,
+     "spearman_sd": 0.03226256125664583,
+     "spearman_min": 0.9097744360902256,
+     "spearman_max": 0.9909774436090225,
+     "kendall_mean": 0.8821052631578947,
+     "kendall_sd": 0.07605217628710924,
+     "kendall_min": 0.7578947368421053,
+     "kendall_max": 0.9473684210526316,
+     "top10_overlap_count_mean": 9.2,
+     "top10_overlap_count_sd": 0.4472135954999579,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_seed_vs_seed": {
+     "n_pairs": 10,
+     "pairs": [
+      {
+       "pair": [
+        "s42",
+        "s43"
+       ],
+       "spearman": 0.9458646616541352,
+       "kendall": 0.8210526315789474,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s44"
+       ],
+       "spearman": 0.9624060150375938,
+       "kendall": 0.8631578947368421,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s45"
+       ],
+       "spearman": 0.918796992481203,
+       "kendall": 0.7789473684210527,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s46"
+       ],
+       "spearman": 0.9864661654135337,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s44"
+       ],
+       "spearman": 0.9804511278195487,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s45"
+       ],
+       "spearman": 0.9022556390977443,
+       "kendall": 0.768421052631579,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s46"
+       ],
+       "spearman": 0.9654135338345864,
+       "kendall": 0.8736842105263158,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s44",
+        "s45"
+       ],
+       "spearman": 0.9067669172932331,
+       "kendall": 0.7473684210526316,
+       "top10_overlap_count": 8,
+       "top10_overlap_fraction": 0.8,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s44",
+        "s46"
+       ],
+       "spearman": 0.9729323308270676,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s45",
+        "s46"
+       ],
+       "spearman": 0.9157894736842105,
+       "kendall": 0.768421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9457142857142855,
+     "spearman_sd": 0.03214631345402205,
+     "spearman_min": 0.9022556390977443,
+     "spearman_max": 0.9864661654135337,
+     "kendall_mean": 0.8336842105263157,
+     "kendall_sd": 0.06466048841987054,
+     "kendall_min": 0.7473684210526316,
+     "kendall_max": 0.9263157894736842,
+     "top10_overlap_count_mean": 8.9,
+     "top10_overlap_count_sd": 0.5676462121975466,
+     "top10_overlap_count_min": 8.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 5.0,
+     "top5_overlap_count_sd": 0.0,
+     "top5_overlap_count_min": 5.0,
+     "top5_overlap_count_max": 5.0
+    }
+   },
+   "supplementary_trained_decomposition": {
+    "note": "Decomposition of the trained readout into its two additive terms, from the trained_check forward pass (archived best.weights.h5 loaded, no training). mean|(d-1)x|_j = (1-d_j)*mean|x_j| exactly.",
+    "scores_study_order": {
+     "trained_cgcnn_mean_abs_dimension_term": [
+      0.2803364328953755,
+      0.4985283979248463,
+      1.5133743608141814,
+      0.3197094974417702,
+      0.6273013871229212,
+      0.23076628046145534,
+      0.22570980100410534,
+      0.16804299771980385,
+      0.2863626275169863,
+      0.46313333386413613,
+      0.29205884323350156,
+      0.3061904435842984,
+      0.22247803329316976,
+      0.2536505751289231,
+      0.22284181833331967,
+      0.35856157090032115,
+      0.3868613091872586,
+      0.6195989115849024,
+      0.28935973872045245,
+      0.3465426631697483
+     ],
+     "trained_megnet_mean_abs_dimension_term": [
+      0.2921542160590329,
+      0.46608285672268424,
+      1.2954719749906642,
+      0.33864815458338876,
+      0.5859649584182056,
+      0.19880482307876704,
+      0.22369417998513078,
+      0.17447072238654326,
+      0.28347751767362217,
+      0.4463891690185122,
+      0.2891661302225783,
+      0.3002096779552736,
+      0.2149609256895027,
+      0.24154976369164413,
+      0.20044509851417913,
+      0.3405490650084234,
+      0.392235973471603,
+      0.655042227148527,
+      0.2841885202218778,
+      0.3665885018836801
+     ],
+     "trained_cgcnn_mean_abs_ei_term": [
+      0.028302530984173988,
+      0.055249410251875644,
+      0.03149840045799726,
+      0.04073642409671926,
+      0.0120075852092382,
+      0.02255189233439814,
+      0.024629928319008565,
+      0.012701638965726849,
+      0.008419222284080622,
+      0.019152533125857636,
+      0.017100349261464965,
+      0.03140535370046281,
+      0.012661446697918854,
+      0.03055407783220598,
+      0.05138739310574459,
+      0.041375859045333835,
+      0.029270527935448095,
+      0.005494159500334896,
+      0.014521510971754213,
+      0.02578195687409424
+     ],
+     "trained_megnet_mean_abs_ei_term": [
+      0.024486049152280347,
+      0.028209332724462664,
+      0.023118580246612768,
+      0.036376746524430854,
+      0.018143019675970817,
+      0.035385928287140864,
+      0.018874722576978573,
+      0.041504343107497954,
+      0.0264842233074126,
+      0.02065293146790623,
+      0.03167295536474076,
+      0.024804079398327555,
+      0.013190279771409947,
+      0.037798583923182257,
+      0.01755546756407386,
+      0.037509647663125666,
+      0.015084539358115675,
+      0.053798088848544874,
+      0.04501584156510862,
+      0.027210213611697332
+     ],
+     "trained_cgcnn_dimension_gate": [
+      0.7364022,
+      0.7077576,
+      0.6879956,
+      0.762272,
+      0.71219,
+      0.70566237,
+      0.73636883,
+      0.75151795,
+      0.73584694,
+      0.72303045,
+      0.72920644,
+      0.722816,
+      0.7304991,
+      0.7317638,
+      0.7104587,
+      0.71792614,
+      0.72897965,
+      0.7292278,
+      0.7315143,
+      0.75138736
+     ],
+     "trained_megnet_dimension_gate": [
+      0.7252901,
+      0.72677755,
+      0.7329194,
+      0.7481896,
+      0.73115546,
+      0.7464286,
+      0.73872304,
+      0.74201345,
+      0.73850834,
+      0.733044,
+      0.7318885,
+      0.7282302,
+      0.739605,
+      0.7445605,
+      0.73955905,
+      0.73209625,
+      0.7252144,
+      0.71373856,
+      0.7363125,
+      0.73700637
+     ]
+    },
+    "comparisons": {
+     "dimension_term_cgcnn_vs_megnet": {
+      "spearman": 0.9774436090225563,
+      "kendall": 0.9052631578947369,
+      "top10_overlap_count": 10,
+      "top10_overlap_fraction": 1.0,
+      "top5_overlap_count": 5,
+      "top5_overlap_fraction": 1.0
+     },
+     "ei_term_cgcnn_vs_megnet": {
+      "spearman": -0.09323308270676692,
+      "kendall": -0.0736842105263158,
+      "top10_overlap_count": 5,
+      "top10_overlap_fraction": 0.5,
+      "top5_overlap_count": 1,
+      "top5_overlap_fraction": 0.2
+     },
+     "dimension_gate_cgcnn_vs_megnet": {
+      "spearman": 0.3037593984962406,
+      "kendall": 0.22105263157894736,
+      "top10_overlap_count": 8,
+      "top10_overlap_fraction": 0.8,
+      "top5_overlap_count": 2,
+      "top5_overlap_fraction": 0.4
+     },
+     "dimension_term_cgcnn_vs_trained_cgcnn": {
+      "spearman": 0.9744360902255638,
+      "kendall": 0.8947368421052632,
+      "top10_overlap_count": 10,
+      "top10_overlap_fraction": 1.0,
+      "top5_overlap_count": 5,
+      "top5_overlap_fraction": 1.0
+     },
+     "dimension_term_megnet_vs_trained_megnet": {
+      "spearman": 0.9789473684210527,
+      "kendall": 0.9263157894736842,
+      "top10_overlap_count": 9,
+      "top10_overlap_fraction": 0.9,
+      "top5_overlap_count": 5,
+      "top5_overlap_fraction": 1.0
+     },
+     "ei_term_cgcnn_vs_trained_cgcnn": {
+      "spearman": 0.156390977443609,
+      "kendall": 0.1368421052631579,
+      "top10_overlap_count": 7,
+      "top10_overlap_fraction": 0.7,
+      "top5_overlap_count": 2,
+      "top5_overlap_fraction": 0.4
+     },
+     "ei_term_megnet_vs_trained_megnet": {
+      "spearman": 0.022556390977443608,
+      "kendall": 0.010526315789473684,
+      "top10_overlap_count": 6,
+      "top10_overlap_fraction": 0.6,
+      "top5_overlap_count": 1,
+      "top5_overlap_fraction": 0.2
+     },
+     "ei_term_cgcnn_vs_input_only": {
+      "spearman": 0.0631578947368421,
+      "kendall": 0.052631578947368425,
+      "top10_overlap_count": 7,
+      "top10_overlap_fraction": 0.7,
+      "top5_overlap_count": 2,
+      "top5_overlap_fraction": 0.4
+     },
+     "ei_term_megnet_vs_input_only": {
+      "spearman": -0.03157894736842105,
+      "kendall": -0.031578947368421054,
+      "top10_overlap_count": 5,
+      "top10_overlap_fraction": 0.5,
+      "top5_overlap_count": 1,
+      "top5_overlap_fraction": 0.2
+     }
+    },
+    "share_of_sum_mean_abs_from_dimension_term": {
+     "cgcnn": 0.9389046645976195,
+     "megnet": 0.9293647984553616
+    }
+   }
+  },
+  "jdft2d_exfoliation": {
+   "audit": {
+    "n_test_structures": {
+     "cgcnn": 96,
+     "megnet": 96
+    },
+    "n_test_nodes": {
+     "cgcnn": 746,
+     "megnet": 746
+    },
+    "test_ids_sha256": {
+     "cgcnn": "de2efad80ce32a8ac17342e2b57b6285bc27ae1c5266de2c137159989b1b800a",
+     "megnet": "de2efad80ce32a8ac17342e2b57b6285bc27ae1c5266de2c137159989b1b800a"
+    },
+    "input_only_max_abs_diff_cgcnn_vs_megnet_cache": 0.0,
+    "trained_check_max_abs_diff_vs_archived_feature_scores": {
+     "cgcnn": 7.465198756939628e-07,
+     "megnet": 1.079370308354477e-06
+    },
+    "trained_check_spearman_vs_archived": {
+     "cgcnn": 1.0,
+     "megnet": 1.0
+    },
+    "identity_max_abs_err": {
+     "cgcnn": [
+      4.181615971265984e-07,
+      1.7026415166654374e-07,
+      3.2961966556221967e-07,
+      2.3125491432907097e-07,
+      4.454443169876754e-07,
+      1.4736409736926248e-07
+     ],
+     "megnet": [
+      2.1494093194185382e-07,
+      4.1599424793759e-07,
+      2.0019927560177564e-07,
+      4.3346667899513136e-07,
+      4.513079023826805e-07,
+      2.108193671856995e-07
+     ]
+    },
+    "untrained_init_fingerprint_equals_trained_run_init": {
+     "cgcnn": {
+      "42": true,
+      "43": false,
+      "44": false,
+      "45": false,
+      "46": false
+     },
+     "megnet": {
+      "42": false,
+      "43": false,
+      "44": false,
+      "45": false,
+      "46": false
+     }
+    },
+    "untrained_dimension_gate_unique": {
+     "cgcnn": [
+      0.731059
+     ],
+     "megnet": [
+      0.731059
+     ]
+    },
+    "untrained_synergy": {
+     "cgcnn": [
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612
+     ],
+     "megnet": [
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612,
+      0.10000000149011612
+     ]
+    },
+    "trained_synergy": {
+     "cgcnn": 0.024138078093528748,
+     "megnet": 0.11735925823450089
+    },
+    "devices": {
+     "cgcnn": [
+      "/device:CPU:0"
+     ],
+     "megnet": [
+      "/device:CPU:0"
+     ]
+    },
+    "megnet_untrained_gpu_crosscheck": {
+     "note": "Same script on one GPU (CUDA_VISIBLE_DEVICES=3). CPU backbone init differs from GPU (fingerprint), gate readout agrees to float32 round-off; CPU results are the reported ones.",
+     "gpu_fingerprint_equals_trained_run_init": {
+      "42": true,
+      "43": false,
+      "44": false,
+      "45": false,
+      "46": false
+     },
+     "max_abs_diff_gpu_vs_cpu_mean_abs_actual_delta": {
+      "42": 1.0726938459715285e-07,
+      "43": 1.0005600414864091e-07,
+      "44": 1.0753404994234828e-07,
+      "45": 1.0599100075392442e-07,
+      "46": 1.0900219388210175e-07
+     },
+     "spearman_gpu_vs_cpu": {
+      "42": 1.0,
+      "43": 1.0,
+      "44": 1.0,
+      "45": 1.0,
+      "46": 1.0
+     }
+    }
+   },
+   "feature_names_study_order": [
+    "density",
+    "atom_melting_point",
+    "atom_specific_heat_capacity",
+    "atomic_boiling_point",
+    "atomic_fusion_heat",
+    "atomic_thermal_cond",
+    "atomic_ip",
+    "atomic_ea",
+    "atomic_hfomo",
+    "atomic_lfumo",
+    "X",
+    "atomic_pol",
+    "atomic_nvalences",
+    "atomic_ndval",
+    "atomic_npval",
+    "atomic_nsval",
+    "atomic_radius",
+    "atomic_covalent Radius",
+    "atomic_volume",
+    "atomic_weight"
+   ],
+   "scores_study_order": {
+    "trained_cgcnn": [
+     0.1982374,
+     0.27992192,
+     0.08468961,
+     0.2799402,
+     0.15457168,
+     0.18758224,
+     0.2393835,
+     0.28636897,
+     0.17375414,
+     0.4522107,
+     0.34226808,
+     0.25392246,
+     0.109522834,
+     0.30764052,
+     0.3751587,
+     0.1626899,
+     0.14846943,
+     0.22966535,
+     0.13738702,
+     0.21587513
+    ],
+    "trained_megnet": [
+     0.19266471,
+     0.26907095,
+     0.0780112,
+     0.27398008,
+     0.15838902,
+     0.18880281,
+     0.23890626,
+     0.29167074,
+     0.16290693,
+     0.4387536,
+     0.32430565,
+     0.25166446,
+     0.096737765,
+     0.28944126,
+     0.35654673,
+     0.17828305,
+     0.16167143,
+     0.22689001,
+     0.1357378,
+     0.22264361
+    ],
+    "input_only_mean_abs_x": [
+     0.6985434405131131,
+     0.9626765379846975,
+     0.2975670964539491,
+     1.042363044403833,
+     0.5795873121281052,
+     0.667270411357743,
+     0.8805982166022341,
+     1.0699060015934683,
+     0.6524954759153779,
+     1.630735109315501,
+     1.2618232655336445,
+     0.9080212143856543,
+     0.40623196165499353,
+     1.0863988671162172,
+     1.3621812419561374,
+     0.6062773394600636,
+     0.5405287073485693,
+     0.873444909973934,
+     0.5394313412933204,
+     0.7823775777413482
+    ],
+    "untrained_cgcnn_seed42": [
+     0.196085274154595,
+     0.2652603151531386,
+     0.08270722567840372,
+     0.2841617548114173,
+     0.14168276104903793,
+     0.19742691839218698,
+     0.22493966832886833,
+     0.2943098394739524,
+     0.16884408231535003,
+     0.4501694663747366,
+     0.31739026411429005,
+     0.24222143901756718,
+     0.11183663721798093,
+     0.2884594723082899,
+     0.37915294988445397,
+     0.16644704405807617,
+     0.14216039256547294,
+     0.22643098906032122,
+     0.14337893278929767,
+     0.21739330238864904
+    ],
+    "untrained_cgcnn_seed43": [
+     0.18001436841132334,
+     0.2546790974019919,
+     0.07768378102522713,
+     0.27691299085762483,
+     0.1540911221700713,
+     0.1747796078469734,
+     0.2525753653171315,
+     0.27583767851470065,
+     0.17599570737457548,
+     0.44739462707151756,
+     0.3418294410982816,
+     0.251287733758962,
+     0.10718168666830971,
+     0.295214243103368,
+     0.36543786132223804,
+     0.15645495188939348,
+     0.15479056523231435,
+     0.22432363633535823,
+     0.1416053589440922,
+     0.2148705061260441
+    ],
+    "untrained_cgcnn_seed44": [
+     0.20530299548479172,
+     0.25309630599242433,
+     0.08054573825827673,
+     0.3050952891721802,
+     0.1494196424443005,
+     0.18804216479268374,
+     0.21215274108663681,
+     0.28369468154670324,
+     0.1726927116772924,
+     0.42506735179393523,
+     0.3424629981681984,
+     0.23017661535148645,
+     0.11088228309102577,
+     0.30875099602157885,
+     0.3875052013282162,
+     0.1676069083785883,
+     0.1405278267800788,
+     0.22934278575004385,
+     0.15177240903456832,
+     0.21539260033048668
+    ],
+    "untrained_cgcnn_seed45": [
+     0.18935939483843925,
+     0.25736041552819133,
+     0.08070279564958156,
+     0.2795284678585248,
+     0.156070520688128,
+     0.17885883509533496,
+     0.23633902694720366,
+     0.28638193920883914,
+     0.1784618307084804,
+     0.436945564994943,
+     0.3365370447487738,
+     0.2414739456492159,
+     0.09937090281117458,
+     0.2901135854443021,
+     0.3640689823436913,
+     0.16456753123381823,
+     0.1490752886214241,
+     0.2331299859338787,
+     0.14129256775812432,
+     0.20973410964231867
+    ],
+    "untrained_cgcnn_seed46": [
+     0.1882931324615875,
+     0.26108206186353683,
+     0.08230704299096847,
+     0.2854690285194815,
+     0.15475830077018898,
+     0.1826473891974774,
+     0.2341958535835147,
+     0.28409492367524003,
+     0.18032849981791613,
+     0.4372686058827164,
+     0.34109671567454336,
+     0.23914635210390384,
+     0.11107504540110562,
+     0.2947772436602985,
+     0.36470767501092466,
+     0.1712131756320396,
+     0.14726095709789933,
+     0.2280853487171692,
+     0.14501904251413475,
+     0.2082373048366115
+    ],
+    "untrained_megnet_seed42": [
+     0.17784276529247736,
+     0.2632374176131337,
+     0.0832787752426142,
+     0.2708692207393154,
+     0.15581453954064395,
+     0.18983926186862404,
+     0.22391862468793988,
+     0.27743809786562784,
+     0.1588866758752045,
+     0.4465409879405401,
+     0.33089386333084736,
+     0.2516329983354174,
+     0.10313920978826269,
+     0.2865641969618145,
+     0.3546526701946121,
+     0.1795700696214594,
+     0.14789842198048556,
+     0.22725463256329778,
+     0.14652705543996622,
+     0.2152958732577735
+    ],
+    "untrained_megnet_seed43": [
+     0.1910299638650772,
+     0.25091007073726956,
+     0.08181182465618402,
+     0.28052671411481683,
+     0.15740593901620653,
+     0.18286694462683262,
+     0.2387934467023683,
+     0.2920204160670093,
+     0.17749041435745702,
+     0.4423375605323399,
+     0.3372560572028959,
+     0.2446368306216062,
+     0.11104369141041594,
+     0.2913533620556302,
+     0.3612364462699152,
+     0.1591073893030591,
+     0.14443095830011984,
+     0.234102550503266,
+     0.1396119231845055,
+     0.212252035285109
+    ],
+    "untrained_megnet_seed44": [
+     0.19255814029168508,
+     0.2639654106597838,
+     0.0796480217134585,
+     0.28628595235280635,
+     0.1522051078902842,
+     0.18032323721616503,
+     0.24216808754970737,
+     0.2815598454488686,
+     0.1710136686164596,
+     0.43864102947997585,
+     0.34559869889204886,
+     0.24513686061324927,
+     0.10688510688705914,
+     0.2929462837030357,
+     0.36590875545391766,
+     0.16757456518849484,
+     0.1481307082055461,
+     0.23649586074993054,
+     0.14400895936639316,
+     0.2121266604004173
+    ],
+    "untrained_megnet_seed45": [
+     0.18806643347597954,
+     0.22508451315117425,
+     0.0811605996642032,
+     0.28226613535997697,
+     0.16640448738850813,
+     0.19611003098075575,
+     0.22604210587123524,
+     0.28076998376095263,
+     0.1399654122693689,
+     0.4401722432715923,
+     0.30046453553154545,
+     0.23602852864495552,
+     0.09559800988937112,
+     0.2867957492616157,
+     0.38519344698567815,
+     0.16677541743174953,
+     0.13833056763501153,
+     0.25017986632633865,
+     0.15785973258666075,
+     0.20894331203638788
+    ],
+    "untrained_megnet_seed46": [
+     0.19939327605528104,
+     0.251567419413627,
+     0.07742759567153598,
+     0.26332602174528164,
+     0.16372291266733416,
+     0.16125266603755967,
+     0.25283514274204344,
+     0.304360539622445,
+     0.1618339358317109,
+     0.4545725364282967,
+     0.3417595292119454,
+     0.2532699202654269,
+     0.11683285291788566,
+     0.2981055910342021,
+     0.36488403011383064,
+     0.15991140011168678,
+     0.13640818457511172,
+     0.2198095443700977,
+     0.14350053752040934,
+     0.21000371986735442
+    ]
+   },
+   "rankings": {
+    "trained_cgcnn": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4522107
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.3751587
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.34226808
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.30764052
+     },
+     {
+      "rank": 5,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.28636897
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.2799402
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.27992192
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.25392246
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.2393835
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.22966535
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.21587513
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.1982374
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.18758224
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.17375414
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.1626899
+     },
+     {
+      "rank": 16,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.15457168
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.14846943
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.13738702
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.109522834
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.08468961
+     }
+    ],
+    "trained_megnet": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4387536
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.35654673
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.32430565
+     },
+     {
+      "rank": 4,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.29167074
+     },
+     {
+      "rank": 5,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.28944126
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.27398008
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.26907095
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.25166446
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.23890626
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.22689001
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.22264361
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.19266471
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.18880281
+     },
+     {
+      "rank": 14,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.17828305
+     },
+     {
+      "rank": 15,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.16290693
+     },
+     {
+      "rank": 16,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.16167143
+     },
+     {
+      "rank": 17,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.15838902
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.1357378
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.096737765
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.0780112
+     }
+    ],
+    "input_only_mean_abs_x": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 1.630735109315501
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 1.3621812419561374
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 1.2618232655336445
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 1.0863988671162172
+     },
+     {
+      "rank": 5,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 1.0699060015934683
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 1.042363044403833
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.9626765379846975
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.9080212143856543
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.8805982166022341
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.873444909973934
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.7823775777413482
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.6985434405131131
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.667270411357743
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.6524954759153779
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.6062773394600636
+     },
+     {
+      "rank": 16,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.5795873121281052
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.5405287073485693
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.5394313412933204
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.40623196165499353
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.2975670964539491
+     }
+    ],
+    "untrained_cgcnn_seed42": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4501694663747366
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.37915294988445397
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.31739026411429005
+     },
+     {
+      "rank": 4,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.2943098394739524
+     },
+     {
+      "rank": 5,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2884594723082899
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.2841617548114173
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.2652603151531386
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.24222143901756718
+     },
+     {
+      "rank": 9,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.22643098906032122
+     },
+     {
+      "rank": 10,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.22493966832886833
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.21739330238864904
+     },
+     {
+      "rank": 12,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.19742691839218698
+     },
+     {
+      "rank": 13,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.196085274154595
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.16884408231535003
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.16644704405807617
+     },
+     {
+      "rank": 16,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.14337893278929767
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.14216039256547294
+     },
+     {
+      "rank": 18,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.14168276104903793
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.11183663721798093
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.08270722567840372
+     }
+    ],
+    "untrained_cgcnn_seed43": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.44739462707151756
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.36543786132223804
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.3418294410982816
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.295214243103368
+     },
+     {
+      "rank": 5,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.27691299085762483
+     },
+     {
+      "rank": 6,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.27583767851470065
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.2546790974019919
+     },
+     {
+      "rank": 8,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.2525753653171315
+     },
+     {
+      "rank": 9,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.251287733758962
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.22432363633535823
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.2148705061260441
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.18001436841132334
+     },
+     {
+      "rank": 13,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.17599570737457548
+     },
+     {
+      "rank": 14,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.1747796078469734
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.15645495188939348
+     },
+     {
+      "rank": 16,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.15479056523231435
+     },
+     {
+      "rank": 17,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.1540911221700713
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.1416053589440922
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.10718168666830971
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.07768378102522713
+     }
+    ],
+    "untrained_cgcnn_seed44": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.42506735179393523
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.3875052013282162
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.3424629981681984
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.30875099602157885
+     },
+     {
+      "rank": 5,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.3050952891721802
+     },
+     {
+      "rank": 6,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.28369468154670324
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.25309630599242433
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.23017661535148645
+     },
+     {
+      "rank": 9,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.22934278575004385
+     },
+     {
+      "rank": 10,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.21539260033048668
+     },
+     {
+      "rank": 11,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.21215274108663681
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.20530299548479172
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.18804216479268374
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.1726927116772924
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.1676069083785883
+     },
+     {
+      "rank": 16,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.15177240903456832
+     },
+     {
+      "rank": 17,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.1494196424443005
+     },
+     {
+      "rank": 18,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.1405278267800788
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.11088228309102577
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.08054573825827673
+     }
+    ],
+    "untrained_cgcnn_seed45": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.436945564994943
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.3640689823436913
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.3365370447487738
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2901135854443021
+     },
+     {
+      "rank": 5,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.28638193920883914
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.2795284678585248
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.25736041552819133
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.2414739456492159
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.23633902694720366
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.2331299859338787
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.20973410964231867
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.18935939483843925
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.17885883509533496
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.1784618307084804
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.16456753123381823
+     },
+     {
+      "rank": 16,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.156070520688128
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.1490752886214241
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.14129256775812432
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.09937090281117458
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.08070279564958156
+     }
+    ],
+    "untrained_cgcnn_seed46": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4372686058827164
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.36470767501092466
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.34109671567454336
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2947772436602985
+     },
+     {
+      "rank": 5,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.2854690285194815
+     },
+     {
+      "rank": 6,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.28409492367524003
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.26108206186353683
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.23914635210390384
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.2341958535835147
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.2280853487171692
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.2082373048366115
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.1882931324615875
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.1826473891974774
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.18032849981791613
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.1712131756320396
+     },
+     {
+      "rank": 16,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.15475830077018898
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.14726095709789933
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.14501904251413475
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.11107504540110562
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.08230704299096847
+     }
+    ],
+    "untrained_megnet_seed42": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4465409879405401
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.3546526701946121
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.33089386333084736
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2865641969618145
+     },
+     {
+      "rank": 5,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.27743809786562784
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.2708692207393154
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.2632374176131337
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.2516329983354174
+     },
+     {
+      "rank": 9,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.22725463256329778
+     },
+     {
+      "rank": 10,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.22391862468793988
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.2152958732577735
+     },
+     {
+      "rank": 12,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.18983926186862404
+     },
+     {
+      "rank": 13,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.1795700696214594
+     },
+     {
+      "rank": 14,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.17784276529247736
+     },
+     {
+      "rank": 15,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.1588866758752045
+     },
+     {
+      "rank": 16,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.15581453954064395
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.14789842198048556
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.14652705543996622
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.10313920978826269
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.0832787752426142
+     }
+    ],
+    "untrained_megnet_seed43": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4423375605323399
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.3612364462699152
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.3372560572028959
+     },
+     {
+      "rank": 4,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.2920204160670093
+     },
+     {
+      "rank": 5,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2913533620556302
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.28052671411481683
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.25091007073726956
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.2446368306216062
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.2387934467023683
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.234102550503266
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.212252035285109
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.1910299638650772
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.18286694462683262
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.17749041435745702
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.1591073893030591
+     },
+     {
+      "rank": 16,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.15740593901620653
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.14443095830011984
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.1396119231845055
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.11104369141041594
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.08181182465618402
+     }
+    ],
+    "untrained_megnet_seed44": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.43864102947997585
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.36590875545391766
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.34559869889204886
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2929462837030357
+     },
+     {
+      "rank": 5,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.28628595235280635
+     },
+     {
+      "rank": 6,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.2815598454488686
+     },
+     {
+      "rank": 7,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.2639654106597838
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.24513686061324927
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.24216808754970737
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.23649586074993054
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.2121266604004173
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.19255814029168508
+     },
+     {
+      "rank": 13,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.18032323721616503
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.1710136686164596
+     },
+     {
+      "rank": 15,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.16757456518849484
+     },
+     {
+      "rank": 16,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.1522051078902842
+     },
+     {
+      "rank": 17,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.1481307082055461
+     },
+     {
+      "rank": 18,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.14400895936639316
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.10688510688705914
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.0796480217134585
+     }
+    ],
+    "untrained_megnet_seed45": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4401722432715923
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.38519344698567815
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.30046453553154545
+     },
+     {
+      "rank": 4,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2867957492616157
+     },
+     {
+      "rank": 5,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.28226613535997697
+     },
+     {
+      "rank": 6,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.28076998376095263
+     },
+     {
+      "rank": 7,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.25017986632633865
+     },
+     {
+      "rank": 8,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.23602852864495552
+     },
+     {
+      "rank": 9,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.22604210587123524
+     },
+     {
+      "rank": 10,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.22508451315117425
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.20894331203638788
+     },
+     {
+      "rank": 12,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.19611003098075575
+     },
+     {
+      "rank": 13,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.18806643347597954
+     },
+     {
+      "rank": 14,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.16677541743174953
+     },
+     {
+      "rank": 15,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.16640448738850813
+     },
+     {
+      "rank": 16,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.15785973258666075
+     },
+     {
+      "rank": 17,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.1399654122693689
+     },
+     {
+      "rank": 18,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.13833056763501153
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.09559800988937112
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.0811605996642032
+     }
+    ],
+    "untrained_megnet_seed46": [
+     {
+      "rank": 1,
+      "feature_index": 9,
+      "feature": "atomic_lfumo",
+      "score": 0.4545725364282967
+     },
+     {
+      "rank": 2,
+      "feature_index": 14,
+      "feature": "atomic_npval",
+      "score": 0.36488403011383064
+     },
+     {
+      "rank": 3,
+      "feature_index": 10,
+      "feature": "X",
+      "score": 0.3417595292119454
+     },
+     {
+      "rank": 4,
+      "feature_index": 7,
+      "feature": "atomic_ea",
+      "score": 0.304360539622445
+     },
+     {
+      "rank": 5,
+      "feature_index": 13,
+      "feature": "atomic_ndval",
+      "score": 0.2981055910342021
+     },
+     {
+      "rank": 6,
+      "feature_index": 3,
+      "feature": "atomic_boiling_point",
+      "score": 0.26332602174528164
+     },
+     {
+      "rank": 7,
+      "feature_index": 11,
+      "feature": "atomic_pol",
+      "score": 0.2532699202654269
+     },
+     {
+      "rank": 8,
+      "feature_index": 6,
+      "feature": "atomic_ip",
+      "score": 0.25283514274204344
+     },
+     {
+      "rank": 9,
+      "feature_index": 1,
+      "feature": "atom_melting_point",
+      "score": 0.251567419413627
+     },
+     {
+      "rank": 10,
+      "feature_index": 17,
+      "feature": "atomic_covalent Radius",
+      "score": 0.2198095443700977
+     },
+     {
+      "rank": 11,
+      "feature_index": 19,
+      "feature": "atomic_weight",
+      "score": 0.21000371986735442
+     },
+     {
+      "rank": 12,
+      "feature_index": 0,
+      "feature": "density",
+      "score": 0.19939327605528104
+     },
+     {
+      "rank": 13,
+      "feature_index": 4,
+      "feature": "atomic_fusion_heat",
+      "score": 0.16372291266733416
+     },
+     {
+      "rank": 14,
+      "feature_index": 8,
+      "feature": "atomic_hfomo",
+      "score": 0.1618339358317109
+     },
+     {
+      "rank": 15,
+      "feature_index": 5,
+      "feature": "atomic_thermal_cond",
+      "score": 0.16125266603755967
+     },
+     {
+      "rank": 16,
+      "feature_index": 15,
+      "feature": "atomic_nsval",
+      "score": 0.15991140011168678
+     },
+     {
+      "rank": 17,
+      "feature_index": 18,
+      "feature": "atomic_volume",
+      "score": 0.14350053752040934
+     },
+     {
+      "rank": 18,
+      "feature_index": 16,
+      "feature": "atomic_radius",
+      "score": 0.13640818457511172
+     },
+     {
+      "rank": 19,
+      "feature_index": 12,
+      "feature": "atomic_nvalences",
+      "score": 0.11683285291788566
+     },
+     {
+      "rank": 20,
+      "feature_index": 2,
+      "feature": "atom_specific_heat_capacity",
+      "score": 0.07742759567153598
+     }
+    ]
+   },
+   "comparisons": {
+    "trained_cgcnn_vs_trained_megnet": {
+     "spearman": 0.9954887218045112,
+     "kendall": 0.968421052631579,
+     "top10_overlap_count": 10,
+     "top10_overlap_fraction": 1.0,
+     "top5_overlap_count": 5,
+     "top5_overlap_fraction": 1.0,
+     "published_spearman": 0.995
+    },
+    "input_only_vs_trained_cgcnn": {
+     "spearman": 1.0,
+     "kendall": 1.0,
+     "top10_overlap_count": 10,
+     "top10_overlap_fraction": 1.0,
+     "top5_overlap_count": 5,
+     "top5_overlap_fraction": 1.0
+    },
+    "input_only_vs_trained_megnet": {
+     "spearman": 0.9954887218045112,
+     "kendall": 0.968421052631579,
+     "top10_overlap_count": 10,
+     "top10_overlap_fraction": 1.0,
+     "top5_overlap_count": 5,
+     "top5_overlap_fraction": 1.0
+    },
+    "untrained_cgcnn_vs_untrained_megnet_matched_seed": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s42"
+       ],
+       "spearman": 0.9879699248120299,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s43"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s44"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s45"
+       ],
+       "spearman": 0.9714285714285714,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s46"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      }
+     ],
+     "spearman_mean": 0.9840601503759399,
+     "spearman_sd": 0.008612223195955665,
+     "spearman_min": 0.9714285714285714,
+     "spearman_max": 0.9909774436090225,
+     "kendall_mean": 0.9263157894736842,
+     "kendall_sd": 0.03068922049918583,
+     "kendall_min": 0.8842105263157894,
+     "kendall_max": 0.9578947368421054,
+     "top10_overlap_count_mean": 9.8,
+     "top10_overlap_count_sd": 0.4472135954999579,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.4,
+     "top5_overlap_count_sd": 0.5477225575051662,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_untrained_megnet_all_25_pairs": {
+     "n_pairs": 25,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s42"
+       ],
+       "spearman": 0.9879699248120299,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s43"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s44"
+       ],
+       "spearman": 0.9864661654135337,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s45"
+       ],
+       "spearman": 0.9699248120300751,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s42",
+        "megnet_s46"
+       ],
+       "spearman": 0.9639097744360902,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s42"
+       ],
+       "spearman": 0.9804511278195487,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s43"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s44"
+       ],
+       "spearman": 0.9954887218045112,
+       "kendall": 0.968421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s45"
+       ],
+       "spearman": 0.9593984962406013,
+       "kendall": 0.8631578947368421,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "megnet_s46"
+       ],
+       "spearman": 0.9714285714285714,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s42"
+       ],
+       "spearman": 0.9849624060150375,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s43"
+       ],
+       "spearman": 0.9864661654135337,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s44"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s45"
+       ],
+       "spearman": 0.9744360902255638,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "megnet_s46"
+       ],
+       "spearman": 0.9669172932330825,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s42"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s43"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s44"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s45"
+       ],
+       "spearman": 0.9714285714285714,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "megnet_s46"
+       ],
+       "spearman": 0.9819548872180449,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s42"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s43"
+       ],
+       "spearman": 0.9954887218045112,
+       "kendall": 0.9789473684210527,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s44"
+       ],
+       "spearman": 1.0,
+       "kendall": 1.0,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s45"
+       ],
+       "spearman": 0.9729323308270676,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "megnet_s46"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      }
+     ],
+     "spearman_mean": 0.9831578947368419,
+     "spearman_sd": 0.011631881088593808,
+     "spearman_min": 0.9593984962406013,
+     "spearman_max": 1.0,
+     "kendall_mean": 0.9296842105263159,
+     "kendall_sd": 0.03828261528978487,
+     "kendall_min": 0.8631578947368421,
+     "kendall_max": 1.0,
+     "top10_overlap_count_mean": 9.8,
+     "top10_overlap_count_sd": 0.408248290463863,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.48,
+     "top5_overlap_count_sd": 0.5099019513592784,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_trained_cgcnn": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "trained"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "trained"
+       ],
+       "spearman": 0.993984962406015,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "trained"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "trained"
+       ],
+       "spearman": 1.0,
+       "kendall": 1.0,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "trained"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      }
+     ],
+     "spearman_mean": 0.9942857142857141,
+     "spearman_sd": 0.004918925483848533,
+     "spearman_min": 0.9894736842105262,
+     "spearman_max": 1.0,
+     "kendall_mean": 0.9663157894736841,
+     "kendall_sd": 0.027246692853778464,
+     "kendall_min": 0.9368421052631579,
+     "kendall_max": 1.0,
+     "top10_overlap_count_mean": 9.8,
+     "top10_overlap_count_sd": 0.4472135954999579,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.4,
+     "top5_overlap_count_sd": 0.5477225575051662,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_vs_trained_megnet": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "megnet_s42",
+        "trained"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s43",
+        "trained"
+       ],
+       "spearman": 0.9969924812030074,
+       "kendall": 0.9789473684210527,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s44",
+        "trained"
+       ],
+       "spearman": 0.9924812030075187,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "megnet_s45",
+        "trained"
+       ],
+       "spearman": 0.9684210526315788,
+       "kendall": 0.8736842105263158,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "megnet_s46",
+        "trained"
+       ],
+       "spearman": 0.9729323308270676,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.984360902255639,
+     "spearman_sd": 0.012786376944048909,
+     "spearman_min": 0.9684210526315788,
+     "spearman_max": 0.9969924812030074,
+     "kendall_mean": 0.9326315789473684,
+     "kendall_sd": 0.04249816681723442,
+     "kendall_min": 0.8736842105263158,
+     "kendall_max": 0.9789473684210527,
+     "top10_overlap_count_mean": 10.0,
+     "top10_overlap_count_sd": 0.0,
+     "top10_overlap_count_min": 10.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.6,
+     "top5_overlap_count_sd": 0.5477225575051662,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_trained_megnet": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "trained_megnet"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "trained_megnet"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "trained_megnet"
+       ],
+       "spearman": 0.9834586466165413,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "trained_megnet"
+       ],
+       "spearman": 0.9954887218045112,
+       "kendall": 0.968421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "trained_megnet"
+       ],
+       "spearman": 0.9924812030075187,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      }
+     ],
+     "spearman_mean": 0.9903759398496239,
+     "spearman_sd": 0.004460871270433497,
+     "spearman_min": 0.9834586466165413,
+     "spearman_max": 0.9954887218045112,
+     "kendall_mean": 0.9473684210526316,
+     "kendall_sd": 0.01969293361459968,
+     "kendall_min": 0.9157894736842106,
+     "kendall_max": 0.968421052631579,
+     "top10_overlap_count_mean": 9.8,
+     "top10_overlap_count_sd": 0.4472135954999579,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.4,
+     "top5_overlap_count_sd": 0.5477225575051662,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_vs_trained_cgcnn": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "megnet_s42",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s43",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s44",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "megnet_s45",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9714285714285714,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "megnet_s46",
+        "trained_cgcnn"
+       ],
+       "spearman": 0.9819548872180449,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9882706766917293,
+     "spearman_sd": 0.01161891354711694,
+     "spearman_min": 0.9714285714285714,
+     "spearman_max": 0.9984962406015038,
+     "kendall_mean": 0.9473684210526315,
+     "kendall_sd": 0.046482951928041284,
+     "kendall_min": 0.8842105263157894,
+     "kendall_max": 0.9894736842105263,
+     "top10_overlap_count_mean": 10.0,
+     "top10_overlap_count_sd": 0.0,
+     "top10_overlap_count_min": 10.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.6,
+     "top5_overlap_count_sd": 0.5477225575051662,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_vs_input_only": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "cgcnn_s42",
+        "input_only"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s43",
+        "input_only"
+       ],
+       "spearman": 0.993984962406015,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s44",
+        "input_only"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "cgcnn_s45",
+        "input_only"
+       ],
+       "spearman": 1.0,
+       "kendall": 1.0,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "cgcnn_s46",
+        "input_only"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      }
+     ],
+     "spearman_mean": 0.9942857142857141,
+     "spearman_sd": 0.004918925483848533,
+     "spearman_min": 0.9894736842105262,
+     "spearman_max": 1.0,
+     "kendall_mean": 0.9663157894736841,
+     "kendall_sd": 0.027246692853778464,
+     "kendall_min": 0.9368421052631579,
+     "kendall_max": 1.0,
+     "top10_overlap_count_mean": 9.8,
+     "top10_overlap_count_sd": 0.4472135954999579,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.4,
+     "top5_overlap_count_sd": 0.5477225575051662,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_cgcnn_seed_vs_seed": {
+     "n_pairs": 10,
+     "pairs": [
+      {
+       "pair": [
+        "s42",
+        "s43"
+       ],
+       "spearman": 0.9819548872180449,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s42",
+        "s44"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s42",
+        "s45"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9368421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s46"
+       ],
+       "spearman": 0.9864661654135337,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s43",
+        "s44"
+       ],
+       "spearman": 0.9834586466165413,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s45"
+       ],
+       "spearman": 0.993984962406015,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s43",
+        "s46"
+       ],
+       "spearman": 0.9954887218045112,
+       "kendall": 0.968421052631579,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s44",
+        "s45"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s44",
+        "s46"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 9,
+       "top10_overlap_fraction": 0.9,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s45",
+        "s46"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      }
+     ],
+     "spearman_mean": 0.9900751879699248,
+     "spearman_sd": 0.0051704448955299225,
+     "spearman_min": 0.9819548872180449,
+     "spearman_max": 0.9984962406015038,
+     "kendall_mean": 0.9473684210526316,
+     "kendall_sd": 0.0221914221766202,
+     "kendall_min": 0.9157894736842106,
+     "kendall_max": 0.9894736842105263,
+     "top10_overlap_count_mean": 9.6,
+     "top10_overlap_count_sd": 0.5163977794943222,
+     "top10_overlap_count_min": 9.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.4,
+     "top5_overlap_count_sd": 0.5163977794943222,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_vs_input_only": {
+     "n_pairs": 5,
+     "pairs": [
+      {
+       "pair": [
+        "megnet_s42",
+        "input_only"
+       ],
+       "spearman": 0.9909774436090225,
+       "kendall": 0.9578947368421054,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s43",
+        "input_only"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "megnet_s44",
+        "input_only"
+       ],
+       "spearman": 0.9984962406015038,
+       "kendall": 0.9894736842105263,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "megnet_s45",
+        "input_only"
+       ],
+       "spearman": 0.9714285714285714,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "megnet_s46",
+        "input_only"
+       ],
+       "spearman": 0.9819548872180449,
+       "kendall": 0.9157894736842106,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      }
+     ],
+     "spearman_mean": 0.9882706766917293,
+     "spearman_sd": 0.01161891354711694,
+     "spearman_min": 0.9714285714285714,
+     "spearman_max": 0.9984962406015038,
+     "kendall_mean": 0.9473684210526315,
+     "kendall_sd": 0.046482951928041284,
+     "kendall_min": 0.8842105263157894,
+     "kendall_max": 0.9894736842105263,
+     "top10_overlap_count_mean": 10.0,
+     "top10_overlap_count_sd": 0.0,
+     "top10_overlap_count_min": 10.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.6,
+     "top5_overlap_count_sd": 0.5477225575051662,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    },
+    "untrained_megnet_seed_vs_seed": {
+     "n_pairs": 10,
+     "pairs": [
+      {
+       "pair": [
+        "s42",
+        "s43"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s42",
+        "s44"
+       ],
+       "spearman": 0.9894736842105262,
+       "kendall": 0.9473684210526316,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s42",
+        "s45"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s42",
+        "s46"
+       ],
+       "spearman": 0.9654135338345864,
+       "kendall": 0.8736842105263158,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s43",
+        "s44"
+       ],
+       "spearman": 0.9954887218045112,
+       "kendall": 0.9789473684210527,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s43",
+        "s45"
+       ],
+       "spearman": 0.9684210526315788,
+       "kendall": 0.8736842105263158,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s43",
+        "s46"
+       ],
+       "spearman": 0.9834586466165413,
+       "kendall": 0.9263157894736842,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s44",
+        "s45"
+       ],
+       "spearman": 0.9729323308270676,
+       "kendall": 0.8947368421052632,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 5,
+       "top5_overlap_fraction": 1.0
+      },
+      {
+       "pair": [
+        "s44",
+        "s46"
+       ],
+       "spearman": 0.9789473684210527,
+       "kendall": 0.9052631578947369,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      },
+      {
+       "pair": [
+        "s45",
+        "s46"
+       ],
+       "spearman": 0.9654135338345864,
+       "kendall": 0.8842105263157894,
+       "top10_overlap_count": 10,
+       "top10_overlap_fraction": 1.0,
+       "top5_overlap_count": 4,
+       "top5_overlap_fraction": 0.8
+      }
+     ],
+     "spearman_mean": 0.978796992481203,
+     "spearman_sd": 0.010690919720671412,
+     "spearman_min": 0.9654135338345864,
+     "spearman_max": 0.9954887218045112,
+     "kendall_mean": 0.9136842105263158,
+     "kendall_sd": 0.03536730713923973,
+     "kendall_min": 0.8736842105263158,
+     "kendall_max": 0.9789473684210527,
+     "top10_overlap_count_mean": 10.0,
+     "top10_overlap_count_sd": 0.0,
+     "top10_overlap_count_min": 10.0,
+     "top10_overlap_count_max": 10.0,
+     "top5_overlap_count_mean": 4.4,
+     "top5_overlap_count_sd": 0.5163977794943222,
+     "top5_overlap_count_min": 4.0,
+     "top5_overlap_count_max": 5.0
+    }
+   },
+   "supplementary_trained_decomposition": {
+    "note": "Decomposition of the trained readout into its two additive terms, from the trained_check forward pass (archived best.weights.h5 loaded, no training). mean|(d-1)x|_j = (1-d_j)*mean|x_j| exactly.",
+    "scores_study_order": {
+     "trained_cgcnn_mean_abs_dimension_term": [
+      0.19517598720403223,
+      0.2773055715179527,
+      0.08526633955462157,
+      0.2784683277112371,
+      0.1566670628971238,
+      0.1841731714835419,
+      0.24211808940491653,
+      0.2865010297374047,
+      0.1749724384444209,
+      0.4498274875068349,
+      0.3462538505046046,
+      0.25362902827982603,
+      0.10974763464069406,
+      0.30759889970615256,
+      0.37154389218035405,
+      0.1620921604225678,
+      0.14792385904008676,
+      0.23080478082481287,
+      0.13760225379940058,
+      0.21523728889984223
+     ],
+     "trained_megnet_mean_abs_dimension_term": [
+      0.18988995049941867,
+      0.26018108638310367,
+      0.07633961895656241,
+      0.27366564139573335,
+      0.15515508391980692,
+      0.17858371525131822,
+      0.2397209216536997,
+      0.29191725949372044,
+      0.1766175988290003,
+      0.43379133825506966,
+      0.33498603490442064,
+      0.24334325096550033,
+      0.10271979353913666,
+      0.29465345536553567,
+      0.3615320660856317,
+      0.1622185674577656,
+      0.15364793828234613,
+      0.23006248976016924,
+      0.1368161545524652,
+      0.2117254721450866
+     ],
+     "trained_cgcnn_mean_abs_ei_term": [
+      0.003372841082993059,
+      0.002737047645006927,
+      0.0034568402867737663,
+      0.001819988831946001,
+      0.003624962868822685,
+      0.0038300963001996224,
+      0.002979771127415391,
+      0.0009785140336612925,
+      0.0016253018530639836,
+      0.0029637071636568592,
+      0.004185915527465092,
+      0.0010111927943286696,
+      0.000829579919525108,
+      0.0021266192333811627,
+      0.004035777825402784,
+      0.0015328067093022867,
+      0.0015139119171221945,
+      0.0015300266075903225,
+      0.0024164346806261937,
+      0.0019484493204436903
+     ],
+     "trained_megnet_mean_abs_ei_term": [
+      0.0067636934557070445,
+      0.011684860400716746,
+      0.0065829239097988336,
+      0.0022871269263537264,
+      0.006888393062030525,
+      0.013268709998774678,
+      0.006338200815227349,
+      0.0057932287682949035,
+      0.015015677380967771,
+      0.006494538220086059,
+      0.011099101397163417,
+      0.009894769998941328,
+      0.007008989640010388,
+      0.009512875837666544,
+      0.00677305108203874,
+      0.020919977097655317,
+      0.01058731602430184,
+      0.006250589290286562,
+      0.004925296160929043,
+      0.017349245338054216
+     ],
+     "trained_cgcnn_dimension_gate": [
+      0.7205958,
+      0.71194315,
+      0.7134551,
+      0.732849,
+      0.72969204,
+      0.7239902,
+      0.7250528,
+      0.7322185,
+      0.7318411,
+      0.72415656,
+      0.72559243,
+      0.7206794,
+      0.72984,
+      0.71686375,
+      0.7272435,
+      0.7326435,
+      0.7263348,
+      0.7357535,
+      0.7449124,
+      0.72489333
+     ],
+     "trained_megnet_dimension_gate": [
+      0.728163,
+      0.72973156,
+      0.7434541,
+      0.7374565,
+      0.73230076,
+      0.7323668,
+      0.7277749,
+      0.7271561,
+      0.7293199,
+      0.7339903,
+      0.7345222,
+      0.7320071,
+      0.74714005,
+      0.7287797,
+      0.7345933,
+      0.73243505,
+      0.71574515,
+      0.7366033,
+      0.7463697,
+      0.729382
+     ]
+    },
+    "comparisons": {
+     "dimension_term_cgcnn_vs_megnet": {
+      "spearman": 1.0,
+      "kendall": 1.0,
+      "top10_overlap_count": 10,
+      "top10_overlap_fraction": 1.0,
+      "top5_overlap_count": 5,
+      "top5_overlap_fraction": 1.0
+     },
+     "ei_term_cgcnn_vs_megnet": {
+      "spearman": 0.019548872180451125,
+      "kendall": 0.052631578947368425,
+      "top10_overlap_count": 3,
+      "top10_overlap_fraction": 0.3,
+      "top5_overlap_count": 1,
+      "top5_overlap_fraction": 0.2
+     },
+     "dimension_gate_cgcnn_vs_megnet": {
+      "spearman": 0.31879699248120297,
+      "kendall": 0.23157894736842105,
+      "top10_overlap_count": 6,
+      "top10_overlap_fraction": 0.6,
+      "top5_overlap_count": 3,
+      "top5_overlap_fraction": 0.6
+     },
+     "dimension_term_cgcnn_vs_trained_cgcnn": {
+      "spearman": 1.0,
+      "kendall": 1.0,
+      "top10_overlap_count": 10,
+      "top10_overlap_fraction": 1.0,
+      "top5_overlap_count": 5,
+      "top5_overlap_fraction": 1.0
+     },
+     "dimension_term_megnet_vs_trained_megnet": {
+      "spearman": 0.9954887218045112,
+      "kendall": 0.968421052631579,
+      "top10_overlap_count": 10,
+      "top10_overlap_fraction": 1.0,
+      "top5_overlap_count": 5,
+      "top5_overlap_fraction": 1.0
+     },
+     "ei_term_cgcnn_vs_trained_cgcnn": {
+      "spearman": 0.20150375939849624,
+      "kendall": 0.12631578947368421,
+      "top10_overlap_count": 5,
+      "top10_overlap_fraction": 0.5,
+      "top5_overlap_count": 2,
+      "top5_overlap_fraction": 0.4
+     },
+     "ei_term_megnet_vs_trained_megnet": {
+      "spearman": -0.14736842105263157,
+      "kendall": -0.09473684210526316,
+      "top10_overlap_count": 4,
+      "top10_overlap_fraction": 0.4,
+      "top5_overlap_count": 0,
+      "top5_overlap_fraction": 0.0
+     },
+     "ei_term_cgcnn_vs_input_only": {
+      "spearman": 0.20150375939849624,
+      "kendall": 0.12631578947368421,
+      "top10_overlap_count": 5,
+      "top10_overlap_fraction": 0.5,
+      "top5_overlap_count": 2,
+      "top5_overlap_fraction": 0.4
+     },
+     "ei_term_megnet_vs_input_only": {
+      "spearman": -0.14285714285714285,
+      "kendall": -0.10526315789473685,
+      "top10_overlap_count": 4,
+      "top10_overlap_fraction": 0.4,
+      "top5_overlap_count": 0,
+      "top5_overlap_fraction": 0.0
+     }
+    },
+    "share_of_sum_mean_abs_from_dimension_term": {
+     "cgcnn": 0.989591220555205,
+     "megnet": 0.9604861863150823
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,1627 @@
+{
+  "status": "completed",
+  "description": "Attribution-ranked gate-correction channel shutdown repeated per training seed of physical20_environment_gate; inference only, no training. Same 64 fixed validation IDs, IG32 over mask 0->1, methods, k values, random rankings (RNG 20261013) and chemical-system bootstrap (3000 resamples, seed 20261015) as explanation_controls.",
+  "estimands": {
+    "mean_abs_response_eV": "mean over 64 materials of |full - masked| prediction (eV); random averaged over 20 rankings per material",
+    "ci95": "material-weighted chemical-system cluster bootstrap percentile interval",
+    "ig_over_random_ratio": "point ratio of the two mean absolute responses",
+    "ig_minus_random_ci95_eV": "paired (by material, same system draws) bootstrap interval of IG minus random mean absolute response"
+  },
+  "seed42_replay": {
+    "tolerance_eV": 0.0001,
+    "attribution_npz": {
+      "ig32_eV": 1.335563519777594e-07,
+      "ig16_eV": 8.129384176935872e-08,
+      "gate_correction": 0.0,
+      "full_eV": 7.512229576178697e-07,
+      "mask0_eV": 5.634172177693131e-07,
+      "random5_deletion_eV": 1.7528535671829104e-06,
+      "top5_deletion_eV": 1.2520382632885685e-06,
+      "validation_ids_identical": true,
+      "random5_features_identical": true,
+      "top5_features_identical": true,
+      "gate_row_splits_identical": true
+    },
+    "analysis_max_abs_difference": 1.0640543740558783e-07,
+    "analysis_max_abs_difference_path": "curves/gate_path_ig/10/delta_prediction_eV/ci95_low",
+    "analysis_numeric_leaves_compared": 220,
+    "k5": {
+      "gate_path_ig": {
+        "archived": 0.19746413544332675,
+        "replay": 0.19746414693664666
+      },
+      "random": {
+        "archived": 0.10293878068764722,
+        "replay": 0.10293875931190605
+      },
+      "ig_minus_random_ci95": {
+        "archived": [
+          0.05143549290528248,
+          0.14776895670273307
+        ],
+        "replay": [
+          0.05143557542441426,
+          0.14776906124158182
+        ]
+      }
+    },
+    "chemical_system_count": {
+      "archived": 45,
+      "replay": 45
+    },
+    "replay_passed": true
+  },
+  "per_seed": {
+    "42": {
+      "checkpoint": "runs/physical20_environment_gate/best.weights.h5",
+      "checkpoint_sha256": "09d88a54211a20f183459893c6e873e92b0c94bedfcba80a897a3f478e1a5350",
+      "validation_mother_mae_eV": 0.3392591880771299,
+      "validation_reproduction_max_abs_eV": 4.382133917957276e-06,
+      "ig32_completeness_max_abs_eV": 0.00016097320770391832,
+      "ig16_vs_ig32_max_abs_eV": 0.00023665826310198534,
+      "random_k5_replay_max_abs_eV": 1.2520382615122116e-06,
+      "fixed_material_count": 64,
+      "chemical_system_count": 45,
+      "raw_results_sha256": "7e77157a9978924c1b99f25ed81e58f81991c002f3134d361f5f0d905742570a",
+      "by_k": {
+        "1": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.14337235896861694,
+              "mean_abs_response_ci95_eV": [
+                0.12456866692426376,
+                0.1633838362457893
+              ],
+              "mean_signed_response_eV": -0.0483059491426012,
+              "mean_signed_response_ci95_eV": [
+                -0.09354433970425917,
+                0.002414971528714813
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.14622378343072712,
+              "mean_abs_response_ci95_eV": [
+                0.12662786944839527,
+                0.16733605675737145
+              ],
+              "mean_signed_response_eV": -0.06180178083656896,
+              "mean_signed_response_ci95_eV": [
+                -0.10500767321055642,
+                -0.013461319928680698
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.0878304874443252,
+              "mean_abs_response_ci95_eV": [
+                0.06748167540834421,
+                0.11183258862510555
+              ],
+              "mean_signed_response_eV": 0.010244420423652402,
+              "mean_signed_response_ci95_eV": [
+                -0.02660767823497416,
+                0.0448602169657849
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.03480665978342396,
+              "mean_abs_response_ci95_eV": [
+                0.02867712185901766,
+                0.04278126383599813
+              ],
+              "mean_signed_response_eV": -0.0006528376737850031,
+              "mean_signed_response_ci95_eV": [
+                -0.00810420295393467,
+                0.006041158769529455
+              ]
+            }
+          },
+          "ig_over_random_ratio": 4.119107086423025,
+          "ig_minus_random_eV": 0.10856569918519299,
+          "ig_minus_random_ci95_eV": [
+            0.09252652315031364,
+            0.12612823816228136
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.0028514244621101748,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.008347352312872012,
+            0.0007330627220569044
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.05554187152429174,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.03977564691821849,
+            0.07380754896685651
+          ]
+        },
+        "3": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.1557142144457357,
+              "mean_abs_response_ci95_eV": [
+                0.10986238230138476,
+                0.20962282710756544
+              ],
+              "mean_signed_response_eV": -0.042755596400144445,
+              "mean_signed_response_ci95_eV": [
+                -0.11070893336642655,
+                0.02297965942394704
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.14993434724064164,
+              "mean_abs_response_ci95_eV": [
+                0.10846677924455661,
+                0.19898665729442624
+              ],
+              "mean_signed_response_eV": -0.062100424959560786,
+              "mean_signed_response_ci95_eV": [
+                -0.12687558171294552,
+                -0.00017134066434089956
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.14537286330451205,
+              "mean_abs_response_ci95_eV": [
+                0.10782815303305779,
+                0.18655372499905318
+              ],
+              "mean_signed_response_eV": -0.021499632244484305,
+              "mean_signed_response_ci95_eV": [
+                -0.0886667392749588,
+                0.03638699034073165
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.07325182400953735,
+              "mean_abs_response_ci95_eV": [
+                0.061967474189907744,
+                0.08564774142203173
+              ],
+              "mean_signed_response_eV": -0.0012565178142868848,
+              "mean_signed_response_ci95_eV": [
+                -0.01941157540615309,
+                0.015757613415848196
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.1257383901520566,
+          "ig_minus_random_eV": 0.08246239043619832,
+          "ig_minus_random_ci95_eV": [
+            0.04356982327767096,
+            0.12789685999676467
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.005779867205094019,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.01141618575713018,
+            0.02954915649212303
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.010341351141223615,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            -0.019953202571139212,
+            0.040325545596688106
+          ]
+        },
+        "5": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.19746414693664666,
+              "mean_abs_response_ci95_eV": [
+                0.14181292882893776,
+                0.264673813295598
+              ],
+              "mean_signed_response_eV": -0.026308192420905444,
+              "mean_signed_response_ci95_eV": [
+                -0.10883202725328325,
+                0.055546090242044835
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.18273144015416154,
+              "mean_abs_response_ci95_eV": [
+                0.1355212799474023,
+                0.23539845691636202
+              ],
+              "mean_signed_response_eV": -0.05345082625237629,
+              "mean_signed_response_ci95_eV": [
+                -0.1307057467393835,
+                0.018972823861426593
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.1691843968704132,
+              "mean_abs_response_ci95_eV": [
+                0.12212047721868409,
+                0.22122962117357242
+              ],
+              "mean_signed_response_eV": -0.04561270556224851,
+              "mean_signed_response_ci95_eV": [
+                -0.12029652983638862,
+                0.02227636263886964
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.10293875931190605,
+              "mean_abs_response_ci95_eV": [
+                0.08636656431899403,
+                0.12057550672011587
+              ],
+              "mean_signed_response_eV": -0.0016282768772991588,
+              "mean_signed_response_ci95_eV": [
+                -0.03271651351901598,
+                0.02685377193258008
+              ]
+            }
+          },
+          "ig_over_random_ratio": 1.9182681844680798,
+          "ig_minus_random_eV": 0.09452538762474058,
+          "ig_minus_random_ci95_eV": [
+            0.05143557542441426,
+            0.14776906124158182
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.014732706782485103,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.009911229997136827,
+            0.051792468713639295
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.028279750066233462,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            -0.003392383119525814,
+            0.07010055022220657
+          ]
+        },
+        "10": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.23528502340170868,
+              "mean_abs_response_ci95_eV": [
+                0.17366510729746773,
+                0.3014117252181789
+              ],
+              "mean_signed_response_eV": -0.013589055189213016,
+              "mean_signed_response_ci95_eV": [
+                -0.1078887422836326,
+                0.07403390979965595
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.2348415053689523,
+              "mean_abs_response_ci95_eV": [
+                0.17474025387046765,
+                0.3031195104070907
+              ],
+              "mean_signed_response_eV": -0.014051477563064484,
+              "mean_signed_response_ci95_eV": [
+                -0.10796361043428421,
+                0.0756768810637578
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.20120318986380611,
+              "mean_abs_response_ci95_eV": [
+                0.1507828107520669,
+                0.25686862477478195
+              ],
+              "mean_signed_response_eV": -0.042078778185494825,
+              "mean_signed_response_ci95_eV": [
+                -0.12650291941538996,
+                0.037235475783871895
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.16016271833189577,
+              "mean_abs_response_ci95_eV": [
+                0.12874703386810546,
+                0.1940512434056382
+              ],
+              "mean_signed_response_eV": -0.007265712792751133,
+              "mean_signed_response_ci95_eV": [
+                -0.0647847907285179,
+                0.04395597551376809
+              ]
+            }
+          },
+          "ig_over_random_ratio": 1.469037400540002,
+          "ig_minus_random_eV": 0.0751223050698129,
+          "ig_minus_random_ci95_eV": [
+            0.043671411831165255,
+            0.10983428320507004
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.0004435180327563848,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.011268114598125,
+            0.01352912868778457
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.03408183353790257,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.002735073852500114,
+            0.0739552889142334
+          ]
+        }
+      }
+    },
+    "7": {
+      "checkpoint": "runs_seeds/physical20_environment_gate_s7/best.weights.h5",
+      "checkpoint_sha256": "af191d5c41b4e4aef08dbcf886f427a3a6abd5821edd28c3f200dbaad5d8fc19",
+      "validation_mother_mae_eV": 0.35755973072765296,
+      "validation_reproduction_max_abs_eV": 1.25203826240039e-06,
+      "ig32_completeness_max_abs_eV": 5.9185516720683395e-05,
+      "ig16_vs_ig32_max_abs_eV": 8.865830880960823e-05,
+      "random_k5_replay_max_abs_eV": 1.377242089262154e-06,
+      "fixed_material_count": 64,
+      "chemical_system_count": 45,
+      "raw_results_sha256": "31892baf7a5af7f01c545e6cfcf9f78b7cddffe7a8328c7d56e911ba99cd00aa",
+      "by_k": {
+        "1": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.11520415524092414,
+              "mean_abs_response_ci95_eV": [
+                0.09369479410808415,
+                0.1414824960714914
+              ],
+              "mean_signed_response_eV": 0.028610613908331757,
+              "mean_signed_response_ci95_eV": [
+                -0.007839182168358633,
+                0.06731468389954984
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.11577553048260467,
+              "mean_abs_response_ci95_eV": [
+                0.09389586387377921,
+                0.14157071485183106
+              ],
+              "mean_signed_response_eV": 0.03248308584393738,
+              "mean_signed_response_ci95_eV": [
+                -0.005697642036808788,
+                0.0713813944238468
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.05115172052663124,
+              "mean_abs_response_ci95_eV": [
+                0.037985717621430104,
+                0.06713996375842626
+              ],
+              "mean_signed_response_eV": -0.013548351092123052,
+              "mean_signed_response_ci95_eV": [
+                -0.035183890886134654,
+                0.007364488099862242
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.02848263017048712,
+              "mean_abs_response_ci95_eV": [
+                0.02314642573398567,
+                0.03503678246568608
+              ],
+              "mean_signed_response_eV": 0.008986022545226327,
+              "mean_signed_response_ci95_eV": [
+                0.0033594535247302416,
+                0.015005531613152358
+              ]
+            }
+          },
+          "ig_over_random_ratio": 4.0447161849643845,
+          "ig_minus_random_eV": 0.08672152507043702,
+          "ig_minus_random_ci95_eV": [
+            0.06913796462142374,
+            0.10779624076037185
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.0005713752416805357,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.003525047404982579,
+            0.002091733419941075
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.0640524347142929,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.04534223469951382,
+            0.08778983602900356
+          ]
+        },
+        "3": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.1859357810674045,
+              "mean_abs_response_ci95_eV": [
+                0.13761421894643971,
+                0.2414445934122316
+              ],
+              "mean_signed_response_eV": 0.07883196956182681,
+              "mean_signed_response_ci95_eV": [
+                0.013595420052363362,
+                0.15047201090024578
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.19632136130084427,
+              "mean_abs_response_ci95_eV": [
+                0.144798117072649,
+                0.25385259912512076
+              ],
+              "mean_signed_response_eV": 0.07531049860553599,
+              "mean_signed_response_ci95_eV": [
+                0.006129489135111372,
+                0.14978424300569293
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.1143873036535478,
+              "mean_abs_response_ci95_eV": [
+                0.08855274414380948,
+                0.14335308524256957
+              ],
+              "mean_signed_response_eV": 0.015641357411761203,
+              "mean_signed_response_ci95_eV": [
+                -0.028497251513760615,
+                0.062213770306345145
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.06260661926659891,
+              "mean_abs_response_ci95_eV": [
+                0.05060362286530732,
+                0.0762265601829707
+              ],
+              "mean_signed_response_eV": 0.026691681317171225,
+              "mean_signed_response_ci95_eV": [
+                0.010346062633930894,
+                0.04381070170799102
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.969906109697934,
+          "ig_minus_random_eV": 0.1233291618008056,
+          "ig_minus_random_ci95_eV": [
+            0.08589225688487828,
+            0.16621824798950874
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.010385580233439731,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.026925743690544825,
+            0.0029538340646959064
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.07154847741385673,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.040725072715113886,
+            0.10743512530184517
+          ]
+        },
+        "5": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.21188264261255219,
+              "mean_abs_response_ci95_eV": [
+                0.14974105394451792,
+                0.28198341282271633
+              ],
+              "mean_signed_response_eV": 0.12833098435974574,
+              "mean_signed_response_ci95_eV": [
+                0.05374303014236188,
+                0.21115318798123883
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.21669710014595417,
+              "mean_abs_response_ci95_eV": [
+                0.1541004737457215,
+                0.28717474228156253
+              ],
+              "mean_signed_response_eV": 0.10831053692584716,
+              "mean_signed_response_ci95_eV": [
+                0.0332186624659596,
+                0.19288541481154872
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.1753179495703569,
+              "mean_abs_response_ci95_eV": [
+                0.1305857736388511,
+                0.2259132981556869
+              ],
+              "mean_signed_response_eV": 0.05932254343984287,
+              "mean_signed_response_ci95_eV": [
+                -0.005875162034182777,
+                0.13151565067585308
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.09005443198503622,
+              "mean_abs_response_ci95_eV": [
+                0.07227017774672309,
+                0.1095270269411257
+              ],
+              "mean_signed_response_eV": 0.043001956161846294,
+              "mean_signed_response_ci95_eV": [
+                0.01782463994614125,
+                0.06981802558495678
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.352828594241307,
+          "ig_minus_random_eV": 0.12182821062751596,
+          "ig_minus_random_ci95_eV": [
+            0.07472647531953026,
+            0.17590843635445877
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.00481445753340199,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.025926396595036077,
+            0.009973216866499688
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.03656469304219526,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.0041284495334596915,
+            0.07332849938067126
+          ]
+        },
+        "10": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.2596112247492612,
+              "mean_abs_response_ci95_eV": [
+                0.18851386734659784,
+                0.3402498216812692
+              ],
+              "mean_signed_response_eV": 0.16679097300239631,
+              "mean_signed_response_ci95_eV": [
+                0.07825870501406255,
+                0.2629707371114722
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.2573515562113327,
+              "mean_abs_response_ci95_eV": [
+                0.18892803680271333,
+                0.3348948624817068
+              ],
+              "mean_signed_response_eV": 0.1555822208031758,
+              "mean_signed_response_ci95_eV": [
+                0.06717320695581787,
+                0.24980872149614836
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.2210232036398404,
+              "mean_abs_response_ci95_eV": [
+                0.1563033346991951,
+                0.29496197069400915
+              ],
+              "mean_signed_response_eV": 0.14626318578705944,
+              "mean_signed_response_ci95_eV": [
+                0.06846991204090848,
+                0.2332239902906299
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.15118570888488303,
+              "mean_abs_response_ci95_eV": [
+                0.11510865390720243,
+                0.1914026896958406
+              ],
+              "mean_signed_response_eV": 0.0863367732317746,
+              "mean_signed_response_ci95_eV": [
+                0.03808216742379368,
+                0.13704167534960238
+              ]
+            }
+          },
+          "ig_over_random_ratio": 1.7171677578793927,
+          "ig_minus_random_eV": 0.1084255158643782,
+          "ig_minus_random_ci95_eV": [
+            0.07220683770254627,
+            0.14941251998171856
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.0022596685379285136,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.008855162548287818,
+            0.011956718427732337
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.03858802110942081,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.02159340352640721,
+            0.05818210067743653
+          ]
+        }
+      }
+    },
+    "123": {
+      "checkpoint": "runs_seeds/physical20_environment_gate_s123/best.weights.h5",
+      "checkpoint_sha256": "d661f10df3e32056c98d607fef89df045be895b2393401087fabb45877f3a7ed",
+      "validation_mother_mae_eV": 0.33599710958795415,
+      "validation_reproduction_max_abs_eV": 2.0032612191300814e-06,
+      "ig32_completeness_max_abs_eV": 0.0007829800863907721,
+      "ig16_vs_ig32_max_abs_eV": 0.0007233254162368752,
+      "random_k5_replay_max_abs_eV": 2.0032612191300814e-06,
+      "fixed_material_count": 64,
+      "chemical_system_count": 45,
+      "raw_results_sha256": "840f0995c927b1a2774c402c6b7e81e8385bb7ef03ae79d9f9f9e5d040baf3da",
+      "by_k": {
+        "1": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.175531786823577,
+              "mean_abs_response_ci95_eV": [
+                0.13063364709784717,
+                0.22946702432152488
+              ],
+              "mean_signed_response_eV": 0.09185133039212352,
+              "mean_signed_response_ci95_eV": [
+                0.029380844721185812,
+                0.14927117902077539
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.17450255227005057,
+              "mean_abs_response_ci95_eV": [
+                0.13041706531568076,
+                0.22842342994802065
+              ],
+              "mean_signed_response_eV": 0.09302271053688088,
+              "mean_signed_response_ci95_eV": [
+                0.030892207860031835,
+                0.14989851845109223
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.11354381038232461,
+              "mean_abs_response_ci95_eV": [
+                0.07557438195606334,
+                0.15930602709772598
+              ],
+              "mean_signed_response_eV": 0.0246101768610903,
+              "mean_signed_response_ci95_eV": [
+                -0.03544436443229983,
+                0.07589279048572728
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.03461325171925331,
+              "mean_abs_response_ci95_eV": [
+                0.02681216858128518,
+                0.04447403434614818
+              ],
+              "mean_signed_response_eV": 0.006516321654339802,
+              "mean_signed_response_ci95_eV": [
+                -0.0024348169212532896,
+                0.014127740275217408
+              ]
+            }
+          },
+          "ig_over_random_ratio": 5.071230760036886,
+          "ig_minus_random_eV": 0.1409185351043237,
+          "ig_minus_random_ci95_eV": [
+            0.10345113924641602,
+            0.18503410307345167
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.0010292345535264716,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.0010278220297720603,
+            0.004058147098847451
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.06198797644125242,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.03505855297514757,
+            0.09626350493062297
+          ]
+        },
+        "3": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.2786694386109706,
+              "mean_abs_response_ci95_eV": [
+                0.19106479933695522,
+                0.39279311568330766
+              ],
+              "mean_signed_response_eV": 0.15967811910423385,
+              "mean_signed_response_ci95_eV": [
+                0.03667688033273524,
+                0.26232748662322547
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.27348481510944733,
+              "mean_abs_response_ci95_eV": [
+                0.18707070522712932,
+                0.3846015298736909
+              ],
+              "mean_signed_response_eV": 0.14071195085587543,
+              "mean_signed_response_ci95_eV": [
+                0.01894644589181727,
+                0.2438431606033218
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.19952593681842457,
+              "mean_abs_response_ci95_eV": [
+                0.12697912193465133,
+                0.2955644121845806
+              ],
+              "mean_signed_response_eV": 0.05477219970978269,
+              "mean_signed_response_ci95_eV": [
+                -0.0622679248911701,
+                0.14401596115597026
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.07833095371912394,
+              "mean_abs_response_ci95_eV": [
+                0.059273341852085625,
+                0.10154295234778911
+              ],
+              "mean_signed_response_eV": 0.023367721121513217,
+              "mean_signed_response_ci95_eV": [
+                -0.0012800375317668256,
+                0.04415489549415163
+              ]
+            }
+          },
+          "ig_over_random_ratio": 3.5575902677019937,
+          "ig_minus_random_eV": 0.20033848489184664,
+          "ig_minus_random_ci95_eV": [
+            0.12960316022855164,
+            0.2941907567306298
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.005184623501523274,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.016507695803999814,
+            0.023840751410989673
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.07914350179254602,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.03566378103207157,
+            0.13315385009340291
+          ]
+        },
+        "5": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.29614063686019587,
+              "mean_abs_response_ci95_eV": [
+                0.20506191941148522,
+                0.40886389588939503
+              ],
+              "mean_signed_response_eV": 0.1561509274701895,
+              "mean_signed_response_ci95_eV": [
+                0.027428489072585202,
+                0.26167871716606134
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.28900194905072385,
+              "mean_abs_response_ci95_eV": [
+                0.2030970748217995,
+                0.40032519771344666
+              ],
+              "mean_signed_response_eV": 0.1448432782175255,
+              "mean_signed_response_ci95_eV": [
+                0.01950615642566742,
+                0.24931626546830538
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.22821406410684236,
+              "mean_abs_response_ci95_eV": [
+                0.1477478611622025,
+                0.3344168479199099
+              ],
+              "mean_signed_response_eV": 0.08033828351363664,
+              "mean_signed_response_ci95_eV": [
+                -0.04183724288322079,
+                0.17619294533137037
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.11652503139979814,
+              "mean_abs_response_ci95_eV": [
+                0.08772894710954805,
+                0.15268794364626787
+              ],
+              "mean_signed_response_eV": 0.03459002026392469,
+              "mean_signed_response_ci95_eV": [
+                -0.007638939733370137,
+                0.06852937771658696
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.5414336585255697,
+          "ig_minus_random_eV": 0.1796156054603978,
+          "ig_minus_random_ci95_eV": [
+            0.11648456218753983,
+            0.2567529617425185
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.007138687809472084,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.0075838360853253345,
+            0.020707273393647526
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.06792657275335354,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.03909177777100754,
+            0.10166073682957516
+          ]
+        },
+        "10": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.30899275111635593,
+              "mean_abs_response_ci95_eV": [
+                0.21520194657671135,
+                0.43065154636410097
+              ],
+              "mean_signed_response_eV": 0.1373841131800982,
+              "mean_signed_response_ci95_eV": [
+                -0.0021550434419608665,
+                0.2491690610370676
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.2995136628466142,
+              "mean_abs_response_ci95_eV": [
+                0.21051266424474854,
+                0.4142358266186855
+              ],
+              "mean_signed_response_eV": 0.1358464497766464,
+              "mean_signed_response_ci95_eV": [
+                0.005175462466303828,
+                0.24278455467508644
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.29465251678807225,
+              "mean_abs_response_ci95_eV": [
+                0.2001488540554245,
+                0.4154123109318429
+              ],
+              "mean_signed_response_eV": 0.1337826046080357,
+              "mean_signed_response_ci95_eV": [
+                0.0014348038237379029,
+                0.24514771317098213
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.1885115025256107,
+              "mean_abs_response_ci95_eV": [
+                0.13517118901107344,
+                0.2609476237422918
+              ],
+              "mean_signed_response_eV": 0.068511244594,
+              "mean_signed_response_ci95_eV": [
+                -0.014954115382809245,
+                0.13381807967395667
+              ]
+            }
+          },
+          "ig_over_random_ratio": 1.639118817560626,
+          "ig_minus_random_eV": 0.12048124859074529,
+          "ig_minus_random_ci95_eV": [
+            0.077572781902329,
+            0.1725919439899347
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.00947908826974176,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.0020790546043152054,
+            0.02218807208605477
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.014340234328283685,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            -0.003712611882344651,
+            0.03263348088056871
+          ]
+        }
+      }
+    },
+    "2024": {
+      "checkpoint": "runs_seeds/physical20_environment_gate_s2024/best.weights.h5",
+      "checkpoint_sha256": "479eb8c0ebf9ada2d5b42d99c9ed8e57da9d3639ed892b3e2b55e7928f6a0b52",
+      "validation_mother_mae_eV": 0.3689418808160998,
+      "validation_reproduction_max_abs_eV": 1.1268344364268046e-06,
+      "ig32_completeness_max_abs_eV": 0.00018961007732176682,
+      "ig16_vs_ig32_max_abs_eV": 0.00018613482152701755,
+      "random_k5_replay_max_abs_eV": 2.0032612195741706e-06,
+      "fixed_material_count": 64,
+      "chemical_system_count": 45,
+      "raw_results_sha256": "bdf10dc5a58c51a5f8107f28ff302183356788d8cd4e9e15cc40c8ad2d7896bc",
+      "by_k": {
+        "1": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.15031199832510553,
+              "mean_abs_response_ci95_eV": [
+                0.11885154896134158,
+                0.18451381663043986
+              ],
+              "mean_signed_response_eV": 0.02483278762876661,
+              "mean_signed_response_ci95_eV": [
+                -0.03576013715213977,
+                0.08031712999193882
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.1538828315012327,
+              "mean_abs_response_ci95_eV": [
+                0.12159120578657219,
+                0.18838065177297925
+              ],
+              "mean_signed_response_eV": 0.02853479626673723,
+              "mean_signed_response_ci95_eV": [
+                -0.032059259116290616,
+                0.08398695303598952
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.09873634504017113,
+              "mean_abs_response_ci95_eV": [
+                0.07921268554299009,
+                0.11927353118611136
+              ],
+              "mean_signed_response_eV": -0.00952778228751723,
+              "mean_signed_response_ci95_eV": [
+                -0.05247545132922302,
+                0.027463723235655203
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.04266846575072039,
+              "mean_abs_response_ci95_eV": [
+                0.03308342200906191,
+                0.05265924490989419
+              ],
+              "mean_signed_response_eV": 0.003990985422320772,
+              "mean_signed_response_ci95_eV": [
+                -0.006755571211010826,
+                0.013469945929702722
+              ]
+            }
+          },
+          "ig_over_random_ratio": 3.5227889187125916,
+          "ig_minus_random_eV": 0.10764353257438514,
+          "ig_minus_random_ci95_eV": [
+            0.08390160527470579,
+            0.13357458840575429
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.003570833176127171,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.007972085904474291,
+            1.233219041613587e-05
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.05157565328493439,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.031809093494537324,
+            0.0746042684197685
+          ]
+        },
+        "3": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.259045433854996,
+              "mean_abs_response_ci95_eV": [
+                0.17869957935916866,
+                0.34856750734700603
+              ],
+              "mean_signed_response_eV": 0.052482139012894856,
+              "mean_signed_response_ci95_eV": [
+                -0.07749355160210876,
+                0.16906879035345235
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.2464614591820415,
+              "mean_abs_response_ci95_eV": [
+                0.17551533902759395,
+                0.32611541057787685
+              ],
+              "mean_signed_response_eV": 0.054646543181246,
+              "mean_signed_response_ci95_eV": [
+                -0.05911673463414707,
+                0.1629477816942841
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.17605281404869386,
+              "mean_abs_response_ci95_eV": [
+                0.1205926593833026,
+                0.23598031716209272
+              ],
+              "mean_signed_response_eV": 0.058837789866216385,
+              "mean_signed_response_ci95_eV": [
+                -0.027304319732437896,
+                0.13583182650059175
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.08888447978899988,
+              "mean_abs_response_ci95_eV": [
+                0.06888656181197549,
+                0.11037137486761708
+              ],
+              "mean_signed_response_eV": 0.010581252691797882,
+              "mean_signed_response_ci95_eV": [
+                -0.01863968320379665,
+                0.03914427919914587
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.914405692309118,
+          "ig_minus_random_eV": 0.17016095406599607,
+          "ig_minus_random_ci95_eV": [
+            0.10570566141189103,
+            0.24084300835207673
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.01258397467295451,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.008086681772708607,
+            0.03673378419692989
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.08299261980630213,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.042236188835314256,
+            0.12929087640311882
+          ]
+        },
+        "5": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.2677843433920052,
+              "mean_abs_response_ci95_eV": [
+                0.18912855114055466,
+                0.35316730686758824
+              ],
+              "mean_signed_response_eV": 0.04454373847926268,
+              "mean_signed_response_ci95_eV": [
+                -0.07690831044584398,
+                0.1586626968795948
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.2797477813085999,
+              "mean_abs_response_ci95_eV": [
+                0.19730258485546645,
+                0.3651302034357829
+              ],
+              "mean_signed_response_eV": 0.04915918514222596,
+              "mean_signed_response_ci95_eV": [
+                -0.07735857814638526,
+                0.16943505832597272
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.2177707217331445,
+              "mean_abs_response_ci95_eV": [
+                0.13598321065536473,
+                0.30756067579771096
+              ],
+              "mean_signed_response_eV": 0.07401122481558457,
+              "mean_signed_response_ci95_eV": [
+                -0.039012240101977645,
+                0.18902106916956768
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.12638762144841123,
+              "mean_abs_response_ci95_eV": [
+                0.09640838342431303,
+                0.15910743434968802
+              ],
+              "mean_signed_response_eV": 0.016527130022110023,
+              "mean_signed_response_ci95_eV": [
+                -0.03213074363019992,
+                0.06387021859724484
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.118754513481442,
+          "ig_minus_random_eV": 0.14139672194359398,
+          "ig_minus_random_ci95_eV": [
+            0.09054911578638929,
+            0.1970086389314785
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.011963437916594717,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.025998106591123674,
+            0.002842532428096247
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.050013621658860724,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.007956909424867346,
+            0.10367209749701033
+          ]
+        },
+        "10": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.3203488805835331,
+              "mean_abs_response_ci95_eV": [
+                0.22664887870737346,
+                0.4225990096706634
+              ],
+              "mean_signed_response_eV": 0.060127445581380286,
+              "mean_signed_response_ci95_eV": [
+                -0.08874759197161149,
+                0.20315515414931598
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.31965336580928455,
+              "mean_abs_response_ci95_eV": [
+                0.22607752202162812,
+                0.42121593556195963
+              ],
+              "mean_signed_response_eV": 0.06900978496585955,
+              "mean_signed_response_ci95_eV": [
+                -0.07753774191739876,
+                0.21146088388609358
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.26611497595626,
+              "mean_abs_response_ci95_eV": [
+                0.19121242603296074,
+                0.3493751087990991
+              ],
+              "mean_signed_response_eV": 0.0370175964864277,
+              "mean_signed_response_ci95_eV": [
+                -0.08379878831902246,
+                0.1544774351922397
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.20483774628994583,
+              "mean_abs_response_ci95_eV": [
+                0.14901139705706465,
+                0.2645548817516522
+              ],
+              "mean_signed_response_eV": 0.02918846635262818,
+              "mean_signed_response_ci95_eV": [
+                -0.06239489576092162,
+                0.11695186685028672
+              ]
+            }
+          },
+          "ig_over_random_ratio": 1.5639152762893729,
+          "ig_minus_random_eV": 0.11551113429358725,
+          "ig_minus_random_ci95_eV": [
+            0.07402964000981302,
+            0.1598005932903886
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.0006955147742485346,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.012699283825012508,
+            0.016205335268578827
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.0542339046272731,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.022911816370941494,
+            0.08571984394514018
+          ]
+        }
+      }
+    },
+    "31415": {
+      "checkpoint": "runs_seeds/physical20_environment_gate_s31415/best.weights.h5",
+      "checkpoint_sha256": "7e0d982ead1abc8cd8654cbec789d61b468a2b3353ced94154620fc07c71ef77",
+      "validation_mother_mae_eV": 0.3584920711622328,
+      "validation_reproduction_max_abs_eV": 3.4587556996257263e-06,
+      "ig32_completeness_max_abs_eV": 0.0005131115771881412,
+      "ig16_vs_ig32_max_abs_eV": 0.0007279937005805204,
+      "random_k5_replay_max_abs_eV": 2.2536688719654308e-06,
+      "fixed_material_count": 64,
+      "chemical_system_count": 45,
+      "raw_results_sha256": "54402b4189175cc7b5fefa9d1251a4cf309423dc2231864035677fecd19c0ba2",
+      "by_k": {
+        "1": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.17791389880405722,
+              "mean_abs_response_ci95_eV": [
+                0.13656718856492037,
+                0.2266735399420342
+              ],
+              "mean_signed_response_eV": -0.008277941939305172,
+              "mean_signed_response_ci95_eV": [
+                -0.0791555524979279,
+                0.05755300926923239
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.18422083662671787,
+              "mean_abs_response_ci95_eV": [
+                0.14113511456884478,
+                0.2355717436891805
+              ],
+              "mean_signed_response_eV": 0.01345416131739706,
+              "mean_signed_response_ci95_eV": [
+                -0.057602698951953135,
+                0.07980767077432167
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.10495429730007587,
+              "mean_abs_response_ci95_eV": [
+                0.07782278894550654,
+                0.13743007147540173
+              ],
+              "mean_signed_response_eV": -0.007129780180810008,
+              "mean_signed_response_ci95_eV": [
+                -0.05632318340264571,
+                0.037514456200804416
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.0434564014777491,
+              "mean_abs_response_ci95_eV": [
+                0.03503252007737578,
+                0.053599478207608686
+              ],
+              "mean_signed_response_eV": -0.006551944229121935,
+              "mean_signed_response_ci95_eV": [
+                -0.015191843241236541,
+                0.0007640710978930238
+              ]
+            }
+          },
+          "ig_over_random_ratio": 4.094078035779242,
+          "ig_minus_random_eV": 0.13445749732630813,
+          "ig_minus_random_ci95_eV": [
+            0.09845482318769169,
+            0.17570256462309378
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.006306937822660633,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.017482966704968458,
+            -0.0007820373407620218
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.07295960150398136,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.04254377860990917,
+            0.11100794409342461
+          ]
+        },
+        "3": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.23633198496464783,
+              "mean_abs_response_ci95_eV": [
+                0.17766344362910683,
+                0.30303885222719584
+              ],
+              "mean_signed_response_eV": -0.04338927446879576,
+              "mean_signed_response_ci95_eV": [
+                -0.1362367393908396,
+                0.038396078247718395
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.24981595848685512,
+              "mean_abs_response_ci95_eV": [
+                0.18090700616990305,
+                0.3353764880107264
+              ],
+              "mean_signed_response_eV": -0.07439974445416378,
+              "mean_signed_response_ci95_eV": [
+                -0.17932648380832653,
+                0.016104326868420636
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.15969242573524284,
+              "mean_abs_response_ci95_eV": [
+                0.1192276721039666,
+                0.20623241295206943
+              ],
+              "mean_signed_response_eV": -0.005235157856593987,
+              "mean_signed_response_ci95_eV": [
+                -0.07239117167668395,
+                0.056536938575212276
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.0872042293113662,
+              "mean_abs_response_ci95_eV": [
+                0.06941877853721988,
+                0.10841269693561079
+              ],
+              "mean_signed_response_eV": -0.012598381171667604,
+              "mean_signed_response_ci95_eV": [
+                -0.034578244795162416,
+                0.005506533119150846
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.710097742172745,
+          "ig_minus_random_eV": 0.14912775565328162,
+          "ig_minus_random_ci95_eV": [
+            0.10440735413816629,
+            0.1999770246688892
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.013483973522207288,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.05284188572415348,
+            0.014945602165058407
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.07663955922940499,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            0.03990174586348665,
+            0.11797213631577609
+          ]
+        },
+        "5": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.2536398023078712,
+              "mean_abs_response_ci95_eV": [
+                0.1813254230937974,
+                0.343086506009896
+              ],
+              "mean_signed_response_eV": -0.08646146376739941,
+              "mean_signed_response_ci95_eV": [
+                -0.195989580125402,
+                0.007422505106369934
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.27153623267190496,
+              "mean_abs_response_ci95_eV": [
+                0.1910288524467822,
+                0.37657198070385695
+              ],
+              "mean_signed_response_eV": -0.09859742968320283,
+              "mean_signed_response_ci95_eV": [
+                -0.21994859080790174,
+                0.006226157232358622
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.23387219194986114,
+              "mean_abs_response_ci95_eV": [
+                0.1598247154226071,
+                0.3303998925633497
+              ],
+              "mean_signed_response_eV": -0.03392744403800098,
+              "mean_signed_response_ci95_eV": [
+                -0.1481621168558345,
+                0.05891376799714846
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.1176738558119998,
+              "mean_abs_response_ci95_eV": [
+                0.09319406273237679,
+                0.14605865700950438
+              ],
+              "mean_signed_response_eV": -0.025054113089069432,
+              "mean_signed_response_ci95_eV": [
+                -0.06109081549793316,
+                0.005633683495880109
+              ]
+            }
+          },
+          "ig_over_random_ratio": 2.155447363882558,
+          "ig_minus_random_eV": 0.1359659464958714,
+          "ig_minus_random_ci95_eV": [
+            0.08300488676231217,
+            0.20309590867913707
+          ],
+          "ig_minus_endpoint_gradient_eV": -0.017896430364033787,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.04800422488458358,
+            0.006930842377093238
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.019767610358010036,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            -0.026527810818389407,
+            0.07672524668275464
+          ]
+        },
+        "10": {
+          "methods": {
+            "gate_path_ig": {
+              "mean_abs_response_eV": 0.2999929112880877,
+              "mean_abs_response_ci95_eV": [
+                0.2037724030316549,
+                0.4240247452408146
+              ],
+              "mean_signed_response_eV": -0.13937064759952225,
+              "mean_signed_response_ci95_eV": [
+                -0.28369207920192757,
+                -0.021432784906468286
+              ]
+            },
+            "endpoint_gradient": {
+              "mean_abs_response_eV": 0.28584812590976943,
+              "mean_abs_response_ci95_eV": [
+                0.19941444629914784,
+                0.391778647507479
+              ],
+              "mean_signed_response_eV": -0.11555591049993028,
+              "mean_signed_response_ci95_eV": [
+                -0.24139068814991008,
+                -0.006124348177873787
+              ]
+            },
+            "modulation_magnitude": {
+              "mean_abs_response_eV": 0.2788754698060575,
+              "mean_abs_response_ci95_eV": [
+                0.20012493752979782,
+                0.3825143416314357
+              ],
+              "mean_signed_response_eV": -0.114938218890479,
+              "mean_signed_response_ci95_eV": [
+                -0.23954773166875906,
+                -0.010697034902747255
+              ]
+            },
+            "random": {
+              "mean_abs_response_eV": 0.18172807044723976,
+              "mean_abs_response_ci95_eV": [
+                0.1390208360797266,
+                0.2351644661509805
+              ],
+              "mean_signed_response_eV": -0.07025695417824382,
+              "mean_signed_response_ci95_eV": [
+                -0.14145747316566062,
+                -0.01245748807867041
+              ]
+            }
+          },
+          "ig_over_random_ratio": 1.6507791589367213,
+          "ig_minus_random_eV": 0.11826484084084796,
+          "ig_minus_random_ci95_eV": [
+            0.060821090453499115,
+            0.19492265163730815
+          ],
+          "ig_minus_endpoint_gradient_eV": 0.014144785378318293,
+          "ig_minus_endpoint_gradient_ci95_eV": [
+            -0.01464173639252037,
+            0.0531270812949641
+          ],
+          "ig_minus_modulation_magnitude_eV": 0.021117441482030236,
+          "ig_minus_modulation_magnitude_ci95_eV": [
+            -0.0020717538957802347,
+            0.04868754354268197
+          ]
+        }
+      }
+    }
+  },
+  "across_seeds": {
+    "1": {
+      "seeds": [
+        42,
+        7,
+        123,
+        2024,
+        31415
+      ],
+      "ig_mean_abs_response_eV": {
+        "mean": 0.15246683963245616,
+        "sd": 0.025765311841116405,
+        "min": 0.11520415524092414,
+        "max": 0.17791389880405722
+      },
+      "random_mean_abs_response_eV": {
+        "mean": 0.036805481780326776,
+        "sd": 0.006258600778010211,
+        "min": 0.02848263017048712,
+        "max": 0.0434564014777491
+      },
+      "ig_over_random_ratio": {
+        "mean": 4.1703841971832265,
+        "sd": 0.5601670724332766,
+        "min": 3.5227889187125916,
+        "max": 5.071230760036886
+      },
+      "ig_minus_random_eV": {
+        "mean": 0.11566135785212939,
+        "sd": 0.022041822051590713,
+        "min": 0.08672152507043702,
+        "max": 0.1409185351043237
+      },
+      "seeds_with_ig_minus_random_ci95_above_zero": 5
+    },
+    "3": {
+      "seeds": [
+        42,
+        7,
+        123,
+        2024,
+        31415
+      ],
+      "ig_mean_abs_response_eV": {
+        "mean": 0.2231393705887509,
+        "sd": 0.05117894504111501,
+        "min": 0.1557142144457357,
+        "max": 0.2786694386109706
+      },
+      "random_mean_abs_response_eV": {
+        "mean": 0.07805562121912527,
+        "sd": 0.010756220815153044,
+        "min": 0.06260661926659891,
+        "max": 0.08888447978899988
+      },
+      "ig_over_random_ratio": {
+        "mean": 2.85554764040677,
+        "sd": 0.5155538756923406,
+        "min": 2.1257383901520566,
+        "max": 3.5575902677019937
+      },
+      "ig_minus_random_eV": {
+        "mean": 0.14508374936962565,
+        "sd": 0.044980558730397906,
+        "min": 0.08246239043619832,
+        "max": 0.20033848489184664
+      },
+      "seeds_with_ig_minus_random_ci95_above_zero": 5
+    },
+    "5": {
+      "seeds": [
+        42,
+        7,
+        123,
+        2024,
+        31415
+      ],
+      "ig_mean_abs_response_eV": {
+        "mean": 0.24538231442185418,
+        "sd": 0.04051179794637979,
+        "min": 0.19746414693664666,
+        "max": 0.29614063686019587
+      },
+      "random_mean_abs_response_eV": {
+        "mean": 0.11071593999143028,
+        "sd": 0.014275347523495147,
+        "min": 0.09005443198503622,
+        "max": 0.12638762144841123
+      },
+      "ig_over_random_ratio": {
+        "mean": 2.2173464629197914,
+        "sd": 0.2379010329214405,
+        "min": 1.9182681844680798,
+        "max": 2.5414336585255697
+      },
+      "ig_minus_random_eV": {
+        "mean": 0.13466637443042395,
+        "sd": 0.030998133439578388,
+        "min": 0.09452538762474058,
+        "max": 0.1796156054603978
+      },
+      "seeds_with_ig_minus_random_ci95_above_zero": 5
+    },
+    "10": {
+      "seeds": [
+        42,
+        7,
+        123,
+        2024,
+        31415
+      ],
+      "ig_mean_abs_response_eV": {
+        "mean": 0.28484615822778936,
+        "sd": 0.03593756156161526,
+        "min": 0.23528502340170868,
+        "max": 0.3203488805835331
+      },
+      "random_mean_abs_response_eV": {
+        "mean": 0.17728514929591502,
+        "sd": 0.021675300391210715,
+        "min": 0.15118570888488303,
+        "max": 0.20483774628994583
+      },
+      "ig_over_random_ratio": {
+        "mean": 1.608003682241223,
+        "sd": 0.09482892946201353,
+        "min": 1.469037400540002,
+        "max": 1.7171677578793927
+      },
+      "ig_minus_random_eV": {
+        "mean": 0.10756100893187433,
+        "sd": 0.018693086851373962,
+        "min": 0.0751223050698129,
+        "max": 0.12048124859074529
+      },
+      "seeds_with_ig_minus_random_ci95_above_zero": 5
+    }
+  },
+  "new_fits": 0,
+  "new_DFT": 0,
+  "labels_read_for_shutdown": false
+}

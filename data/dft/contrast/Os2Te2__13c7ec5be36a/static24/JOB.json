@@ -1,0 +1,14 @@
+{
+ "role": "parent",
+ "parent_id": "Os2Te2-13c7ec5be36a",
+ "species_order": [
+  "Os",
+  "Te"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

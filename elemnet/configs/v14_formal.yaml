@@ -1,0 +1,24 @@
+baseline_config: H0_exact_baseline
+formal_strategy: discovery_checkpoint
+full_outer_train_refit: false
+outer_test_used_for_selection: false
+reports:
+  - raw_gate
+  - baseline_anchored_eigate_blend
+  - baseline_anchored_plain_control_blend
+  - three_seed_ensemble
+scientific_gate:
+  aggregate_relative_improvement_percent: 3.0
+  run_wins: 9
+  seed_wins: 2
+  fold_wins: 3
+deployment_gate:
+  mean_improvement_mpa: 0.0
+  run_wins: 9
+  seed_wins: 2
+  fold_wins: 3
+  seed_ensemble_fold_wins: 3
+retention:
+  initial: [baseline, selected_gate]
+  on_gate_pass: [baseline, selected_gate]
+  on_gate_failure: [baseline]

@@ -1,0 +1,181 @@
+{
+ "rule": "Stability-aware low-work-function designs on Ta2Te2 (parent lattice), locked before DFT (inference only).\nMechanism from the first design round: the first electron released into the Ta2Te2 host band crosses the pseudogap and\nlowers Phi by ~1.1-1.5 eV; further electrons are pinned by the substituent d band and populate antibonding states, which\nraises the formation energy (ReTaTe2, OsTaTe2 slightly positive; W2Te2, WReTe2 strongly positive). Designs therefore\nrelease one electron per cell: Mo on one Ta site (group 6, 4d analogue of W) and I on one Te site (anion-site donor).\nCriteria (application: n-type ohmic contact to monolayer MoS2 in the Schottky-Mott limit):\n  Phi below the MoS2 electron affinity, 4.253 eV (same protocol), at the parent lattice and after in-plane relaxation;\n  formation energy per atom relative to the elemental ground states below zero (Mo bcc; I as the PBE-relaxed Cmca\n  molecular crystal; Ta, Te as before); metallic; structure keeps the parent connectivity.\nRigid-band prediction for one released electron: Phi = 5.009 - 1.23 = 3.78 eV.",
+ "locked_at_utc": "2026-10-23T19:36:54.846667+00:00",
+ "parent": "Ta2Te2-14789ef267c9",
+ "parent_phi_eV": 5.009,
+ "mos2_electron_affinity_eV": 4.253,
+ "first_round_lock_sha256": "7980aea7485d0de3b4b165a107f2b6dd9b83745c71be99b1707ebb2fe09d8a4c",
+ "known_before_lock": "first design round (Phi, lattice relaxation, formation energies), WTaTe2 and IrTaTe2 DFT, MoS2 band edges",
+ "designs": [
+  {
+   "name": "MoTaTe2",
+   "substitutions": {
+    "0": "Mo"
+   },
+   "released_electrons": 1,
+   "rigid_band_Phi_eV": 3.7790000000000004,
+   "model_dPhi_eV": {
+    "L400": {
+     "members": [
+      0.09575223922729492,
+      0.06869292259216309,
+      0.10925674438476562,
+      -0.09721612930297852,
+      0.037610530853271484
+     ],
+     "mean": 0.04281926155090332
+    },
+    "FT1": {
+     "members": [
+      -0.06687021255493164,
+      -0.7194247245788574,
+      -0.1476602554321289,
+      -0.6007661819458008,
+      -0.23023176193237305
+     ],
+     "mean": -0.35299062728881836
+    },
+    "FT2": {
+     "members": [
+      -0.14760541915893555,
+      -0.8168981075286865,
+      -0.5029058456420898,
+      -0.6516046524047852,
+      -0.16045618057250977
+     ],
+     "mean": -0.45589404106140136
+    }
+   },
+   "lattice": [
+    [
+     3.9413421154022217,
+     -9.436244817433425e-19,
+     0.0
+    ],
+    [
+     -1.2976204573908969e-18,
+     3.9413421154022217,
+     0.0
+    ],
+    [
+     2.151682392579882e-17,
+     0.0,
+     18.55666732788086
+    ]
+   ],
+   "coords": [
+    [
+     1.075841196289941e-17,
+     -9.415233768130088e-17,
+     9.27833366394043
+    ],
+    [
+     1.9706710577011108,
+     1.9706710577011108,
+     9.27833366394043
+    ],
+    [
+     5.885884298730792e-18,
+     1.9706710577011108,
+     7.197225093841553
+    ],
+    [
+     1.9706710577011108,
+     -1.1650679695541478e-18,
+     11.359441757202148
+    ]
+   ],
+   "z": [
+    73,
+    73,
+    52,
+    52
+   ]
+  },
+  {
+   "name": "Ta2TeI",
+   "substitutions": {
+    "2": "I"
+   },
+   "released_electrons": 1,
+   "rigid_band_Phi_eV": 3.7790000000000004,
+   "model_dPhi_eV": {
+    "L400": {
+     "members": [
+      -0.5290775299072266,
+      -0.4423038959503174,
+      -0.2978324890136719,
+      -0.32007598876953125,
+      -0.19565963745117188
+     ],
+     "mean": -0.3569899082183838
+    },
+    "FT1": {
+     "members": [
+      -1.1007418632507324,
+      -1.1167223453521729,
+      -0.818549633026123,
+      -0.5385041236877441,
+      -0.3615140914916992
+     ],
+     "mean": -0.7872064113616943
+    },
+    "FT2": {
+     "members": [
+      -1.283823013305664,
+      -1.2087948322296143,
+      -0.31368017196655273,
+      -1.0538663864135742,
+      -0.503197193145752
+     ],
+     "mean": -0.8726723194122314
+    }
+   },
+   "lattice": [
+    [
+     3.9413421154022217,
+     -9.436244817433425e-19,
+     0.0
+    ],
+    [
+     -1.2976204573908969e-18,
+     3.9413421154022217,
+     0.0
+    ],
+    [
+     2.151682392579882e-17,
+     0.0,
+     18.55666732788086
+    ]
+   ],
+   "coords": [
+    [
+     1.075841196289941e-17,
+     -9.415233768130088e-17,
+     9.27833366394043
+    ],
+    [
+     1.9706710577011108,
+     1.9706710577011108,
+     9.27833366394043
+    ],
+    [
+     5.885884298730792e-18,
+     1.9706710577011108,
+     7.197225093841553
+    ],
+    [
+     1.9706710577011108,
+     -1.1650679695541478e-18,
+     11.359441757202148
+    ]
+   ],
+   "z": [
+    73,
+    73,
+    52,
+    52
+   ]
+  }
+ ]
+}

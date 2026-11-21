@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Nb2Te2__57c18790645b",
+ "species_order": [
+  "Na",
+  "Te",
+  "Nb"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

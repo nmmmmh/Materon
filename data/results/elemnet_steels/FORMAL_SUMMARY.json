@@ -1,0 +1,159 @@
+{
+  "all_pass": true,
+  "baseline_config": "H0_exact_baseline",
+  "baseline_formal_outer_mean_mae": 111.3914386383342,
+  "blend_lambda": 0.5,
+  "deployment_decision": "KEEP_BASELINE_AND_GATE_BLEND",
+  "deployment_gate_pass": true,
+  "eigate_blend_vs_control_blend": {
+    "bootstrap_95ci_mpa": [
+      -0.7128920701634179,
+      5.1372133715437895
+    ],
+    "mean_improvement_mpa": 2.047941525942998,
+    "median_improvement_mpa": -0.022087857142849998,
+    "run_wins": 7
+  },
+  "execution_status": "PASS",
+  "expected_saved_model_configs_before_pruning": [
+    "H0_exact_baseline",
+    "V14_G1_I64P64_D0p10"
+  ],
+  "formal_strategy": "discovery_checkpoint",
+  "full_outer_train_refit": false,
+  "inner_selection_decision": "STRICT_ROBUST_BLEND_PASS",
+  "mechanism_control_config": "V14_G1_I64P64_D0p10__plain_additive_control",
+  "metrics": {
+    "control_blend": {
+      "aggregate_relative_improvement_percent": 2.397371152403944,
+      "baseline_mean_mae": 111.3914386383342,
+      "candidate_mean_mae": 108.72097242217102,
+      "config": "BASELINE_ANCHORED_PLAIN_CONTROL_BLEND",
+      "fold_wins": 5,
+      "improvement_std_mpa": 4.767884169803398,
+      "mean_improvement_mpa": 2.670466216163164,
+      "mean_of_runwise_relative_improvement_percent": 2.2815607763667787,
+      "median_improvement_mpa": 3.7930442741935764,
+      "paired_bootstrap_95ci_mpa": [
+        0.29008121528631076,
+        4.91924699327743
+      ],
+      "run_wins": 10,
+      "seed_wins": 3,
+      "worst_fold_improvement_mpa": 0.3934533333333263,
+      "worst_seed_improvement_mpa": 0.6533947821300672
+    },
+    "gate_blend": {
+      "aggregate_relative_improvement_percent": 4.235880063840357,
+      "baseline_mean_mae": 111.3914386383342,
+      "candidate_mean_mae": 106.67303089622803,
+      "config": "BASELINE_ANCHORED_EIGATE_BLEND",
+      "fold_wins": 4,
+      "improvement_std_mpa": 7.923838255076928,
+      "mean_improvement_mpa": 4.718407742106162,
+      "mean_of_runwise_relative_improvement_percent": 3.6652727920619226,
+      "median_improvement_mpa": 2.1022225806451615,
+      "paired_bootstrap_95ci_mpa": [
+        0.8877556647081345,
+        8.64529586513696
+      ],
+      "run_wins": 12,
+      "seed_wins": 3,
+      "worst_fold_improvement_mpa": -2.6492424731183015,
+      "worst_seed_improvement_mpa": 4.286246122631843
+    },
+    "raw_control": {
+      "aggregate_relative_improvement_percent": -1.7025034100343603,
+      "baseline_mean_mae": 111.3914386383342,
+      "candidate_mean_mae": 113.28788167963816,
+      "config": "V14_G1_I64P64_D0p10__plain_additive_control",
+      "fold_wins": 2,
+      "improvement_std_mpa": 10.015893871771814,
+      "mean_improvement_mpa": -1.8964430413039717,
+      "mean_of_runwise_relative_improvement_percent": -2.159209650659292,
+      "median_improvement_mpa": 0.7214003174603079,
+      "paired_bootstrap_95ci_mpa": [
+        -7.090971040314036,
+        2.666551503882914
+      ],
+      "run_wins": 9,
+      "seed_wins": 1,
+      "worst_fold_improvement_mpa": -6.975640860215042,
+      "worst_seed_improvement_mpa": -4.591264936507921
+    },
+    "raw_gate": {
+      "aggregate_relative_improvement_percent": 1.350117811484065,
+      "baseline_mean_mae": 111.3914386383342,
+      "candidate_mean_mae": 109.88752298480969,
+      "config": "V14_G1_I64P64_D0p10",
+      "fold_wins": 3,
+      "improvement_std_mpa": 12.512144974843332,
+      "mean_improvement_mpa": 1.5039156535244929,
+      "mean_of_runwise_relative_improvement_percent": 0.16724933367040137,
+      "median_improvement_mpa": 2.4048419354838586,
+      "paired_bootstrap_95ci_mpa": [
+        -4.824908118245439,
+        7.481684927743636
+      ],
+      "run_wins": 9,
+      "seed_wins": 3,
+      "worst_fold_improvement_mpa": -10.798935483870958,
+      "worst_seed_improvement_mpa": 0.6270418023553617
+    }
+  },
+  "outer_test_used_for_model_or_lambda_selection": false,
+  "post_formal_retention": [
+    "H0_exact_baseline",
+    "V14_G1_I64P64_D0p10"
+  ],
+  "runs": 45,
+  "saved_model_configs_before_pruning": [
+    "H0_exact_baseline",
+    "V14_G1_I64P64_D0p10"
+  ],
+  "saved_model_runs_before_pruning": 30,
+  "scientific_gate_pass": true,
+  "seed_ensemble_metrics": {
+    "BASELINE_ANCHORED_EIGATE_BLEND": {
+      "aggregate_relative_improvement_percent": 2.902170101216053,
+      "baseline_seed_ensemble_mean_mae": 104.3852640863629,
+      "candidate_seed_ensemble_mean_mae": 101.35582616197303,
+      "config": "BASELINE_ANCHORED_EIGATE_BLEND",
+      "fold_wins": 4,
+      "folds": 5,
+      "mean_improvement_mpa": 3.0294379243898417,
+      "worst_fold_improvement_mpa": -5.546232795698927
+    },
+    "BASELINE_ANCHORED_PLAIN_CONTROL_BLEND": {
+      "aggregate_relative_improvement_percent": 0.8069801066945843,
+      "baseline_seed_ensemble_mean_mae": 104.3852640863629,
+      "candidate_seed_ensemble_mean_mae": 103.54289577086533,
+      "config": "BASELINE_ANCHORED_PLAIN_CONTROL_BLEND",
+      "fold_wins": 4,
+      "folds": 5,
+      "mean_improvement_mpa": 0.842368315497555,
+      "worst_fold_improvement_mpa": -5.163410752688151
+    },
+    "V14_G1_I64P64_D0p10": {
+      "aggregate_relative_improvement_percent": 2.525782237423895,
+      "baseline_seed_ensemble_mean_mae": 104.3852640863629,
+      "candidate_seed_ensemble_mean_mae": 101.7487196275815,
+      "config": "V14_G1_I64P64_D0p10",
+      "fold_wins": 3,
+      "folds": 5,
+      "mean_improvement_mpa": 2.6365444587813784,
+      "worst_fold_improvement_mpa": -12.859693548387114
+    },
+    "V14_G1_I64P64_D0p10__plain_additive_control": {
+      "aggregate_relative_improvement_percent": -2.1043544768591085,
+      "baseline_seed_ensemble_mean_mae": 104.3852640863629,
+      "candidate_seed_ensemble_mean_mae": 106.58190006434548,
+      "config": "V14_G1_I64P64_D0p10__plain_additive_control",
+      "fold_wins": 2,
+      "folds": 5,
+      "mean_improvement_mpa": -2.196635977982581,
+      "worst_fold_improvement_mpa": -11.699460215053762
+    }
+  },
+  "selected_gate_config": "V14_G1_I64P64_D0p10"
+}

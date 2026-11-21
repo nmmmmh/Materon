@@ -1,0 +1,162 @@
+[
+ {
+  "name": "AlBS2",
+  "parent_id": "Al2S2-6a3995b58556",
+  "site": 0,
+  "z_sub": 5,
+  "dft_delta_eV": 1.1685820000000002,
+  "group": "Al2S2"
+ },
+ {
+  "name": "AlGaS2",
+  "parent_id": "Al2S2-6a3995b58556",
+  "site": 0,
+  "z_sub": 31,
+  "dft_delta_eV": 0.2532200000000002,
+  "group": "Al2S2"
+ },
+ {
+  "name": "Al2OS",
+  "parent_id": "Al2S2-6a3995b58556",
+  "site": 2,
+  "z_sub": 8,
+  "dft_delta_eV": 0.6994900000000004,
+  "group": "Al2S2"
+ },
+ {
+  "name": "Al2SSe",
+  "parent_id": "Al2S2-6a3995b58556",
+  "site": 2,
+  "z_sub": 34,
+  "dft_delta_eV": 0.02575700000000003,
+  "group": "Al2S2"
+ },
+ {
+  "name": "HgAuTe2",
+  "parent_id": "Au2Te2-18220d19d208",
+  "site": 2,
+  "z_sub": 80,
+  "dft_delta_eV": -0.025614947456760184,
+  "group": "Au2Te2-18220d19d208"
+ },
+ {
+  "name": "ZnCuSe2",
+  "parent_id": "Cu2Se2-21e73df39ca5",
+  "site": 0,
+  "z_sub": 30,
+  "dft_delta_eV": -0.08600056625909058,
+  "group": "Cu2Se2-21e73df39ca5"
+ },
+ {
+  "name": "TaHfS2",
+  "parent_id": "Hf2S2-6b0cc07cfc68",
+  "site": 0,
+  "z_sub": 73,
+  "dft_delta_eV": -0.058301220346680616,
+  "group": "Hf2S2-6b0cc07cfc68"
+ },
+ {
+  "name": "PtIrSe2",
+  "parent_id": "Ir2Se2-bd586ade6200",
+  "site": 0,
+  "z_sub": 78,
+  "dft_delta_eV": 0.4835575638326697,
+  "group": "Ir2Se2-bd586ade6200"
+ },
+ {
+  "name": "PtIrTe2",
+  "parent_id": "Ir2Te2-005b8d7773e6",
+  "site": 0,
+  "z_sub": 78,
+  "dft_delta_eV": 0.03336787451287648,
+  "group": "Ir2Te2-005b8d7773e6"
+ },
+ {
+  "name": "NbMoS2",
+  "parent_id": "Mo2S2-3f364d6a6f80",
+  "site": 0,
+  "z_sub": 41,
+  "dft_delta_eV": 0.25971271622818737,
+  "group": "Mo2S2-3f364d6a6f80"
+ },
+ {
+  "name": "MoNbTe2",
+  "parent_id": "Nb2Te2-57c18790645b",
+  "site": 0,
+  "z_sub": 42,
+  "dft_delta_eV": -0.0931417594929922,
+  "group": "Nb2Te2-57c18790645b"
+ },
+ {
+  "name": "ReOsTe2",
+  "parent_id": "Os2Te2-13c7ec5be36a",
+  "site": 0,
+  "z_sub": 75,
+  "dft_delta_eV": 0.17978889112348817,
+  "group": "Os2Te2-13c7ec5be36a"
+ },
+ {
+  "name": "AgPdSe2",
+  "parent_id": "Pd2Se2-6fadb4af8d9e",
+  "site": 0,
+  "z_sub": 47,
+  "dft_delta_eV": 0.2765207551121147,
+  "group": "Pd2Se2-6fadb4af8d9e"
+ },
+ {
+  "name": "AuPtSe2",
+  "parent_id": "Pt2Se2-36a8f524fcf6",
+  "site": 0,
+  "z_sub": 79,
+  "dft_delta_eV": 0.3249044911365324,
+  "group": "Pt2Se2-36a8f524fcf6"
+ },
+ {
+  "name": "SnSbSe2",
+  "parent_id": "Sb2Se2-c0121d92a20c",
+  "site": 0,
+  "z_sub": 50,
+  "dft_delta_eV": -0.47514430321161427,
+  "group": "Sb2Se2-c0121d92a20c"
+ },
+ {
+  "name": "CaScSe2",
+  "parent_id": "Sc2Se2-787760c30b65",
+  "site": 2,
+  "z_sub": 20,
+  "dft_delta_eV": 0.1959549125369322,
+  "group": "Sc2Se2-787760c30b65"
+ },
+ {
+  "name": "WTaS2",
+  "parent_id": "S2Ta2-10321bd326e0",
+  "site": 0,
+  "z_sub": 74,
+  "dft_delta_eV": -0.05017330647364826,
+  "group": "S2Ta2-10321bd326e0"
+ },
+ {
+  "name": "WTaTe2",
+  "parent_id": "Ta2Te2-14789ef267c9",
+  "site": 0,
+  "z_sub": 74,
+  "dft_delta_eV": -1.0581708834366172,
+  "group": "Ta2Te2-14789ef267c9"
+ },
+ {
+  "name": "ScTiSe2",
+  "parent_id": "Se2Ti2-4209d7977c0a",
+  "site": 0,
+  "z_sub": 21,
+  "dft_delta_eV": 0.005551021232152564,
+  "group": "Se2Ti2-4209d7977c0a"
+ },
+ {
+  "name": "NbZrSe2",
+  "parent_id": "Se2Zr2-57b3bf262ba1",
+  "site": 0,
+  "z_sub": 41,
+  "dft_delta_eV": -0.0846490275923113,
+  "group": "Se2Zr2-57b3bf262ba1"
+ }
+]

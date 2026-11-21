@@ -1,0 +1,15 @@
+{
+ "role": "candidate",
+ "parent_dir": "contrast_dft/Hf2S2__6b0cc07cfc68",
+ "species_order": [
+  "Na",
+  "S",
+  "Hf"
+ ],
+ "poscar_to_original_site": [
+  0,
+  1,
+  2,
+  3
+ ]
+}

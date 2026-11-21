@@ -1,6 +1,6 @@
 {
   "source_file": "physic_features_pool.csv",
-  "source_statement": "Legacy Materon standardized elemental feature table supplied by the user.",
+  "source_statement": "Standardized elemental attribute table used in all Materon models (20 attributes, Table S3).",
   "original_units": "Not present in the supplied source; values are already standardized. The project does not invent units.",
   "max_atomic_number": 100,
   "raw_feature_columns": [

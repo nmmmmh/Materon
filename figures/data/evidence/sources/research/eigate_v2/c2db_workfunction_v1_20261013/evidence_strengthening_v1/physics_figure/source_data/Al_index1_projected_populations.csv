@@ -1,0 +1,5 @@
+material,job_id,original_atom_index_0based,poscar_atom_index_1based,element,orbital,projected_population_e,total_projector_population_e
+Al₂S₂ parent,R_B_parent_static24,1,2,Al,s,0.507,0.737
+Al₂S₂ parent,R_B_parent_static24,1,2,Al,p,0.23,0.737
+AlBS₂ design,R_B_design_static24,1,2,Al,s,0.454,0.684
+AlBS₂ design,R_B_design_static24,1,2,Al,p,0.229,0.684

@@ -1,0 +1,104 @@
+{
+ "mu_eV_atom": {
+  "Ta": -11.811398865,
+  "W": -13.01881599,
+  "Nb": -10.09279866,
+  "Re": -12.39365648,
+  "Os": -11.230238775,
+  "Hf": -9.92539321,
+  "Te": -3.1439548333333334
+ },
+ "rows": {
+  "Ta2Te2": {
+   "phi_clamped_eV": 5.009316859858709,
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": -0.11906210083333324,
+   "dos_EF_clamped": 5.686158442978724,
+   "mag_clamped": 0.1652,
+   "face_diff_clamped_eV": 0.0003201979167073432,
+   "phi_relaxed_eV": 5.006066125351583,
+   "a_relaxed_A": 3.937287,
+   "b_relaxed_A": 3.937287,
+   "Ef_relaxed_eV_atom": -0.11909037583333326,
+   "dos_EF_relaxed": 5.58426796425532,
+   "mag_relaxed": 0.1709,
+   "face_diff_relaxed_eV": 0.00031907260084373945
+  },
+  "ReTaTe2": {
+   "phi_clamped_eV": 3.552790273792805,
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": 0.025692650416666574,
+   "dos_EF_clamped": 2.3649091221818184,
+   "mag_clamped": 0.0002,
+   "face_diff_clamped_eV": 0.00025493339942217474,
+   "phi_relaxed_eV": 3.5061128577084064,
+   "a_relaxed_A": 3.916963,
+   "b_relaxed_A": 3.916963,
+   "Ef_relaxed_eV_atom": 0.024347990416666576,
+   "dos_EF_relaxed": 2.3514444475609753,
+   "mag_relaxed": 0.0002,
+   "face_diff_relaxed_eV": 0.00026490201007289826
+  },
+  "OsTaTe2": {
+   "phi_clamped_eV": 3.6696824887506394,
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": 0.03541692416666642,
+   "dos_EF_clamped": 2.5400382228248586,
+   "mag_clamped": 0.0,
+   "face_diff_clamped_eV": 0.00024842906848210333,
+   "phi_relaxed_eV": 3.6665567041503655,
+   "a_relaxed_A": 3.93938,
+   "b_relaxed_A": 3.93938,
+   "Ef_relaxed_eV_atom": 0.035408891666666165,
+   "dos_EF_relaxed": 2.54742526779661,
+   "mag_relaxed": 0.0,
+   "face_diff_relaxed_eV": 0.0002498368060046552
+  },
+  "W2Te2": {
+   "phi_clamped_eV": 3.465858752040151,
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": 0.2805662466666661,
+   "dos_EF_clamped": 3.042783091785714,
+   "mag_clamped": 0.0,
+   "face_diff_clamped_eV": 0.00023089388613684036,
+   "phi_relaxed_eV": 3.3220338563448624,
+   "a_relaxed_A": 3.890101,
+   "b_relaxed_A": 3.890101,
+   "Ef_relaxed_eV_atom": 0.27385236416666636,
+   "dos_EF_relaxed": 3.0917188310714288,
+   "mag_relaxed": 0.0,
+   "face_diff_relaxed_eV": 0.0002466115086141585
+  },
+  "WReTe2": {
+   "phi_clamped_eV": 3.4204087219145363,
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": 0.358588356666667,
+   "dos_EF_clamped": 2.736390442331288,
+   "mag_clamped": 0.0,
+   "face_diff_clamped_eV": 0.00020840280311551496,
+   "phi_relaxed_eV": 3.354570468650575,
+   "a_relaxed_A": 3.91322,
+   "b_relaxed_A": 3.91322,
+   "Ef_relaxed_eV_atom": 0.35675264916666727,
+   "dos_EF_relaxed": 2.6685429241104295,
+   "mag_relaxed": 0.0,
+   "face_diff_relaxed_eV": 0.00021662359090868222
+  },
+  "NbTaTe2": {
+   "phi_clamped_eV": 5.014559758778122,
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": -0.1902199870833341,
+   "dos_EF_clamped": 4.903506325733809,
+   "mag_clamped": 0.2795,
+   "face_diff_clamped_eV": 0.00032983148263276973
+  },
+  "HfTaTe2": {
+   "phi_clamped_eV": 5.047097317064189,
+   "a_clamped_A": 3.941342,
+   "Ef_clamped_eV_atom": -0.10684250208333346,
+   "dos_EF_clamped": 4.524900195683453,
+   "mag_clamped": 0.0,
+   "face_diff_clamped_eV": 0.00039880766657418576
+  }
+ }
+}

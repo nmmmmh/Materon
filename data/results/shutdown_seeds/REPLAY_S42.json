@@ -1,0 +1,44 @@
+{
+  "tolerance_eV": 0.0001,
+  "attribution_npz": {
+    "ig32_eV": 1.335563519777594e-07,
+    "ig16_eV": 8.129384176935872e-08,
+    "gate_correction": 0.0,
+    "full_eV": 7.512229576178697e-07,
+    "mask0_eV": 5.634172177693131e-07,
+    "random5_deletion_eV": 1.7528535671829104e-06,
+    "top5_deletion_eV": 1.2520382632885685e-06,
+    "validation_ids_identical": true,
+    "random5_features_identical": true,
+    "top5_features_identical": true,
+    "gate_row_splits_identical": true
+  },
+  "analysis_max_abs_difference": 1.0640543740558783e-07,
+  "analysis_max_abs_difference_path": "curves/gate_path_ig/10/delta_prediction_eV/ci95_low",
+  "analysis_numeric_leaves_compared": 220,
+  "k5": {
+    "gate_path_ig": {
+      "archived": 0.19746413544332675,
+      "replay": 0.19746414693664666
+    },
+    "random": {
+      "archived": 0.10293878068764722,
+      "replay": 0.10293875931190605
+    },
+    "ig_minus_random_ci95": {
+      "archived": [
+        0.05143549290528248,
+        0.14776895670273307
+      ],
+      "replay": [
+        0.05143557542441426,
+        0.14776906124158182
+      ]
+    }
+  },
+  "chemical_system_count": {
+    "archived": 45,
+    "replay": 45
+  },
+  "replay_passed": true
+}
